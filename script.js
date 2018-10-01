@@ -1,4 +1,6 @@
 function getAnimationName() {
+  document.getElementById('detail_elements').style.visibility = "visible";
+
   const e = document.querySelector("#target");
   const select = document.querySelector("#animationSelect");
   e.className = 'raleway ';
