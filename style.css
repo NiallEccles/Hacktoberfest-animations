@@ -1,0 +1,50 @@
+body{
+    background-color: #411e2f;
+}
+
+section.section{
+    padding: 3rem;
+    font-size: 1.5em;
+}
+
+section.section-white{
+    color:white;
+}
+
+.text-center{
+    text-align: center;
+}
+
+select{
+    font-size: 0.6em;
+    padding: 0.5em 1em;
+}
+
+a{
+    text-decoration-color: #21ffff;
+    color: white;
+}
+
+a:hover{
+    color: #21ffff;
+}
+
+a.button{
+    background-color: #21ffff;
+    border: 0;
+    border-radius: 4px;
+    color: #411e2f;
+    font-size: 1.125rem;
+    letter-spacing: 0.5px;
+    line-height: 1;
+    padding: 1rem 1.5rem;
+    text-decoration: none;
+}
+
+.raleway{
+    font-family: 'Raleway', sans-serif;
+}
+
+.opensans{
+    font-family: 'Open Sans', sans-serif;
+}
