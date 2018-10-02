@@ -59,3 +59,34 @@
     opacity: 0;
   }
 }
+
+.bounce {
+  animation-name: bounce;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-timing-function: cubic-bezier(0.18, 0.89, 0.32, 1.28);
+}
+
+@keyframes bounce {
+  
+  0%, 100% {
+    transform: scale(1);
+  }
+
+  25% {
+    transform: scale(0.9);
+  }
+
+  50% {
+    transform: scale(1.4);
+  }
+
+  75% {
+    transform: scale(1.35);
+  }
+
+  90% {
+    transform: scale(1.4);
+  }
+
+}
