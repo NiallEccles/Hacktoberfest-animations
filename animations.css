@@ -40,3 +40,22 @@
     75% { transform: rotate(-5deg) }
     100% { transform: rotate(0deg) }
 }
+
+.flash {
+  animation-name: flash;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes flash {
+  from,
+  50%,
+  to {
+    opacity: 1;
+  }
+
+  25%,
+  75% {
+    opacity: 0;
+  }
+}
