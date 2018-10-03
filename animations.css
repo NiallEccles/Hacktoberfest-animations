@@ -566,3 +566,13 @@ to {
     80% { transform: scale( .75 ); }
     100% { transform: scale( .75 ); }
 }
+
+.fromright{
+	animation-name: fromright;
+ animation-duration: 1s;
+    animation-fill-mode: forwards;
+	
+}
+@keyframes fromright {
+0%{ transform: translate(350px,0) }
+}
