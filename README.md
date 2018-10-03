@@ -3,17 +3,11 @@
 Small animation selector for Hacktoberfest
 
 ## How to contribute
-Fork this repo
+- Fork this repo
+- Add an `option` within the `select` element
+- Use the `value` attribute on the `select` element to name your animation
+- Include a link to your GitHub profile using the `data-link` attribute
+- Include the name of your animation and your name within the `option` element using the following pattern `animationname - username`
+- Create your animation within the `animations.css` file
 
-
-Add a new `option` to the `select` element.
-
-The `value` for the option should be something that describes the animation.
-
-Include a link to your Github by using the `data-link` attribute.
-
-The text that goes inside should follow this format `animationname - username`.
-
-Then you can create any animation you want using CSS! Place the CSS and keyframes for your animation in the `animations.css` file. If you get stuck or are unsure about the style of the code, check out the examples already included.
-
-Submit a pull request!
+If you have any problems/questions or issues please submit an issue and I will get to you!
