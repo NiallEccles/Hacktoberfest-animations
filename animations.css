@@ -685,3 +685,62 @@ to {
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
   }
 }
+
+.split-and-twist {
+  position: relative;
+  display: inline-block;
+  color: rgba(255, 255, 255, 0); 
+  animation: fade-in-rotate-text 0.5s ease-out forwards 0.9s;
+}
+
+.split-and-twist::before,
+.split-and-twist::after {
+  position: absolute;
+  top: 0;
+}
+
+.split-and-twist::before {
+  content: "Hacktoberfest";
+  animation: split-left 0.4s cubic-bezier(0.38, 0.65, 0.33, 1.35) alternate 2, fade-out 0.2s ease-in-out forwards 0.9s;
+  color: #21ffff;
+  left: 0;
+}
+
+.split-and-twist::after {
+  content: "animations";
+  animation:  split-right 0.4s cubic-bezier(0.38, 0.65, 0.33, 1.35) alternate 2, fade-out 0.2s ease-in-out forwards 0.9s;
+  color: #21ffff;
+  right: 0;
+}
+
+.split-and-twist + select {
+  display: block;
+  margin: 0 auto;
+}
+
+@keyframes fade-in-rotate-text {
+  100% {
+    transform: rotate(360deg);
+    color: rgba(255, 255, 255, 1);
+  }
+}
+
+@keyframes split-left {
+  100% {
+    left: -100%;
+    opacity: 0;
+  }
+}
+
+@keyframes split-right {
+  100% {
+    right: -100%;
+    opacity: 0;
+  }
+}
+
+@keyframes fade-out {
+  100% {
+    opacity: 0;
+  }
+}
