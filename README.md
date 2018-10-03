@@ -12,6 +12,8 @@ Small animation selector for Hacktoberfest
 
 If you have any problems/questions or issues please submit an issue and I will get to you!
 
+Don't forget to star!
+
 ## Showcase
 ![boogie by jdsteinbach](https://raw.githubusercontent.com/NiallEccles/Hacktoberfest-animations/master/showcase/boogie.gif)
 boogie by jdsteinbach
