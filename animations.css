@@ -357,9 +357,24 @@
 }
 
 .jump {
-    
     -webkit-animation-name: jump;
     animation-name: jump;
     animation-duration: 3s;
 }
 
+.spinning {
+  -webkit-animation-name: spinning;
+  animation-name: spinning;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  animation-duration: 3s;
+}
+
+@keyframes spinning {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
