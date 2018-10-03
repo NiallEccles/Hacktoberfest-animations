@@ -1,3 +1,13 @@
+.fromright{
+	animation-name: fromright;
+ animation-duration: 1s;
+    animation-fill-mode: forwards;
+	
+}
+@keyframes fromright {
+0%{ transform: translate(350px,0) }
+
+}
 .scare{
     animation-name: scare;
     animation-duration: 1s;
