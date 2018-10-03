@@ -88,7 +88,7 @@
 }
 
 @keyframes bounce {
-  
+
   0%, 100% {
     transform: scale(1);
   }
@@ -269,6 +269,81 @@
   animation-duration: 0.8s;
 }
 
+.boogie {
+  animation-name: boogie-wiggle, boogie-fade;
+  animation-duration: 2s, 2s;
+  animation-timing-function: ease-out, linear;
+}
+
+@keyframes boogie-fade {
+  0% {
+    opacity: 0;
+  }
+  33% {
+    opacity: .3;
+  }
+  67% {
+    opacity: .7;
+  }
+  15%, 50%, 80%, 100% {
+    opacity: 1;
+  }
+}
+
+@keyframes boogie-wiggle {
+  0% {
+    transform: rotate(-1deg) translate(-1%, -1%);
+  }
+  2% {
+    transform: rotate(1deg) translate(1%, 1%);
+  }
+  4% {
+    transform: rotate(-1.2deg) translate(-1.2%, -1.2%);
+  }
+  6% {
+    transform: rotate(1.2deg) translate(1.2%, 1.2%);
+  }
+  10% {
+    transform: rotate(-1.4deg) translate(-1.4%, -1.4%);
+  }
+  14% {
+    transform: rotate(1.4deg) translate(1.4%, 1.4%);
+  }
+  18% {
+    transform: rotate(-1.2deg) translate(-1.2%, -1.2%);
+  }
+  22% {
+    transform: rotate(1.2deg) translate(1.2%, 1.2%);
+  }
+  34% {
+    transform: rotate(-2deg) translate(-2%, -2%);
+  }
+  46% {
+    transform: rotate(2deg) translate(2%, 2%);
+  }
+  58% {
+    transform: rotate(-2.2deg) translate(-2.2%, -2.2%);
+  }
+  70% {
+    transform: rotate(2.2deg) translate(2.2%, 2.2%);
+  }
+  84% {
+    transform: rotate(-1deg) translate(-1%, -1%);
+  }
+  88% {
+    transform: rotate(1deg) translate(1%, 1%);
+  }
+  92% {
+    transform: rotate(-.5deg) translate(-.5%, -.5%);
+  }
+  96% {
+    transform: rotate(.5deg) translate(.5%, .5%);
+  }
+  100% {
+    transform: none;
+  }
+}
+
 @keyframes jump {
 20%{transform: scaleY(0.01); transform-origin: bottom;}
 40%{transform: scaleY(5) translateY(-30px)}
@@ -282,8 +357,245 @@
 }
 
 .jump {
-    
     -webkit-animation-name: jump;
     animation-name: jump;
     animation-duration: 3s;
+}
+
+.heartbeat {
+  animation-name: heartbeat;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes heartbeat {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(0.6);
+  }
+}
+
+@keyframes neon {
+  0%,
+  100% {
+    text-shadow: 0 0 1vw #FA1C16, 0 0 3vw #FA1C16, 0 0 10vw #FA1C16, 0 0 10vw #FA1C16, 0 0 .4vw #FED128, .5vw .5vw .1vw #806914;
+    color: #FED128;
+  }
+  50% {
+    text-shadow: 0 0 .5vw #800E0B, 0 0 1.5vw #800E0B, 0 0 5vw #800E0B, 0 0 5vw #800E0B, 0 0 .2vw #800E0B, .5vw .5vw .1vw #40340A;
+    color: #806914;
+  }
+}
+
+.neon {
+  font-family: 'Warnes', cursive;
+  animation: neon 2s ease-in-out infinite;
+}
+
+@keyframes walk{
+from{
+  margin-left: 70%;
+}
+to{
+  margin-left: -70%;
+}
+
+}
+
+.walk{
+-webkit-animation-name:walk; 
+animation-name:walk;
+animation-duration: 5s;
+
+}
+
+@keyframes rollOut {
+  0% {
+     opacity: 1;
+     transform: translateX(0px) rotate(0deg);
+  }
+  100% {
+     opacity: 0;
+     transform: translateX(100%) rotate(120deg);
+  }
+}
+
+.rollOut {
+animation-duration: 1200ms;
+animation-name: rollOut;
+}
+
+@keyframes rollIn {
+from {
+  opacity: 0;
+  transform: translate3d(-100%, 0, 0) rotate3d(0, 0, 1, -120deg);
+}
+
+to {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+  }
+}
+
+.rollIn {
+  animation-name: rollIn;
+  animation-duration: 1200ms;
+}
+
+@keyframes colourfull {
+    0%  {color: red;}
+    50%  {color: black;}
+    100% {color: orange;}
+}
+
+.colourfull {
+  -webkit-animation-name: colourfull;
+  animation-name: colourfull;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out, bezier;
+}
+
+.glitch{
+  animation-name: glitch;
+  animation-duration: .8s;
+  animation-timing-function: step-end;
+}
+
+@keyframes glitch {
+  0%{ transform: scale(1) }
+  20%{ transform: scale(1.2) }
+  40%{ transform: scale(1) }
+  60%{ transform: scale(.8) }
+  80%{ transform: scale(1.2) }
+  100%{ transform: scale(1) }
+
+}
+
+.spinning {
+  -webkit-animation-name: spinning;
+  animation-name: spinning;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  animation-duration: 3s;
+}
+
+@keyframes spinning {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* Glitch */
+.glitch-OhmSainz {
+  position: relative;
+}
+
+.glitch-OhmSainz::before,
+.glitch-OhmSainz::after {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #411e2f;
+}
+
+.glitch-OhmSainz::before {
+  position: absolute;
+  left: 2px;
+  text-shadow: -1px 0 rgba(0, 0, 255, 1);
+  top: 0;
+  color: white;
+  background: #411e2f;
+}
+
+.glitch-OhmSainz::after {
+  position: absolute;
+  left: -2px;
+  text-shadow: -1px 0 rgba(255, 0, 0, 1);
+  top: 0;
+  color: white;
+  background: #411e2f;
+  overflow:hidden;
+  -webkit-clip-path: inset(0 200px 0 0);
+  clip-path: inset(0 200px 0 0);
+  animation: glitch-OhmSainz 2s infinite linear alternate-reverse;
+}
+
+@keyframes glitch-OhmSainz {
+  0% {
+    clip-path: inset(70px 200px 56px 0);
+  }
+  20% {
+    clip-path: inset(29px 200px 26px 0);
+  }
+  40% {
+    clip-path: inset(46px 200px 3px 0);
+    transform: skew(25deg)
+  }
+  60% {
+    clip-path: inset(72px 200px 78px 0);
+    transform: skew(0deg)
+  }
+  80% {
+    clip-path: inset(15px 200px 13px 0);
+  }
+  100% {
+    clip-path: inset(50px 200px 5px 0);
+  }
+}
+
+.heartbeat-azrizhaziq{
+    color: #ff3f3f;
+     animation: heartbeat-azrizhaziq 2.5s ease-in-out infinite;
+    text-shadow: -1px 4px 12px #924040,
+                    5px 6px 12px black;
+}
+
+@keyframes heartbeat-azrizhaziq {
+    0% { transform: scale( .75 ); }
+    15% { transform: scale( 1 ); }
+    30% { transform: scale( .75 ); }
+    45% { transform: scale( 1 ); }
+    80% { transform: scale( .75 ); }
+    100% { transform: scale( .75 ); }
+}
+
+.fromright{
+	animation-name: fromright;
+ animation-duration: 1s;
+    animation-fill-mode: forwards;
+	
+}
+@keyframes fromright {
+0%{ transform: translate(350px,0) }
+}
+
+.halloween {
+  background: linear-gradient(110deg, rgb(255,140,0) 28%, rgba(0, 0, 0, 0) 30%), linear-gradient(110deg, rgb(255,69,0) 34%, #000 40%);
+  background-size: 400%;
+  font-family: 'Pacifico', cursive;
+  font-size: 40pt;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.halloween {
+  animation: Halooween 5s ease infinite;
+}
+@-webkit-keyframes Halooween {
+  0% {
+    background-position: 35% 50%;
+  }
+  50% {
+    background-position: 20% 50%;
+  }
+  100% {
+    background-position: 35% 50%;
+  } 
 }
