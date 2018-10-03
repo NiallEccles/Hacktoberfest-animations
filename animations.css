@@ -363,3 +363,17 @@
     animation-duration: 3s;
 }
 
+.glitch{
+  animation-name: glitch;
+  animation-duration: .8s;
+  animation-timing-function: step-end;
+}
+@keyframes glitch {
+  0%{ transform: scale(1) }
+  20%{ transform: scale(1.2) }
+  40%{ transform: scale(1) }
+  60%{ transform: scale(.8) }
+  80%{ transform: scale(1.2) }
+  100%{ transform: scale(1) }
+
+}
