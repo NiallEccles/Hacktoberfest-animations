@@ -53,3 +53,15 @@ select {
 	-moz-appearance: none;
 	appearance: none;
 }
+
+@media only screen and (max-width: 835px) {
+	.title {
+		font-size: 45px !important
+	}
+}
+
+@media only screen and (max-width: 654px) {
+	.title {
+		font-size: 25px !important
+	}
+}
