@@ -23,17 +23,17 @@ colours - [zerossB](https://github.com/zerossB)
 
 
 ![glitch by OhmSainz](https://raw.githubusercontent.com/NiallEccles/Hacktoberfest-animations/master/showcase/glitch.gif)
-glitch by [OhmSainz](htts://github.com/OhmSainz)
+glitch by [OhmSainz](https://github.com/OhmSainz)
 
 ![heartbeat by azrizhaziq](https://raw.githubusercontent.com/NiallEccles/Hacktoberfest-animations/master/showcase/heartbeat.gif)
-heartbeat by [azrizhaziq](htts://github.com/azrizhaziq)
+heartbeat by [azrizhaziq](https://github.com/azrizhaziq)
 
 
 ![neon by Kalugin Pavel](https://raw.githubusercontent.com/NiallEccles/Hacktoberfest-animations/master/showcase/neon.gif)
-neon by Kalugin [Pavel](htts://github.com/Pavel)
+neon by Kalugin [Pavel](https://github.com/Pavel)
 
 ![tada by MariMendes](https://raw.githubusercontent.com/NiallEccles/Hacktoberfest-animations/master/showcase/tada.gif)
-tada by [MariMendes](htts://github.com/MariMendes)
+tada by [MariMendes](https://github.com/MariMendes)
 
 ![typewriter by aihowes](https://raw.githubusercontent.com/NiallEccles/Hacktoberfest-animations/master/showcase/typewriter.gif)
-typewriter by [aihowes](htts://github.com/aihowes)
+typewriter by [aihowes](https://github.com/aihowes)
