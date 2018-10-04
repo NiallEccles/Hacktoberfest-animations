@@ -406,7 +406,7 @@ to{
 }
 
 .walk{
--webkit-animation-name:walk; 
+-webkit-animation-name:walk;
 animation-name:walk;
 animation-duration: 5s;
 
@@ -571,7 +571,7 @@ to {
 	animation-name: fromright;
  animation-duration: 1s;
     animation-fill-mode: forwards;
-	
+
 }
 @keyframes fromright {
 0%{ transform: translate(350px,0) }
@@ -597,7 +597,7 @@ to {
   }
   100% {
     background-position: 35% 50%;
-  } 
+  }
 }
 .zoomIn {
 
@@ -689,7 +689,7 @@ to {
 .split-and-twist {
   position: relative;
   display: inline-block;
-  color: rgba(255, 255, 255, 0); 
+  color: rgba(255, 255, 255, 0);
   animation: fade-in-rotate-text 0.5s ease-out forwards 0.9s;
 }
 
@@ -800,4 +800,13 @@ to {
   to {
     transform: translate3d(0, 700px, 0);
   }
+}
+
+@keyframes color_changes {
+  0%   {background-color:green; left:0px; top:0px;}
+   25%  {background-color:yellow; left:250px; top:0px;}
+   50%  {background-color:red; left:250px; top:2500px;}
+   75%  {background-color:blue; left:0px; top:250px;}
+   100% {background-color:green; left:0px; top:0px;}
+
 }
