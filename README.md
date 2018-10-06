@@ -37,3 +37,6 @@ tada by [MariMendes](https://github.com/MariMendes)
 
 ![typewriter by aihowes](https://raw.githubusercontent.com/NiallEccles/Hacktoberfest-animations/master/showcase/typewriter.gif)
 typewriter by [aihowes](https://github.com/aihowes)
+
+![pumpkins by ashwoodall](https://raw.githubusercontent.com/NiallEccles/Hacktoberfest-animations/master/showcase/pumpkins.gif)
+pumpkins by [ashwoodall](https://github.com/ashwoodall)
