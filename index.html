@@ -6,17 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Hacktoberfest Animations</title>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:600|Raleway:800i|Warnes" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400|Warnes" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css" />
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="animations.css">
 
 </head>
 
 <body>
-
     <section class="section section-white text-center">
-        <h1 id="target" class="raleway scare" data-text="Hacktoberfest animations">Hacktoberfest animations</h1>
+        <h1 id="target" class="title scare" data-text="Hacktoberfest animations">Hacktoberfest animations</h1>
         <select onchange="getAnimationName()" id="animationSelect">
+            <option value="pumpkins" data-link="https://github.com/ashwoodall">pumpkins - ashwoodall</option>
             <option value="scare" data-link="https://github.com/NiallEccles">Scare - NiallEccles</option>
             <option value="mini-zoom" data-link="https://github.com/NiallEccles">Mini Zoom - NiallEccles</option>
             <option value="wiggle" data-link="https://github.com/HJain13">Wiggle - HJain13</option>
@@ -35,7 +36,7 @@
             <option value="walk" data-link="https://github.com/melkyy">walk - Melky </option>
             <option value="rollOut" data-link="https://github.com/ronlaniado">Roll Out - ronlaniado</option>
             <option value="rollIn" data-link="https://github.com/ronlaniado">Roll In - ronlaniado</option>
-			<option value="colourfull" data-link="https://github.com/hurleyandrew">Colourfull - hurleyandrew</option>
+			      <option value="colourfull" data-link="https://github.com/hurleyandrew">Colourfull - hurleyandrew</option>
             <option value="glitch" data-link="https://github.com/dansegliode">Glitch - dansegliode</option>
             <option value="spinning" data-link="https://github.com/lucas-barros">Spinning - lucasBarros</option>
             <option value="glitch-OhmSainz" data-link="https://github.com/OhmSainz">Glitch - OhmSainz</option>
@@ -46,20 +47,27 @@
             <option value="typewriter" data-link="https://github.com/aihowes">Typewriter - aihowes</option>
             <option value="classyAppear" data-link="https://github.com/roganoalien">Classy Appear - roganoalien</option>
             <option value="split-and-twist" data-link="https://github.com/viciouskitten">Split &amp; Twist - ViciousKitten</option>
+            <option value="zoomright" data-link="https://github.com/sunny-aguilar">Zoom Right - sunny</option>
+            <option value="pivot" data-link="https://github.com/ronlaniado">pivot - ronlaniado</option>
+            <option value="color_changes" data-link="https://github.com/rishabhp99">color_changes - rishabhp99</option>
+            <option value="rainbow" data-link="https://github.com/shanejustice">rainbow - shanejustice</option>
+            <option value="spooky" data-link="https://github.com/elizabethfinedev">spooky - elizabethfinedev</option>
             <option value="focusBlur" data-link="https://github.com/Swong87">Focus Blur - Swong87</option>
         </select>
     </section>
 
-    <div style="visibility: hidden;" id="detail_elements">
+    <div class="contribute">
+        <button class="is-success button">
+            <a href="https://github.com/NiallEccles/Hacktoberfest-animations">Contribute</a>
+        </button>
+    </div>
+    <div id="detail_elements" class="tile is-8 is-success">
         <section class="section section-white">
             <h3 class="opensans">Animation name: <span id="animationName"></span></h3>
             <h3 class="opensans">Submitted by: <a target="_blank" rel="noopener noreferrer" id="userName"></a></h3>
         </section>
     </div>
 
-    <section class="section section-white">
-        <a href="https://github.com/NiallEccles/Hacktoberfest-animations" class="button opensans">Contribute</a>
-    </section>
     <script src="script.js"></script>
 
 </body>

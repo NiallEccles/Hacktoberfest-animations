@@ -16,24 +16,27 @@ Don't forget to star!
 
 ## Showcase
 ![boogie by jdsteinbach](https://raw.githubusercontent.com/NiallEccles/Hacktoberfest-animations/master/showcase/boogie.gif)
-boogie by jdsteinbach
+boogie by [jdsteinbach](https://github.com/jdsteinbach)
 
 ![colours by zerossB](https://raw.githubusercontent.com/NiallEccles/Hacktoberfest-animations/master/showcase/colours.gif)
-colours - zerossB
+colours - [zerossB](https://github.com/zerossB)
 
 
 ![glitch by OhmSainz](https://raw.githubusercontent.com/NiallEccles/Hacktoberfest-animations/master/showcase/glitch.gif)
-glitch by OhmSainz
+glitch by [OhmSainz](https://github.com/OhmSainz)
 
 ![heartbeat by azrizhaziq](https://raw.githubusercontent.com/NiallEccles/Hacktoberfest-animations/master/showcase/heartbeat.gif)
-heartbeat by azrizhaziq
+heartbeat by [azrizhaziq](https://github.com/azrizhaziq)
 
 
 ![neon by Kalugin Pavel](https://raw.githubusercontent.com/NiallEccles/Hacktoberfest-animations/master/showcase/neon.gif)
-neon by Kalugin Pavel
+neon by Kalugin [Pavel](https://github.com/Pavel)
 
 ![tada by MariMendes](https://raw.githubusercontent.com/NiallEccles/Hacktoberfest-animations/master/showcase/tada.gif)
-tada by MariMendes
+tada by [MariMendes](https://github.com/MariMendes)
 
 ![typewriter by aihowes](https://raw.githubusercontent.com/NiallEccles/Hacktoberfest-animations/master/showcase/typewriter.gif)
-typewriter by aihowes
+typewriter by [aihowes](https://github.com/aihowes)
+
+![pumpkins by ashwoodall](https://raw.githubusercontent.com/NiallEccles/Hacktoberfest-animations/master/showcase/pumpkins.gif)
+pumpkins by [ashwoodall](https://github.com/ashwoodall)

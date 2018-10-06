@@ -27,6 +27,26 @@
     to{ transform: scale(1) }
 }
 
+.rainbow{
+  animation-name: rainbow;
+  animation-duration: 7s;
+  animation-fill-mode: forwards;
+  transition-timing-function: linear;
+}
+
+@keyframes rainbow {
+  0% {color: violet}
+  15% {color: indigo}
+  30% {color: blue}
+  45% {color: green}
+  60% {color: yellow}
+  75% {color: orange}
+  100% {color: red}
+}
+
+
+
+
 .wiggle{
     animation-name: wiggle;
     animation-duration: 1s;
@@ -406,7 +426,7 @@ to{
 }
 
 .walk{
--webkit-animation-name:walk; 
+-webkit-animation-name:walk;
 animation-name:walk;
 animation-duration: 5s;
 
@@ -571,7 +591,7 @@ to {
 	animation-name: fromright;
  animation-duration: 1s;
     animation-fill-mode: forwards;
-	
+
 }
 @keyframes fromright {
 0%{ transform: translate(350px,0) }
@@ -597,7 +617,7 @@ to {
   }
   100% {
     background-position: 35% 50%;
-  } 
+  }
 }
 .zoomIn {
 
@@ -689,7 +709,7 @@ to {
 .split-and-twist {
   position: relative;
   display: inline-block;
-  color: rgba(255, 255, 255, 0); 
+  color: rgba(255, 255, 255, 0);
   animation: fade-in-rotate-text 0.5s ease-out forwards 0.9s;
 }
 
@@ -743,6 +763,118 @@ to {
   100% {
     opacity: 0;
   }
+}
+.zoomright{
+  animation-name: zoomright;
+  animation-duration: 1s;
+}
+
+@keyframes zoomright{
+  0%, 60%, 75%, 90%, to{
+    animation-timing-function: cubic-bezier(.215, .60, .355, 1);
+  }
+  0% {
+    opacity:0;transform: translate3d(-3000px, 0, 0);
+  }
+  60% {
+    opacity:1;transform: translate3d(25px, 0, 0);
+  }
+  75% {
+    transform: translate3d(-15px, 0, 0);
+  }
+  90% {
+    transform: translate3d(5px, 0, 0);
+  }
+  to {
+    transform: none;
+  }
+}
+
+.pivot {
+  animation-name: pivot;
+  animation-duration: 1000ms;
+}
+
+@keyframes pivot {
+  0% {
+    transform-origin: top left;
+    animation-timing-function: ease-in-out;
+  }
+
+  20%,
+  60% {
+    transform: rotate3d(0, 0, 1, 80deg);
+    transform-origin: top left;
+    animation-timing-function: ease-in-out;
+  }
+
+  40%,
+  80% {
+    transform: rotate3d(0, 0, 1, 60deg);
+    transform-origin: top left;
+    animation-timing-function: ease-in-out;
+    opacity: 1;
+  }
+
+  to {
+    transform: translate3d(0, 700px, 0);
+  }
+}
+
+@keyframes color_changes {
+  0%   {background-color:green; left:0px; top:0px;}
+   25%  {background-color:yellow; left:250px; top:0px;}
+   50%  {background-color:red; left:250px; top:2500px;}
+   75%  {background-color:blue; left:0px; top:250px;}
+   100% {background-color:green; left:0px; top:0px;}
+
+}
+
+.pumpkins {
+  animation: pumpkins 3s ease-in-out infinite;
+  color: orange;
+
+}
+
+.pumpkins::before,
+.pumpkins::after {
+  content: '🎃🎃';
+}
+
+@keyframes pumpkins {
+	0%		{text-shadow:  0 0 100px rgb(182, 171, 71); opacity:0;}
+	5%		{text-shadow:  0 0 90px rgb(182, 171, 71);}
+	15%		{opacity: 1;}
+	20%		{text-shadow:  0 0 0px rgb(182, 171, 71);}
+	80%		{text-shadow:  0 0 0px rgb(182, 171, 71);}
+	85%		{opacity: 1;}
+	95%		{text-shadow:  0 0 90px rgb(182, 171, 71);}
+	100%	{ opacity:0;}
+}
+
+.spooky {
+    animation: spooky 5s ease-in-out infinite;
+    color: #1e01a0;
+    position: relative;
+}
+
+@keyframes spooky {
+    0% { opacity: 0; color: #1e01a0; }
+    20% { opacity: 0.8; color: #1e01a0; }
+    25% { opacity: 0.4; color: #1e01a0; }
+    28% { opacity: 0.8; color: #1e01a0; }
+    30% { opacity: 0.3; color: #1e01a0; }
+    33% { opacity: 0.8; color: white;}
+    36% { opacity: 0.2; color: white;  }
+    38% { opacity: 0.1; }
+    42% { opacity: 0.9; }
+    46% { opacity: 0.4; }
+    50% { opacity: 0.6; }
+    56% { opacity: 0.2; }
+    62% { opacity: 0.8; }
+    68% { opacity: 0.1; }
+    76% { opacity: 1; }
+    100% { opacity: 0; }
 }
 .focusBlur {
   color: transparent;
