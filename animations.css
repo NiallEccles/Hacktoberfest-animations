@@ -1137,3 +1137,19 @@
     opacity: 1;
   }
 }
+.chillerColor {
+   
+    position: relative;
+    animation-name: chillerColor;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    font-size: 40px;
+    animation-iteration-count: 7;
+  
+}
+
+@keyframes chillerColor {
+    0%   {color:orange;}
+        50%  {color:black; font-family:chiller; font-size: 50px}
+        75% {color:orange;}
+}
