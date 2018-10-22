@@ -1,3 +1,23 @@
+.hibouCoucou {
+    background-image: linear-gradient(blue, green, purple);
+    animation: hibouCoucou 0.5s ease  infinite ;
+}
+@keyframes hibouCoucou {
+    
+    0%, 100% {
+        transform: translateX(10px);
+    }
+
+    25%, 75% {
+        transform: translateX(20px) translateY(20px);
+    }
+
+    50%,{
+        transform: translateX(150px) rotateY(500deg);
+    }
+}
+
+
 .scare {
     animation-name: scare;
     animation-duration: 1s;
@@ -1484,4 +1504,41 @@
         transform: translate3d(8px, 0, 0);
     }
 }  
-  
+
+.showRight {
+    animation-name: showRight;
+    animation-duration: 1s;
+}
+
+@keyframes showRight {
+
+    0%,
+    60%,
+    75%,
+    90%,
+    to {
+        animation-timing-function: cubic-bezier(0.215, 0.6, 0.355, 1);
+    }
+
+    0% {
+        opacity: 0;
+        transform: translate3d(3000px, 0, 0);
+    }
+
+    60% {
+        opacity: 1;
+        transform: translate3d(-50px, 0, 0);
+    }
+
+    75% {
+        transform: translate3d(20px, 0, 0);
+    }
+
+    90% {
+        transform: translate3d(-8px, 0, 0);
+    }
+
+    to {
+        transform: none;
+    }
+}
