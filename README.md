@@ -1,6 +1,6 @@
 # Hacktoberfest-animations
 
-Small animation selector for Hacktoberfest
+Small animation selector for Hacktoberfest : [Live Project](https://nialleccles.github.io/Hacktoberfest-animations)
 
 ## How to contribute
 - Fork this repo
