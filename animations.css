@@ -1,9 +1,9 @@
 .hibouCoucou {
     background-image: linear-gradient(blue, green, purple);
-    animation: hibouCoucou 0.5s ease  infinite ;
+    animation: hibouCoucou 0.5s ease infinite;
 }
+
 @keyframes hibouCoucou {
-    
     0%, 100% {
         transform: translateX(10px);
     }
@@ -12,27 +12,40 @@
         transform: translateX(20px) translateY(20px);
     }
 
-    50%,{
+    50%, {
         transform: translateX(150px) rotateY(500deg);
     }
 }
-
 
 .scare {
     animation-name: scare;
     animation-duration: 1s;
     animation-fill-mode: forwards;
 }
-.floatTitle{
-  animation:float 2s infinite;
-  position:relative;
-  top:-30px;
+
+.floatTitle {
+    animation: float 2s infinite;
+    position: relative;
+    top: -30px;
 }
-@keyframes float{
-  0%{top:-30px;opacity:1}
-  50%{top:0px;opacity:0.2}
-  100%{top:-30px;opacity:1}
+
+@keyframes float {
+    0% {
+        top: -30px;
+        opacity: 1
+    }
+
+    50% {
+        top: 0px;
+        opacity: 0.2
+    }
+
+    100% {
+        top: -30px;
+        opacity: 1
+    }
 }
+
 @keyframes scare {
     0% {
         transform: scale(1);
@@ -167,21 +180,18 @@
 }
 
 @keyframes flash {
-
-    from,
-    50%,
-    to {
+    from, 50%, to {
         opacity: 1;
     }
 
-    25%,
-    75% {
+    25%, 75% {
         opacity: 0;
     }
 }
 
 @keyframes explode {
-    0% {}
+    0% {
+    }
 
     5% {
         transform: scale(1.1);
@@ -229,7 +239,8 @@
         color: red;
     }
 
-    100% {}
+    100% {
+    }
 }
 
 .explode {
@@ -246,9 +257,7 @@
 }
 
 @keyframes bounce {
-
-    0%,
-    100% {
+    0%, 100% {
         transform: scale(1);
     }
 
@@ -417,23 +426,17 @@
         transform: scale3d(1, 1, 1);
     }
 
-    10%,
-    20% {
+    10%, 20% {
         -webkit-transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);
         transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);
     }
 
-    30%,
-    50%,
-    70%,
-    90% {
+    30%, 50%, 70%, 90% {
         -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
         transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
     }
 
-    40%,
-    60%,
-    80% {
+    40%, 60%, 80% {
         -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
         transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
     }
@@ -469,10 +472,7 @@
         opacity: 0.7;
     }
 
-    15%,
-    50%,
-    80%,
-    100% {
+    15%, 50%, 80%, 100% {
         opacity: 1;
     }
 }
@@ -586,7 +586,8 @@
         transform-origin: bottom;
     }
 
-    80% {}
+    80% {
+    }
 }
 
 .jump {
@@ -612,17 +613,13 @@
 }
 
 @keyframes neon {
-
-    0%,
-    100% {
-        text-shadow: 0 0 1vw #fa1c16, 0 0 3vw #fa1c16, 0 0 10vw #fa1c16,
-            0 0 10vw #fa1c16, 0 0 0.4vw #fed128, 0.5vw 0.5vw 0.1vw #806914;
+    0%, 100% {
+        text-shadow: 0 0 1vw #fa1c16, 0 0 3vw #fa1c16, 0 0 10vw #fa1c16, 0 0 10vw #fa1c16, 0 0 0.4vw #fed128, 0.5vw 0.5vw 0.1vw #806914;
         color: #fed128;
     }
 
     50% {
-        text-shadow: 0 0 0.5vw #800e0b, 0 0 1.5vw #800e0b, 0 0 5vw #800e0b,
-            0 0 5vw #800e0b, 0 0 0.2vw #800e0b, 0.5vw 0.5vw 0.1vw #40340a;
+        text-shadow: 0 0 0.5vw #800e0b, 0 0 1.5vw #800e0b, 0 0 5vw #800e0b, 0 0 5vw #800e0b, 0 0 0.2vw #800e0b, 0.5vw 0.5vw 0.1vw #40340a;
         color: #806914;
     }
 }
@@ -754,13 +751,11 @@
 }
 
 /* Glitch */
-
 .glitch-OhmSainz {
     position: relative;
 }
 
-.glitch-OhmSainz::before,
-.glitch-OhmSainz::after {
+.glitch-OhmSainz::before, .glitch-OhmSainz::after {
     content: attr(data-text);
     position: absolute;
     top: 0;
@@ -865,10 +860,7 @@
 }
 
 .halloween {
-    background: linear-gradient(110deg,
-        rgb(255, 140, 0) 28%,
-        rgba(0, 0, 0, 0) 30%),
-        linear-gradient(110deg, rgb(255, 69, 0) 34%, #000 40%);
+    background: linear-gradient(110deg, rgb(255, 140, 0) 28%, rgba(0, 0, 0, 0) 30%), linear-gradient(110deg, rgb(255, 69, 0) 34%, #000 40%);
     background-size: 400%;
     font-family: "Pacifico", cursive;
     font-size: 40pt;
@@ -998,24 +990,21 @@
     animation: fade-in-rotate-text 0.5s ease-out forwards 0.9s;
 }
 
-.split-and-twist::before,
-.split-and-twist::after {
+.split-and-twist::before, .split-and-twist::after {
     position: absolute;
     top: 0;
 }
 
 .split-and-twist::before {
     content: "Hacktoberfest";
-    animation: split-left 0.4s cubic-bezier(0.38, 0.65, 0.33, 1.35) alternate 2,
-        fade-out 0.2s ease-in-out forwards 0.9s;
+    animation: split-left 0.4s cubic-bezier(0.38, 0.65, 0.33, 1.35) alternate 2, fade-out 0.2s ease-in-out forwards 0.9s;
     color: #21ffff;
     left: 0;
 }
 
 .split-and-twist::after {
     content: "animations";
-    animation: split-right 0.4s cubic-bezier(0.38, 0.65, 0.33, 1.35) alternate 2,
-        fade-out 0.2s ease-in-out forwards 0.9s;
+    animation: split-right 0.4s cubic-bezier(0.38, 0.65, 0.33, 1.35) alternate 2, fade-out 0.2s ease-in-out forwards 0.9s;
     color: #21ffff;
     right: 0;
 }
@@ -1058,12 +1047,7 @@
 }
 
 @keyframes zoomright {
-
-    0%,
-    60%,
-    75%,
-    90%,
-    to {
+    0%, 60%, 75%, 90%, to {
         animation-timing-function: cubic-bezier(0.215, 0.6, 0.355, 1);
     }
 
@@ -1101,15 +1085,13 @@
         animation-timing-function: ease-in-out;
     }
 
-    20%,
-    60% {
+    20%, 60% {
         transform: rotate3d(0, 0, 1, 80deg);
         transform-origin: top left;
         animation-timing-function: ease-in-out;
     }
 
-    40%,
-    80% {
+    40%, 80% {
         transform: rotate3d(0, 0, 1, 60deg);
         transform-origin: top left;
         animation-timing-function: ease-in-out;
@@ -1158,8 +1140,7 @@
     color: orange;
 }
 
-.pumpkins::before,
-.pumpkins::after {
+.pumpkins::before, .pumpkins::after {
     content: "🎃🎃";
 }
 
@@ -1323,9 +1304,7 @@
 }
 
 @keyframes opacityText {
-
-    0%,
-    100% {
+    0%, 100% {
         opacity: 0;
     }
 
@@ -1334,20 +1313,17 @@
     }
 }
 
+/* adsingh14-/ */
 .jello {
     animation: jello 0.8s ease;
 }
 
-
 @keyframes jello {
-
-    0%,
-    100% {
+    0%, 100% {
         transform: scale(1, 1);
     }
 
-    29%,
-    49% {
+    29%, 49% {
         transform: scale(1.3, 1);
     }
 
@@ -1355,8 +1331,7 @@
         transform: scale(1, 1.05);
     }
 
-    50%,
-    70% {
+    50%, 70% {
         transform: scale(1.1, 1);
     }
 
@@ -1380,7 +1355,6 @@
     }
 }
 
-
 .fadeSlideUp {
     animation: fadeSlideUp 0.7s ease forwards;
     opacity: 0;
@@ -1395,92 +1369,135 @@
         opacity: 1;
     }
 }
-.chillerColor {
 
+.backFlip {
+    animation: backFlip 2s infinite cubic-bezier(0.87, 0.05, 0, 0.77) forwards;
+    transform-style: preserve-3d;
+    perspective: 600px;
+}
+
+@keyframes backFlip {
+    0% {
+        transform: rotateX(0deg) translateZ(0px);
+        transition-timing-function: linear;
+        text-shadow: 0 0 10px #fff;
+    }
+
+    40% {
+        transform: rotateX(100deg) translateZ(100px);
+        transition-timing-function: ease;
+        color: rgba(255,255,255,0.7);
+        text-shadow: 0 0 0 rgba(0,0, 0, 0);
+    }
+
+    100% {
+        text-shadow: 0 0 10px #fff;
+        transform: rotateX(360deg) translateZ(50px);
+    }
+}
+
+/* /-adsingh14 */
+.chillerColor {
     position: relative;
     animation-name: chillerColor;
     animation-duration: 4s;
     animation-delay: 2s;
     font-size: 40px;
     animation-iteration-count: 7;
-
 }
 
 @keyframes chillerColor {
-    0%   {color:orange;}
-        50%  {color:black; font-family:chiller; font-size: 50px}
-        75% {color:orange;}
+    0% {
+        color: orange;
+    }
+
+    50% {
+        color: black;
+        font-family: chiller;
+        font-size: 50px
+    }
+
+    75% {
+        color: orange;
+    }
 }
 
 .spookyDoor-cgduncan7 {
-  position: relative;
-  color: white;
-  animation: 6s linear normal none infinite smoke;
+    position: relative;
+    color: white;
+    animation: 6s linear normal none infinite smoke;
 }
 
 @keyframes smoke {
-  0%, 10% {
-    text-shadow: 0px 0px 0px rgba(255,255,255,0);
-  }
-  33% {
-    text-shadow: 0px 0px 100px rgba(255,255,255,1);
-  }
-  66% {
-    text-shadow: 0px 20px 100px rgba(255,255,255,0.5);
-  }
-  90%, 100% {
-    text-shadow: 0px 20px 100px rgba(255,255,255,0);
-  }
+    0%, 10% {
+        text-shadow: 0px 0px 0px rgba(255, 255, 255, 0);
+    }
+
+    33% {
+        text-shadow: 0px 0px 100px rgba(255, 255, 255, 1);
+    }
+
+    66% {
+        text-shadow: 0px 20px 100px rgba(255, 255, 255, 0.5);
+    }
+
+    90%, 100% {
+        text-shadow: 0px 20px 100px rgba(255, 255, 255, 0);
+    }
 }
 
 .spookyDoor-cgduncan7::after {
-  content: '';
-  position: absolute;
-  top: -5px;
-  bottom: -5px;
-  background-color: #333;
-  animation: 6s cubic-bezier(0.19, 1, 0.22, 1) normal none infinite doorL;
-  box-shadow: 2px 1px 2px 0 rgba(0,0,0,0.25);
+    content: '';
+    position: absolute;
+    top: -5px;
+    bottom: -5px;
+    background-color: #333;
+    animation: 6s cubic-bezier(0.19, 1, 0.22, 1) normal none infinite doorL;
+    box-shadow: 2px 1px 2px 0 rgba(0, 0, 0, 0.25);
 }
 
 @keyframes doorL {
-  0%, 10% {
-    left: -10px;
-    right: 50%;
-  }
-  33%, 66% {
-    left: -10px;
-    right: 100%;
-  }
-  90%, 100% {
-    left: -10px;
-    right: 50%;
-  }
+    0%, 10% {
+        left: -10px;
+        right: 50%;
+    }
+
+    33%, 66% {
+        left: -10px;
+        right: 100%;
+    }
+
+    90%, 100% {
+        left: -10px;
+        right: 50%;
+    }
 }
 
 .spookyDoor-cgduncan7::before {
-  content: '';
-  position: absolute;
-  top: -5px;
-  bottom: -5px;
-  background-color: #333;
-  animation: 6s cubic-bezier(0.19, 1, 0.22, 1) normal none infinite doorR;
-  box-shadow: -2px 1px 2px 0 rgba(0,0,0,0.25);
+    content: '';
+    position: absolute;
+    top: -5px;
+    bottom: -5px;
+    background-color: #333;
+    animation: 6s cubic-bezier(0.19, 1, 0.22, 1) normal none infinite doorR;
+    box-shadow: -2px 1px 2px 0 rgba(0, 0, 0, 0.25);
 }
 
 @keyframes doorR {
-  0%, 10% {
-    left: 50%;
-    right: -10px;
-  }
-  33%, 66% {
-    left: 100%;
-    right: -10px;
-  }
-  90%, 100% {
-    left: 50%;
-    right: -10px;
-  }
+    0%, 10% {
+        left: 50%;
+        right: -10px;
+    }
+
+    33%, 66% {
+        left: 100%;
+        right: -10px;
+    }
+
+    90%, 100% {
+        left: 50%;
+        right: -10px;
+    }
 }
 
 .shaking-blinking {
@@ -1503,7 +1520,7 @@
         opacity: 0;
         transform: translate3d(8px, 0, 0);
     }
-}  
+}
 
 .showRight {
     animation-name: showRight;
@@ -1511,12 +1528,7 @@
 }
 
 @keyframes showRight {
-
-    0%,
-    60%,
-    75%,
-    90%,
-    to {
+    0%, 60%, 75%, 90%, to {
         animation-timing-function: cubic-bezier(0.215, 0.6, 0.355, 1);
     }
 
