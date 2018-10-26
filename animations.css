@@ -630,14 +630,12 @@
 @keyframes neon {
   0%,
   100% {
-    text-shadow: 0 0 1vw #fa1c16, 0 0 3vw #fa1c16, 0 0 10vw #fa1c16,
-      0 0 10vw #fa1c16, 0 0 0.4vw #fed128, 0.5vw 0.5vw 0.1vw #806914;
+    text-shadow: 0 0 1vw #fa1c16, 0 0 3vw #fa1c16, 0 0 10vw #fa1c16, 0 0 10vw #fa1c16, 0 0 0.4vw #fed128, 0.5vw 0.5vw 0.1vw #806914;
     color: #fed128;
   }
 
   50% {
-    text-shadow: 0 0 0.5vw #800e0b, 0 0 1.5vw #800e0b, 0 0 5vw #800e0b,
-      0 0 5vw #800e0b, 0 0 0.2vw #800e0b, 0.5vw 0.5vw 0.1vw #40340a;
+    text-shadow: 0 0 0.5vw #800e0b, 0 0 1.5vw #800e0b, 0 0 5vw #800e0b, 0 0 5vw #800e0b, 0 0 0.2vw #800e0b, 0.5vw 0.5vw 0.1vw #40340a;
     color: #806914;
   }
 }
@@ -879,12 +877,7 @@
 }
 
 .halloween {
-  background: linear-gradient(
-      110deg,
-      rgb(255, 140, 0) 28%,
-      rgba(0, 0, 0, 0) 30%
-    ),
-    linear-gradient(110deg, rgb(255, 69, 0) 34%, #000 40%);
+  background: linear-gradient(110deg, rgb(255, 140, 0) 28%, rgba(0, 0, 0, 0) 30%), linear-gradient(110deg, rgb(255, 69, 0) 34%, #000 40%);
   background-size: 400%;
   font-family: "Pacifico", cursive;
   font-size: 40pt;
@@ -1022,16 +1015,14 @@
 
 .split-and-twist::before {
   content: "Hacktoberfest";
-  animation: split-left 0.4s cubic-bezier(0.38, 0.65, 0.33, 1.35) alternate 2,
-    fade-out 0.2s ease-in-out forwards 0.9s;
+  animation: split-left 0.4s cubic-bezier(0.38, 0.65, 0.33, 1.35) alternate 2, fade-out 0.2s ease-in-out forwards 0.9s;
   color: #21ffff;
   left: 0;
 }
 
 .split-and-twist::after {
   content: "animations";
-  animation: split-right 0.4s cubic-bezier(0.38, 0.65, 0.33, 1.35) alternate 2,
-    fade-out 0.2s ease-in-out forwards 0.9s;
+  animation: split-right 0.4s cubic-bezier(0.38, 0.65, 0.33, 1.35) alternate 2, fade-out 0.2s ease-in-out forwards 0.9s;
   color: #21ffff;
   right: 0;
 }
@@ -1610,5 +1601,53 @@
 
   to {
     transform: none;
+  }
+}
+
+.aberration {
+  animation: aberration 0s cubic-bezier(0.25, 0.46, 0.45, 0.94) both infinite;
+  color: white;
+}
+
+.aberration:before,
+.aberration:after {
+  display: block;
+  content: "Hacktoberfest animations";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0.8;
+}
+.aberration:after {
+  animation: aberration 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) reverse both infinite;
+  color: #f0f;
+  z-index: -2;
+}
+.aberration:before {
+  animation: aberration 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both infinite;
+  color: #0ff;
+  z-index: -1;
+}
+
+@keyframes aberration {
+  0% {
+    transform: translate(0);
+  }
+  10% {
+    transform: translate(-0.1rem, 0.1rem);
+  }
+  20% {
+    transform: translate(-0.2rem, -0.1rem);
+  }
+  30% {
+    transform: translate(0.1rem, 0.2rem);
+  }
+  40% {
+    transform: translate(0.1rem, -0.1rem);
+  }
+  to {
+    transform: translate(0);
   }
 }
