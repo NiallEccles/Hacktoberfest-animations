@@ -1675,3 +1675,36 @@
     transform: translate(0);
   }
 }
+
+.toospooky {
+  animation:toospooky;
+  color: #DCE35B;
+  background: #FF7700;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction:alternate-reverse;
+  letter-spacing: 1px;
+}
+
+@keyframes toospooky {
+  from{
+    background: #DCE35B;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    opacity: 1;
+    filter: blur(1px);
+    letter-spacing: 1px;
+  }
+  to{
+    background: #FF7700;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: blur(5px);
+    letter-spacing: 15px;
+    opacity: 0;
+  }
+}
+
