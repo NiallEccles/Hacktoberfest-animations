@@ -1769,3 +1769,33 @@
     transform: scaleX(1);
   }
 }
+
+.borderblend{
+  animation: borderblend;
+  padding:20px;
+  border-top: 10px #EDAE49 solid;
+  border-bottom: 10px #D1495B solid;
+  border-right: 10px #30638E solid;
+  border-left: 10px #EDAE49 solid;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction:alternate-reverse;
+  letter-spacing: 3px;
+
+}
+
+@keyframes borderblend {
+from{
+  border-top: 10px #EDAE49 solid;
+  border-bottom: 10px #D1495B solid;
+    border-left: 10px #30638E solid;
+    border-right: 10px #EDAE49 solid;
+
+}
+to{
+  border-top: 10px #D1495B solid;
+  border-bottom: 10px #00798C solid;
+    border-left: 10px #003D5B solid;
+    border-right: 10px #00798C solid;
+
+}
