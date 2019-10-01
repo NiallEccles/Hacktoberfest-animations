@@ -1817,3 +1817,22 @@ to{
   animation-timing-function: ease-in-out;
   animation-duration: 45s;
 }
+
+.secret{
+    background: linear-gradient(90deg, #1B1B1B, #fff, #1B1B1B);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: secret 3s linear infinite;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
+  
+@keyframes secret {
+    0% {
+        background-position: -500%;
+    }
+    100% {
+        background-position: 500%;
+    }
+}
