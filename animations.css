@@ -1809,3 +1809,11 @@ to{
   letter-spacing: 12px;
   transition: 0.8s;
 }
+
+.reallyslow{
+  -webkit-animation-name: spinning;
+  animation-name: spinning;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  animation-duration: 45s;
+}
