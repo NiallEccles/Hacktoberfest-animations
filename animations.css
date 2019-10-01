@@ -1799,3 +1799,13 @@ to{
     border-right: 10px #00798C solid;
 
 }
+}
+
+.stretchout {
+    transition: 0.6s;
+}
+
+.stretchout:hover {
+  letter-spacing: 12px;
+  transition: 0.8s;
+}
