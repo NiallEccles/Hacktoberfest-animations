@@ -9,11 +9,6 @@ body {
   background-image: url(bg_main.png);
 }
 
-select {
-  font-size: 0.6em;
-  padding: 0.5em 1em;
-}
-
 .padding {
   padding: 1rem;
   font-size: 1em;
@@ -32,19 +27,7 @@ select {
   color: white;
 }
 
-select {
-  max-width: 90vw;
-  margin-top: 50px;
-  margin-bottom: 20px;
-  padding: 5px 35px 5px 5px;
-  font-size: 16px;
-  border: 1px solid #ccc;
-  height: 34px;
-  scale: 200%;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-}
+.select { margin: 5em auto 2em; }
 
 .custom-btn {
   border-radius: 5px;
