@@ -1893,7 +1893,6 @@ to{
   box-shadow: 25px 25px 25px rgba(46, 46, 49, .8);
 }
 
-
 .rainbow {
   background: linear-gradient(to right, #6666ff, #0099ff , #00ff00, #ff3399, #6666ff);
   -webkit-background-clip: text;
@@ -1911,4 +1910,14 @@ to{
   50% {
       background-position: 100% 0;
   }
+}
+
+.haleemah{
+	color: rgb(255, 255, 255);
+	background-image: url(https://media.giphy.com/media/xTiTnETzih3HYCaw2Q/giphy.gif);
+	background-size: cover;
+    color: transparent;
+    background-clip: text;
+	-moz-background-clip: text;
+	-webkit-background-clip: text;
 }
