@@ -1892,3 +1892,13 @@ to{
   border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #d9524a #d9524a;
   box-shadow: 25px 25px 25px rgba(46, 46, 49, .8);
 }
+
+.haleemah{
+	color: rgb(255, 255, 255);
+	background-image: url(https://media.giphy.com/media/xTiTnETzih3HYCaw2Q/giphy.gif);
+	background-size: cover;
+    color: transparent;
+    background-clip: text;
+	-moz-background-clip: text;
+	-webkit-background-clip: text;
+}
