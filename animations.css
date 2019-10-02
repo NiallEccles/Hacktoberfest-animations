@@ -1856,3 +1856,27 @@
       1px 25px 35px rgba(16, 16, 16, 0.2), 1px 30px 60px rgba(16, 16, 16, 0.4);
   }
 }
+
+.cvwind {
+  background-image: url("https://i.ytimg.com/vi/-4R0hS9ute0/maxresdefault.jpg");
+  color: transparent;
+  -moz-background-clip: text;
+  -webkit-background-clip: text;
+  text-transform: uppercase;
+  line-height: 0.95;
+  font-weight: bold;
+  text-shadow: 0 0 rgba(255, 255, 255, 0.06);
+  animation: cvwind 2s infinite linear;
+  background-size: 200px 100px;
+  background-repeat: repeat-x;
+  opacity: 1;
+}
+@keyframes cvwind {
+  0% {
+    background-position: 0 bottom;
+  }
+
+  100% {
+    background-position: 200px bottom;
+  }
+}
