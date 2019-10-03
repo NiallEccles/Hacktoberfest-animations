@@ -1922,6 +1922,38 @@ to{
 	-webkit-background-clip: text;
 }
 
+.pulse-y {
+  color: #fff;
+  animation: pulse 2s linear infinite;
+  transition: 0.6;
+}
+.pulse-y:hover {
+  color: rgb(171, 88, 0);
+  transition: 0.8s;
+  }
+  @keyframes pulse {
+    0%,100%
+    {
+        text-shadow: 3px 3px 0 rgb(255, 132, 0),-2.5px
+        -2.5px 0 rgb(255, 234, 0);
+    }
+    25%
+    {
+        text-shadow: 1.5px 1.5px 0 rgb(255, 132, 0),-1.5px
+        -1.5px 0 rgb(255, 234, 0);
+    }
+    50%
+    {
+        text-shadow: 3px -3px 0 rgb(255, 132, 0),-2px
+        2px 0 rgb(255, 234, 0);
+    }
+    75%
+    {
+        text-shadow: 1px -1px 0 rgb(255, 132, 0),-5px
+        -5px 0 rgb(255, 234, 0);
+    }
+}
+
 /* bounceAround */
 
 .bounceAround {
@@ -1955,3 +1987,5 @@ to{
     transform: translateY(-20px) rotate(360deg);
   }
 }
+  
+
