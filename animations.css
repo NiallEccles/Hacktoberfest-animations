@@ -248,6 +248,32 @@
   }
 }
 
+.circimental {
+	-webkit-animation: rotate-center 1s cubic-bezier(0.600, -0.280, 0.735, 0.045) both;
+	        animation: rotate-center 1s cubic-bezier(0.600, -0.280, 0.735, 0.045) both;
+}
+@-webkit-keyframes circimental {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+@keyframes circimental {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+
 .explode {
   animation-name: explode;
   animation-duration: 3s;
@@ -1948,5 +1974,70 @@ to{
   
   80% {
     transform: translate(-150px, 0);
+  }
+}
+.pulse-y {
+  color: #fff;
+  animation: pulse 2s linear infinite;
+  transition: 0.6;
+}
+.pulse-y:hover {
+  color: rgb(171, 88, 0);
+  transition: 0.8s;
+  }
+  @keyframes pulse {
+    0%,100%
+    {
+        text-shadow: 3px 3px 0 rgb(255, 132, 0),-2.5px
+        -2.5px 0 rgb(255, 234, 0);
+    }
+    25%
+    {
+        text-shadow: 1.5px 1.5px 0 rgb(255, 132, 0),-1.5px
+        -1.5px 0 rgb(255, 234, 0);
+    }
+    50%
+    {
+        text-shadow: 3px -3px 0 rgb(255, 132, 0),-2px
+        2px 0 rgb(255, 234, 0);
+    }
+    75%
+    {
+        text-shadow: 1px -1px 0 rgb(255, 132, 0),-5px
+        -5px 0 rgb(255, 234, 0);
+    }
+}
+
+/* bounceAround */
+
+.bounceAround {
+  background: #f6ad2d;
+  color: white;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  width: auto;
+  height: auto;
+  position: relative;
+  animation: bounceAround 1.1s ease-in-out infinite;
+ }
+
+ @keyframes bounceAround {
+  0% {
+    transform: translateY(0);
+  }
+  20% {
+    transform: translateY(-60px) rotate(0deg);
+  }
+  25% {
+    transform: translateY(20px) rotate(0deg);
+  }
+  35%, 55% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  60% {
+    transform: translateY(-20px) rotate(0deg);
+  }
+  100% {
+    transform: translateY(-20px) rotate(360deg);
   }
 }
