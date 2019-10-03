@@ -1921,3 +1921,32 @@ to{
 	-moz-background-clip: text;
 	-webkit-background-clip: text;
 }
+
+.ballast {
+  animation: 
+    color 3s ease infinite alternate, 
+    translate 5s linear infinite alternate;
+}
+
+@keyframes color {
+  0%, 100% {
+    color: orange;
+  }
+  50% {
+    color: white;
+  }
+}
+
+@keyframes translate {
+  0%, 100% {
+    transform: translate(0, 0);
+  }
+  
+  50% {
+    transform: translate(150px, 0);
+  }
+  
+  80% {
+    transform: translate(-150px, 0);
+  }
+}
