@@ -2160,3 +2160,61 @@
   color: #18A288;
   text-shadow: 3px 3px 5px #fff;
 }
+
+
+/* RotateScaleColor */
+
+.rotateScaleColor {
+  animation: rotateScaleColor 2s ease-in-out infinite;
+  animation-timing-function: ease;
+  -webkit-animation: rotateScaleColor 2s ease-in-out infinite;
+  -webkit-animation-timing-function: ease;
+
+  text-shadow: 0 8px 0px #000;
+  transform-origin: 50% 50%;
+}
+
+@keyframes rotateScaleColor {
+  0% {
+    transform: rotate(0) scale(1) translateY(0);
+    color: white;
+  }
+  25% {
+    transform: rotate(5deg) scale(1.2) translateY(8px);
+    color: green;
+  }
+  50% {
+    transform: rotate(0) scale(1) translateY(0);
+    color: white;
+  }
+  75% {
+    transform: rotate(-5deg) scale(1.2) translateY(-8px);
+    color: red;
+  }
+  100% {
+    transform: rotate(0) scale(1) translateY(0);
+    color: white;
+  }
+}
+@-webkit-keyframes rotateScaleColor {
+  0% {
+    transform: rotate(0) scale(1) translateY(0);
+    color: white;
+  }
+  25% {
+    transform: rotate(5deg) scale(1.2) translateY(8px);
+    color: green;
+  }
+  50% {
+    transform: rotate(0) scale(1) translateY(0);
+    color: white;
+  }
+  75% {
+    transform: rotate(-5deg) scale(1.2) translateY(-8px);
+    color: red;
+  }
+  100% {
+    transform: rotate(0) scale(1) translateY(0);
+    color: white;
+  }
+}
