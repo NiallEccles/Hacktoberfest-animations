@@ -49,7 +49,7 @@ function sortAnimationByName(animations){
 function injectStylesheet(animationName){
   const link = document.createElement('link')
   link.rel = 'stylesheet'
-  link.href = '/animations/' + animationName + '.css'
+  link.href = 'animations/' + animationName + '.css'
   document.head.appendChild(link)
 }
 
