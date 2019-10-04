@@ -2345,3 +2345,29 @@
     color: white;
   }
 }
+
+/*reduce*/
+.reduce {
+  font-style: "Monospace", monospace;
+  color: #ff00aa;
+  animation: shrink 1.7s;
+}
+
+@keyframes reduce {
+  0% {
+    color:#ff00dd34;
+    -webkit-transform: scaleX(2);
+            transform: scaleX(2);
+    -webkit-filter: blur(2px);
+            filter: blur(2px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    opacity: 1;
+    
+  }
+}
