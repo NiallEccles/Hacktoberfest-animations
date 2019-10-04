@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400|Warnes" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css" />
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="animations.css">
+    <!-- <link rel="stylesheet" href="animations.css"> -->
 </head>
 
 <body class="level-item">
@@ -17,8 +17,8 @@
         <!--  here is the sample animation -->
         <h1 id="target" class="title scare" data-text="Hacktoberfest animations">Hacktoberfest animations</h1>
         <!--  here you can add your own animation -->
-        <select onchange="getAnimationName()" id="animationSelect">
-            <option value="pumpkins" data-link="https://github.com/ashwoodall">pumpkins - ashwoodall</option>
+        <select id="animationSelect" onchange="getAnimationName()">
+            <!-- <option value="pumpkins" data-link="https://github.com/ashwoodall">pumpkins - ashwoodall</option>
             <option value="circimental" data-link="https://github.com/isfatul-codersbd">circimental - isfatul-codersbd</option>
             <option value="scare" data-link="https://github.com/NiallEccles">Scare - NiallEccles</option>
             <option value="mini-zoom" data-link="https://github.com/NiallEccles">Mini Zoom - NiallEccles</option>
@@ -82,7 +82,7 @@
             <option value="haleemah" data-link="https://github.com/bolajiscott">haleemah - bolajiscott</option>
             <option value="rainbow" data-link="https://github.com/vijayranghar">Rainbow - vijayranghar</option>
             <option value="bounceAround" data-link="https://github.com/wendelleloi">BounceAround  - Wendelleloi</option>
-            <option value="pulse-y" data-link="https://github.com/jessicavrooyen">Pulse - jessicavrooyen</option>
+            <option value="pulse-y" data-link="https://github.com/jessicavrooyen">Pulse - jessicavrooyen</option> -->
         </select>
         <!--  here we show the animation name and who contribute with it -->
         <div id="detail_elements" class="padding white max-w">
@@ -94,6 +94,7 @@
             Contribute
         </a>
     </section>
+    <script src="animations.js"></script>
     <script src="script.js"></script>
 </body>
 
