@@ -61,5 +61,8 @@ window.animations = [
   { name: 'haleemah', author: 'bolajiscott' },
   { name: 'rainbow', author: 'vijayranghar' },
   { name: 'bounceAround', author: 'wendelleloi' },
-  { name: 'pulse-y', author: 'jessicavrooyen' }
+  { name: 'pulse-y', author: 'jessicavrooyen' },
+  { name: 'fadeInLeft', author: 'chisom5' },
+  { name: 'rocket', author: 'ellieya' },
+  { name: 'swing', author: 'LumusCode' }
 ]

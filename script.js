@@ -9,17 +9,23 @@ const
 /**
  * Set the title, author and name of the selected animation.
  */
-function getAnimationName() {
+function getAnimationName(rand) {
+  rand = rand || false;
   target.className = "title";
   const
-    value = select.options[select.selectedIndex].value,
-    text = select.options[select.selectedIndex].text,
-    dataLink = select.options[select.selectedIndex].dataset.link,
+    index = rand ? Math.floor(Math.random() * (select.length + 1)) : select.selectedIndex,
+    value = select.options[index].value,
+    text = select.options[index].text,
+    dataLink = select.options[index].dataset.link,
     strArray = text.split("-");
   animationName.textContent = strArray.slice(0, 1);
   userName.textContent = strArray.slice(1, strArray.length).join('-');
   userName.href = dataLink;
   target.classList.add(value);
+
+  // If rand is true, also change the selected value on the select
+  if(rand)
+    select.selectedIndex = index;
 }
 
 
@@ -51,7 +57,7 @@ function loadAnimations(){
     injectStylesheet(animation.name)
     insertAnimationOptionToSelect(animation)
   }
-  getAnimationName();
+  getAnimationName(true);
 }
 
 document.addEventListener('DOMContentLoaded', function(){
