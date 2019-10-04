@@ -65,5 +65,9 @@ window.animations = [
   { name: 'pulse-y', author: 'jessicavrooyen' },
   { name: 'fadeInLeft', author: 'chisom5' },
   { name: 'rocket', author: 'ellieya' },
-  { name: 'swing', author: 'LumusCode' }
+  { name: 'swing', author: 'LumusCode' },
+  { name: 'boogie-by-xhika', author: 'Xhika' },
+  { name: 'border-rainbow', author: 'brunobolting' },
+  { name: 'flip', author: 'TiagoBehenck' },
+  { name: 'rotateScaleColor', author: 'dankmir' }
 ]

@@ -65,7 +65,7 @@ select {
   max-width: 70vw;
 }
 
-.refresh-btn{
+.refresh-btn {
   margin-top: 50px;
   margin-bottom: 20px;
   padding: 5px;
@@ -79,11 +79,11 @@ select {
   border: 0;
   vertical-align: top;
 }
-.refresh-btn:hover img{
+.refresh-btn:hover img {
   transform: rotate(360deg);
 }
 
-.refresh-btn img{
+.refresh-btn img {
   max-height: 20px;
   transition: transform 0.3s ease-in-out;
 }

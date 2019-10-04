@@ -1,0 +1,96 @@
+@keyframes boogie-fade {
+  0% {
+    opacity: 0;
+  }
+
+  33% {
+    opacity: 0.3;
+  }
+
+  67% {
+    opacity: 0.7;
+  }
+
+  15%,
+  50%,
+  80%,
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes boogie-wiggle {
+  0% {
+    transform: rotate(-1deg) translate(-1%, -1%);
+  }
+
+  2% {
+    transform: rotate(1deg) translate(1%, 1%);
+  }
+
+  4% {
+    transform: rotate(-1.2deg) translate(-1.2%, -1.2%);
+  }
+
+  6% {
+    transform: rotate(1.2deg) translate(1.2%, 1.2%);
+  }
+
+  10% {
+    transform: rotate(-1.4deg) translate(-1.4%, -1.4%);
+  }
+
+  14% {
+    transform: rotate(1.4deg) translate(1.4%, 1.4%);
+  }
+
+  18% {
+    transform: rotate(-1.2deg) translate(-1.2%, -1.2%);
+  }
+
+  22% {
+    transform: rotate(1.2deg) translate(1.2%, 1.2%);
+  }
+
+  34% {
+    transform: rotate(-2deg) translate(-2%, -2%);
+  }
+
+  46% {
+    transform: rotate(2deg) translate(2%, 2%);
+  }
+
+  58% {
+    transform: rotate(-2.2deg) translate(-2.2%, -2.2%);
+  }
+
+  70% {
+    transform: rotate(2.2deg) translate(2.2%, 2.2%);
+  }
+
+  84% {
+    transform: rotate(-1deg) translate(-1%, -1%);
+  }
+
+  88% {
+    transform: rotate(1deg) translate(1%, 1%);
+  }
+
+  92% {
+    transform: rotate(-0.5deg) translate(-0.5%, -0.5%);
+  }
+
+  96% {
+    transform: rotate(0.5deg) translate(0.5%, 0.5%);
+  }
+
+  100% {
+    transform: none;
+  }
+}
+
+.boogie-by-xhika {
+  animation-name: boogie-wiggle, boogie-fade;
+  animation-duration: 2s, 2s;
+  animation-timing-function: ease-out, linear;
+}

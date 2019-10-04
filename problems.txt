@@ -1,0 +1,2 @@
+Animation color_changes não tem uma classe especifica, talvez ela tenha sido removida em algum commit.
+fadeInLeft nao existe no animations.css, talvez tenha sido removido em algum commit passado.
