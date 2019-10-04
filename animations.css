@@ -4,6 +4,7 @@
 }
 
 @keyframes hibouCoucou {
+
   0%,
   100% {
     transform: translateX(10px);
@@ -182,6 +183,7 @@
 }
 
 @keyframes flash {
+
   from,
   50%,
   to {
@@ -195,8 +197,7 @@
 }
 
 @keyframes explode {
-  0% {
-  }
+  0% {}
 
   5% {
     transform: scale(1.1);
@@ -244,30 +245,32 @@
     color: red;
   }
 
-  100% {
-  }
+  100% {}
 }
 
 .circimental {
-  -webkit-animation: rotate-center 1s cubic-bezier(0.6, -0.28, 0.735, 0.045)
-    both;
+  -webkit-animation: rotate-center 1s cubic-bezier(0.6, -0.28, 0.735, 0.045) both;
   animation: rotate-center 1s cubic-bezier(0.6, -0.28, 0.735, 0.045) both;
 }
+
 @-webkit-keyframes circimental {
   0% {
     -webkit-transform: rotate(0);
     transform: rotate(0);
   }
+
   100% {
     -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
   }
 }
+
 @keyframes circimental {
   0% {
     -webkit-transform: rotate(0);
     transform: rotate(0);
   }
+
   100% {
     -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
@@ -288,6 +291,7 @@
 }
 
 @keyframes bounce {
+
   0%,
   100% {
     transform: scale(1);
@@ -413,32 +417,27 @@
 
 @keyframes flip {
   from {
-    transform: perspective(400px) scale3d(1, 1, 1) translate3d(0, 0, 0)
-      rotate3d(0, 1, 0, -360deg);
+    transform: perspective(400px) scale3d(1, 1, 1) translate3d(0, 0, 0) rotate3d(0, 1, 0, -360deg);
     animation-timing-function: ease-out;
   }
 
   40% {
-    transform: perspective(400px) scale3d(1, 1, 1) translate3d(0, 0, 150px)
-      rotate3d(0, 1, 0, -190deg);
+    transform: perspective(400px) scale3d(1, 1, 1) translate3d(0, 0, 150px) rotate3d(0, 1, 0, -190deg);
     animation-timing-function: ease-out;
   }
 
   50% {
-    transform: perspective(400px) scale3d(1, 1, 1) translate3d(0, 0, 150px)
-      rotate3d(0, 1, 0, -170deg);
+    transform: perspective(400px) scale3d(1, 1, 1) translate3d(0, 0, 150px) rotate3d(0, 1, 0, -170deg);
     animation-timing-function: ease-in;
   }
 
   80% {
-    transform: perspective(400px) scale3d(0.95, 0.95, 0.95) translate3d(0, 0, 0)
-      rotate3d(0, 1, 0, 0deg);
+    transform: perspective(400px) scale3d(0.95, 0.95, 0.95) translate3d(0, 0, 0) rotate3d(0, 1, 0, 0deg);
     animation-timing-function: ease-in;
   }
 
   to {
-    transform: perspective(400px) scale3d(1, 1, 1) translate3d(0, 0, 0)
-      rotate3d(0, 1, 0, 0deg);
+    transform: perspective(400px) scale3d(1, 1, 1) translate3d(0, 0, 0) rotate3d(0, 1, 0, 0deg);
     animation-timing-function: ease-in;
   }
 }
@@ -666,8 +665,7 @@
     transform-origin: bottom;
   }
 
-  80% {
-  }
+  80% {}
 }
 
 .jump {
@@ -693,6 +691,7 @@
 }
 
 @keyframes neon {
+
   0%,
   100% {
     text-shadow: 0 0 1vw #fa1c16, 0 0 3vw #fa1c16, 0 0 10vw #fa1c16,
@@ -944,11 +943,9 @@
 }
 
 .halloween {
-  background: linear-gradient(
-      110deg,
+  background: linear-gradient(110deg,
       rgb(255, 140, 0) 28%,
-      rgba(0, 0, 0, 0) 30%
-    ),
+      rgba(0, 0, 0, 0) 30%),
     linear-gradient(110deg, rgb(255, 69, 0) 34%, #000 40%);
   background-size: 400%;
   font-family: "Pacifico", cursive;
@@ -1101,7 +1098,7 @@
   right: 0;
 }
 
-.split-and-twist + select {
+.split-and-twist+select {
   display: block;
   margin: 0 auto;
 }
@@ -1139,6 +1136,7 @@
 }
 
 @keyframes zoomright {
+
   0%,
   60%,
   75%,
@@ -1403,6 +1401,7 @@
 }
 
 @keyframes opacityText {
+
   0%,
   100% {
     opacity: 0;
@@ -1419,6 +1418,7 @@
 }
 
 @keyframes jello {
+
   0%,
   100% {
     transform: scale(1, 1);
@@ -1532,6 +1532,7 @@
 }
 
 @keyframes smoke {
+
   0%,
   10% {
     text-shadow: 0px 0px 0px rgba(255, 255, 255, 0);
@@ -1562,6 +1563,7 @@
 }
 
 @keyframes doorL {
+
   0%,
   10% {
     left: -10px;
@@ -1592,6 +1594,7 @@
 }
 
 @keyframes doorR {
+
   0%,
   10% {
     left: 50%;
@@ -1618,6 +1621,7 @@
 }
 
 @keyframes shaking-blinking {
+
   from,
   to {
     transform: translate3d(0, 0, 0);
@@ -1647,6 +1651,7 @@
 }
 
 @keyframes showRight {
+
   0%,
   60%,
   75%,
@@ -1684,22 +1689,26 @@
 }
 
 @keyframes orangeisthenewblack {
+
   0%,
   6%,
   12% {
     text-shadow: none;
     color: #111111;
   }
+
   3%,
   9% {
     text-shadow: 0 0 8px rgba(250, 103, 1, 0.6);
     color: #fa6701;
   }
+
   60% {
     text-shadow: 0 0 8px rgba(250, 103, 1, 0.6), 0 0 16px rgba(250, 103, 1, 0.4),
       0 0 20px rgba(255, 0, 84, 0.2), 0 0 22px rgba(255, 0, 84, 0.1);
     color: #fa6701;
   }
+
   100% {
     text-shadow: 0 0 8px rgba(250, 103, 1, 0.6), 0 0 16px rgba(250, 103, 1, 0.4),
       0 0 20px rgba(255, 0, 84, 0.2), 0 0 22px rgba(255, 0, 84, 0.1);
@@ -1723,12 +1732,13 @@
   width: 100%;
   opacity: 0.8;
 }
+
 .aberration:after {
-  animation: aberration 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) reverse both
-    infinite;
+  animation: aberration 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) reverse both infinite;
   color: #f0f;
   z-index: -2;
 }
+
 .aberration:before {
   animation: aberration 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both infinite;
   color: #0ff;
@@ -1739,18 +1749,23 @@
   0% {
     transform: translate(0);
   }
+
   10% {
     transform: translate(-0.1rem, 0.1rem);
   }
+
   20% {
     transform: translate(-0.2rem, -0.1rem);
   }
+
   30% {
     transform: translate(0.1rem, 0.2rem);
   }
+
   40% {
     transform: translate(0.1rem, -0.1rem);
   }
+
   to {
     transform: translate(0);
   }
@@ -1778,6 +1793,7 @@
     filter: blur(1px);
     letter-spacing: 1px;
   }
+
   to {
     background: #ff7700;
     -webkit-background-clip: text;
@@ -1818,6 +1834,7 @@
   text-align: center;
   animation: strangerthings 5s infinite;
 }
+
 .strangerthings::after {
   display: inline-block;
   margin: 0px 0px 54px 0px;
@@ -1833,6 +1850,7 @@
   0% {
     transform: scale(10);
   }
+
   50% {
     transform: scale(1);
   }
@@ -1842,9 +1860,11 @@
   0% {
     transform: scaleX(0);
   }
+
   50% {
     transform: scaleX(0);
   }
+
   85% {
     transform: scaleX(1);
   }
@@ -1870,6 +1890,7 @@
     border-left: 10px #30638e solid;
     border-right: 10px #edae49 solid;
   }
+
   to {
     border-top: 10px #d1495b solid;
     border-bottom: 10px #00798c solid;
@@ -1909,6 +1930,7 @@
   0% {
     background-position: -500%;
   }
+
   100% {
     background-position: 500%;
   }
@@ -1941,6 +1963,7 @@
   0% {
     transform: translateX(-50%) translateY(-50%) rotate(0deg);
   }
+
   100% {
     transform: translateX(-50%) translateY(-50%) rotate(360deg);
   }
@@ -1981,14 +2004,12 @@
 }
 
 .rainbow {
-  background: linear-gradient(
-    to right,
-    #6666ff,
-    #0099ff,
-    #00ff00,
-    #ff3399,
-    #6666ff
-  );
+  background: linear-gradient(to right,
+      #6666ff,
+      #0099ff,
+      #00ff00,
+      #ff3399,
+      #6666ff);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
@@ -1997,6 +2018,7 @@
 }
 
 @keyframes rainbow {
+
   0%,
   100% {
     background-position: 0 0;
@@ -2023,16 +2045,19 @@
 }
 
 @keyframes color {
+
   0%,
   100% {
     color: orange;
   }
+
   50% {
     color: white;
   }
 }
 
 @keyframes translate {
+
   0%,
   100% {
     transform: translate(0, 0);
@@ -2046,27 +2071,34 @@
     transform: translate(-150px, 0);
   }
 }
+
 .pulse-y {
   color: #fff;
   animation: pulse 2s linear infinite;
   transition: 0.6;
 }
+
 .pulse-y:hover {
   color: rgb(171, 88, 0);
   transition: 0.8s;
 }
+
 @keyframes pulse {
+
   0%,
   100% {
     text-shadow: 3px 3px 0 rgb(255, 132, 0), -2.5px -2.5px 0 rgb(255, 234, 0);
   }
+
   25% {
     text-shadow: 1.5px 1.5px 0 rgb(255, 132, 0),
       -1.5px -1.5px 0 rgb(255, 234, 0);
   }
+
   50% {
     text-shadow: 3px -3px 0 rgb(255, 132, 0), -2px 2px 0 rgb(255, 234, 0);
   }
+
   75% {
     text-shadow: 1px -1px 0 rgb(255, 132, 0), -5px -5px 0 rgb(255, 234, 0);
   }
@@ -2089,19 +2121,24 @@
   0% {
     transform: translateY(0);
   }
+
   20% {
     transform: translateY(-60px) rotate(0deg);
   }
+
   25% {
     transform: translateY(20px) rotate(0deg);
   }
+
   35%,
   55% {
     transform: translateY(0px) rotate(0deg);
   }
+
   60% {
     transform: translateY(-20px) rotate(0deg);
   }
+
   100% {
     transform: translateY(-20px) rotate(360deg);
   }
@@ -2118,24 +2155,31 @@
   0% {
     left: -10px;
   }
+
   2.5% {
     left: 10px;
   }
+
   5% {
     left: -10px;
   }
+
   7.5% {
     left: 10px;
   }
+
   10% {
     left: -10px;
   }
+
   12.5% {
     left: 10px;
   }
+
   35% {
     top: 0px;
   }
+
   100% {
     top: -600px;
   }
@@ -2214,19 +2258,25 @@
   background-repeat: no-repeat;
 
   background-size: calc(100% - 10px) 6px,
-    /* top & bottom */ 6px calc(100% - 10px); /* right & left */
+    /* top & bottom */
+    6px calc(100% - 10px);
+  /* right & left */
 
-  background-position: 5px 5px, /* top */ calc(100% - 5px) 5px,
-    /* right */ 5px calc(100% - 5px), /* bottom */ 5px 5px; /* left */
+  background-position: 5px 5px,
+    /* top */
+    calc(100% - 5px) 5px,
+    /* right */
+    5px calc(100% - 5px),
+    /* bottom */
+    5px 5px;
+  /* left */
 
-  background-image: linear-gradient(
-      115deg,
+  background-image: linear-gradient(115deg,
       #10cf40,
       #f8ce25,
       #800ff0,
       #0ea2dd,
-      #44ce7b
-    ),
+      #44ce7b),
     linear-gradient(115deg, #10cf40, #44ce7b),
     linear-gradient(115deg, #10cf40, #f8ce25, #800ff0, #0ea2dd, #44ce7b),
     linear-gradient(115deg, #10cf40, #44ce7b);
@@ -2235,54 +2285,47 @@
 }
 
 @keyframes border-rainbow {
+
   0%,
   100% {
-    background-image: linear-gradient(
-        115deg,
+    background-image: linear-gradient(115deg,
         #10cf40,
         #f8ce25,
         #800ff0,
-        #0ea2dd
-      ),
+        #0ea2dd),
       linear-gradient(115deg, #0ea2dd, #0ea2dd),
       linear-gradient(115deg, #10cf40, #f8ce25, #800ff0, #0ea2dd),
       linear-gradient(115deg, #10cf40, #44ce7b);
   }
 
   25% {
-    background-image: linear-gradient(
-        115deg,
+    background-image: linear-gradient(115deg,
         #f8ce25,
         #800ff0,
         #0ea2dd,
-        #10cf40
-      ),
+        #10cf40),
       linear-gradient(115deg, #10cf40, #10cf40),
       linear-gradient(115deg, #f8ce25, #800ff0, #0ea2dd, #10cf40),
       linear-gradient(115deg, #f8ce25, #f8ce25);
   }
 
   50% {
-    background-image: linear-gradient(
-        115deg,
+    background-image: linear-gradient(115deg,
         #800ff0,
         #0ea2dd,
         #10cf40,
-        #f8ce25
-      ),
+        #f8ce25),
       linear-gradient(115deg, #f8ce25, #f8ce25),
       linear-gradient(115deg, #800ff0, #0ea2dd, #10cf40, #f8ce25),
       linear-gradient(115deg, #800ff0, #800ff0);
   }
 
   75% {
-    background-image: linear-gradient(
-        115deg,
+    background-image: linear-gradient(115deg,
         #0ea2dd,
         #10cf40,
         #f8ce25,
-        #800ff0
-      ),
+        #800ff0),
       linear-gradient(115deg, #800ff0, #800ff0),
       linear-gradient(115deg, #0ea2dd, #10cf40, #f8ce25, #800ff0),
       linear-gradient(115deg, #0ea2dd, #0ea2dd);
@@ -2306,42 +2349,82 @@
     transform: rotate(0) scale(1) translateY(0);
     color: white;
   }
+
   25% {
     transform: rotate(5deg) scale(1.2) translateY(8px);
     color: green;
   }
+
   50% {
     transform: rotate(0) scale(1) translateY(0);
     color: white;
   }
+
   75% {
     transform: rotate(-5deg) scale(1.2) translateY(-8px);
     color: red;
   }
+
   100% {
     transform: rotate(0) scale(1) translateY(0);
     color: white;
   }
 }
+
 @-webkit-keyframes rotateScaleColor {
   0% {
     transform: rotate(0) scale(1) translateY(0);
     color: white;
   }
+
   25% {
     transform: rotate(5deg) scale(1.2) translateY(8px);
     color: green;
   }
+
   50% {
     transform: rotate(0) scale(1) translateY(0);
     color: white;
   }
+
   75% {
     transform: rotate(-5deg) scale(1.2) translateY(-8px);
     color: red;
   }
+
   100% {
     transform: rotate(0) scale(1) translateY(0);
     color: white;
+  }
+}
+
+/*RGB Text*/
+.neonplus {
+  text-decoration: none;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
+
+  color: #fff;
+  font-family: 'Monoton';
+  -webkit-animation: neonplus 2.5s ease-in-out infinite alternate;
+  -moz-animation: neonplus 2.5s ease-in-out infinite alternate;
+  animation: neonplus 2.5s ease-in-out infinite alternate;
+}
+
+.neonplus:hover {
+  color: #e74c3c;
+  -webkit-animation: none;
+  -moz-animation: none;
+  animation: none;
+}
+
+@-webkit-keyframes neonplus {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #e74c3c, 0 0 70px #e74c3c, 0 0 80px #e74c3c, 0 0 100px #e74c3c, 0 0 150px #e74c3c;
+  }
+
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #e74c3c, 0 0 35px #e74c3c, 0 0 40px #e74c3c, 0 0 50px #e74c3c, 0 0 75px #e74c3c;
   }
 }
