@@ -1,0 +1,10 @@
+/* By: https://github.com/s-Hale */
+
+.stretchout {
+  transition: 0.6s;
+}
+
+.stretchout:hover {
+  letter-spacing: 12px;
+  transition: 0.8s;
+}

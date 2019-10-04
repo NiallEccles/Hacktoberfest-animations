@@ -1,0 +1,31 @@
+/* By: https://github.com/redpop */
+
+@keyframes shaking-blinking {
+  from,
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+
+  10%,
+  30%,
+  50%,
+  70%,
+  90% {
+    opacity: 1;
+    transform: translate3d(-8px, 0, 0);
+  }
+
+  20%,
+  40%,
+  60%,
+  80% {
+    opacity: 0;
+    transform: translate3d(8px, 0, 0);
+  }
+}
+
+.shaking-blinking {
+  animation-name: shaking-blinking;
+  animation-duration: 0.8s;
+  animation-fill-mode: both;
+}

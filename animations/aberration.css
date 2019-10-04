@@ -1,0 +1,52 @@
+/* By: https://github.com/cnsumner */
+
+@keyframes aberration {
+  0% {
+    transform: translate(0);
+  }
+  10% {
+    transform: translate(-0.1rem, 0.1rem);
+  }
+  20% {
+    transform: translate(-0.2rem, -0.1rem);
+  }
+  30% {
+    transform: translate(0.1rem, 0.2rem);
+  }
+  40% {
+    transform: translate(0.1rem, -0.1rem);
+  }
+  to {
+    transform: translate(0);
+  }
+}
+
+.aberration {
+  animation: aberration 0s cubic-bezier(0.25, 0.46, 0.45, 0.94) both infinite;
+  color: white;
+}
+
+.aberration:before,
+.aberration:after {
+  display: block;
+  content: "Hacktoberfest animations";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0.8;
+}
+
+.aberration:after {
+  animation: aberration 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) reverse both
+    infinite;
+  color: #f0f;
+  z-index: -2;
+}
+
+.aberration:before {
+  animation: aberration 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both infinite;
+  color: #0ff;
+  z-index: -1;
+}
