@@ -1,4 +1,6 @@
-@-webkit-keyframes swing-by-LumusCode {
+/* By: https://github.com/LumusCode */
+
+@-webkit-keyframes swing-by-lumuscode {
   20% {
     -webkit-transform: rotate3d(0, 0, 1, 15deg);
     transform: rotate3d(0, 0, 1, 15deg);
@@ -25,7 +27,7 @@
   }
 }
 
-@keyframes swing-by-LumusCode {
+@keyframes swing-by-lumuscode {
   20% {
     -webkit-transform: rotate3d(0, 0, 1, 15deg);
     transform: rotate3d(0, 0, 1, 15deg);
@@ -52,7 +54,7 @@
   }
 }
 
-.swing-by-LumusCode {
+.swing-by-lumuscode {
   -webkit-transform-origin: top center;
   transform-origin: top center;
   -webkit-animation-name: swing-by-LumusCode;

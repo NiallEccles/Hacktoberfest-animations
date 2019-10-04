@@ -1,3 +1,5 @@
+/* By: https://github.com/GabrielaMattias */
+
 @keyframes opacityText {
   0%,
   100% {
@@ -9,6 +11,6 @@
   }
 }
 
-.opacity-GabrielaMattias {
+.opacity-by-gabrielamattias {
   animation: 6s linear normal none infinite opacityText;
 }

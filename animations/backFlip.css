@@ -1,3 +1,5 @@
+/* By: https://github.com/adsingh14 */
+
 @keyframes backFlip {
   0% {
     transform: rotateX(0deg) translateZ(0px);

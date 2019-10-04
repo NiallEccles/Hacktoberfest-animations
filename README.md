@@ -4,16 +4,16 @@ Small animation selector for Hacktoberfest
 
 ## How to contribute
 - Fork this repo
-- Create a new file with your cool animation name inside `./animations` folder, be creative!
+- Create a new CSS file with your cool animation name inside `./animations` folder, be creative!
 - Edit the `./animations.js` file to include your animation using the following structure:
 ```json
 {
     name: 'the-name-of-your-animation',
-    author: 'your-github-username
+    author: 'your-github-username'
 }
 ```
 <sub>**PS**: the animation name should have the same name of your CSS file.</sub><br>
-<sub>**PS²**: you do not need to include your object respecting the alphabetical order, there is a function that will do this automatically afterwards.</sub><br>
+<sub>**PS²**: although it is not necessary to include your object alphabetically (there is a function that will do this automatically afterwards), it is recommended that you do so to keep the project organized.</sub><br>
 <sub>**PS³**: use the same name of your CSS file as your animation class. Example: a file named `my-cool-animation.css` containing a `.my-cool-animation` class inside.</sub>
 - DONE!
 

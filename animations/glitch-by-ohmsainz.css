@@ -1,4 +1,6 @@
-@keyframes glitch-OhmSainz {
+/* By: https://github.com/OhmSainz */
+
+@keyframes glitch-by-ohmsainz {
   0% {
     clip-path: inset(70px 200px 56px 0);
   }
@@ -26,12 +28,12 @@
   }
 }
 
-.glitch-OhmSainz {
+.glitch-by-ohmsainz {
   position: relative;
 }
 
-.glitch-OhmSainz::before,
-.glitch-OhmSainz::after {
+.glitch-by-ohmsainz::before,
+.glitch-by-ohmsainz::after {
   content: attr(data-text);
   position: absolute;
   top: 0;
@@ -41,7 +43,7 @@
   background: #411e2f;
 }
 
-.glitch-OhmSainz::before {
+.glitch-by-ohmsainz::before {
   position: absolute;
   left: 2px;
   text-shadow: -1px 0 rgba(0, 0, 255, 1);
@@ -50,7 +52,7 @@
   background: #411e2f;
 }
 
-.glitch-OhmSainz::after {
+.glitch-by-ohmsainz::after {
   position: absolute;
   left: -2px;
   text-shadow: -1px 0 rgba(255, 0, 0, 1);
@@ -60,5 +62,5 @@
   overflow: hidden;
   -webkit-clip-path: inset(0 200px 0 0);
   clip-path: inset(0 200px 0 0);
-  animation: glitch-OhmSainz 2s infinite linear alternate-reverse;
+  animation: glitch-by-ohmsainz 2s infinite linear alternate-reverse;
 }

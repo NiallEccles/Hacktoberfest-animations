@@ -1,3 +1,5 @@
+/* By: https://github.com/TiagoBehenck */
+
 @keyframes flip {
   from {
     transform: perspective(400px) scale3d(1, 1, 1) translate3d(0, 0, 0)

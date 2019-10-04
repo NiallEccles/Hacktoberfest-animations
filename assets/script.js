@@ -17,15 +17,28 @@ function getAnimationName(rand) {
     value = select.options[index].value,
     text = select.options[index].text,
     dataLink = select.options[index].dataset.link,
-    strArray = text.split("-");
-  animationName.textContent = strArray.slice(0, 1);
-  userName.textContent = strArray.slice(1, strArray.length).join('-');
+    strArray = text.split("·");
+  animationName.textContent = strArray[0];
+  userName.textContent = strArray[1];
   userName.href = dataLink;
   target.classList.add(value);
 
   // If rand is true, also change the selected value on the select
   if(rand)
     select.selectedIndex = index;
+}
+
+/**
+ * Sort all animations by name.
+ * @param { Array } animations the animations from 'window.animations'.
+ */
+function sortAnimationByName(animations){
+  animations.sort(function(a, b){
+    if(a.name > b.name) return 1
+    if(a.name < b.name) return -1
+    return 0
+  })
+  return animations
 }
 
 
@@ -45,7 +58,7 @@ function injectStylesheet(animationName){
  * @param { Object } animation the object containing the animation name and the author.
  */
 function insertAnimationOptionToSelect(animation){
-  const animationWithAuthorName = animation.name + ' - ' + animation.author
+  const animationWithAuthorName = animation.name + ' · ' + animation.author
   const option = new Option(animationWithAuthorName, animation.name)
   option.dataset.link = 'https://github.com/' + animation.author
   select.options.add(option)
@@ -53,7 +66,7 @@ function insertAnimationOptionToSelect(animation){
 
 
 function loadAnimations(){
-  for(let animation of window.animations){
+  for(let animation of sortAnimationByName(window.animations)){
     injectStylesheet(animation.name)
     insertAnimationOptionToSelect(animation)
   }

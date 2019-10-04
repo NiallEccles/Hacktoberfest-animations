@@ -1,3 +1,6 @@
+/* By: https://github.com/dansegliode */
+
+
 @keyframes glitch {
   0% {
     transform: scale(1);
@@ -21,7 +24,7 @@
 
   100% {
     transform: scale(1);
-  }
+  }/* By: https://github.com/cnsumner */
 }
 
 .glitch {

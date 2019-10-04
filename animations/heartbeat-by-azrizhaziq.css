@@ -1,3 +1,5 @@
+/* By: https://github.com/azrizhaziq */
+
 @keyframes heartbeat-azrizhaziq {
   0% {
     transform: scale(0.75);
@@ -24,7 +26,7 @@
   }
 }
 
-.heartbeat-azrizhaziq {
+.heartbeat-by-azrizhaziq {
   color: #ff3f3f;
   animation: heartbeat-azrizhaziq 2.5s ease-in-out infinite;
   text-shadow: -1px 4px 12px #924040, 5px 6px 12px black;
