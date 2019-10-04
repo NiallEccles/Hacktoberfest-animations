@@ -40,3 +40,6 @@ typewriter by [aihowes](https://github.com/aihowes)
 
 ![pumpkins by ashwoodall](https://raw.githubusercontent.com/NiallEccles/Hacktoberfest-animations/master/showcase/pumpkins.gif)
 pumpkins by [ashwoodall](https://github.com/ashwoodall)
+
+![border rainbow by brunobolting](https://raw.githubusercontent.com/NiallEccles/Hacktoberfest-animations/master/showcase/border-rainbow.gif)
+border-rainbow by [brunobolting](https://github.com/brunobolting)
