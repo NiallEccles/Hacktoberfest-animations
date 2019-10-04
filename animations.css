@@ -2163,7 +2163,7 @@
 
 /* Border Rainbow */
 
-.border-rainbow{
+.border-rainbow {
   padding: 20px;
   position: relative;
   color: #fff;
@@ -2190,7 +2190,7 @@
   
 }
 
-@keyframes border-rainbow{
+@keyframes border-rainbow {
   0%, 100%{
     background-image: 
       linear-gradient(115deg,#10cf40,#f8ce25,#800ff0,#0ea2dd),
@@ -2205,7 +2205,7 @@
       linear-gradient(115deg,#10cf40,#10cf40),
       linear-gradient(115deg,#f8ce25,#800ff0,#0ea2dd, #10cf40),
       linear-gradient(115deg,#f8ce25,#f8ce25);
-}
+  }
 
   50%{
     background-image: 
