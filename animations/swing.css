@@ -1,0 +1,19 @@
+@keyframes swing {
+  0% {
+    transform: rotateX(70deg);
+    transform-origin: top;
+    opacity: 0;
+  }
+
+  100% {
+    transform: rotateX(0deg);
+    transform-origin: top;
+    opacity: 1;
+  }
+}
+
+.swing {
+  animation-name: swing;
+  animation-duration: 0.8s;
+  animation-fill-mode: both;
+}

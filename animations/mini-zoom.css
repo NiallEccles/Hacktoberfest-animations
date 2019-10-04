@@ -1,0 +1,15 @@
+@keyframes mini-zoom {
+  from {
+    transform: scale(0);
+  }
+
+  to {
+    transform: scale(1);
+  }
+}
+
+.mini-zoom {
+  animation-name: mini-zoom;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}

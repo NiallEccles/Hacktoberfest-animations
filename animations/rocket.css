@@ -1,0 +1,31 @@
+@keyframes rocket {
+  0% {
+    left: -10px;
+  }
+  2.5% {
+    left: 10px;
+  }
+  5% {
+    left: -10px;
+  }
+  7.5% {
+      left: 10px;
+  }
+  10% {
+      left: -10px;
+  }
+  12.5% {
+      left: 10px;
+  }
+  35% {
+      top: 0px;
+  }
+  100% {
+      top: -600px;
+  }
+}
+
+.rocket {
+  position:relative;
+    animation: rocket 4s;
+}

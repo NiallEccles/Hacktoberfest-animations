@@ -1,0 +1,17 @@
+@keyframes spinning-very-slow {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.reallyslow {
+  -webkit-animation-name: spinning-very-slow;
+  animation-name: spinning-very-slow;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  animation-duration: 45s;
+}

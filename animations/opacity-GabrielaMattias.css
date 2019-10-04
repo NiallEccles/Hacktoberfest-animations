@@ -1,0 +1,14 @@
+@keyframes opacityText {
+  0%,
+  100% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+
+.opacity-GabrielaMattias {
+  animation: 6s linear normal none infinite opacityText;
+}
