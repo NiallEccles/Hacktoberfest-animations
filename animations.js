@@ -2,6 +2,7 @@ window.animations = [
   { name: 'aberration', author: 'cnsumner' },
   { name: 'backFlip', author: 'adsingh14' },
   { name: 'ballast', author: 'vijayranghar' },
+  { name: 'beat', author: 'patriciafelixx' },
   { name: 'boogie', author: 'jdsteinbach' },
   { name: 'border-rainbow', author: 'brunobolting' },
   { name: 'borderblend', author: 'erikadionn' },
