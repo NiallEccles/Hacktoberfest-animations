@@ -6,7 +6,7 @@ Hey there! Welcome to Hacktoberfest Animations! Here you can create your very ow
 - Fork this repo
 - Create a new CSS file with your cool animation name inside `./animations` folder, be creative!
 - Edit the `./animations.js` file to include your animation using the following structure:
-```json
+```js
 {
     name: 'the-name-of-your-animation',
     author: 'your-github-username'
