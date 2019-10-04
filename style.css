@@ -65,6 +65,29 @@ select {
   max-width: 70vw;
 }
 
+.refresh-btn{
+  margin-top: 50px;
+  margin-bottom: 20px;
+  padding: 5px;
+  height: 34px;
+  scale: 200%;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  background-color: transparent;
+  border: 0;
+  vertical-align: top;
+}
+.refresh-btn:hover img{
+  transform: rotate(360deg);
+}
+
+.refresh-btn img{
+  max-height: 20px;
+  transition: transform 0.3s ease-in-out;
+}
+
 @media only screen and (max-width: 835px) {
   .title {
     font-size: 46px !important;
