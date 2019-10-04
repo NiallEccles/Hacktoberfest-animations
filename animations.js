@@ -33,6 +33,7 @@ window.animations = [
   { name: 'mini-zoom', author: 'NiallEccles' },
   { name: 'nanananabatman', author: 'Pamblam' },
   { name: 'neon', author: 'AllDayAlone' },
+  { name: 'neonplus', author: 'AdrianoBiolchi' },
   { name: 'opacity-by-gabrielamattias', author: 'GabrielaMattias' },
   { name: 'orangeisthenewblack', author: 'kevinhuddy' },
   { name: 'pivot', author: 'ronlaniado' },
