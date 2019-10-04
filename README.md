@@ -6,7 +6,7 @@ Small animation selector for Hacktoberfest
 - Fork this repo
 - Create a new CSS file with your cool animation name inside `./animations` folder, be creative!
 - Edit the `./animations.js` file to include your animation using the following structure:
-```json
+```js
 {
     name: 'the-name-of-your-animation',
     author: 'your-github-username'
@@ -50,3 +50,6 @@ pumpkins by [ashwoodall](https://github.com/ashwoodall)
 
 ![border rainbow by brunobolting](https://raw.githubusercontent.com/NiallEccles/Hacktoberfest-animations/master/showcase/border-rainbow.gif)
 border-rainbow by [brunobolting](https://github.com/brunobolting)
+
+## Notable Contributions
+Huge thanks to [reebr](https://github.com/reebr) for massively improving the structure of the project.
