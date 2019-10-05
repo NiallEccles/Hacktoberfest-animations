@@ -70,4 +70,5 @@ window.animations = [
   { name: 'wiggle', author: 'HJain13' },
   { name: 'zoomIn', author: 'MansiNegi27' },
   { name: 'zoomright', author: 'sunny-aguilar' },
+  { name: 'change-color', author:'lozinska' }
 ]

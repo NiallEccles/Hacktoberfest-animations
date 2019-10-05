@@ -1,0 +1,9 @@
+/* By: https://github.com/lozinska*/
+
+@keyframes chgclr {
+    from{color:red}
+    to{color:yellow}
+  }
+  .change-color{
+    animation: chgclr 5s infinite;
+  }
