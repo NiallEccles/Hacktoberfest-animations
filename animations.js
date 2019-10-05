@@ -15,6 +15,7 @@ window.animations = [
   { name: 'colourfull', author: 'hurleyandrew' },
   { name: 'colours', author: 'zerossb' },
   { name: 'crazy-monkey', author: 'fernanDOTdo' },
+  { name: 'digyan', author: 'silvasobrinho' },
   { name: 'dropbr', author: 'AlbericoD' },
   { name: 'explode', author: 'AmiterCodes' },
   { name: 'fadeSlideDown', author: 'adsingh14' },
