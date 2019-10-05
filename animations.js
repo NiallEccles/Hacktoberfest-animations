@@ -33,7 +33,6 @@ window.animations = [
   { name: 'heartbeat-by-azrizhaziq', author: 'azrizhaziq' },
   { name: 'heartbeat', author: 'sunny-aguilar' },
   { name: 'hibouCoucou', author: 'af1ne' },
-  { name: 'letter-rain', author: 'Demysdcl' },
   { name: 'jello', author: 'adsingh14' },
   { name: 'jump', author: 'AmiterCodes' },
   { name: 'mini-zoom', author: 'NiallEccles' },
