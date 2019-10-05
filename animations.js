@@ -69,6 +69,7 @@ window.animations = [
   { name: 'swing-by-lumuscode', author: 'LumusCode' },
   { name: 'swing', author: 'kenante' },
   { name: 'tada', author: 'marimendes' },
+  { name: 'top-down', author: 'Demysdcl' },
   { name: 'tipsy', author: 'Maria218' },
   { name: 'toospooky', author: 'erikadionn' },
   { name: 'typewriter', author: 'aihowes' },
