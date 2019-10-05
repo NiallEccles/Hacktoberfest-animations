@@ -1,0 +1,33 @@
+/* By: https://github.com/erikadionn */
+
+@keyframes toospooky {
+  from {
+    background: #dce35b;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    opacity: 1;
+    filter: blur(1px);
+    letter-spacing: 1px;
+  }
+  to {
+    background: #ff7700;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: blur(5px);
+    letter-spacing: 15px;
+    opacity: 0;
+  }
+}
+
+.toospooky {
+  animation: toospooky;
+  color: #dce35b;
+  background: #ff7700;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  letter-spacing: 1px;
+}

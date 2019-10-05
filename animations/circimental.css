@@ -1,0 +1,27 @@
+/* By: https://github.com/isfatul-codersbd */
+
+@-webkit-keyframes circimental {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+@keyframes circimental {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+.circimental {
+	-webkit-animation: rotate-center 1s cubic-bezier(0.600, -0.280, 0.735, 0.045) both;
+	        animation: rotate-center 1s cubic-bezier(0.600, -0.280, 0.735, 0.045) both;
+}

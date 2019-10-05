@@ -1,0 +1,24 @@
+/* By: https://github.com/llespinasse */
+
+@keyframes float {
+  0% {
+    top: -30px;
+    opacity: 1;
+  }
+
+  50% {
+    top: 0px;
+    opacity: 0.2;
+  }
+
+  100% {
+    top: -30px;
+    opacity: 1;
+  }
+}
+
+.floatTitle {
+  animation: float 2s infinite;
+  position: relative;
+  top: -30px;
+}

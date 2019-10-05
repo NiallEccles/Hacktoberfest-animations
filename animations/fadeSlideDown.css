@@ -1,0 +1,16 @@
+/* By: https://github.com/adsingh14 */
+
+@keyframes fadeSlideDown {
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
+
+.fadeSlideDown {
+  animation: fadeSlideDown 0.7s ease forwards;
+  opacity: 0;
+  position: relative;
+  top: -40px;
+  transition: top 1s;
+}
