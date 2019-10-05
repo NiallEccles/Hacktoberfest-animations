@@ -8,6 +8,7 @@ window.animations = [
   { name: 'borderblend', author: 'erikadionn' },
   { name: 'bounce', author: 'marekgebka' },
   { name: 'bounceAround', author: 'wendelleloi' },
+  { name: 'change-color', author:'lozinska' },
   { name: 'chillerColor', author: 'mel2121' },
   { name: 'circimental', author: 'isfatul-codersbd' },
   { name: 'classyAppear', author: 'roganoalien' },
