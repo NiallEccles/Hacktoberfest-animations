@@ -1,6 +1,6 @@
 /* By: https://github.com/marcosceo */
 
-@keyframes huricane {
+@keyframes hurricane {
 0% {
     transform: scale(0) rotate(0deg);
 }
@@ -10,6 +10,6 @@
 }
 }
 
-.huricane {
-animation: huricane 3s ease-in-out;
+.hurricane {
+animation: hurricane 3s ease-in-out;
 }
