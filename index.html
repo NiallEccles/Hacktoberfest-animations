@@ -1,109 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Hacktoberfest Animations</title>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400|Warnes" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css" />
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="animations.css">
-</head>
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400|Warnes"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css"
+    />
+    <link rel="stylesheet" href="assets/style.css" />
+  </head>
 
-<body class="level-item">
+  <body class="level-item">
     <section class="section section-white text-center">
-        <!--  here is the sample animation -->
-        <h1 id="target" class="title scare" data-text="Hacktoberfest animations">Hacktoberfest animations</h1>
-        <!--  here you can add your own animation -->
-        <select onchange="getAnimationName()" id="animationSelect">
-            <option value="pumpkins" data-link="https://github.com/ashwoodall">pumpkins - ashwoodall</option>
-            <option value="circimental" data-link="https://github.com/isfatul-codersbd">circimental - isfatul-codersbd</option>
-            <option value="scare" data-link="https://github.com/NiallEccles">Scare - NiallEccles</option>
-            <option value="mini-zoom" data-link="https://github.com/NiallEccles">Mini Zoom - NiallEccles</option>
-            <option value="wiggle" data-link="https://github.com/HJain13">Wiggle - HJain13</option>
-            <option value="flash" data-link="https://github.com/haych8">Flash - haych8</option>
-            <option value="stretchout" data-link="https://github.com/s-Hale">s-Hale - Stretchout</option>
-            <option value="jump" data-link="https://github.com/AmiterCodes">Jump - AmiterCodes</option>
-            <option value="explode" data-link="https://github.com/AmiterCodes">Explode - AmiterCodes</option>
-            <option value="bounce" data-link="https://github.com/marekgebka">Bounce - MarekGebka</option>
-            <option value="colours" data-link="https://github.com/zerossb">Colours - zerossB</option>
-            <option value="rollIn" data-link="https://github.com/kylerits">Roll In - kylerits</option>
-            <option value="swing" data-link="https://github.com/kenante">Swing - Kenante</option>
-            <option value="nanananabatman" data-link="https://github.com/Pamblam">Na Na Na Na Batman! - Pamblam</option>
-            <option value="tada" data-link="https://github.com/marimendes">Tada - MariMendes</option>
-            <option value="boogie" data-link="https://github.com/jdsteinbach">Boogie - jdsteinbach</option>
-            <option value="heartbeat" data-link="https://github.com/sunny-aguilar">Heartbeat - sunny-aguilar</option>
-            <option value="neon" data-link="https://github.com/AllDayAlone">Neon - Kalugin Pavel</option>
-            <option value="walk" data-link="https://github.com/melkyy">walk - Melky </option>
-            <option value="rollOut" data-link="https://github.com/ronlaniado">Roll Out - ronlaniado</option>
-            <option value="rollIn" data-link="https://github.com/ronlaniado">Roll In - ronlaniado</option>
-            <option value="colourfull" data-link="https://github.com/hurleyandrew">Colourfull - hurleyandrew</option>
-            <option value="glitch" data-link="https://github.com/dansegliode">Glitch - dansegliode</option>
-            <option value="spinning" data-link="https://github.com/lucas-barros">Spinning - lucasBarros</option>
-            <option value="glitch-OhmSainz" data-link="https://github.com/OhmSainz">Glitch - OhmSainz</option>
-            <option value="heartbeat-azrizhaziq" data-link="https://github.com/azrizhaziq">Heartbeat - Azriz Haziq</option>
-            <option value="fromright" data-link="https://github.com/jespicas">Fromright - jespicas</option>
-            <option value="halloween" data-link="https://github.com/honeyyenoh">Halloween - honeyyenoh</option>
-            <option value="zoomIn" data-link="https://github.com/MansiNegi27">zoomIn - MansiNegi27</option>
-            <option value="typewriter" data-link="https://github.com/aihowes">Typewriter - aihowes</option>
-            <option value="classyAppear" data-link="https://github.com/roganoalien">Classy Appear - roganoalien</option>
-            <option value="split-and-twist" data-link="https://github.com/viciouskitten">Split &amp; Twist -
-                ViciousKitten</option>
-            <option value="zoomright" data-link="https://github.com/sunny-aguilar">Zoom Right - sunny</option>
-            <option value="pivot" data-link="https://github.com/ronlaniado">pivot - ronlaniado</option>
-            <option value="color_changes" data-link="https://github.com/rishabhp99">color_changes - rishabhp99</option>
-            <option value="rainbow" data-link="https://github.com/shanejustice">rainbow - shanejustice</option>
-            <option value="spooky" data-link="https://github.com/elizabethfinedev">spooky - elizabethfinedev</option>
-            <option value="focusBlur" data-link="https://github.com/Swong87">Focus Blur - Swong87</option>
-            <option value="opacity-GabrielaMattias" data-link="https://github.com/GabrielaMattias">opacity -
-                GabrielaMattias</option>
-            <option value="jello" data-link="https://github.com/adsingh14">Jello - adsingh14</option>
-            <option value="fadeSlideDown" data-link="https://github.com/adsingh14">fadeSlideDown - adsingh14</option>
-            <option value="fadeSlideUp" data-link="https://github.com/adsingh14">fadeSlideUp - adsingh14</option>
-            <option value="chillerColor" data-link="https://github.com/mel2121">chillerColor - mel2121</option>
-            <option value="spookyDoor-cgduncan7" data-link="https://github.com/cgduncan7">Spooky Door - cgduncan7</option>
-            <option value="floatTitle" data-link="https://github.com/llespinasse">Floating Title - llespinasse</option>
-            <option value="showRight" data-link="https://github.com/janczer">Show right - janczer</option>
-            <option value="hibouCoucou" data-link="https://github.com/af1ne">hibouCoucou - af1ne</option>
-            <option value="shaking-blinking" data-link="https://github.com/redpop">Shaking Blinking - redpop</option>
-            <option value="backFlip" data-link="https://github.com/adsingh14">backFlip - adsingh14</option>
-            <option value="orangeisthenewblack" data-link="https://github.com/kevinhuddy">Orangeisthenewblack - kevinhuddy</option>
-            <option value="aberration" data-link="https://github.com/cnsumner">aberration - cnsumner</option>
-            <option value="toospooky" data-link="https://github.com/erikadionn">Too Spooky - ErikaDionn</option>
-            <option value="scale" data-link="https://github.com/addenordh">scale - AddeNordh</option>
-            <option value="strangerthings" data-link="https://github.com/crownedpigeon">Stranger Things - crownedpigeon</option>
-            <option value="borderblend" data-link="https://github.com/erikadionn">Border Blend - ErikaDionn</option>
-            <option value="reallyslow" data-link="https://github.com/rlavooij">Reallyslow - Rlavooij</option>
-            <option value="secret" data-link="https://github.com/chintanmshah">Secret - chintanmshah</option>
-            <option value="smoke" data-link="https://github.com/chintanmshah">Smoke - chintanmshah</option>
-            <option value="tipsy" data-link="https://github.com/Maria218">Tipsy - Maria218</option>
-            <option value="haleemah" data-link="https://github.com/bolajiscott">haleemah - bolajiscott</option>
-            <option value="rainbow" data-link="https://github.com/vijayranghar">Rainbow - vijayranghar</option>
-            <option value="ballast" data-link="https://github.com/vijayranghar">ballast - vijayranghar</option>
-            <option value="bounceAround" data-link="https://github.com/wendelleloi">BounceAround  - Wendelleloi</option>
-            <option value="pulse-y" data-link="https://github.com/jessicavrooyen">Pulse - jessicavrooyen</option>
-            <option value="fadeInLeft" data-link="https://github.com/chisom5">fadeInLeft - chisom5</option>
-            <option value="rocket" data-link="https://github.com/ellieya">Rocket - ellieya</option>
-            <option value="swing" data-link="https://github.com/LumusCode">Swing - lumuscode</option>
-            <option value="boogie" data-link="https://github.com/Xhika">Boogie - xhika</option>
-            <option value="border-rainbow" data-link="https://github.com/brunobolting">Border Rainbow - brunobolting</option>
-            <option value="flip" data-link="https://github.com/TiagoBehenck/">Flip - TiagoBehenck</option>
-            <option value="rotateScaleColor" data-link="https://github.com/dankmir">RotateScaleColor - dankmir</option>
-            <option value="dropbr" data-link="https://github.com/AlbericoD">Dropbr - AlbericoD</option>
-        </select>
-        <!--  here we show the animation name and who contribute with it -->
-        <div id="detail_elements" class="padding white max-w">
-            <h3>Animation name: <span id="animationName"></span></h3>
-            <h3>Submitted by: <a target="_blank" style="color:#00ffff;" rel="noopener noreferrer" id="userName"></a></h3>
-        </div>
-        <a class="custom-btn button" href="https://github.com/NiallEccles/Hacktoberfest-animations">
-            <img src="./logo-github.png" style="width: 20px; margin-right:10px;" alt="Logo Github">
-            Contribute
-        </a>
+      <!--  here is the sample animation -->
+      <h1 id="target" class="title scare" data-text="Hacktoberfest animations">
+        Hacktoberfest animations
+      </h1>
+      <!--  here the animations will be inserted -->
+      <select id="animationSelect" onchange="getAnimationName()"></select>
+      <!--  here we show the animation name and who contribute with it -->
+      <div id="detail_elements" class="padding white max-w">
+        <h3>Animation name: <span id="animationName"></span></h3>
+        <h3>
+          Submitted by:
+          <a target="_blank" style="color:#00ffff;" rel="noopener noreferrer" id="userName"></a>
+        </h3>
+      </div>
+      <a class="custom-btn button" href="https://github.com/NiallEccles/Hacktoberfest-animations">
+        <img
+          src="./assets/logo-github.png"
+          style="width: 20px; margin-right:10px;"
+          alt="Logo Github"
+        />
+        Contribute
+      </a>
     </section>
-    <script src="script.js"></script>
-</body>
-
+    <script src="animations.js"></script>
+    <script src="assets/script.js"></script>
+  </body>
 </html>

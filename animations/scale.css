@@ -1,0 +1,22 @@
+/* By: https://github.com/addenordh */
+
+@keyframes scale {
+  0% {
+    letter-spacing: -22px;
+    transition: scale(0);
+  }
+
+  100% {
+    letter-spacing: 10px;
+    transform: scale(1);
+  }
+}
+
+.scale {
+  transform: scale(0);
+  animation: scale;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(1, -0.6, 0.19, 1.69);
+  animation-direction: alternate-reverse;
+}
