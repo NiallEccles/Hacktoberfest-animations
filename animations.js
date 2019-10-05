@@ -19,6 +19,7 @@ window.animations = [
   { name: 'crazy-rotation', author: 'Demysdcl' },
   { name: 'digyan', author: 'silvasobrinho' },
   { name: 'dropbr', author: 'AlbericoD' },
+  { name: 'excited', author: 'torelafes' },
   { name: 'explode', author: 'AmiterCodes' },
   { name: 'fadeSlideDown', author: 'adsingh14' },
   { name: 'fadeSlideUp', author: 'adsingh14' },
