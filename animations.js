@@ -73,4 +73,5 @@ window.animations = [
   { name: 'zoomright', author: 'sunny-aguilar' },
   { name: 'zoomInLeft', author: 'fernandosutter' },
   { name: 'lightSpeedIn', author: 'fernandosutter' },
+  { name: 'hinge', author: 'fernandosutter' },
 ]
