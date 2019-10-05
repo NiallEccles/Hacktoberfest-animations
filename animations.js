@@ -25,6 +25,7 @@ window.animations = [
   { name: 'firetext', author: 'KrindgesJuliano' },
   { name: 'flash', author: 'haych8' },
   { name: 'flip', author: 'TiagoBehenck' },
+  { name: 'flipInX', author: 'fernandosutter' },
   { name: 'floatTitle', author: 'llespinasse' },
   { name: 'focusBlur', author: 'Swong87' },
   { name: 'fromright', author: 'jespicas' },
@@ -35,8 +36,11 @@ window.animations = [
   { name: 'heartbeat-by-azrizhaziq', author: 'azrizhaziq' },
   { name: 'heartbeat', author: 'sunny-aguilar' },
   { name: 'hibouCoucou', author: 'af1ne' },
+  { name: 'hinge', author: 'fernandosutter' },
+  { name: 'jackInTheBox', author: 'fernandosutter' },
   { name: 'jello', author: 'adsingh14' },
   { name: 'jump', author: 'AmiterCodes' },
+  { name: 'lightSpeedIn', author: 'fernandosutter' },
   { name: 'mini-zoom', author: 'NiallEccles' },
   { name: 'nanananabatman', author: 'Pamblam' },
   { name: 'neon', author: 'AllDayAlone' },
@@ -80,8 +84,4 @@ window.animations = [
   { name: 'zoomIn', author: 'MansiNegi27' },
   { name: 'zoomright', author: 'sunny-aguilar' },
   { name: 'zoomInLeft', author: 'fernandosutter' },
-  { name: 'lightSpeedIn', author: 'fernandosutter' },
-  { name: 'hinge', author: 'fernandosutter' },
-  { name: 'jackInTheBox', author: 'fernandosutter' },
-  { name: 'flipInX', author: 'fernandosutter' }
 ]
