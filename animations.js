@@ -21,6 +21,7 @@ window.animations = [
   { name: 'explode', author: 'AmiterCodes' },
   { name: 'fadeSlideDown', author: 'adsingh14' },
   { name: 'fadeSlideUp', author: 'adsingh14' },
+  { name: 'firetext', author: 'KrindgesJuliano' },
   { name: 'flash', author: 'haych8' },
   { name: 'flip', author: 'TiagoBehenck' },
   { name: 'floatTitle', author: 'llespinasse' },
