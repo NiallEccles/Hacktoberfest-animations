@@ -15,6 +15,7 @@ window.animations = [
   { name: 'colourfull', author: 'hurleyandrew' },
   { name: 'colours', author: 'zerossb' },
   { name: 'crazy-monkey', author: 'fernanDOTdo' },
+  { name: 'crazy-rotation', author: 'Demysdcl' },
   { name: 'digyan', author: 'silvasobrinho' },
   { name: 'dropbr', author: 'AlbericoD' },
   { name: 'explode', author: 'AmiterCodes' },
@@ -78,5 +79,5 @@ window.animations = [
   { name: 'lightSpeedIn', author: 'fernandosutter' },
   { name: 'hinge', author: 'fernandosutter' },
   { name: 'jackInTheBox', author: 'fernandosutter' },
-  { name: 'flipInX', author: 'fernandosutter' },
+  { name: 'flipInX', author: 'fernandosutter' }
 ]
