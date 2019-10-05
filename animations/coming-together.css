@@ -1,4 +1,10 @@
-/* By: https://github.com/aihowes */
+/* By: https://github.com/Demysdcl */
+
+:root {
+  --max-margin: 200px;
+  --min-margin: 5px;
+  --time: 2s;
+}
 
 @keyframes coming-together {
   from {
@@ -17,7 +23,7 @@
   font-family: monospace;
   margin-left: auto;
   margin-right: auto;
-  animation: coming-together 1s   infinite;
+  animation: coming-together var(--time) infinite;
   position: relative;
 }
 .coming-together::after,
@@ -31,10 +37,35 @@
   margin: 20px;
 }
 
+
+@keyframes after-moviment {
+  from {
+    margin-left: var(--max-margin);
+  }
+
+  to {
+    margin-left: var(--min-margin);
+  }
+
+}
+
 .coming-together::after {
   transform: rotate(135deg);
+  animation: after-moviment var(--time) infinite;
+}
+
+@keyframes before-moviment {
+  from {
+    margin-right: var(--max-margin);
+  }
+
+  to {
+    margin-right: var(--min-margin);
+  }
+
 }
 
 .coming-together::before {
   transform: rotate(-45deg);
+  animation: before-moviment var(--time) infinite;
 }
