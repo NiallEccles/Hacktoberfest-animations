@@ -75,4 +75,5 @@ window.animations = [
   { name: 'lightSpeedIn', author: 'fernandosutter' },
   { name: 'hinge', author: 'fernandosutter' },
   { name: 'jackInTheBox', author: 'fernandosutter' },
+  { name: 'flipInX', author: 'fernandosutter' },
 ]
