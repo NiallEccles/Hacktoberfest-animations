@@ -1,0 +1,25 @@
+ from {
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+letter-spacing: 4px;
+ }
+to {
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+ letter-spacing: 205px;
+opacity: 1;
+}
+}
+.anushkanarula {
+animation: anushkanarula;
+color: #10a9e632;
+background: #01293832;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+-webkit-text-stroke-width: 4px;
+ -webkit-text-stroke-color: #000;
+animation-duration: 3s;
+animation-timing-function: linear;
+animation-iteration-count: infinite;
+animation-direction: alternate-reverse; }
+}
