@@ -44,6 +44,7 @@ window.animations = [
   { name: 'rainbow-by-vijayranghar', author: 'vijayranghar' },
   { name: 'rainbow', author: 'shanejustice' },
   { name: 'reallyslow', author: 'rlavooij' },
+  { name: 'reduce', author: 'dayanFreitas' },
   { name: 'rocket', author: 'ellieya' },
   { name: 'rollin-by-kylerits', author: 'kylerits' },
   { name: 'rollIn', author: 'ronlaniado' },
