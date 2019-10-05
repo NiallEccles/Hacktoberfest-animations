@@ -14,6 +14,7 @@ window.animations = [
   { name: 'color_changes', author: 'rishabhp99' },
   { name: 'colourfull', author: 'hurleyandrew' },
   { name: 'colours', author: 'zerossb' },
+  { name: 'dropbr', author: 'AlbericoD' },
   { name: 'explode', author: 'AmiterCodes' },
   { name: 'fadeSlideDown', author: 'adsingh14' },
   { name: 'fadeSlideUp', author: 'adsingh14' },
