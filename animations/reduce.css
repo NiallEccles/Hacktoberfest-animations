@@ -1,0 +1,45 @@
+/* By: https://github.com/Dayanfreitas */
+/* reduce */
+
+@keyframes reduce {
+    0% {
+      color: #ff00aa;
+      -webkit-transform: scaleX(2);
+              transform: scaleX(2);
+      -webkit-filter: blur(2px);
+              filter: blur(2px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: scaleX(1);
+              transform: scaleX(1);
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+      
+    }
+}
+@-webkit-keyframes reduce {
+    0% {
+        color:#ff00dd34;
+        -webkit-transform: scaleX(2);
+                transform: scaleX(2);
+        -webkit-filter: blur(2px);
+                filter: blur(2px);
+        opacity: 0;
+      }
+      100% {
+        -webkit-transform: scaleX(1);
+                transform: scaleX(1);
+        -webkit-filter: blur(0px);
+                filter: blur(0px);
+        opacity: 1;
+        
+      }
+}
+
+.reduce {
+    font-style: "Monospace", monospace;
+    color:#ff00aa;
+    animation: reduce 1.7s;
+  }
