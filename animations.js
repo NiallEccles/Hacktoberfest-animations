@@ -4,6 +4,7 @@ window.animations = [
   { name: 'ballast', author: 'vijayranghar' },
   { name: 'beat', author: 'patriciafelixx' },
   { name: 'boogie', author: 'jdsteinbach' },
+  { name: 'bop', author: 'cutted' },
   { name: 'border-rainbow', author: 'brunobolting' },
   { name: 'borderblend', author: 'erikadionn' },
   { name: 'bounce', author: 'marekgebka' },
