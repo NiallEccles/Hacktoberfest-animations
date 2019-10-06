@@ -1,6 +1,6 @@
 /* By: https://github.com/rishabhp99 */
 
-@keyframes color_changes {
+@keyframes colour-changes {
   0% {
     background-color: green;
     left: 0px;
@@ -30,4 +30,10 @@
     left: 0px;
     top: 0px;
   }
+}
+
+.colour-changes {
+  animation-name: colour-changes;
+  animation-duration: 2s;
+  animation-timing-function: ease-out, linear;
 }
