@@ -15,6 +15,7 @@ window.animations = [
   { name: 'color_changes', author: 'rishabhp99' },
   { name: 'colourfull', author: 'hurleyandrew' },
   { name: 'colours', author: 'zerossb' },
+  { name: 'coming-together', author: 'Demysdcl' },
   { name: 'crazy-monkey', author: 'fernanDOTdo' },
   { name: 'crazy-rotation', author: 'Demysdcl' },
   { name: 'digyan', author: 'silvasobrinho' },

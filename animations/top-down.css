@@ -30,7 +30,6 @@
   height: 24px;
   border-right: 6px solid white;
   border-bottom: 6px solid white;
-  text-align: center;
   transform: rotate(-135deg) ;
   animation: rotate 3s 0s alternate infinite;
   margin: 20px;
