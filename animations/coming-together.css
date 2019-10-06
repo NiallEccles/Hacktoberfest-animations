@@ -1,0 +1,71 @@
+/* By: https://github.com/Demysdcl */
+
+:root {
+  --max-margin: 200px;
+  --min-margin: 5px;
+  --time: 2s;
+}
+
+@keyframes coming-together {
+  from {
+    word-spacing: 100vw;
+  }
+
+  to {
+    word-spacing: 10px;
+  }
+
+}
+
+.coming-together {
+  display: flex;
+  white-space: nowrap;
+  font-family: monospace;
+  margin-left: auto;
+  margin-right: auto;
+  animation: coming-together var(--time) infinite;
+  position: relative;
+}
+.coming-together::after,
+.coming-together::before {
+  content: "";
+  display: flex;
+  width: 24px;
+  height: 24px;
+  border-right: 6px solid white;
+  border-bottom: 6px solid white;
+  margin: 20px;
+}
+
+
+@keyframes after-moviment {
+  from {
+    margin-left: var(--max-margin);
+  }
+
+  to {
+    margin-left: var(--min-margin);
+  }
+
+}
+
+.coming-together::after {
+  transform: rotate(135deg);
+  animation: after-moviment var(--time) infinite;
+}
+
+@keyframes before-moviment {
+  from {
+    margin-right: var(--max-margin);
+  }
+
+  to {
+    margin-right: var(--min-margin);
+  }
+
+}
+
+.coming-together::before {
+  transform: rotate(-45deg);
+  animation: before-moviment var(--time) infinite;
+}
