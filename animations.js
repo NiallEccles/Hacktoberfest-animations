@@ -48,6 +48,7 @@ window.animations = [
   { name: 'opacity-by-gabrielamattias', author: 'GabrielaMattias' },
   { name: 'orangeisthenewblack', author: 'kevinhuddy' },
   { name: 'ping', author: 'Tatvam'},
+  { name: 'piston', author: 'sockopera'},
   { name: 'pivot', author: 'ronlaniado' },
   { name: 'pulse-y', author: 'jessicavrooyen' },
   { name: 'pumpkins', author: 'ashwoodall' },
