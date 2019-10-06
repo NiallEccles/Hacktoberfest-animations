@@ -13,7 +13,7 @@ window.animations = [
   { name: 'chillerColor', author: 'mel2121' },
   { name: 'circimental', author: 'isfatul-codersbd' },
   { name: 'classyAppear', author: 'roganoalien' },
-  { name: 'color_changes', author: 'rishabhp99' },
+  { name: 'colour-changes', author: 'rishabhp99' },
   { name: 'colourfull', author: 'hurleyandrew' },
   { name: 'colours', author: 'zerossb' },
   { name: 'coming-together', author: 'Demysdcl' },
