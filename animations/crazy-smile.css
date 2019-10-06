@@ -1,0 +1,31 @@
+/* By: https://github.com/fatik07 */
+
+@keyframes crazy-smile {
+  0% {
+    letter-spacing: -5px;
+  }
+
+  20% {
+    letter-spacing: 5px;
+  }
+
+  80% {
+    letter-spacing: 10px;
+  }
+
+  100% {
+    letter-spacing: -5px;
+  }
+}
+
+.crazy-smile {
+  white-space: nowrap;
+  text-transform: uppercase;
+  animation: crazy-smile 3s ease-in-out infinite;
+  color: rgb(0, 200, 235);
+}
+
+.crazy-smile::before,
+.crazy-smile::after {
+  content: "😀😅😇";
+}
