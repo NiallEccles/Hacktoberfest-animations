@@ -1,4 +1,4 @@
-.cvwind {
+.cvproud {
   background-image: url("https://i.ytimg.com/vi/-4R0hS9ute0/maxresdefault.jpg");
   color: transparent;
   -moz-background-clip: text;
@@ -12,7 +12,7 @@
   background-repeat: repeat-x;
   opacity: 1;
 }
-@keyframes cvwind {
+@keyframes cvproud {
   0% {
     background-position: 0 bottom;
   }
