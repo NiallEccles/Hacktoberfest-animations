@@ -18,6 +18,7 @@ window.animations = [
   { name: 'coming-together', author: 'Demysdcl' },
   { name: 'crazy-monkey', author: 'fernanDOTdo' },
   { name: 'crazy-rotation', author: 'Demysdcl' },
+  { name: 'cvproud', author: 'cdfortes' },
   { name: 'digyan', author: 'silvasobrinho' },
   { name: 'dropbr', author: 'AlbericoD' },
   { name: 'excited', author: 'torelafes' },
