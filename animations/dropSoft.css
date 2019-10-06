@@ -1,0 +1,57 @@
+/* By: https://github.com/AlbericoD */
+/* DropBR */
+
+.dropSoft {
+    animation: dropSoft 5s ease-in-out infinite;
+    animation-timing-function: ease;
+    -webkit-animation: dropSoft 5s ease-in-out infinite;
+    -webkit-animation-timing-function: ease;
+  
+    text-shadow: 0 16px 0px #000;
+    transform-origin: 50% 50%;
+  }
+  
+  @keyframes dropSoft {
+    0% {
+      transform: rotate(0) scale(1) translateY(0);
+      color: green;
+    }
+    25% {
+      transform: rotate(10deg) scale(1.5) translateY(8px);
+      color: blue;
+    }
+    50% {
+      transform: rotate(0) scale(1) translateY(0);
+      color: green;
+    }
+    75% {
+      transform: rotate(-10deg) scale(1.2) translateY(-8px);
+      color: blue;
+    }
+    100% {
+      transform: rotate(0) scale(1) translateY(0);
+      color: green;
+    }
+  }
+  @-webkit-keyframes dropSoft {
+    0% {
+      transform: rotate(0) scale(1) translateY(0);
+      color: green;
+    }
+    25% {
+      transform: rotate(10deg) scale(1.2) translateY(8px);
+      color: yellow;
+    }
+    50% {
+      transform: rotate(0) scale(1) translateY(0);
+      color: blue;
+    }
+    75% {
+      transform: rotate(-3deg) scale(1.2) translateY(-8px);
+      color: green;
+    }
+    100% {
+      transform: rotate(0) scale(1) translateY(0);
+      color: white;
+    }
+  }

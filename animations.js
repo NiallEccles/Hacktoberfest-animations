@@ -21,6 +21,7 @@ window.animations = [
   { name: 'cvproud', author: 'cdfortes' },
   { name: 'digyan', author: 'silvasobrinho' },
   { name: 'dropbr', author: 'AlbericoD' },
+  { name: 'dropSoft', author: 'Ellissandro' },
   { name: 'excited', author: 'torelafes' },
   { name: 'explode', author: 'AmiterCodes' },
   { name: 'fadeSlideDown', author: 'adsingh14' },
@@ -90,4 +91,5 @@ window.animations = [
   { name: 'zoomIn', author: 'MansiNegi27' },
   { name: 'zoomright', author: 'sunny-aguilar' },
   { name: 'zoomInLeft', author: 'fernandosutter' },
+ 
 ]
