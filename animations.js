@@ -17,6 +17,7 @@ window.animations = [
   { name: 'colours', author: 'zerossb' },
   { name: 'crazy-monkey', author: 'fernanDOTdo' },
   { name: 'crazy-rotation', author: 'Demysdcl' },
+  { name: 'cvproud', author: 'cdfortes' },
   { name: 'digyan', author: 'silvasobrinho' },
   { name: 'dropbr', author: 'AlbericoD' },
   { name: 'explode', author: 'AmiterCodes' },
