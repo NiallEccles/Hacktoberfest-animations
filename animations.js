@@ -21,7 +21,7 @@ window.animations = [
   { name: 'cvproud', author: 'cdfortes' },
   { name: 'digyan', author: 'silvasobrinho' },
   { name: 'dropbr', author: 'AlbericoD' },
-  { name: 'dropSoft', author: 'Ellissandro' },
+  { name: 'dropSoft', author: 'Ellissandro' }, 
   { name: 'excited', author: 'torelafes' },
   { name: 'explode', author: 'AmiterCodes' },
   { name: 'fadeSlideDown', author: 'adsingh14' },
