@@ -2,29 +2,29 @@
 
 @keyframes glitch-by-ohmsainz {
   0% {
-    clip-path: inset(70px 200px 56px 0);
+    clip-path: inset(70px 0 56px 0);
   }
 
   20% {
-    clip-path: inset(29px 200px 26px 0);
+    clip-path: inset(29px 0 26px 0);
   }
 
   40% {
-    clip-path: inset(46px 200px 3px 0);
+    clip-path: inset(46px 0 3px 0);
     transform: skew(25deg);
   }
 
   60% {
-    clip-path: inset(72px 200px 78px 0);
+    clip-path: inset(72px 0 78px 0);
     transform: skew(0deg);
   }
 
   80% {
-    clip-path: inset(15px 200px 13px 0);
+    clip-path: inset(15px 0 13px 0);
   }
 
   100% {
-    clip-path: inset(50px 200px 5px 0);
+    clip-path: inset(50px 0 5px 0);
   }
 }
 
