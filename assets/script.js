@@ -74,6 +74,8 @@ function loadAnimations(){
 }
 
 document.addEventListener('DOMContentLoaded', function(){
-  loadAnimations()
-  // select.addEventListener('change', ())
-})
+  select.addEventListener('change', function(){
+    getAnimationName();
+  })
+  loadAnimations();
+});
