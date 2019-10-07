@@ -29,6 +29,7 @@ window.animations = [
   { name: 'fadeRollOut', author: 'pavan1645' },
   { name: 'fadeSlideDown', author: 'adsingh14' },
   { name: 'fadeSlideUp', author: 'adsingh14' },
+  { name: 'failing', author: 'lucasagra' },
   { name: 'fire', author: 'marcelowis' },
   { name: 'firetext', author: 'KrindgesJuliano' },
   { name: 'flash', author: 'haych8' },
@@ -71,6 +72,7 @@ window.animations = [
   { name: 'rollin-by-kylerits', author: 'kylerits' },
   { name: 'rollIn', author: 'ronlaniado' },
   { name: 'rollOut', author: 'ronlaniado' },
+  { name: 'rotate-it', author: 'MrAfrazKhan' },
   { name: 'rotateScaleColor', author: 'dankmir' },
   { name: 'scale', author: 'addenordh' },
   { name: 'scare', author: 'NiallEccles' },
@@ -96,6 +98,4 @@ window.animations = [
   { name: 'zoomIn', author: 'MansiNegi27' },
   { name: 'zoomright', author: 'sunny-aguilar' },
   { name: 'zoomInLeft', author: 'fernandosutter' },
-  { name: 'rotate-it', author: 'MrAfrazKhan' },
-
 ]
