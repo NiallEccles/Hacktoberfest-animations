@@ -25,6 +25,8 @@ window.animations = [
   { name: 'dropSoft', author: 'Ellissandro' },
   { name: 'excited', author: 'torelafes' },
   { name: 'explode', author: 'AmiterCodes' },
+  { name: 'fadeRollIn', author: 'pavan1645' },
+  { name: 'fadeRollOut', author: 'pavan1645' },
   { name: 'fadeSlideDown', author: 'adsingh14' },
   { name: 'fadeSlideUp', author: 'adsingh14' },
   { name: 'fire', author: 'marcelowis' },
