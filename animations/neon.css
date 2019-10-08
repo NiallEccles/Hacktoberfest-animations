@@ -1,0 +1,21 @@
+/* By: https://github.com/AllDayAlone */
+
+@keyframes neon {
+  0%,
+  100% {
+    text-shadow: 0 0 1vw #fa1c16, 0 0 3vw #fa1c16, 0 0 10vw #fa1c16,
+      0 0 10vw #fa1c16, 0 0 0.4vw #fed128, 0.5vw 0.5vw 0.1vw #806914;
+    color: #fed128;
+  }
+
+  50% {
+    text-shadow: 0 0 0.5vw #800e0b, 0 0 1.5vw #800e0b, 0 0 5vw #800e0b,
+      0 0 5vw #800e0b, 0 0 0.2vw #800e0b, 0.5vw 0.5vw 0.1vw #40340a;
+    color: #806914;
+  }
+}
+
+.neon {
+  font-family: "Warnes", cursive;
+  animation: neon 2s ease-in-out infinite;
+}

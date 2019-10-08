@@ -1,0 +1,39 @@
+/* By: https://github.com/rishabhp99 */
+
+@keyframes colour-changes {
+  0% {
+    background-color: green;
+    left: 0px;
+    top: 0px;
+  }
+
+  25% {
+    background-color: yellow;
+    left: 250px;
+    top: 0px;
+  }
+
+  50% {
+    background-color: red;
+    left: 250px;
+    top: 2500px;
+  }
+
+  75% {
+    background-color: blue;
+    left: 0px;
+    top: 250px;
+  }
+
+  100% {
+    background-color: green;
+    left: 0px;
+    top: 0px;
+  }
+}
+
+.colour-changes {
+  animation-name: colour-changes;
+  animation-duration: 2s;
+  animation-timing-function: ease-out, linear;
+}

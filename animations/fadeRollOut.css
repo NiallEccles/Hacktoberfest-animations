@@ -1,0 +1,18 @@
+/* By https://github.com/pavan1645/ */
+
+@keyframes fadeRollOut {
+	from {
+		transform: rotate(0deg);
+		opacity: 1;
+	}
+	
+	to {
+		transform: rotate(90deg); 
+		opacity: 0; 
+	}
+}
+
+.fadeRollOut {
+	animation: fadeRollOut 1s;
+	transform-origin: 100% 50%;
+}

@@ -1,0 +1,30 @@
+/* By: https://github.com/silvasobrinho */
+
+@keyframes digyan {
+  from {
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 2px;
+  }
+  to {
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 15px;
+    opacity: 0;
+  }
+}
+
+.digyan {
+  animation: digyan;
+  color: #10a9e634;
+  background: #01293834;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #000;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  }
+}
