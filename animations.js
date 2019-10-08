@@ -37,6 +37,7 @@ window.animations = [
   { name: 'floatTitle', author: 'llespinasse' },
   { name: 'focusBlur', author: 'Swong87' },
   { name: 'fromright', author: 'jespicas' },
+  { name: 'ghost', author: 'FernandaDagostin' },
   { name: 'glitch-by-ohmsainz', author: 'OhmSainz' },
   { name: 'glitch', author: 'dansegliode' },
   { name: 'haleemah', author: 'bolajiscott' },
@@ -44,7 +45,7 @@ window.animations = [
   { name: 'heartbeat-by-azrizhaziq', author: 'azrizhaziq' },
   { name: 'heartbeat', author: 'sunny-aguilar' },
   { name: 'hibouCoucou', author: 'af1ne' },
-  { name: 'hinge', author: 'fernandosutter' },
+ // { name: 'hinge', author: 'fernandosutter' }, there is no file corresponding to this function
   { name: 'jackInTheBox', author: 'fernandosutter' },
   { name: 'hurricane', author: 'marcosceo' },
   { name: 'jello', author: 'adsingh14' },

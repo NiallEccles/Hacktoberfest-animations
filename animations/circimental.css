@@ -24,4 +24,5 @@
 .circimental {
 	-webkit-animation: rotate-center 1s cubic-bezier(0.600, -0.280, 0.735, 0.045) both;
 	        animation: rotate-center 1s cubic-bezier(0.600, -0.280, 0.735, 0.045) both;
+          animation-name: circimental;
 }
