@@ -78,6 +78,7 @@ window.animations = [
   { name: 'scale', author: 'addenordh' },
   { name: 'scare', author: 'NiallEccles' },
   { name: 'secret', author: 'chintanmshah' },
+  { name: 'shake', author: 'golomann'},
   { name: 'shaking-blinking', author: 'redpop' },
   { name: 'showRight', author: 'janczer' },
   { name: 'smoke', author: 'chintanmshah' },
