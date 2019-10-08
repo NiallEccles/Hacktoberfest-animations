@@ -57,6 +57,7 @@ window.animations = [
   { name: 'ping', author: 'Tatvam'},
   { name: 'piston', author: 'sockopera'},
   { name: 'pivot', author: 'ronlaniado' },
+  { name: 'pulse', author: 'makajeez'},
   { name: 'pulse-y', author: 'jessicavrooyen' },
   { name: 'pumpkins', author: 'ashwoodall' },
   { name: 'rainbow-by-vijayranghar', author: 'vijayranghar' },
