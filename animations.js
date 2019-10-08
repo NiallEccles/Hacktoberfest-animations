@@ -70,6 +70,7 @@ window.animations = [
   { name: 'rollIn', author: 'ronlaniado' },
   { name: 'rollOut', author: 'ronlaniado' },
   { name: 'rotateScaleColor', author: 'dankmir' },
+  { name: 'rubberband', author:'makajeez' },
   { name: 'scale', author: 'addenordh' },
   { name: 'scare', author: 'NiallEccles' },
   { name: 'secret', author: 'chintanmshah' },
