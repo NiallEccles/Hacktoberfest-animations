@@ -97,6 +97,7 @@ window.animations = [
   { name: 'typewriter', author: 'aihowes' },
   { name: 'walk', author: 'melkyy' },
   { name: 'wiggle', author: 'HJain13' },
+  { name: 'wobble', author: 'golomann'},
   { name: 'zoomIn', author: 'MansiNegi27' },
   { name: 'zoomright', author: 'sunny-aguilar' },
   { name: 'zoomInLeft', author: 'fernandosutter' },
