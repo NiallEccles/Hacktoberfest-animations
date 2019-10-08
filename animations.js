@@ -39,6 +39,7 @@ window.animations = [
   { name: 'floatTitle', author: 'llespinasse' },
   { name: 'focusBlur', author: 'Swong87' },
   { name: 'fromright', author: 'jespicas' },
+  { name: 'ghost', author: 'FernandaDagostin' },
   { name: 'glitch-by-ohmsainz', author: 'OhmSainz' },
   { name: 'glitch', author: 'dansegliode' },
   { name: 'haleemah', author: 'bolajiscott' },

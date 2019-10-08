@@ -57,8 +57,9 @@
 .swing-by-lumuscode {
   -webkit-transform-origin: top center;
   transform-origin: top center;
-  -webkit-animation-name: swing-by-LumusCode;
-  animation-name: swing-by-LumusCode infinite;
+  -webkit-animation-name: swing-by-lumuscode;
+  animation-name: swing-by-lumuscode infinite;
+  animation-duration: 5s;
   color: #18A288;
   text-shadow: 3px 3px 5px #fff;
 }
