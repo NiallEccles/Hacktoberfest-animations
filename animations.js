@@ -83,6 +83,7 @@ window.animations = [
   { name: 'secret', author: 'chintanmshah' },
   { name: 'shake', author: 'golomann'},
   { name: 'shaking-blinking', author: 'redpop' },
+  { name: 'slowglow', author: 'shailzaa' },
   { name: 'showRight', author: 'janczer' },
   { name: 'smoke', author: 'chintanmshah' },
   { name: 'spinning', author: 'lucas-barros' },
@@ -103,5 +104,5 @@ window.animations = [
   { name: 'wobble', author: 'golomann'},
   { name: 'zoomIn', author: 'MansiNegi27' },
   { name: 'zoomright', author: 'sunny-aguilar' },
-  { name: 'zoomInLeft', author: 'fernandosutter' },
+  { name: 'zoomInLeft', author: 'fernandosutter' }
 ]
