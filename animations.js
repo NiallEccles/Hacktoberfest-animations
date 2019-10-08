@@ -16,13 +16,14 @@ window.animations = [
   { name: 'colour-changes', author: 'rishabhp99' },
   { name: 'colourfull', author: 'hurleyandrew' },
   { name: 'colours', author: 'zerossb' },
+  { name: 'come-and-go', author: 'hoehooiyan' },
   { name: 'coming-together', author: 'Demysdcl' },
   { name: 'crazy-monkey', author: 'fernanDOTdo' },
   { name: 'crazy-rotation', author: 'Demysdcl' },
   { name: 'cvproud', author: 'cdfortes' },
   { name: 'digyan', author: 'silvasobrinho' },
   { name: 'dropbr', author: 'AlbericoD' },
-  { name: 'dropSoft', author: 'Ellissandro' }, 
+  { name: 'dropSoft', author: 'Ellissandro' },
   { name: 'excited', author: 'torelafes' },
   { name: 'explode', author: 'AmiterCodes' },
   { name: 'fadeSlideDown', author: 'adsingh14' },
@@ -92,5 +93,5 @@ window.animations = [
   { name: 'zoomIn', author: 'MansiNegi27' },
   { name: 'zoomright', author: 'sunny-aguilar' },
   { name: 'zoomInLeft', author: 'fernandosutter' },
- 
+
 ]
