@@ -25,6 +25,7 @@ window.animations = [
   { name: 'digyan', author: 'silvasobrinho' },
   { name: 'dropbr', author: 'AlbericoD' },
   { name: 'dropSoft', author: 'Ellissandro' },
+  { name: 'dingduang', author: 'isfatul-codersbd' },
   { name: 'excited', author: 'torelafes' },
   { name: 'explode', author: 'AmiterCodes' },
   { name: 'fadeRollIn', author: 'pavan1645' },
