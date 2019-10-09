@@ -1,0 +1,17 @@
+/* By: https://github.com/marcelomoser */
+
+@keyframes bounce-up-and-down {
+  20% { transform:translateY(0) }
+  30% { transform:translateY(-40px) }  
+  40% { transform:translateY(0) }
+  55% { transform:translateY(-35px) }
+  65% { transform:translateY(0) }
+  75% { transform:translateY(-25px) }
+  90% { transform:translateY(0px) } 
+  95% { transform:translateY(-7px) }
+  100% { transform:translateY(0) }
+}
+
+.bounce-up-and-down {
+  animation: bounce-up-and-down 3s infinite;
+}
