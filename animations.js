@@ -11,6 +11,7 @@ window.animations = [
   { name: 'bounce', author: 'marekgebka' },
   { name: 'bounceAround', author: 'wendelleloi' },
   { name: 'bounce-up-and-down', author: 'marcelomoser' },
+  { name: 'boxshadowglow', author: 'kopikob' },
   { name: 'change-color', author:'lozinska' },
   { name: 'chillerColor', author: 'mel2121' },
   { name: 'circimental', author: 'isfatul-codersbd' },
