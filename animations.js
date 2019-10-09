@@ -104,6 +104,7 @@ window.animations = [
   { name: 'toospooky', author: 'erikadionn' },
   { name: 'typewriter', author: 'aihowes' },
   { name: 'walk', author: 'melkyy' },
+  { name: 'warp-drive', author: 'chrisrhymes' },
   { name: 'wiggle', author: 'HJain13' },
   { name: 'wobble', author: 'golomann'},
   { name: 'zoomIn', author: 'MansiNegi27' },
