@@ -11,3 +11,7 @@
   95% { transform:translateY(-7px) }
   100% { transform:translateY(0) }
 }
+
+.bounce-up-and-down {
+  animation: bounce-up-and-down 3s infinite;
+}
