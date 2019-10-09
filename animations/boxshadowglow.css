@@ -1,0 +1,47 @@
+
+@keyframes boxshadowglow {
+    0% {
+        color: rgb(138, 196, 176);
+        text-shadow: 0 0 5px;
+        box-shadow: inset 0 0 0 50px #99c9df;
+    }
+    15% {
+        color: rgb(211, 151, 206);
+        text-shadow: 0 0 10px;
+        transform: translate(0px, 1px);  
+    }
+    25% {
+        color: rgb(211, 151, 206);
+        text-shadow: 0 0 3px;
+        transform: translate(0px, 1px);  
+    }
+    50% {
+        color: rgb(31, 121, 91);
+        text-shadow: 0 0 15px;
+        transform: translate(0px, 1px);
+    }
+    75% {
+        color: rgb(211, 151, 206); 
+        text-shadow: 0 0 3px;
+        transform: translate(0px, -1px);
+    }
+    85% {
+        color: rgb(211, 151, 206); 
+        text-shadow: 0 0 10px;
+        transform: translate(0px, -1px);
+    }
+    100% {
+        color: aquamarine;
+        text-shadow: 0 0 15px;
+    }
+}
+
+.boxshadowglow {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    animation: boxshadowglow 5s ease infinite;
+    animation-delay: 1s;
+}
+
+.boxshadowglow::after {
+    content: "  <3";
+}

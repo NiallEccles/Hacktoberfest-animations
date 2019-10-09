@@ -10,6 +10,7 @@ window.animations = [
   { name: 'borderblend', author: 'erikadionn' },
   { name: 'bounce', author: 'marekgebka' },
   { name: 'bounceAround', author: 'wendelleloi' },
+  { name: 'boxshadowglow', author: 'kopikob' },
   { name: 'change-color', author:'lozinska' },
   { name: 'chillerColor', author: 'mel2121' },
   { name: 'circimental', author: 'isfatul-codersbd' },
