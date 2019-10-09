@@ -1,6 +1,5 @@
 window.animations = [
   { name: 'aberration', author: 'cnsumner' },
-  { name: 'movelineal', author: 'carlacentenor' },
   { name: 'autumn-gradient', author: 'marichka-offen' },
   { name: 'backFlip', author: 'adsingh14' },
   { name: 'ballast', author: 'vijayranghar' },
@@ -56,6 +55,7 @@ window.animations = [
   { name: 'jump', author: 'AmiterCodes' },
   { name: 'lightSpeedIn', author: 'fernandosutter' },
   { name: 'mini-zoom', author: 'NiallEccles' },
+  { name: 'movelineal', author: 'carlacentenor' },
   { name: 'nanananabatman', author: 'Pamblam' },
   { name: 'neon', author: 'AllDayAlone' },
   { name: 'neonplus', author: 'AdrianoBiolchi' },
