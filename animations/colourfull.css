@@ -1,22 +1,26 @@
-/* By: https://github.com/hurleyandrew */
+/**
+ * /* By: https://github.com/hurleyandrew
+ *
+ * @format
+ */
 
 @keyframes colourfull {
-  0% {
-    color: red;
-  }
+	0% {
+		color: red;
+	}
 
-  50% {
-    color: black;
-  }
+	50% {
+		color: black;
+	}
 
-  100% {
-    color: orange;
-  }
+	100% {
+		color: orange;
+	}
 }
 
 .colourfull {
-  -webkit-animation-name: colourfull;
-  animation-name: colourfull;
-  animation-duration: 1s;
-  animation-timing-function: ease-in-out, bezier;
+	-webkit-animation-name: colourfull;
+	animation-name: colourfull;
+	animation-duration: 1s;
+	animation-timing-function: ease-in-out, bezier;
 }

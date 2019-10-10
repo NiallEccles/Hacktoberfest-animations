@@ -1,19 +1,23 @@
-/* By: https://github.com/lucas-barros */
+/**
+ * /* By: https://github.com/lucas-barros
+ *
+ * @format
+ */
 
 @keyframes spinning {
-  from {
-    transform: rotate(0deg);
-  }
+	from {
+		transform: rotate(0deg);
+	}
 
-  to {
-    transform: rotate(360deg);
-  }
+	to {
+		transform: rotate(360deg);
+	}
 }
 
 .spinning {
-  -webkit-animation-name: spinning;
-  animation-name: spinning;
-  -webkit-animation-timing-function: ease-in-out;
-  animation-timing-function: ease-in-out;
-  animation-duration: 3s;
+	-webkit-animation-name: spinning;
+	animation-name: spinning;
+	-webkit-animation-timing-function: ease-in-out;
+	animation-timing-function: ease-in-out;
+	animation-duration: 3s;
 }

@@ -1,10 +1,14 @@
-/* By: https://github.com/s-Hale */
+/**
+ * /* By: https://github.com/s-Hale
+ *
+ * @format
+ */
 
 .stretchout {
-  transition: 0.6s;
+	transition: 0.6s;
 }
 
 .stretchout:hover {
-  letter-spacing: 12px;
-  transition: 0.8s;
+	letter-spacing: 12px;
+	transition: 0.8s;
 }

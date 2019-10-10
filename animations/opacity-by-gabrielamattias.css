@@ -1,16 +1,20 @@
-/* By: https://github.com/GabrielaMattias */
+/**
+ * /* By: https://github.com/GabrielaMattias
+ *
+ * @format
+ */
 
 @keyframes opacityText {
-  0%,
-  100% {
-    opacity: 0;
-  }
+	0%,
+	100% {
+		opacity: 0;
+	}
 
-  50% {
-    opacity: 1;
-  }
+	50% {
+		opacity: 1;
+	}
 }
 
 .opacity-by-gabrielamattias {
-  animation: 6s linear normal none infinite opacityText;
+	animation: 6s linear normal none infinite opacityText;
 }

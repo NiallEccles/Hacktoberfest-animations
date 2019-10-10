@@ -1,49 +1,50 @@
-/* by: https://github.com/lucas.agra */
+/**
+ * /* by: https://github.com/lucas.agra
+ *
+ * @format
+ */
 
 @keyframes failing {
-  0% { 
-    opacity: 0;
-  }
+	0% {
+		opacity: 0;
+	}
 
-  6%{
-    opacity: 0.4;
-  }
+	6% {
+		opacity: 0.4;
+	}
 
-  12% {
-    opacity: 0;
-  }  
+	12% {
+		opacity: 0;
+	}
 
-  17% { 
-    opacity:0.3;
-  }
+	17% {
+		opacity: 0.3;
+	}
 
-  26%{
-    opacity: 1;
-  }
+	26% {
+		opacity: 1;
+	}
 
-  33% {
-    opacity: 0;
-  }  
+	33% {
+		opacity: 0;
+	}
 
-  37% {
-    opacity: .9;
-  }
+	37% {
+		opacity: 0.9;
+	}
 
-  40% {
-    opacity: .2;
-  }
+	40% {
+		opacity: 0.2;
+	}
 
-  100% {
-    opacity: 1;
-  }
+	100% {
+		opacity: 1;
+	}
 }
 
-
-.failing{
-  animation-duration: 2s;
-  animation-timing-function: linear;
-  animation-name: failing; 
-  animation-iteration-count: infinite;
+.failing {
+	animation-duration: 2s;
+	animation-timing-function: linear;
+	animation-name: failing;
+	animation-iteration-count: infinite;
 }
-
-

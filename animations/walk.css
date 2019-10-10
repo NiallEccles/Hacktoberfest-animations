@@ -1,17 +1,21 @@
-/* By: https://github.com/melkyy */
+/**
+ * /* By: https://github.com/melkyy
+ *
+ * @format
+ */
 
 @keyframes walk {
-  from {
-    margin-left: 70%;
-  }
+	from {
+		margin-left: 70%;
+	}
 
-  to {
-    margin-left: -70%;
-  }
+	to {
+		margin-left: -70%;
+	}
 }
 
 .walk {
-  -webkit-animation-name: walk;
-  animation-name: walk;
-  animation-duration: 5s;
+	-webkit-animation-name: walk;
+	animation-name: walk;
+	animation-duration: 5s;
 }
