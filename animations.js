@@ -90,6 +90,7 @@ window.animations = [
   { name: 'split-and-twist', author: 'viciouskitten' },
   { name: 'spooky', author: 'elizabethfinedev' },
   { name: 'spookyDoor-cgduncan7', author: 'cgduncan7' },
+  { name: 'squareDance', author: 'courtneypure' },
   { name: 'strangerthings', author: 'crownedpigeon' },
   { name: 'stretchout', author: 's-Hale' },
   { name: 'swing-by-lumuscode', author: 'LumusCode' },
