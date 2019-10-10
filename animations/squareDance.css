@@ -1,0 +1,41 @@
+@keyframes squareDance {
+
+
+0% {
+  margin-left:0px;
+  margin-top:0px;
+  }
+
+25% {
+  margin-left:400px;
+  margin-top: 0px;
+  }
+
+50% {
+  margin-left: 400px;
+  margin-top: 400px;
+}
+
+75% {
+  margin-left:-400px;
+  margin-top:400px;
+  }
+100% {
+  margin-left:-400px;
+  margin-top:0px;
+  }
+
+0% {
+  margin-left:0px;
+  margin-top:0px;
+  }
+
+}
+
+.squareDance {
+  -webkit-animation-name: squareDance;
+  animation-name: squareDance;
+  animation-duration: 4s;
+  animation-iteration-count: 3;
+
+}
