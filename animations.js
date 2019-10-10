@@ -14,6 +14,7 @@ window.animations = [
   { name: "boxshadowglow", author: "kopikob" },
   { name: "change-color", author: "lozinska" },
   { name: "chillerColor", author: "mel2121" },
+  { name: 'chibata', author: 'eu447'},
   { name: "circimental", author: "isfatul-codersbd" },
   { name: "classyAppear", author: "roganoalien" },
   { name: "colour-changes", author: "rishabhp99" },
