@@ -16,6 +16,7 @@ window.animations = [
   { name: 'chillerColor', author: 'mel2121' },
   { name: 'circimental', author: 'isfatul-codersbd' },
   { name: 'classyAppear', author: 'roganoalien' },
+  { name: 'coloreffect', author: 'somechandra' },
   { name: 'colour-changes', author: 'rishabhp99' },
   { name: 'colourfull', author: 'hurleyandrew' },
   { name: 'colours', author: 'zerossb' },
@@ -109,6 +110,5 @@ window.animations = [
   { name: 'wobble', author: 'golomann'},
   { name: 'zoomIn', author: 'MansiNegi27' },
   { name: 'zoomright', author: 'sunny-aguilar' },
-  { name: 'zoomInLeft', author: 'fernandosutter' },
-  { name: 'coloreffect', author: 'somechandra' }
+  { name: 'zoomInLeft', author: 'fernandosutter' }
 ]
