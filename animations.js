@@ -85,6 +85,7 @@ window.animations = [
   { name: 'rubberband', author:'makajeez' },
   { name: 'scale', author: 'addenordh' },
   { name: 'scare', author: 'NiallEccles' },
+  { name: 'scrolling', author: 'eric3119' },
   { name: 'secret', author: 'chintanmshah' },
   { name: 'shake', author: 'golomann'},
   { name: 'shaking-blinking', author: 'redpop' },
