@@ -1,29 +1,33 @@
-/* By: https://github.com/isfatul-codersbd */
+/**
+ * /* By: https://github.com/isfatul-codersbd
+ *
+ * @format
+ */
 
 @-webkit-keyframes circimental {
-  0% {
-    -webkit-transform: rotate(0);
-            transform: rotate(0);
-  }
-  100% {
-    -webkit-transform: rotate(360deg);
-            transform: rotate(360deg);
-  }
+	0% {
+		-webkit-transform: rotate(0);
+		transform: rotate(0);
+	}
+	100% {
+		-webkit-transform: rotate(360deg);
+		transform: rotate(360deg);
+	}
 }
 @keyframes circimental {
-  0% {
-    -webkit-transform: rotate(0);
-            transform: rotate(0);
-  }
-  100% {
-    -webkit-transform: rotate(360deg);
-            transform: rotate(360deg);
-  }
+	0% {
+		-webkit-transform: rotate(0);
+		transform: rotate(0);
+	}
+	100% {
+		-webkit-transform: rotate(360deg);
+		transform: rotate(360deg);
+	}
 }
 
 .circimental {
-	-webkit-animation: circimental 1s cubic-bezier(0.600, -0.280, 0.735, 0.045) both;
-	        animation: circimental 1s cubic-bezier(0.600, -0.280, 0.735, 0.045) both;
-	-webkit-animation: circimental 1s cubic-bezier(0.600, -0.280, 0.735, 0.045) both;
-	        animation: circimental 1s cubic-bezier(0.600, -0.280, 0.735, 0.045) both;
+	-webkit-animation: circimental 1s cubic-bezier(0.6, -0.28, 0.735, 0.045) both;
+	animation: circimental 1s cubic-bezier(0.6, -0.28, 0.735, 0.045) both;
+	-webkit-animation: circimental 1s cubic-bezier(0.6, -0.28, 0.735, 0.045) both;
+	animation: circimental 1s cubic-bezier(0.6, -0.28, 0.735, 0.045) both;
 }

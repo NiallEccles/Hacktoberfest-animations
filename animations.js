@@ -1,3 +1,5 @@
+/** @format */
+
 window.animations = [
   { name: 'aberration', author: 'cnsumner' },
   { name: 'autumn-gradient', author: 'marichka-offen' },
