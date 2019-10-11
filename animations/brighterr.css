@@ -18,9 +18,9 @@
 	}
 }
 
-.colourfull {
-	-webkit-animation-name: colourfull;
-	animation-name: colourfull;
+.brighterr {
+	-webkit-animation-name: brighterr;
+	animation-name: brighterr;
 	animation-duration: 1s;
 	animation-timing-function: ease-in-out, bezier;
 }
