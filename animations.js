@@ -90,6 +90,7 @@ window.animations = [
   { name: 'slowglow', author: 'shailzaa' },
   { name: 'showRight', author: 'janczer' },
   { name: 'smoke', author: 'chintanmshah' },
+  { name: 'spider', author: 'laurelr2020' },
   { name: 'spinning', author: 'lucas-barros' },
   { name: 'split-and-twist', author: 'viciouskitten' },
   { name: 'spooky', author: 'elizabethfinedev' },
@@ -109,5 +110,5 @@ window.animations = [
   { name: 'wobble', author: 'golomann'},
   { name: 'zoomIn', author: 'MansiNegi27' },
   { name: 'zoomright', author: 'sunny-aguilar' },
-  { name: 'zoomInLeft', author: 'fernandosutter' }
+  { name: 'zoomInLeft', author: 'fernandosutter' },
 ]
