@@ -1,9 +1,13 @@
-/* By https://github.com/pavan1645/ */
+/**
+ * /* By https://github.com/pavan1645/
+ *
+ * @format
+ */
 
 @keyframes fadeRollIn {
 	from {
-		transform: rotate(-90deg); 
-		opacity: 0; 
+		transform: rotate(-90deg);
+		opacity: 0;
 	}
 
 	to {

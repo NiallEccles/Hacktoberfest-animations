@@ -1,19 +1,23 @@
-/* By: https://github.com/rlavooij */
+/**
+ * /* By: https://github.com/rlavooij
+ *
+ * @format
+ */
 
 @keyframes spinning-very-slow {
-  from {
-    transform: rotate(0deg);
-  }
+	from {
+		transform: rotate(0deg);
+	}
 
-  to {
-    transform: rotate(360deg);
-  }
+	to {
+		transform: rotate(360deg);
+	}
 }
 
 .reallyslow {
-  -webkit-animation-name: spinning-very-slow;
-  animation-name: spinning-very-slow;
-  -webkit-animation-timing-function: ease-in-out;
-  animation-timing-function: ease-in-out;
-  animation-duration: 45s;
+	-webkit-animation-name: spinning-very-slow;
+	animation-name: spinning-very-slow;
+	-webkit-animation-timing-function: ease-in-out;
+	animation-timing-function: ease-in-out;
+	animation-duration: 45s;
 }

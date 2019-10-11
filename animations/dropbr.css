@@ -1,57 +1,62 @@
-/* By: https://github.com/AlbericoD */
+/**
+ * /* By: https://github.com/AlbericoD
+ *
+ * @format
+ */
+
 /* DropBR */
 
 .dropbr {
-  animation: dropbr 1s ease-in-out infinite;
-  animation-timing-function: ease;
-  -webkit-animation: dropbr 1s ease-in-out infinite;
-  -webkit-animation-timing-function: ease;
+	animation: dropbr 1s ease-in-out infinite;
+	animation-timing-function: ease;
+	-webkit-animation: dropbr 1s ease-in-out infinite;
+	-webkit-animation-timing-function: ease;
 
-  text-shadow: 0 16px 0px #000;
-  transform-origin: 50% 50%;
+	text-shadow: 0 16px 0px #000;
+	transform-origin: 50% 50%;
 }
 
 @keyframes dropbr {
-  0% {
-    transform: rotate(0) scale(1) translateY(0);
-    color: green;
-  }
-  25% {
-    transform: rotate(5deg) scale(1.2) translateY(8px);
-    color: yellow;
-  }
-  50% {
-    transform: rotate(0) scale(1) translateY(0);
-    color: blue;
-  }
-  75% {
-    transform: rotate(-5deg) scale(1.2) translateY(-8px);
-    color: green;
-  }
-  100% {
-    transform: rotate(0) scale(1) translateY(0);
-    color: white;
-  }
+	0% {
+		transform: rotate(0) scale(1) translateY(0);
+		color: green;
+	}
+	25% {
+		transform: rotate(5deg) scale(1.2) translateY(8px);
+		color: yellow;
+	}
+	50% {
+		transform: rotate(0) scale(1) translateY(0);
+		color: blue;
+	}
+	75% {
+		transform: rotate(-5deg) scale(1.2) translateY(-8px);
+		color: green;
+	}
+	100% {
+		transform: rotate(0) scale(1) translateY(0);
+		color: white;
+	}
 }
 @-webkit-keyframes dropbr {
-  0% {
-    transform: rotate(0) scale(1) translateY(0);
-    color: green;
-  }
-  25% {
-    transform: rotate(5deg) scale(1.2) translateY(8px);
-    color: yellow;
-  }
-  50% {
-    transform: rotate(0) scale(1) translateY(0);
-    color: blue;
-  }
-  75% {
-    transform: rotate(-5deg) scale(1.2) translateY(-8px);
-    color: green;
-  }
-  100% {
-    transform: rotate(0) scale(1) translateY(0);
-    color: white;
-  }
+	0% {
+		transform: rotate(0) scale(1) translateY(0);
+		color: green;
+	}
+	25% {
+		transform: rotate(5deg) scale(1.2) translateY(8px);
+		color: yellow;
+	}
+	50% {
+		transform: rotate(0) scale(1) translateY(0);
+		color: blue;
+	}
+	75% {
+		transform: rotate(-5deg) scale(1.2) translateY(-8px);
+		color: green;
+	}
+	100% {
+		transform: rotate(0) scale(1) translateY(0);
+		color: white;
+	}
 }
