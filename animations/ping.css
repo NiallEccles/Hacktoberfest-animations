@@ -1,50 +1,42 @@
+/** @format */
 
 @import url(https://fonts.googleapis.com/css?family=Exo+2:200i);
 
 @keyframes ping {
-  0% {
-    transform: scale(0.2);
-    opacity: 0.8;
-  }
-  80% {
-    transform: scale(1.2);
-    opacity: 0;
-  }
-  100% {
-    transform: scale(2.2);
-    opacity: 0;
-  }
+	0% {
+		transform: scale(0.2);
+		opacity: 0.8;
+	}
+	80% {
+		transform: scale(1.2);
+		opacity: 0;
+	}
+	100% {
+		transform: scale(2.2);
+		opacity: 0;
+	}
 }
 :root {
-  --neon-text-color: #f40;
-  --neon-border-color: #08f;
+	--neon-text-color: #f40;
+	--neon-border-color: #08f;
 }
 
 @keyframes neon {
-  from {
-    text-shadow:
-    0 0 6px var(--neon-border-color),
-    0 0 30px var(--neon-border-color),
-    0 0 12px var(--neon-border-color),
-    0 0 21px var(--neon-border-color),
-    0 0 34px var(--neon-border-color),
-    0 0 54px var(--neon-border-color);
-    }
-  to {
-    text-shadow:
-    0 0 6px var(--neon-text-color),
-    0 0 30px var(--neon-text-color),
-    0 0 12px var(--neon-text-color),
-    0 0 22px var(--neon-text-color),
-    0 0 38px var(--neon-text-color),
-    0 0 60px var(--neon-text-color);
-  }
+	from {
+		text-shadow: 0 0 6px var(--neon-border-color),
+			0 0 30px var(--neon-border-color), 0 0 12px var(--neon-border-color),
+			0 0 21px var(--neon-border-color), 0 0 34px var(--neon-border-color),
+			0 0 54px var(--neon-border-color);
+	}
+	to {
+		text-shadow: 0 0 6px var(--neon-text-color), 0 0 30px var(--neon-text-color),
+			0 0 12px var(--neon-text-color), 0 0 22px var(--neon-text-color),
+			0 0 38px var(--neon-text-color), 0 0 60px var(--neon-text-color);
+	}
 }
- 
 
 .ping {
-  font-family: 'Exo 2', sans-serif;
-    animation: ping 4000ms ease-in-out infinite both,
-      neon 4000ms ease-in-out infinite alternate;
-
+	font-family: 'Exo 2', sans-serif;
+	animation: ping 4000ms ease-in-out infinite both,
+		neon 4000ms ease-in-out infinite alternate;
 }

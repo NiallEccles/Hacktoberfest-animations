@@ -1,49 +1,53 @@
-/* By: https://github.com/Pamblam */
+/**
+ * /* By: https://github.com/Pamblam
+ *
+ * @format
+ */
 
 @keyframes nanananabatman {
-  0% {
-    transform: translate(0px, 0px) rotate(0deg) scaleX(1);
-  }
+	0% {
+		transform: translate(0px, 0px) rotate(0deg) scaleX(1);
+	}
 
-  2% {
-    transform: translate(0px, -50px) rotate(90deg) scaleX(2.44);
-  }
+	2% {
+		transform: translate(0px, -50px) rotate(90deg) scaleX(2.44);
+	}
 
-  4% {
-    transform: translate(-49px, -48px) rotate(990deg) scaleX(3.88);
-  }
+	4% {
+		transform: translate(-49px, -48px) rotate(990deg) scaleX(3.88);
+	}
 
-  6% {
-    transform: translate(-49px, 1px) rotate(9990deg) scaleX(5.31);
-  }
+	6% {
+		transform: translate(-49px, 1px) rotate(9990deg) scaleX(5.31);
+	}
 
-  8% {
-    transform: translate(-1px, -1px) rotate(100079deg) scaleX(6.75);
-  }
+	8% {
+		transform: translate(-1px, -1px) rotate(100079deg) scaleX(6.75);
+	}
 
-  9% {
-    transform: translate(-1px, -1px) scaleX(7.47);
-  }
+	9% {
+		transform: translate(-1px, -1px) scaleX(7.47);
+	}
 
-  11% {
-    transform: translate(-1px, -1px) scaleX(-1.14);
-  }
+	11% {
+		transform: translate(-1px, -1px) scaleX(-1.14);
+	}
 
-  13% {
-    transform: translate(-1px, -1px) scaleX(-4.54);
-  }
+	13% {
+		transform: translate(-1px, -1px) scaleX(-4.54);
+	}
 
-  14% {
-    transform: translate(-1px, -1px) scaleX(0.91);
-  }
+	14% {
+		transform: translate(-1px, -1px) scaleX(0.91);
+	}
 
-  100% {
-    transform: translate(-1px, -1px) rotate(100079deg) scaleX(0.91);
-  }
+	100% {
+		transform: translate(-1px, -1px) rotate(100079deg) scaleX(0.91);
+	}
 }
 
 .nanananabatman {
-  animation: nanananabatman linear 4s;
-  animation-iteration-count: 1;
-  transform-origin: 50% 50%;
+	animation: nanananabatman linear 4s;
+	animation-iteration-count: 1;
+	transform-origin: 50% 50%;
 }

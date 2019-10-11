@@ -1,17 +1,21 @@
-/* By: https://github.com/NiallEccles */
+/**
+ * /* By: https://github.com/NiallEccles
+ *
+ * @format
+ */
 
 @keyframes mini-zoom {
-  from {
-    transform: scale(0);
-  }
+	from {
+		transform: scale(0);
+	}
 
-  to {
-    transform: scale(1);
-  }
+	to {
+		transform: scale(1);
+	}
 }
 
 .mini-zoom {
-  animation-name: mini-zoom;
-  animation-duration: 1s;
-  animation-fill-mode: forwards;
+	animation-name: mini-zoom;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
 }
