@@ -90,6 +90,7 @@ window.animations = [
   { name: 'slowglow', author: 'shailzaa' },
   { name: 'showRight', author: 'janczer' },
   { name: 'smoke', author: 'chintanmshah' },
+  { name: 'spider', author: 'laurelr2020'},
   { name: 'spinning', author: 'lucas-barros' },
   { name: 'split-and-twist', author: 'viciouskitten' },
   { name: 'spooky', author: 'elizabethfinedev' },
