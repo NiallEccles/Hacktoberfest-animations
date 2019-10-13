@@ -119,4 +119,5 @@ window.animations = [
 	{ name: 'zoomright', author: 'sunny-aguilar' },
 	{ name: 'zoomInLeft', author: 'fernandosutter' },
 	{ name: 'brighterr' , author: 'jiteshkumarr' },
+	{ name: 'flipper', author: 'shubham9019' },
 ];
