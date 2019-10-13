@@ -7,19 +7,12 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
 		<title>Hacktoberfest Animations</title>
-		<link
-			href="https://fonts.googleapis.com/css?family=Open+Sans:300,400|Warnes"
-			rel="stylesheet"
-		/>
-		<link
-			rel="stylesheet"
-			href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css"
-		/>
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400|Warnes" rel="stylesheet" />
 		<link rel="stylesheet" href="assets/style.css" />
 	</head>
 
 	<body class="level-item">
-		<section class="section section-white text-center">
+		<section class="section text-center">
 			<!--  here is the sample animation -->
 			<h1 id="target" class="title scare" data-text="Hacktoberfest animations">
 				Hacktoberfest animations
@@ -28,26 +21,14 @@
 			<select id="animationSelect"></select>
 			<!--  here we show the animation name and who contribute with it -->
 			<div id="detail_elements" class="padding white max-w">
-				<h3>Animation name: <span id="animationName"></span></h3>
-				<h3>
+				<p>Animation name: <span id="animationName"></span></p>
+				<p>
 					Submitted by:
-					<a
-						target="_blank"
-						style="color:#00ffff;"
-						rel="noopener noreferrer"
-						id="userName"
-					></a>
-				</h3>
+					<a target="_blank" style="color:#00ffff;" rel="noopener noreferrer" id="userName" ></a>
+				</p>
 			</div>
-			<a
-				class="custom-btn button"
-				href="https://github.com/NiallEccles/Hacktoberfest-animations"
-			>
-				<img
-					src="./assets/logo-github.png"
-					style="width: 20px; margin-right:10px;"
-					alt="Logo Github"
-				/>
+			<a class="custom-btn" href="https://github.com/NiallEccles/Hacktoberfest-animations" >
+				<img src="./assets/logo-github.png" class="github-btn-logo" alt="Logo Github" />
 				Contribute
 			</a>
 		</section>
