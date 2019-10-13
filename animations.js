@@ -64,6 +64,7 @@ window.animations = [
 	{ name: 'lightSpeedIn', author: 'fernandosutter' },
 	{ name: 'mini-zoom', author: 'NiallEccles' },
 	{ name: 'movelineal', author: 'carlacentenor' },
+	{ name: 'moving-shadow', author: 'ClaudioFuriniJr' },
 	{ name: 'nanananabatman', author: 'Pamblam' },
 	{ name: 'neon', author: 'AllDayAlone' },
 	{ name: 'neonplus', author: 'AdrianoBiolchi' },
