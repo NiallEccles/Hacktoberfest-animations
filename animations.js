@@ -4,6 +4,7 @@ window.animations = [
 	{ name: 'aberration', author: 'cnsumner' },
 	{ name: 'autumn-gradient', author: 'marichka-offen' },
 	{ name: 'backFlip', author: 'adsingh14' },
+	{ name: 'background', author: 'NullSilence' },
 	{ name: 'ballast', author: 'vijayranghar' },
 	{ name: 'beat', author: 'patriciafelixx' },
 	{ name: 'blend', author: 'divanshi15' },
