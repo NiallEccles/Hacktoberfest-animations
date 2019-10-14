@@ -43,6 +43,7 @@ window.animations = [
 	{ name: 'fadeSlideDown', author: 'adsingh14' },
 	{ name: 'fadeSlideUp', author: 'adsingh14' },
 	{ name: 'failing', author: 'lucasagra' },
+  { name: 'falling' ,author: 'LRK1696' },
 	{ name: 'fire', author: 'marcelowis' },
 	{ name: 'firetext', author: 'KrindgesJuliano' },
 	{ name: 'flash', author: 'haych8' },
@@ -120,6 +121,6 @@ window.animations = [
 	{ name: 'wiggle', author: 'HJain13' },
 	{ name: 'wobble', author: 'golomann' },
 	{ name: 'zoomIn', author: 'MansiNegi27' },
-	{ name: 'zoomright', author: 'sunny-aguilar' },
-	{ name: 'zoomInLeft', author: 'fernandosutter' }
+  { name: 'zoomInLeft', author: 'fernandosutter' },
+	{ name: 'zoomright', author: 'sunny-aguilar' }
 ];
