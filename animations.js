@@ -1,6 +1,7 @@
 /** @format */
 
 window.animations = [
+	{ name: 'popup', author: 'shekhar677' },
 	{ name: 'aberration', author: 'cnsumner' },
 	{ name: 'autumn-gradient', author: 'marichka-offen' },
 	{ name: 'backFlip', author: 'adsingh14' },
