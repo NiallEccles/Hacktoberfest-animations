@@ -48,6 +48,7 @@ window.animations = [
 	{ name: 'firetext', author: 'KrindgesJuliano' },
 	{ name: 'flash', author: 'haych8' },
 	{ name: 'flip', author: 'TiagoBehenck' },
+	{ name: 'flip-all', author: 'istellar' },
   { name: 'flipper', author: 'shubham9019' },
 	{ name: 'flipInX', author: 'fernandosutter' },
 	{ name: 'floatTitle', author: 'llespinasse' },
