@@ -15,6 +15,7 @@ window.animations = [
 	{ name: 'bounceAround', author: 'wendelleloi' },
 	{ name: 'bounce-up-and-down', author: 'marcelomoser' },
 	{ name: 'boxshadowglow', author: 'kopikob' },
+  { name: 'brighterr' , author: 'jiteshkumarr' },
 	{ name: 'change-color', author: 'lozinska' },
 	{ name: 'chillerColor', author: 'mel2121' },
 	{ name: 'chibata', author: 'eu447' },
@@ -45,6 +46,7 @@ window.animations = [
 	{ name: 'firetext', author: 'KrindgesJuliano' },
 	{ name: 'flash', author: 'haych8' },
 	{ name: 'flip', author: 'TiagoBehenck' },
+  { name: 'flipper', author: 'shubham9019' },
 	{ name: 'flipInX', author: 'fernandosutter' },
 	{ name: 'floatTitle', author: 'llespinasse' },
 	{ name: 'focusBlur', author: 'Swong87' },
@@ -117,7 +119,5 @@ window.animations = [
 	{ name: 'wobble', author: 'golomann' },
 	{ name: 'zoomIn', author: 'MansiNegi27' },
 	{ name: 'zoomright', author: 'sunny-aguilar' },
-	{ name: 'zoomInLeft', author: 'fernandosutter' },
-	{ name: 'brighterr' , author: 'jiteshkumarr' },
-	{ name: 'flipper', author: 'shubham9019' },
+	{ name: 'zoomInLeft', author: 'fernandosutter' }
 ];
