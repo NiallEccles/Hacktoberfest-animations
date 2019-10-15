@@ -118,4 +118,5 @@ window.animations = [
 	{ name: 'zoomInLeft', author: 'fernandosutter' },
 	{ name: 'brighterr' , author: 'jiteshkumarr' },
 	{ name: 'effects' , author: 'urmilla20' },
+	{ name: 'colourreturns', author: 'urmilla20'},
 ];

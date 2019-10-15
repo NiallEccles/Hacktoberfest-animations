@@ -1,0 +1,26 @@
+/**
+ * /* By: https://github.com/urmilla20
+ *
+ * @format
+ */
+
+@keyframes colourreturns {
+	0% {
+		color: red;
+	}
+
+	50% {
+		color: black;
+	}
+
+	100% {
+		color: orange;
+	}
+}
+
+.colourreturns {
+	-webkit-animation-name: colourreturns;
+	animation-name: colourreturns;
+	animation-duration: 1s;
+	animation-timing-function: ease-in-out, bezier;
+}
