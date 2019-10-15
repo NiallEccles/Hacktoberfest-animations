@@ -1,0 +1,27 @@
+.changecolor {
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    -webkit-animation-name: example;
+    -webkit-animation-duration: 4s;
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+@-webkit-keyframes changecolor {
+    from {
+        background-color: blueviolet;
+    }
+    to {
+        background-color: ghostwhite;
+    }
+}
+
+@keyframes changecolor {
+    from {
+        background-color: blueviolet;
+    }
+    to {
+        background-color: ghostwhite;
+    }
+}
