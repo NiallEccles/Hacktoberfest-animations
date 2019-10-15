@@ -1,0 +1,69 @@
+/** @format */
+@import url('https://fonts.googleapis.com/css?family=Monoton&display=swap');
+
+@keyframes spider {
+    0% {
+        transform: translate(0vw, 60vh);
+    }
+    10% {
+        transform: translate(0vw, 54vh);
+    }
+        
+    20% {
+        transform: translate(0vw, 48vh);
+    }
+
+    30% {
+        transform: translate(0vw, 42vh);
+    }
+
+    40% {
+        transform: translate(0vw, 36vh);
+    }
+
+    50% {
+        transform: translate(0vw, 30vh);
+    }
+
+    60% {
+        transform: translate(0vw, 24vh);
+    }
+
+    70% {
+        transform: translate(0vw, 18vh);
+    }
+
+    80% {
+        transform: translate(0vw, 12vh);
+    }
+
+    90% {
+        transform: translate(0vw, 6vh);
+    }
+
+    92%{
+        transform: translate(0vw, 0vh);
+    }
+
+    93% {
+        -webkit-transform: scale3d(2.0, 2.0, 2.0);
+        transform: scale3d(2.0, 2.0, 2.0);
+    }
+
+    100%{
+        -webkit-transform: scale3d(1.0, 10, 1.0);
+        transform: scale3d(1.0, 1.0, 1.0);
+    }
+}
+
+.spider {
+    animation: spider 10s;
+    animation-fill-mode: forwards;
+    color: black;
+    font-family: 'Monoton', cursive;
+}
+    
+.spider::before,
+.spider::after {
+    content: '🕷';
+}

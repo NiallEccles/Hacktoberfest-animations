@@ -1,15 +1,19 @@
-/* By: https://github.com/marcosceo */
+/**
+ * /* By: https://github.com/marcosceo
+ *
+ * @format
+ */
 
 @keyframes hurricane {
-0% {
-    transform: scale(0) rotate(0deg);
-}
+	0% {
+		transform: scale(0) rotate(0deg);
+	}
 
-100% {
-    transform: scale(1) rotate(1080deg);
-}
+	100% {
+		transform: scale(1) rotate(1080deg);
+	}
 }
 
 .hurricane {
-animation: hurricane 3s ease-in-out;
+	animation: hurricane 3s ease-in-out;
 }

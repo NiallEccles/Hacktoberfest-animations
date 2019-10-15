@@ -1,33 +1,37 @@
-/* By: https://github.com/azrizhaziq */
+/**
+ * /* By: https://github.com/azrizhaziq
+ *
+ * @format
+ */
 
 @keyframes heartbeat-azrizhaziq {
-  0% {
-    transform: scale(0.75);
-  }
+	0% {
+		transform: scale(0.75);
+	}
 
-  15% {
-    transform: scale(1);
-  }
+	15% {
+		transform: scale(1);
+	}
 
-  30% {
-    transform: scale(0.75);
-  }
+	30% {
+		transform: scale(0.75);
+	}
 
-  45% {
-    transform: scale(1);
-  }
+	45% {
+		transform: scale(1);
+	}
 
-  80% {
-    transform: scale(0.75);
-  }
+	80% {
+		transform: scale(0.75);
+	}
 
-  100% {
-    transform: scale(0.75);
-  }
+	100% {
+		transform: scale(0.75);
+	}
 }
 
 .heartbeat-by-azrizhaziq {
-  color: #ff3f3f;
-  animation: heartbeat-azrizhaziq 2.5s ease-in-out infinite;
-  text-shadow: -1px 4px 12px #924040, 5px 6px 12px black;
+	color: #ff3f3f;
+	animation: heartbeat-azrizhaziq 2.5s ease-in-out infinite;
+	text-shadow: -1px 4px 12px #924040, 5px 6px 12px black;
 }

@@ -1,22 +1,26 @@
-/* By: https://github.com/af1ne */
+/**
+ * /* By: https://github.com/af1ne
+ *
+ * @format
+ */
 
 @keyframes hibouCoucou {
-  0%,
-  100% {
-    transform: translateX(10px);
-  }
+	0%,
+	100% {
+		transform: translateX(10px);
+	}
 
-  25%,
-  75% {
-    transform: translateX(20px) translateY(20px);
-  }
+	25%,
+	75% {
+		transform: translateX(20px) translateY(20px);
+	}
 
-  50% {
-    transform: translateX(150px) rotateY(500deg);
-  }
+	50% {
+		transform: translateX(150px) rotateY(500deg);
+	}
 }
 
 .hibouCoucou {
-  background-image: linear-gradient(blue, green, purple);
-  animation: hibouCoucou 0.5s ease infinite;
+	background-image: linear-gradient(blue, green, purple);
+	animation: hibouCoucou 0.5s ease infinite;
 }
