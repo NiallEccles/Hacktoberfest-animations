@@ -9,6 +9,7 @@ window.animations = [
   { name: 'border-rainbow', author: 'brunobolting' },
   { name: 'borderblend', author: 'erikadionn' },
   { name: 'bounce', author: 'marekgebka' },
+  { name: 'BounceIn', author: 'golomann'},
   { name: 'bounceAround', author: 'wendelleloi' },
   { name: 'change-color', author:'lozinska' },
   { name: 'chillerColor', author: 'mel2121' },
