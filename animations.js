@@ -125,5 +125,6 @@ window.animations = [
 	{ name: 'wobble', author: 'golomann' },
 	{ name: 'zoomIn', author: 'MansiNegi27' },
 	{ name: 'zoomright', author: 'sunny-aguilar' },
-	{ name: 'zoomInLeft', author: 'fernandosutter' }
+	{ name: 'zoomInLeft', author: 'fernandosutter' },
+	{ name: 'border-pulse', author: 'hjdesigner' }
 ];
