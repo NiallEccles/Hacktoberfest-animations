@@ -13,7 +13,7 @@ window.animations = [
 	{ name: 'border-rainbow', author: 'brunobolting' },
 	{ name: 'borderblend', author: 'erikadionn' },
 	{ name: 'bounce', author: 'marekgebka' },
-	{ name: 'bounceAround', author: 'wendelleloi' },
+  { name: 'bounceAround', author: 'wendelleloi' },
 	{ name: 'bounce-up-and-down', author: 'marcelomoser' },
 	{ name: 'boxshadowglow', author: 'kopikob' },
   { name: 'brighterr' , author: 'jiteshkumarr' },
@@ -126,6 +126,9 @@ window.animations = [
 	{ name: 'zoomIn', author: 'MansiNegi27' },
 	{ name: 'zoomright', author: 'sunny-aguilar' },
 	{ name: 'zoomInLeft', author: 'fernandosutter' },
-  { name: 'infinite-spinning', author: 'brecarv' }
-  
+  { name: 'infinite-spinning', author: 'brecarv' },
+	{ name: 'shining', author: 'hjdesigner' },
+	{ name: 'border-pulse', author: 'hjdesigner' },
+  { name: 'dang', author: 'carlosnufe' },
+	{ name: 'ShineText', author: 'SP-2605' },
 ];
