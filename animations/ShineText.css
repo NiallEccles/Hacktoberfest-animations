@@ -1,0 +1,35 @@
+/**
+ * /* By: https://github.com/SP-2605
+ *
+ * @format
+ */
+
+@keyframes animate {
+  0% {
+    background-position: -500%;
+  }
+
+  100% {
+    background-position: 500%;
+  }
+}
+
+.ShineText{
+    position: relative;
+    font-family: 'Patua One',
+    cursive;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    overflow: hidden;
+    background: linear-gradient(90deg, #5d4037, #fff, #5d4037);
+    background-repeat: no-repeat;
+    background-size: 75%;
+    animation: animate 2s linear infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(124, 63, 63, 0);
+    transition: all .90s;
+}
+
+.ShineText:hover{
+    letter-spacing: 10px;
+}
