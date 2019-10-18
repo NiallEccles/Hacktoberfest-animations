@@ -126,6 +126,7 @@ window.animations = [
 	{ name: 'zoomIn', author: 'MansiNegi27' },
 	{ name: 'zoomright', author: 'sunny-aguilar' },
 	{ name: 'zoomInLeft', author: 'fernandosutter' },
+	{ name: 'shining', author: 'hjdesigner' },
 	{ name: 'border-pulse', author: 'hjdesigner' },
   { name: 'dang', author: 'carlosnufe' },
 	{ name: 'ShineText', author: 'SP-2605' },
