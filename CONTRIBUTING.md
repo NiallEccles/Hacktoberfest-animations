@@ -36,3 +36,5 @@ Other contributions can be made to the repo such as:
 
 - UI changes or fixes
 - Documentation corrections or amendments
+
+- name : 'Sumaiya Talib'

@@ -1,0 +1,28 @@
+/**
+ * /* By: https://github.com/sumaiyatalib95
+ *
+ * @format
+ */
+
+ @keyframes fadedBackgroundAnimation{
+ 		0% {
+ 			background-color: purple;	
+ 		}
+
+ 		50% {
+			background-color: yellow;	
+ 		}
+
+ 		100% {
+ 			background-color: pink;	
+ 		}
+ }
+
+ .fadedBackgroundAnimation {
+ 		background-repeat: no-repeat;
+ 		background-size: 100%;
+ 		animation: fadedBackgroundAnimation 2s linear infinite;
+ 		background-clip: text;
+ 		-webkit-background-clip: text;
+ 		-webkit-text-fill-color: rgba(255, 255, 255, 0);
+ }
