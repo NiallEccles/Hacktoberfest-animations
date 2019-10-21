@@ -1,60 +1,64 @@
-/* By: https://github.com/rlavooij */
+/**
+ * /* By: https://github.com/rlavooij
+ *
+ * @format
+ */
 
 @keyframes right-to-left {
-  from {
-    right: -19vw;
-  }
+	from {
+		right: -19vw;
+	}
 
-  to {
-    left: -19vw;
-  }
+	to {
+		left: -19vw;
+	}
 }
 
 .right-to-left {
-  display: flex;
-  position: relative;
-  overflow: hidden;
-  white-space: nowrap;
-  animation: right-to-left 1s alternate infinite;
+	display: flex;
+	position: relative;
+	overflow: hidden;
+	white-space: nowrap;
+	animation: right-to-left 1s alternate infinite;
 }
 
 .right-to-left::after,
 .right-to-left::before {
-  content: "";
-  display: flex;
-  width: 24px;
-  height: 24px;
-  border-right: 6px solid white;
-  border-bottom: 6px solid white;
-  margin: 20px;
+	content: '';
+	display: flex;
+	width: 24px;
+	height: 24px;
+	border-right: 6px solid white;
+	border-bottom: 6px solid white;
+	margin: 20px;
 }
 
 @keyframes right-arrow {
-  from {
-    opacity: 1;
-  }
+	from {
+		opacity: 1;
+	}
 
-  to {
-    opacity: 0;
-  }
+	to {
+		opacity: 0;
+	}
 }
 
 @keyframes left-arrow {
-  from {
-    opacity: 0;
-  }
+	from {
+		opacity: 0;
+	}
 
-  to {
-    opacity: 1;
-  }
+	to {
+		opacity: 1;
+	}
 }
 
 .right-to-left::after {
-  transform: rotate(-45deg);
-  animation: right-arrow 1s alternate infinite;
+	transform: rotate(-45deg);
+	animation: right-arrow 1s alternate infinite;
 }
 
 .right-to-left::before {
-  transform: rotate(135deg);
-  animation: left-arrow 1s alternate infinite;
+	transform: rotate(135deg);
+	animation: left-arrow 1s alternate infinite;
 }

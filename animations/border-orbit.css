@@ -1,0 +1,43 @@
+/** @format */
+
+.border-orbit {
+	position: relative;
+}
+
+.border-orbit::before {
+	animation: border-orbit-reverse 1.5s infinite linear;
+	-webkit-text-stroke: 1.5px #dd22a6;
+}
+
+.border-orbit::after {
+	animation: border-orbit 1.5s infinite linear;
+	-webkit-text-stroke: 1.5px #5799ff;
+}
+
+.border-orbit::before,
+.border-orbit::after {
+	content: 'Hacktoberfest animations';
+	position: absolute;
+	color: transparent;
+	font-weight: 500;
+	top: 0px;
+	right: 0px;
+}
+
+@keyframes border-orbit {
+	from {
+		transform: rotate(0deg) translateX(4px) rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg) translateX(4px) rotate(-360deg);
+	}
+}
+
+@keyframes border-orbit-reverse {
+	from {
+		transform: rotate(0deg) translateX(4px) rotate(0deg);
+	}
+	to {
+		transform: rotate(-360deg) translateX(4px) rotate(360deg);
+	}
+}

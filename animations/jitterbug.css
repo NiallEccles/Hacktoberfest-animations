@@ -1,0 +1,44 @@
+/**
+* By: https://github.com/andrewghood
+*
+*
+**/
+
+@keyframes jitterbug{
+    from,
+    to{
+        transform: translate3d(0,0,0);
+        animation: ease-in-out;
+    }
+    10%,
+    30%,
+    50%,
+    70%{
+        transform: 
+            translateX(10px)
+            translateY(-10px)
+            translateZ(-10px);
+        perspective: 2000;
+        color: #414351;
+    }
+    20%,
+    40%,
+    60%,
+    80%{
+        transform: 
+            translateX(-10px)
+            translateY(10px)
+            translateZ(10px);
+        perspective: -200;
+        color: #ffd84c;
+        text-shadow: 1px 1px 20px #414351;
+    }
+    90%{
+        transform: rotateX(45deg);
+    }
+}
+
+.jitterbug{
+    animation-name: jitterbug;
+    animation-duration: 1000ms;
+}

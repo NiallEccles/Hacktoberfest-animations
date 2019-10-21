@@ -1,0 +1,30 @@
+/**
+ * /* By: https://github.com/bilalbutt044
+ *
+ * @format
+ */
+
+@keyframes crazy {
+	0% {
+		transform: translateX(400px);
+	}
+	20% {
+		transform: translateX(-400px);
+	}
+	40% {
+		transform: translateX(200px);
+	}
+	60% {
+		transform: translateX(-200px);
+	}
+	80% {
+		transform: translateX(50px);
+	}
+	100% {
+		transform: translateX(0px);
+	}
+}
+
+.crazy {
+	animation: crazy 3s linear infinite;
+}

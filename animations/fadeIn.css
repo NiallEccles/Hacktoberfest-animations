@@ -1,0 +1,36 @@
+/**
+ * /* By: https://github.com/tummala-manasa
+ *
+ * @format
+ */
+
+@-webkit-keyframes fadeIn {
+	0% {
+		opacity: 0;
+		text-shadow: 0px 0px 10px #fff;
+	}
+
+	25% {
+		opacity: 0.2;
+		text-shadow: 0px 0px 20px #fff;
+	}
+
+	50% {
+		opacity: 0.5;
+		text-shadow: 0px 0px 30px #fff;
+	}
+
+	75% {
+		opacity: 0.7;
+		text-shadow: 0px 0px 40px #fff;
+	}
+
+	100% {
+		opacity: 1;
+		text-shadow: 0px 0px 50px #fff;
+	}
+}
+
+.fade-in {
+	animation: fadeIn 2s ease infinite;
+}

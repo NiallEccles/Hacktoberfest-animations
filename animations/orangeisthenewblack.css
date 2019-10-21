@@ -1,30 +1,34 @@
-/* By: https://github.com/kevinhuddy */
+/**
+ * /* By: https://github.com/kevinhuddy
+ *
+ * @format
+ */
 
 @keyframes orangeisthenewblack {
-  0%,
-  6%,
-  12% {
-    text-shadow: none;
-    color: #111111;
-  }
-  3%,
-  9% {
-    text-shadow: 0 0 8px rgba(250, 103, 1, 0.6);
-    color: #fa6701;
-  }
-  60% {
-    text-shadow: 0 0 8px rgba(250, 103, 1, 0.6), 0 0 16px rgba(250, 103, 1, 0.4),
-      0 0 20px rgba(255, 0, 84, 0.2), 0 0 22px rgba(255, 0, 84, 0.1);
-    color: #fa6701;
-  }
-  100% {
-    text-shadow: 0 0 8px rgba(250, 103, 1, 0.6), 0 0 16px rgba(250, 103, 1, 0.4),
-      0 0 20px rgba(255, 0, 84, 0.2), 0 0 22px rgba(255, 0, 84, 0.1);
-    color: #fa6701;
-  }
+	0%,
+	6%,
+	12% {
+		text-shadow: none;
+		color: #111111;
+	}
+	3%,
+	9% {
+		text-shadow: 0 0 8px rgba(250, 103, 1, 0.6);
+		color: #fa6701;
+	}
+	60% {
+		text-shadow: 0 0 8px rgba(250, 103, 1, 0.6), 0 0 16px rgba(250, 103, 1, 0.4),
+			0 0 20px rgba(255, 0, 84, 0.2), 0 0 22px rgba(255, 0, 84, 0.1);
+		color: #fa6701;
+	}
+	100% {
+		text-shadow: 0 0 8px rgba(250, 103, 1, 0.6), 0 0 16px rgba(250, 103, 1, 0.4),
+			0 0 20px rgba(255, 0, 84, 0.2), 0 0 22px rgba(255, 0, 84, 0.1);
+		color: #fa6701;
+	}
 }
 
 .orangeisthenewblack {
-  color: #111111;
-  animation: orangeisthenewblack 4s 0s infinite;
+	color: #111111;
+	animation: orangeisthenewblack 4s 0s infinite;
 }

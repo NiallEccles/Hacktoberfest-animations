@@ -1,9 +1,17 @@
-/* By: https://github.com/lozinska*/
+/**
+ * /* By: https://github.com/lozinska
+ *
+ * @format
+ */
 
 @keyframes chgclr {
-    from{color:red}
-    to{color:yellow}
-  }
-  .change-color{
-    animation: chgclr 5s infinite;
-  }
+	from {
+		color: red;
+	}
+	to {
+		color: yellow;
+	}
+}
+.change-color {
+	animation: chgclr 5s infinite;
+}

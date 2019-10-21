@@ -1,20 +1,24 @@
-/* By: https://github.com/haych8 */
+/**
+ * /* By: https://github.com/haych8
+ *
+ * @format
+ */
 
 @keyframes flash {
-  from,
-  50%,
-  to {
-    opacity: 1;
-  }
+	from,
+	50%,
+	to {
+		opacity: 1;
+	}
 
-  25%,
-  75% {
-    opacity: 0;
-  }
+	25%,
+	75% {
+		opacity: 0;
+	}
 }
 
 .flash {
-  animation-name: flash;
-  animation-duration: 1s;
-  animation-fill-mode: forwards;
+	animation-name: flash;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
 }
