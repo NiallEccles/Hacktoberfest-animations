@@ -134,4 +134,5 @@ window.animations = [
   { name: 'dang', author: 'carlosnufe' },
 	{ name: 'ShineText', author: 'SP-2605' },
 	{name: 'jitterbug', author: 'andrewghood'}
+  {name: 'Chameleon', author: 'PratikSonal'}
 ];
