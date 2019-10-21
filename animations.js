@@ -133,5 +133,6 @@ window.animations = [
 	{ name: 'border-pulse', author: 'hjdesigner' },
   { name: 'dang', author: 'carlosnufe' },
 	{ name: 'ShineText', author: 'SP-2605' },
-	{name: 'jitterbug', author: 'andrewghood'}
+	{name: 'jitterbug', author: 'andrewghood'},
+	{name: 'pudding', author: 'sliceolife'}
 ];
