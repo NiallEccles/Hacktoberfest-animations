@@ -54,6 +54,7 @@ window.animations = [
   { name: 'flipper', author: 'shubham9019' },
 	{ name: 'flipInX', author: 'fernandosutter' },
 	{ name: 'floatTitle', author: 'llespinasse' },
+	{ name: 'focusIn', author: 'MasihTak'},
 	{ name: 'focusBlur', author: 'Swong87' },
 	{ name: 'fromright', author: 'jespicas' },
 	{ name: 'ghost', author: 'FernandaDagostin' },
