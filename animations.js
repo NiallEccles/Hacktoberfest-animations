@@ -78,6 +78,7 @@ window.animations = [
 	{ name: 'neonplus', author: 'AdrianoBiolchi' },
 	{ name: 'opacity-by-gabrielamattias', author: 'GabrielaMattias' },
 	{ name: 'orangeisthenewblack', author: 'kevinhuddy' },
+	{ name: 'hydrated', author: 'tancredosouza' },
 	{ name: 'ping', author: 'Tatvam' },
 	{ name: 'piston', author: 'sockopera' },
 	{ name: 'pivot', author: 'ronlaniado' },
