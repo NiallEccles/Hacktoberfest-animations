@@ -74,6 +74,7 @@ window.animations = [
 	{ name: 'mini-zoom', author: 'NiallEccles' },
 	{ name: 'movelineal', author: 'carlacentenor' },
 	{ name: 'moving-shadow', author: 'ClaudioFuriniJr' },
+	{ name: 'multicolor-stretch', author: 'jonboundy'},
 	{ name: 'nanananabatman', author: 'Pamblam' },
 	{ name: 'neon', author: 'AllDayAlone' },
 	{ name: 'neonplus', author: 'AdrianoBiolchi' },
