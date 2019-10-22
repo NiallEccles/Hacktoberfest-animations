@@ -62,6 +62,7 @@ window.animations = [
 	{ name: 'glitch', author: 'dansegliode' },
 	{ name: 'haleemah', author: 'bolajiscott' },
 	{ name: 'halloween', author: 'honeyyenoh' },
+	{ name: 'harrypotter', author: 'naftalima'},
 	{ name: 'heartbeat-by-azrizhaziq', author: 'azrizhaziq' },
 	{ name: 'heartbeat', author: 'sunny-aguilar' },
 	{ name: 'hibouCoucou', author: 'af1ne' },
