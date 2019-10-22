@@ -69,6 +69,7 @@ window.animations = [
 	{ name: 'hurricane', author: 'marcosceo' },
 	{ name: 'jello', author: 'adsingh14' },
 	{ name: 'jump', author: 'AmiterCodes' },
+	{name: 'lean-back', author: 'plaza223'},
 	{ name: 'lightSpeedIn', author: 'fernandosutter' },
   { name: 'littleToBiggerRainbow', author: 'devtony322' },
 	{ name: 'mini-zoom', author: 'NiallEccles' },
