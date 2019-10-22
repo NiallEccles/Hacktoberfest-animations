@@ -132,4 +132,5 @@ window.animations = [
 	{ name: 'border-pulse', author: 'hjdesigner' },
   { name: 'dang', author: 'carlosnufe' },
 	{ name: 'ShineText', author: 'SP-2605' },
+	{ name: 'scale-up-hor-center', author: 'nerdomancer' },
 ];
