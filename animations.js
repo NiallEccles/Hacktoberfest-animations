@@ -62,6 +62,7 @@ window.animations = [
 	{ name: 'glitch', author: 'dansegliode' },
 	{ name: 'haleemah', author: 'bolajiscott' },
 	{ name: 'halloween', author: 'honeyyenoh' },
+	{ name: 'harrypotter', author: 'naftalima'},
 	{ name: 'heartbeat-by-azrizhaziq', author: 'azrizhaziq' },
 	{ name: 'heartbeat', author: 'sunny-aguilar' },
 	{ name: 'hibouCoucou', author: 'af1ne' },
@@ -70,6 +71,7 @@ window.animations = [
 	{ name: 'jello', author: 'adsingh14' },
 	{ name: 'jump', author: 'AmiterCodes' },
 	{name: 'lean-back', author: 'plaza223'},
+	{ name: 'letter-spacing', author: 'jun-low' },
 	{ name: 'lightSpeedIn', author: 'fernandosutter' },
   { name: 'littleToBiggerRainbow', author: 'devtony322' },
 	{ name: 'mini-zoom', author: 'NiallEccles' },
@@ -136,6 +138,7 @@ window.animations = [
 	{ name: 'border-pulse', author: 'hjdesigner' },
   { name: 'dang', author: 'carlosnufe' },
 	{ name: 'ShineText', author: 'SP-2605' },
+	{ name: 'scale-up-hor-center', author: 'nerdomancer' },
 	{name: 'jitterbug', author: 'andrewghood'},
-	{name: 'pudding', author: 'sliceolife'}
+	{name: 'pudding', author: 'sliceolife'},
 ];
