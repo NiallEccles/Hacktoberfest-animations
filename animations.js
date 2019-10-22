@@ -70,6 +70,7 @@ window.animations = [
 	{ name: 'hurricane', author: 'marcosceo' },
 	{ name: 'jello', author: 'adsingh14' },
 	{ name: 'jump', author: 'AmiterCodes' },
+	{ name: 'letter-spacing', author: 'jun-low' },
 	{ name: 'lightSpeedIn', author: 'fernandosutter' },
   { name: 'littleToBiggerRainbow', author: 'devtony322' },
 	{ name: 'mini-zoom', author: 'NiallEccles' },
