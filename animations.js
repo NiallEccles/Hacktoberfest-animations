@@ -27,6 +27,7 @@ window.animations = [
 	{ name: 'colours', author: 'zerossb' },
 	{ name: 'come-and-go', author: 'hoehooiyan' },
   { name: 'coming-together', author: 'Demysdcl' },
+  { name: 'cool-breeze', author: 'wajeehsheikh' },
   { name: 'crackling-ground', author: 'Pliavi' },
 	{ name: 'crazy', author: 'MuhammadBilal' },
 	{ name: 'crazy-monkey', author: 'fernanDOTdo' },
