@@ -144,4 +144,5 @@ window.animations = [
 	{ name: 'scale-up-hor-center', author: 'nerdomancer' },
 	{name: 'jitterbug', author: 'andrewghood'},
 	{name: 'pudding', author: 'sliceolife'},
+  {name: 'colourfull-ldt', author: 'ledangtuanbk'},
 ];
