@@ -82,6 +82,7 @@ window.animations = [
 	{ name: 'nanananabatman', author: 'Pamblam' },
 	{ name: 'neon', author: 'AllDayAlone' },
 	{ name: 'neonplus', author: 'AdrianoBiolchi' },
+	{ name: 'new-page', author: 'nerdomancer' },
 	{ name: 'opacity-by-gabrielamattias', author: 'GabrielaMattias' },
 	{ name: 'orangeisthenewblack', author: 'kevinhuddy' },
 	{ name: 'hydrated', author: 'tancredosouza' },
