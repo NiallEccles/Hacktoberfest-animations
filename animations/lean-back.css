@@ -1,34 +1,34 @@
 /**
-* By: https://github.com/plaza223
-*
-*
-**/
+ * By: https://github.com/plaza223
+ *
+ * @format
+ */
 
 @keyframes lean-back {
 	0% {
-        opacity: 0;
-    }
+		opacity: 0;
+	}
 
-    20% {
-        opacity: 1;
-        transform: skewX(45deg);
-    }
+	20% {
+		opacity: 1;
+		transform: skewX(45deg);
+	}
 
-    25% {
-        transform: skewX(0);
-    }
+	25% {
+		transform: skewX(0);
+	}
 
-    30% {
-        transform: skewX(45deg);
-    }
+	30% {
+		transform: skewX(45deg);
+	}
 
-    50% {
-        transform: rotateX(45deg);
-    }
+	50% {
+		transform: rotateX(45deg);
+	}
 
-    75% {
-        transform: rotateX(80deg);
-    }
+	75% {
+		transform: rotateX(80deg);
+	}
 }
 
 .lean-back {
