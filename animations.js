@@ -105,6 +105,7 @@ window.animations = [
 	{ name: 'rotateScaleColor', author: 'dankmir' },
 	{ name: 'rubberband', author: 'makajeez' },
 	{ name: 'scale', author: 'addenordh' },
+	{ name: 'scale-up-center', author: 'baronrafael' },
 	{ name: 'scare', author: 'NiallEccles' },
 	{ name: 'secret', author: 'chintanmshah' },
 	{ name: 'shake', author: 'golomann' },
