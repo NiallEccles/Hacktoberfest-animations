@@ -1,0 +1,14 @@
+.fade {
+  font-size: 15px;
+  color: black;
+  animation-name: fade;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes fade {
+  0%   {color: black; font-size: 15px;}
+  25%  {color: orange; font-size: 30px;}
+  50%  {color: black; fontsize: 15px;}
+  100% {color: orange; font-size: 30px;}
+}
