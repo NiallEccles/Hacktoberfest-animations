@@ -1,0 +1,29 @@
+/** @format */
+
+@keyframes flip-all {
+	5% {
+		transform: rotateX(1turn);
+	}
+	10% {
+		transform: rotateX(2turn);
+	}
+	20% {
+		transform: rotateX(3turn);
+	}
+	40% {
+		transform: rotateX(4turn);
+	}
+
+	70%,
+	100% {
+		transform: rotateX(5turn);
+	}
+}
+
+.flip-all {
+	animation-name: flip-all;
+	backface-visibility: visible;
+	animation-duration: 2s;
+	animation-fill-mode: both;
+	color: white;
+}

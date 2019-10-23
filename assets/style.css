@@ -1,14 +1,35 @@
 /** @format */
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+}
 
-html,
-body {
-	height: 100%;
-	background-color: #411e2f;
+html {
+	background-image: url(bg_main.png);
 	font-family: 'Open Sans', sans-serif;
+	height: 100%;
 }
 
 body {
-	background-image: url(bg_main.png);
+	box-sizing: inherit;
+	display: flex;
+	justify-content: center;
+	margin: 0;
+	overflow: hidden;
+	padding-top: 4rem;
+	height: 100vh;
+	align-items: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: 100%;
+	font-weight: 400;
 }
 
 select {
@@ -22,7 +43,7 @@ select {
 }
 
 .white {
-	color: white;
+	color: #fff;
 }
 
 .text-center {
@@ -31,7 +52,7 @@ select {
 
 .title {
 	font-size: 60px !important;
-	color: white;
+	color: #fff;
 }
 
 select {
@@ -42,10 +63,13 @@ select {
 	font-size: 16px;
 	border: 1px solid #ccc;
 	height: 34px;
-	scale: 200%;
 	-webkit-appearance: none;
-	-moz-appearance: none;
-	appearance: none;
+	background: url(arrow-down.png) no-repeat right #fff;
+	background-position-x: 97%;
+}
+
+#detail_elements p {
+	margin: 4px 0;
 }
 
 .custom-btn {
@@ -54,12 +78,22 @@ select {
 	background-color: #ff9f57;
 	border-color: transparent;
 	color: #fff;
+	display: inline-flex;
+	justify-content: center;
+	margin-top: 50px;
+	padding: calc(0.375em - 1px) 0.5em;
+	text-align: center;
+	text-decoration: none;
 }
 
 .custom-btn:hover {
 	background-color: #d66d1e;
-	border-color: transparent;
 	color: #fff;
+}
+
+.github-btn-logo {
+	margin-right: 5px;
+	height: 20px;
 }
 
 .max-w {

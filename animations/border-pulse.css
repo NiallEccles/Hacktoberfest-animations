@@ -1,0 +1,30 @@
+/** @format */
+
+@keyframes borderPulse {
+	0% {
+		transform: scale(1);
+	}
+	50% {
+		transform: scale(1.1);
+	}
+	100% {
+		transform: scale(1);
+	}
+}
+.border-pulse {
+	padding: 10px 30px;
+	position: relative;
+}
+.border-pulse:after {
+	animation: borderPulse 2s ease-in-out infinite;
+	border: solid 10px #fa07ac;
+	content: '';
+	display: block;
+	margin: -15px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	transform: scale(1);
+}

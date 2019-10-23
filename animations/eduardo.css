@@ -1,0 +1,39 @@
+/**
+ * /* By: https://github.com/EdoRguez
+ *
+ * @format
+ */
+
+@-webkit-keyframes eduardo {
+	0% {
+		-webkit-transform: rotate(0);
+		transform: rotate(0);
+		-webkit-transform-origin: bottom left;
+		transform-origin: bottom left;
+	}
+	100% {
+		-webkit-transform: rotate(360deg);
+		transform: rotate(360deg);
+		-webkit-transform-origin: bottom left;
+		transform-origin: bottom left;
+	}
+}
+@keyframes eduardo {
+	0% {
+		-webkit-transform: rotate(0);
+		transform: rotate(0);
+		-webkit-transform-origin: bottom left;
+		transform-origin: bottom left;
+	}
+	100% {
+		-webkit-transform: rotate(360deg);
+		transform: rotate(360deg);
+		-webkit-transform-origin: bottom left;
+		transform-origin: bottom left;
+	}
+}
+
+.eduardo {
+	-webkit-animation: eduardo 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
+	animation: eduardo 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
+}
