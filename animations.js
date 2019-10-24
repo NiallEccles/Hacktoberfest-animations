@@ -146,4 +146,5 @@ window.animations = [
 	{name: 'jitterbug', author: 'andrewghood'},
 	{name: 'pudding', author: 'sliceolife'},
   {name: 'colourfull-ldt', author: 'ledangtuanbk'},
+	{name: 'escaping', author: 'aveselovalova'},
 ];
