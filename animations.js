@@ -46,6 +46,7 @@ window.animations = [
 	{ name: 'fadeSlideDown', author: 'adsingh14' },
 	{ name: 'fadeSlideUp', author: 'adsingh14' },
 	{ name: 'failing', author: 'lucasagra' },
+	{ name: 'fallBounce', author: 'Topekz'},
   { name: 'falling' ,author: 'LRK1696' },
 	{ name: 'fire', author: 'marcelowis' },
 	{ name: 'firetext', author: 'KrindgesJuliano' },
