@@ -154,5 +154,6 @@ window.animations = [
   {name: 'colourfull-ldt', author: 'ledangtuanbk'},
 	{name: 'blurFade', author: 'aveselovalova'},
 	{name: 'escaping', author: 'aveselovalova'},
-  {name: 'randomly', author: 'hidalgo_vntu'}
+  {name: 'randomly', author: 'hidalgo_vntu'},
+  {name: 'flashtext', author: 'cTahirih'}
 ];
