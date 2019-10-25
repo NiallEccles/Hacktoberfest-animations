@@ -22,7 +22,7 @@ window.animations = [
 	{ name: 'chibata', author: 'eu447' },
 	{ name: 'circimental', author: 'isfatul-codersbd' },
 	{ name: 'classyAppear', author: 'roganoalien' },
-	{ name: 'colour-changes', author: 'rishabhp99' },
+	{ name: 'colour-changes', author: 'rishabhp99' },	
 	{ name: 'colourfull', author: 'hurleyandrew' },
 	{ name: 'colours', author: 'zerossb' },
 	{ name: 'come-and-go', author: 'hoehooiyan' },
@@ -118,6 +118,7 @@ window.animations = [
 	{ name: 'swing-by-lumuscode', author: 'LumusCode' },
 	{ name: 'swing', author: 'kenante' },
 	{ name: 'tada', author: 'marimendes' },
+	{ name: 'the-shining', author: 'kshitijsriv'},
 	{ name: 'top-down', author: 'Demysdcl' },
 	{ name: 'tipsy', author: 'Maria218' },
 	{ name: 'toospooky', author: 'erikadionn' },
@@ -136,5 +137,5 @@ window.animations = [
   { name: 'dang', author: 'carlosnufe' },
 	{ name: 'ShineText', author: 'SP-2605' },
 	{name: 'jitterbug', author: 'andrewghood'},
-	{name: 'pudding', author: 'sliceolife'}
+	{name: 'pudding', author: 'sliceolife'},
 ];
