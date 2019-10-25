@@ -112,6 +112,7 @@ window.animations = [
 	{ name: 'scale', author: 'addenordh' },
 	{ name: 'scale-up-center', author: 'baronrafael' },
 	{ name: 'scare', author: 'NiallEccles' },
+  { name: 'scooby-doo', author: 'aliheikal' },
 	{ name: 'secret', author: 'chintanmshah' },
 	{ name: 'shake', author: 'golomann' },
 	{ name: 'shaking-blinking', author: 'redpop' },
