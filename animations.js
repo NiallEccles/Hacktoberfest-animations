@@ -27,6 +27,7 @@ window.animations = [
 	{ name: 'colours', author: 'zerossb' },
 	{ name: 'come-and-go', author: 'hoehooiyan' },
   { name: 'coming-together', author: 'Demysdcl' },
+  { name: 'cool-breeze', author: 'wajeehsheikh' },
   { name: 'crackling-ground', author: 'Pliavi' },
 	{ name: 'crazy', author: 'MuhammadBilal' },
 	{ name: 'crazy-monkey', author: 'fernanDOTdo' },
@@ -81,6 +82,7 @@ window.animations = [
 	{ name: 'nanananabatman', author: 'Pamblam' },
 	{ name: 'neon', author: 'AllDayAlone' },
 	{ name: 'neonplus', author: 'AdrianoBiolchi' },
+	{ name: 'new-page', author: 'nerdomancer' },
 	{ name: 'opacity-by-gabrielamattias', author: 'GabrielaMattias' },
 	{ name: 'orangeisthenewblack', author: 'kevinhuddy' },
 	{ name: 'hydrated', author: 'tancredosouza' },
@@ -96,6 +98,7 @@ window.animations = [
 	{ name: 'reduce', author: 'dayanFreitas' },
 	{ name: 'random', author: 'marcelowis' },
 	{ name: 'reveal', author: 'NuCelyA' },
+	{ name: 'reverseStretch', author: 'loetcodes'},
 	{ name: 'right-to-left', author: 'Demysdcl' },
 	{ name: 'rocket', author: 'ellieya' },
 	{ name: 'rollin-by-kylerits', author: 'kylerits' },
@@ -105,6 +108,7 @@ window.animations = [
 	{ name: 'rotateScaleColor', author: 'dankmir' },
 	{ name: 'rubberband', author: 'makajeez' },
 	{ name: 'scale', author: 'addenordh' },
+	{ name: 'scale-up-center', author: 'baronrafael' },
 	{ name: 'scare', author: 'NiallEccles' },
 	{ name: 'secret', author: 'chintanmshah' },
 	{ name: 'shake', author: 'golomann' },
@@ -143,4 +147,6 @@ window.animations = [
 	{name: 'jitterbug', author: 'andrewghood'},
 	{name: 'pudding', author: 'sliceolife'},
 	{name: 'shadow', author: 'jpinck'},
+  {name: 'colourfull-ldt', author: 'ledangtuanbk'},
+  {name: 'randomly', author: 'hidalgo_vntu'}
 ];

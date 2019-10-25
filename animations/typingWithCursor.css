@@ -23,13 +23,13 @@
 }
 
 .typingWithCursor {
-  border-right: 2px solid rgba(255,255,255,.75);
+	border-right: 2px solid rgba(255, 255, 255, 0.75);
 	white-space: nowrap;
 	overflow: hidden;
 	transform: translateY(-50%);
 
 	animation: typingAnimation 4s steps(30) 1s 1 alternate both,
-              textCursorAnimation 1000ms steps(30) infinite normal;
+		textCursorAnimation 1000ms steps(30) infinite normal;
 }
 
 .typingWithCursor::after {
