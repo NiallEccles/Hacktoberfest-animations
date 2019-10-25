@@ -98,6 +98,7 @@ window.animations = [
 	{ name: 'reduce', author: 'dayanFreitas' },
 	{ name: 'random', author: 'marcelowis' },
 	{ name: 'reveal', author: 'NuCelyA' },
+	{ name: 'reverseStretch', author: 'loetcodes'},
 	{ name: 'right-to-left', author: 'Demysdcl' },
 	{ name: 'rocket', author: 'ellieya' },
 	{ name: 'rollin-by-kylerits', author: 'kylerits' },
@@ -145,6 +146,8 @@ window.animations = [
 	{ name: 'scale-up-hor-center', author: 'nerdomancer' },
 	{name: 'jitterbug', author: 'andrewghood'},
 	{name: 'pudding', author: 'sliceolife'},
+	{name: 'shadow', author: 'jpinck'},
   {name: 'colourfull-ldt', author: 'ledangtuanbk'},
 	{name: 'escaping', author: 'aveselovalova'},
+  {name: 'randomly', author: 'hidalgo_vntu'}
 ];
