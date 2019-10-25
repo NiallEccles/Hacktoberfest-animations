@@ -146,6 +146,7 @@ window.animations = [
 	{ name: 'scale-up-hor-center', author: 'nerdomancer' },
 	{name: 'jitterbug', author: 'andrewghood'},
 	{name: 'pudding', author: 'sliceolife'},
+	{name: 'shadow', author: 'jpinck'},
   {name: 'colourfull-ldt', author: 'ledangtuanbk'},
-    {name: 'randomly', author: 'hidalgo_vntu'}
+  {name: 'randomly', author: 'hidalgo_vntu'}
 ];
