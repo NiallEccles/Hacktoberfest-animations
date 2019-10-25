@@ -1,0 +1,41 @@
+/**
+ * /* By: https://github.com/hidalgo-vntu
+ *
+ * @format
+ */
+
+@keyframes randomly {
+	0%,
+	50%,
+	65%,
+	80%,
+	to {
+		animation-timing-function: cubic-bezier(0.215, 0.6, 0.355, 1);
+	}
+
+	0% {
+		opacity: 0;
+		transform: translate3d(0);
+	}
+
+	60% {
+		opacity: 1;
+		transform: translate3d(40px, -60px, -130px);
+	}
+
+	75% {
+		transform: translate3d(-2.5rem, 0, 1rem);
+	}
+
+	90% {
+		transform: translate3d(5ch, 0.5in, 5em);
+	}
+
+	to {
+		transform: none;
+	}
+}
+
+.randomly {
+	animation: randomly 1s infinite;
+}
