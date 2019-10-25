@@ -113,6 +113,7 @@ window.animations = [
 	{ name: 'secret', author: 'chintanmshah' },
 	{ name: 'shake', author: 'golomann' },
 	{ name: 'shaking-blinking', author: 'redpop' },
+  { name: 'slideOutUp', author: 'lospettro'},
 	{ name: 'slowglow', author: 'shailzaa' },
 	{ name: 'showRight', author: 'janczer' },
 	{ name: 'smoke', author: 'chintanmshah' },
