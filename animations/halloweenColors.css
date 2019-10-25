@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Staatliches&display=swap');
+
+@keyframes halloweenColors {
+	0%   {background: black; color: #e55e22;}
+	25%  {background: #a73ae7; color: black; }
+	50%  {background: #e55e22; color: white;}
+	75%  {background: #c5f835; color: black; }
+	100% {background: #614973; color: #e55e22; }
+}
+
+.halloweenColors {
+	animation: halloweenColors;
+	font-family: 'Staatliches', cursive;
+	animation-duration: 2.5s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	padding: 30px;
+	position: relative;
+	animation-direction: alternate;
+
+}
