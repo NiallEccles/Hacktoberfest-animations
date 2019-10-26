@@ -2,6 +2,7 @@
 
 window.animations = [
     { name: 'FadeOutLeft', author: 'Biafer'},
+	{ name: 'ZoomOutAnimation', author: 'Biafer'},
 	{ name: 'aberration', author: 'cnsumner' },
 	{ name: 'autumn-gradient', author: 'marichka-offen' },
 	{ name: 'backFlip', author: 'adsingh14' },
