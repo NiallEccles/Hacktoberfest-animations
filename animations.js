@@ -67,6 +67,7 @@ window.animations = [
 	{ name: 'haleemah', author: 'bolajiscott' },
 	{ name: 'halloween', author: 'honeyyenoh' },
 	{ name: 'harrypotter', author: 'naftalima'},
+  { name: 'headShake', author: 'lospettro'},
 	{ name: 'heartbeat-by-azrizhaziq', author: 'azrizhaziq' },
 	{ name: 'heartbeat', author: 'sunny-aguilar' },
 	{ name: 'hibouCoucou', author: 'af1ne' },
@@ -117,6 +118,7 @@ window.animations = [
 	{ name: 'secret', author: 'chintanmshah' },
 	{ name: 'shake', author: 'golomann' },
 	{ name: 'shaking-blinking', author: 'redpop' },
+  { name: 'slideOutUp', author: 'lospettro'},
 	{ name: 'slowglow', author: 'shailzaa' },
 	{ name: 'showRight', author: 'janczer' },
 	{ name: 'smoke', author: 'chintanmshah' },
@@ -155,5 +157,6 @@ window.animations = [
 	{name: 'blurFade', author: 'aveselovalova'},
 	{name: 'escaping', author: 'aveselovalova'},
   {name: 'randomly', author: 'hidalgo_vntu'},
-  {name: 'rrrah', author: 'DhevaMargaPutra'}
+  {name: 'rrrah', author: 'DhevaMargaPutra'},
+  {name: 'flashtext', author: 'cTahirih'}
 ];
