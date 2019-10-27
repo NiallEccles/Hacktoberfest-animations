@@ -157,5 +157,6 @@ window.animations = [
 	{name: 'blurFade', author: 'aveselovalova'},
 	{name: 'escaping', author: 'aveselovalova'},
   {name: 'randomly', author: 'hidalgo_vntu'},
+  {name: 'rrrah', author: 'DhevaMargaPutra'},
   {name: 'flashtext', author: 'cTahirih'}
 ];
