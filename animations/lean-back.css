@@ -1,0 +1,37 @@
+/**
+ * By: https://github.com/plaza223
+ *
+ * @format
+ */
+
+@keyframes lean-back {
+	0% {
+		opacity: 0;
+	}
+
+	20% {
+		opacity: 1;
+		transform: skewX(45deg);
+	}
+
+	25% {
+		transform: skewX(0);
+	}
+
+	30% {
+		transform: skewX(45deg);
+	}
+
+	50% {
+		transform: rotateX(45deg);
+	}
+
+	75% {
+		transform: rotateX(80deg);
+	}
+}
+
+.lean-back {
+	animation-name: lean-back;
+	animation-duration: 3s;
+}

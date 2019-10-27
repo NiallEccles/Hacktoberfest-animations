@@ -4,59 +4,45 @@
  * @format
  */
 
-
- 
-          
-          @keyframes falling {
-	
+@keyframes falling {
 	0% {
+		transform-origin: top left;
 
-	  transform-origin: top left;
-	
-	  animation-timing-function: ease-in-out;
+		animation-timing-function: ease-in-out;
 
-	  color: aqua;
+		color: aqua;
 	}
-          
 
 	60% {
-	
-	  transform: rotate3d(0, 0, 1, 100deg);
+		transform: rotate3d(0, 0, 1, 100deg);
 
-	  transform-origin: top left;
-	
-	  animation-timing-function: ease-in-out;
+		transform-origin: top left;
 
-	  color: aquamarine;
+		animation-timing-function: ease-in-out;
+
+		color: aquamarine;
 	}
-   
+
 	80% {
-	
-	  transform: rotate3d(0, 0, 1, 120deg);
+		transform: rotate3d(0, 0, 1, 120deg);
 
-	  transform-origin: bottom right;
+		transform-origin: bottom right;
 
-	  animation-timing-function: ease-out;
-	  opacity: 3;
+		animation-timing-function: ease-out;
+		opacity: 3;
 
-	  color: cadetblue;
+		color: cadetblue;
 	}
-          
+
 	100% {
+		transform: translate3d(0, 500px, 0);
+		opacity: 2;
 
-	  transform: translate3d(0, 500px, 0);
-	  opacity: 2;
-
-	 color: turquoise;
+		color: turquoise;
 	}
+}
 
-	
-          }
-          
-          .falling {
-	
+.falling {
 	animation-duration: 3s;
 	animation-name: falling;
-	
-          }
-          
+}
