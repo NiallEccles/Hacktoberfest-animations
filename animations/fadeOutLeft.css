@@ -31,4 +31,5 @@
 .fadeOutLeft {
   -webkit-animation-name: fadeOutLeft;
   animation-name: fadeOutLeft;
+  animation-duration: 1s;
 }
