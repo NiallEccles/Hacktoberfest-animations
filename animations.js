@@ -1,6 +1,8 @@
 /** @format */
 
 window.animations = [
+    { name: 'FadeOutLeft', author: 'Biafer'},
+	{ name: 'ZoomOutAnimation', author: 'Biafer'},
 	{ name: 'aberration', author: 'cnsumner' },
 	{ name: 'autumn-gradient', author: 'marichka-offen' },
 	{ name: 'backFlip', author: 'adsingh14' },
@@ -9,6 +11,7 @@ window.animations = [
 	{ name: 'beat', author: 'patriciafelixx' },
 	{ name: 'blend', author: 'divanshi15' },
 	{ name: 'blinking-neon', author: 'aliheikal' },
+  { name: 'alokGoldy', author: 'alokgoldy' },
 	{ name: 'boogie', author: 'jdsteinbach' },
 	{ name: 'bop', author: 'cutted' },
 	{ name: 'border-rainbow', author: 'brunobolting' },
@@ -66,7 +69,9 @@ window.animations = [
 	{ name: 'glitch', author: 'dansegliode' },
 	{ name: 'haleemah', author: 'bolajiscott' },
 	{ name: 'halloween', author: 'honeyyenoh' },
+	{ name: 'halloweenColors', author: 'gabrielaleal' },
 	{ name: 'harrypotter', author: 'naftalima'},
+  { name: 'headShake', author: 'lospettro'},
 	{ name: 'heartbeat-by-azrizhaziq', author: 'azrizhaziq' },
 	{ name: 'heartbeat', author: 'sunny-aguilar' },
 	{ name: 'hibouCoucou', author: 'af1ne' },
@@ -117,6 +122,7 @@ window.animations = [
 	{ name: 'secret', author: 'chintanmshah' },
 	{ name: 'shake', author: 'golomann' },
 	{ name: 'shaking-blinking', author: 'redpop' },
+  { name: 'slideOutUp', author: 'lospettro'},
 	{ name: 'slowglow', author: 'shailzaa' },
 	{ name: 'showRight', author: 'janczer' },
 	{ name: 'smoke', author: 'chintanmshah' },
@@ -155,5 +161,7 @@ window.animations = [
 	{ name: 'colourfull-ldt', author: 'ledangtuanbk'},
 	{ name: 'blurFade', author: 'aveselovalova'},
 	{ name: 'escaping', author: 'aveselovalova'},
-	{ name: 'randomly', author: 'hidalgo_vntu'}
+	{ name: 'randomly', author: 'hidalgo_vntu'},
+  {name: 'rrrah', author: 'DhevaMargaPutra'},
+  {name: 'flashtext', author: 'cTahirih'}
 ];
