@@ -131,6 +131,7 @@ window.animations = [
 	{ name: 'split-and-twist', author: 'viciouskitten' },
 	{ name: 'spooky', author: 'elizabethfinedev' },
 	{ name: 'spookyDoor-cgduncan7', author: 'cgduncan7' },
+	{ name: 'spotlight', author: 'siobhan-collopy' },
 	{ name: 'star-wars-roll', author: 'MandeeD' },
 	{ name: 'strangerthings', author: 'crownedpigeon' },
 	{ name: 'stretchout', author: 's-Hale' },
