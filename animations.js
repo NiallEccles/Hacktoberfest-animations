@@ -164,4 +164,5 @@ window.animations = [
 	{ name: 'randomly', author: 'hidalgo_vntu'},
   {name: 'rrrah', author: 'DhevaMargaPutra'},
   {name: 'flashtext', author: 'cTahirih'}
+  {name: 'lightSpeedOut', author: 'aarushi15002'}
 ];
