@@ -1,0 +1,104 @@
+/**
+
+ * /* By: https://github.com/TheBangiss
+
+ *
+
+ * @format
+
+ */
+
+
+
+
+
+ @-webkit-keyframes flipInAndOut {
+
+    0% {
+
+      -webkit-transform: rotate(0);
+
+              transform: rotate(0);
+
+      -webkit-transform-origin: bottom left;
+
+              transform-origin: bottom left;
+
+    }
+
+    50% {
+
+      -webkit-transform: rotate(180deg);
+
+              transform: rotate(180deg);
+
+      -webkit-transform-origin: bottom left;
+
+              transform-origin: bottom left;
+
+    }
+	100% {
+
+      -webkit-transform: rotate(0deg);
+
+              transform: rotate(0deg);
+
+      -webkit-transform-origin: bottom left;
+
+              transform-origin: bottom left;
+
+    }
+
+  }
+
+  @keyframes flipInAndOut {
+
+    0% {
+
+      -webkit-transform: rotate(0);
+
+              transform: rotate(0);
+
+      -webkit-transform-origin: bottom left;
+
+              transform-origin: bottom left;
+
+    }
+
+    50% {
+
+      -webkit-transform: rotate(180deg);
+
+              transform: rotate(180deg);
+
+      -webkit-transform-origin: bottom left;
+
+              transform-origin: bottom left;
+
+    }
+	100% {
+
+      -webkit-transform: rotate(0deg);
+
+              transform: rotate(0deg);
+
+      -webkit-transform-origin: bottom left;
+
+              transform-origin: bottom left;
+
+    }
+
+  }
+
+
+
+
+
+.flipInAndOut {
+
+	-webkit-animation: flipInAndOut 2s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+
+	        animation: flipInAndOut 2s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+			color:aqua;
+
+}
