@@ -24,6 +24,7 @@ window.animations = [
 	{ name: 'change-color', author: 'lozinska' },
 	{ name: 'chillerColor', author: 'mel2121' },
 	{ name: 'chibata', author: 'eu447' },
+  { name: 'comeOver', author: 'TheBangis' },
 	{ name: 'circimental', author: 'isfatul-codersbd' },
 	{ name: 'classyAppear', author: 'roganoalien' },
 	{ name: 'colour-changes', author: 'rishabhp99' },
