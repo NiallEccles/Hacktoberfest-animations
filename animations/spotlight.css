@@ -1,0 +1,31 @@
+/**
+ * /* By: https://github.com/chintanmshah
+ *
+ * @format
+ */
+
+
+
+.spotlight {
+  position: relative;
+  text-transform: uppercase;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 2em;
+  letter-spacing: 2px;
+  overflow: hidden;
+	background: linear-gradient(90deg, #51283B, #fff, #51283B);
+  background-repeat: no-repeat;
+  background-size: 50%;
+  animation: animate 4s linear infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
+
+@keyframes animate {
+  0% {
+    background-position: -500%;
+  }
+  100% {
+    background-position: 500%;
+  }
+}
