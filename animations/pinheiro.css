@@ -1,0 +1,55 @@
+/**
+ * /*by https://github.com/micaelgoms
+ *
+ * @format
+ */
+ 
+@import url('https://fonts.googleapis.com/css?family=Modak&display=swap');
+
+@-webkit-keyframes pinheiro {
+	from {
+		color: red;
+	}
+	50% {
+		color: green;
+	}
+	to {
+		color: black;
+	}
+}
+
+@keyframes pinheiro {
+	from {
+		color: red;
+	}
+	50% {
+		color: green;
+	}
+	to {
+		color: black;
+	}
+}
+.pinheiro {
+	font-family: 'Modak', cursive;
+	color: white;
+	-webkit-animation-name: pinheiro;
+	animation-name: pinheiro;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+}
+
+/* City Name */
+.pinheiro::before {
+	content: "PINHEIRO-MA";
+	position: absolute;
+	margin-top: -20px;
+	margin-left: 250px;
+	font-size: 25px;
+	color: white;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+/* Flag from my city */
+/* .pinheiro::after {
+	content: url("https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Bandeira_de_Pinheiro_-_MA.svg/750px-Bandeira_de_Pinheiro_-_MA.svg.png");
+} */
