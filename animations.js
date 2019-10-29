@@ -131,6 +131,7 @@ window.animations = [
 	{ name: 'split-and-twist', author: 'viciouskitten' },
 	{ name: 'spooky', author: 'elizabethfinedev' },
 	{ name: 'spookyDoor-cgduncan7', author: 'cgduncan7' },
+	{ name: 'spotlight', author: 'siobhan-collopy' },
 	{ name: 'star-wars-roll', author: 'MandeeD' },
 	{ name: 'strangerthings', author: 'crownedpigeon' },
 	{ name: 'stretchout', author: 's-Hale' },
@@ -165,4 +166,7 @@ window.animations = [
   {name: 'rrrah', author: 'DhevaMargaPutra'},
   {name: 'flashtext', author: 'cTahirih'},
 	{ name: 'fancy-border', author: 'ThePoptartCrpr' },
+  {name: 'flashtext', author: 'cTahirih'},
+  {name: 'rotateOutUpRight', author: 'innocent-rajan'},
+  {name: 'lightSpeedOut', author: 'aarushi15002'}
 ];
