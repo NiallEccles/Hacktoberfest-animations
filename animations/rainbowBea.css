@@ -1,0 +1,29 @@
+/**
+ * /* By: https://github.com/biadelmiro
+ *
+ * @format
+ */
+
+.rainbowBea {
+    display: flex;
+    align-content: center;
+    position: relative;
+    margin: 0 auto;
+    animation-name: rainbowBea;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes rainbowBea {
+    0% {
+      top: 0px;
+      color:rgba(250, 246, 16);
+    }
+    50%{
+        color:rgba(16, 250, 121, 0.76);
+    }
+    100% {
+      top: 249px;
+      color:rgba(250, 16, 67, 0.37);
+    }
+  }
