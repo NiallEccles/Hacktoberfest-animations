@@ -39,4 +39,5 @@
 .zoomOut {
   -webkit-animation-name: zoomOut;
   animation-name: zoomOut;
+  animation-duration: 1s;
 }
