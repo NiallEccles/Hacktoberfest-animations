@@ -95,6 +95,7 @@ window.animations = [
 	{ name: 'orangeisthenewblack', author: 'kevinhuddy' },
 	{ name: 'hydrated', author: 'tancredosouza' },
 	{ name: 'ping', author: 'Tatvam' },
+	{ name: 'pinheiro', author: 'micaelgoms' },
 	{ name: 'piston', author: 'sockopera' },
 	{ name: 'pivot', author: 'ronlaniado' },
 	{ name: 'pulse', author: 'makajeez' },
