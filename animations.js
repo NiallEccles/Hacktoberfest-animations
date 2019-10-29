@@ -60,6 +60,7 @@ window.animations = [
 	{ name: 'flip-all', author: 'istellar' },
 	{ name: 'flipper', author: 'shubham9019' },
 	{ name: 'flipInX', author: 'fernandosutter' },
+  { name: 'flipInAndOut', author: 'TheBangis' },
 	{ name: 'floatTitle', author: 'llespinasse' },
 	{ name: 'focusIn', author: 'MasihTak'},
 	{ name: 'focusBlur', author: 'Swong87' },
