@@ -1,0 +1,68 @@
+/**
+
+ * /* By: https://github.com/TheBangis
+
+ *
+
+ * @format
+
+ */
+
+
+
+@keyframes animate {
+
+	0% {
+
+		background-position: -500%;
+
+	}
+
+
+
+	100% {
+
+		background-position: 500%;
+
+	}
+
+}
+
+
+
+.comeOver{
+
+	position: relative;
+
+	font-family: cursive, Arial;
+	
+	font-size: 45px;
+
+	letter-spacing: 1px;
+
+	background: linear-gradient(90deg, #5f63d3, #fff, #5f63d3);
+
+	background-repeat: no-repeat;
+
+	background-size: 75%;
+	
+	text-decoration: underline;
+
+	animation: animate 2s linear infinite;
+
+	-webkit-background-clip: text;
+
+	-webkit-text-fill-color: rgb(0, 255, 0);
+
+	transition: all 0.8s;
+
+}
+
+
+
+.comeOver:hover {
+
+	letter-spacing: 20px;
+	
+
+}
