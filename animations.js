@@ -163,5 +163,6 @@ window.animations = [
 	{ name: 'escaping', author: 'aveselovalova'},
 	{ name: 'randomly', author: 'hidalgo_vntu'},
   {name: 'rrrah', author: 'DhevaMargaPutra'},
-  {name: 'flashtext', author: 'cTahirih'}
+  {name: 'flashtext', author: 'cTahirih'},
+	{ name: 'fancy-border', author: 'ThePoptartCrpr' },
 ];
