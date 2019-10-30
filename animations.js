@@ -169,5 +169,6 @@ window.animations = [
 	{ name: 'fancy-border', author: 'ThePoptartCrpr' },
   {name: 'flashtext', author: 'cTahirih'},
   {name: 'rotateOutUpRight', author: 'innocent-rajan'},
-  {name: 'lightSpeedOut', author: 'aarushi15002'}
+  {name: 'lightSpeedOut', author: 'aarushi15002'},
+  {name: 'color-ledangtuanbkhn', author: 'ledangtuanbkhn'},
 ];
