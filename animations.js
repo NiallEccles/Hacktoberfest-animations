@@ -28,6 +28,7 @@ window.animations = [
 	{ name: 'circimental', author: 'isfatul-codersbd' },
 	{ name: 'classyAppear', author: 'roganoalien' },
 	{ name: 'colour-changes', author: 'rishabhp99' },
+  { name: 'cLeft', author: 'TheBangis' },
 	{ name: 'colourfull', author: 'hurleyandrew' },
 	{ name: 'colours', author: 'zerossb' },
 	{ name: 'come-and-go', author: 'hoehooiyan' },
