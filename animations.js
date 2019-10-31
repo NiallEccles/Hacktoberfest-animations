@@ -178,4 +178,5 @@ window.animations = [
   {name: 'rotateOutUpRight', author: 'innocent-rajan'},
   {name: 'lightSpeedOut', author: 'aarushi15002'},
   {name: 'lr-loop', author: 'luca-gouveia'}
+  {name: 'bubbles', author: 'Akshama'}
 ];
