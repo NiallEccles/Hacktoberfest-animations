@@ -1,6 +1,8 @@
 /** @format */
 
 window.animations = [
+	{ name: 'staircase_bounce', author: 'vivekrawat'},
+	{ name: 'bounce', author: 'Biafer'},
     { name: 'fadeOutLeft', author: 'Biafer'},
 	{ name: 'zoomOut', author: 'Biafer'},
 	{ name: 'aberration', author: 'cnsumner' },
@@ -127,6 +129,7 @@ window.animations = [
 	{ name: 'secret', author: 'chintanmshah' },
 	{ name: 'shake', author: 'golomann' },
 	{ name: 'shaking-blinking', author: 'redpop' },
+	{ name: 'slasher', author: 'Rabanov' },
   { name: 'slideOutUp', author: 'lospettro'},
 	{ name: 'slowglow', author: 'shailzaa' },
 	{ name: 'showRight', author: 'janczer' },
@@ -143,6 +146,7 @@ window.animations = [
 	{ name: 'swing-by-lumuscode', author: 'LumusCode' },
 	{ name: 'swing', author: 'kenante' },
 	{ name: 'tada', author: 'marimendes' },
+	{ name: 'the-shining', author: 'kshitijsriv'},
 	{ name: 'top-down', author: 'Demysdcl' },
 	{ name: 'tipsy', author: 'Maria218' },
 	{ name: 'toospooky', author: 'erikadionn' },
@@ -173,5 +177,7 @@ window.animations = [
 	{ name: 'fancy-border', author: 'ThePoptartCrpr' },
   {name: 'flashtext', author: 'cTahirih'},
   {name: 'rotateOutUpRight', author: 'innocent-rajan'},
-  {name: 'lightSpeedOut', author: 'aarushi15002'}
+  {name: 'lightSpeedOut', author: 'aarushi15002'},
+  {name: 'lr-loop', author: 'luca-gouveia'},
+  {name: 'bubbles', author: 'Akshama'}
 ];
