@@ -29,7 +29,8 @@ window.animations = [
   { name: 'comeOver', author: 'TheBangis' },
 	{ name: 'circimental', author: 'isfatul-codersbd' },
 	{ name: 'classyAppear', author: 'roganoalien' },
-	{ name: 'colour-changes', author: 'rishabhp99' },	
+	{ name: 'colour-changes', author: 'rishabhp99' },
+  { name: 'cLeft', author: 'TheBangis' },
 	{ name: 'colourfull', author: 'hurleyandrew' },
 	{ name: 'colours', author: 'zerossb' },
 	{ name: 'come-and-go', author: 'hoehooiyan' },
@@ -177,6 +178,6 @@ window.animations = [
   {name: 'flashtext', author: 'cTahirih'},
   {name: 'rotateOutUpRight', author: 'innocent-rajan'},
   {name: 'lightSpeedOut', author: 'aarushi15002'},
-  {name: 'lr-loop', author: 'luca-gouveia'}
+  {name: 'lr-loop', author: 'luca-gouveia'},
   {name: 'bubbles', author: 'Akshama'}
 ];
