@@ -1,44 +1,48 @@
-/*
-* BY: Tahirih,
-* Front developer from Perú
-* GitHub: cTahirih
+/**
+ * /*
+ * BY: Tahirih,
+ * Front developer from Perú
+ * GitHub: cTahirih
+ *
+ * @format
  */
+
 .flashtext {
-  animation: flashtext 3s ease infinite;
-  transform-origin: 50% 50%;
+	animation: flashtext 3s ease infinite;
+	transform-origin: 50% 50%;
 }
 
 @keyframes flashtext {
-  0% {
-    opacity:1;
-    color: #fff;
-  }
-  16.66667% {
-    opacity:0;
-    color: #ff9f57;
-  }
-  33.33333% {
-    opacity:1;
-    color: #fff;
-  }
-  50% {
-    opacity:0;
-    color: #ff9f57;
-  }
-  66.66667% {
-    opacity:1;
-    color: #fff;
-  }
-  100% {
-    opacity:1;
-    color: #ff9f57;
-  }
+	0% {
+		opacity: 1;
+		color: #fff;
+	}
+	16.66667% {
+		opacity: 0;
+		color: #ff9f57;
+	}
+	33.33333% {
+		opacity: 1;
+		color: #fff;
+	}
+	50% {
+		opacity: 0;
+		color: #ff9f57;
+	}
+	66.66667% {
+		opacity: 1;
+		color: #fff;
+	}
+	100% {
+		opacity: 1;
+		color: #ff9f57;
+	}
 }
 
 .flashtext::before {
-  content: ' 🎃 ';
+	content: ' 🎃 ';
 }
 
 .flashtext::after {
-  content: ' 👻 ';
+	content: ' 👻 ';
 }

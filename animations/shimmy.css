@@ -1,43 +1,23 @@
 /** @format */
 
-@-webkit-keyframes shimmy {
-	from,
-	to {
-		-webkit-transform: translate(2px, 0); 
-		-webkit-transform: rotate(1deg);
-		transform: translate(2px, 0); 
-       	transform: rotate(2deg);
-	}
-
-	50% {
-		-webkit-transform: translate(-2px,0);
-		-webkit-transform: rotate(-1deg);
-		transform: translate(-2px, 0);
-        transform: rotate(-2deg);
-	},
-
-	100% {
-		-webkit-transform: translate(2px,0);
-		-webkit-transform: rotate(1deg);
-		transform: translate(2px, 0); 
-        transform: rotate(2deg);}
-	}
-}
-
-
 @keyframes shimmy {
-  0% { transform: translate(2px, 0); 
-       transform: rotate(2deg);}
-  50% { transform: translate(-2px, 0);
-        transform: rotate(-2deg);}
-  100% { transform: translate(2px, 0); 
-          transform: rotate(2deg);}
+	0% {
+		transform: translate(2px, 0);
+		transform: rotate(2deg);
+	}
+	50% {
+		transform: translate(-2px, 0);
+		transform: rotate(-2deg);
+	}
+	100% {
+		transform: translate(2px, 0);
+		transform: rotate(2deg);
+	}
 }
-
 
 .shimmy {
 	-webkit-animation-name: shimmy;
 	animation-name: shimmy;
 	animation: shimmy 200ms infinite;
-  	animation-timing-function: linear; 
+	animation-timing-function: linear;
 }

@@ -3,7 +3,7 @@
  *
  * @format
  */
- 
+
 @import url('https://fonts.googleapis.com/css?family=Modak&display=swap');
 
 @-webkit-keyframes pinheiro {
@@ -40,7 +40,7 @@
 
 /* City Name */
 .pinheiro::before {
-	content: "PINHEIRO-MA";
+	content: 'PINHEIRO-MA';
 	position: absolute;
 	margin-top: -20px;
 	margin-left: 250px;

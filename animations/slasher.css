@@ -3,58 +3,128 @@
  *
  * @format
  */
- 
- .slasher {
-    font-family: 'Nanum Brush Script', cursive;
-    -webkit-animation: slasher 2s infinite;
-    -moz-animation: slasher 2s infinite;
-    -o-animation: slasher 2s infinite;
-    -ms-animation: slasher 2s infinite;
-    animation: slasher 2s infinite;
+
+.slasher {
+	font-family: 'Nanum Brush Script', cursive;
+	-webkit-animation: slasher 2s infinite;
+	-moz-animation: slasher 2s infinite;
+	-o-animation: slasher 2s infinite;
+	-ms-animation: slasher 2s infinite;
+	animation: slasher 2s infinite;
 }
 
 @-webkit-keyframes slasher {
-    0% { color: #ff0000; }
-    20% { color: #e60000; }
-    40% { color: #b30000; }
-    50% { color: #800000; }
-    60% { color: #b30000; }
-    80% { color: #e60000; }
-    100% { color: #ff0000; }
+	0% {
+		color: #ff0000;
+	}
+	20% {
+		color: #e60000;
+	}
+	40% {
+		color: #b30000;
+	}
+	50% {
+		color: #800000;
+	}
+	60% {
+		color: #b30000;
+	}
+	80% {
+		color: #e60000;
+	}
+	100% {
+		color: #ff0000;
+	}
 }
 @-moz-keyframes slasher {
-    0% { color: #ff0000; }
-    20% { color: #e60000; }
-    40% { color: #b30000; }
-    50% { color: #800000; }
-    60% { color: #b30000; }
-    80% { color: #e60000; }
-    100% { color: #ff0000; }
+	0% {
+		color: #ff0000;
+	}
+	20% {
+		color: #e60000;
+	}
+	40% {
+		color: #b30000;
+	}
+	50% {
+		color: #800000;
+	}
+	60% {
+		color: #b30000;
+	}
+	80% {
+		color: #e60000;
+	}
+	100% {
+		color: #ff0000;
+	}
 }
 @-ms-keyframes slasher {
-    0% { color: #ff0000; }
-    20% { color: #e60000; }
-    40% { color: #b30000; }
-    50% { color: #800000; }
-    60% { color: #b30000; }
-    80% { color: #e60000; }
-    100% { color: #ff0000; }
+	0% {
+		color: #ff0000;
+	}
+	20% {
+		color: #e60000;
+	}
+	40% {
+		color: #b30000;
+	}
+	50% {
+		color: #800000;
+	}
+	60% {
+		color: #b30000;
+	}
+	80% {
+		color: #e60000;
+	}
+	100% {
+		color: #ff0000;
+	}
 }
 @-o-keyframes slasher {
-    0% { color: #ff0000; }
-    20% { color: #e60000; }
-    40% { color: #b30000; }
-    50% { color: #800000; }
-    60% { color: #b30000; }
-    80% { color: #e60000; }
-    100% { color: #ff0000; }
+	0% {
+		color: #ff0000;
+	}
+	20% {
+		color: #e60000;
+	}
+	40% {
+		color: #b30000;
+	}
+	50% {
+		color: #800000;
+	}
+	60% {
+		color: #b30000;
+	}
+	80% {
+		color: #e60000;
+	}
+	100% {
+		color: #ff0000;
+	}
 }
 @keyframes slasher {
-    0% { color: #ff0000; }
-    20% { color: #e60000; }
-    40% { color: #b30000; }
-    50% { color: #800000; }
-    60% { color: #b30000; }
-    80% { color: #e60000; }
-    100% { color: #ff0000; }
+	0% {
+		color: #ff0000;
+	}
+	20% {
+		color: #e60000;
+	}
+	40% {
+		color: #b30000;
+	}
+	50% {
+		color: #800000;
+	}
+	60% {
+		color: #b30000;
+	}
+	80% {
+		color: #e60000;
+	}
+	100% {
+		color: #ff0000;
+	}
 }

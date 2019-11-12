@@ -26,8 +26,8 @@
 	animation: darkBlack 2s ease infinite;
 	background: linear-gradient(
 			110deg,
-			rgb(123,34,56) 28%,
-			rgba(0, 0, 0, 0.50) 30%
+			rgb(123, 34, 56) 28%,
+			rgba(0, 0, 0, 0.5) 30%
 		),
 		linear-gradient(110deg, rgb(255, 69, 0) 34%, #000 40%);
 	background-size: 400%;

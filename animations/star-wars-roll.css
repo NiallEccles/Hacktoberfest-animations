@@ -6,13 +6,13 @@
 
 @keyframes star-wars-roll {
 	0% {
-    top: 100px;
-    transform: perspective(300px) rotateX(25deg);
-  }
-    100% { 
-    top: -150px;
-    transform: perspective(50px) rotateX(50deg);
-  }
+		top: 100px;
+		transform: perspective(300px) rotateX(25deg);
+	}
+	100% {
+		top: -150px;
+		transform: perspective(50px) rotateX(50deg);
+	}
 }
 
 .star-wars-roll {
