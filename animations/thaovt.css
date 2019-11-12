@@ -4,16 +4,16 @@
  * @format
  */
 
-@-webkit-keyframes bop {
+@-webkit-keyframes thaovt {
 	100% {
 		top: -20px;
 		text-shadow: 0 1px 0 #b7b7b7, 0 50px 25px rgba(0, 0, 0, 0.2);
 	}
 }
 
-.bop {
+.thaovt {
 	position: relative;
 	top: 20px;
-	-webkit-animation: bop 0.3s ease infinite alternate;
+	-webkit-animation: thaovt 0.3s ease infinite alternate;
 	text-shadow: 0 1px 0 #b7b7b7, 0 10px 10px rgba(0, 0, 0, 0.4);
 }
