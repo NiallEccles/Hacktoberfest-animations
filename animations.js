@@ -182,5 +182,5 @@ window.animations = [
   {name: 'lr-loop', author: 'luca-gouveia'},
   {name: 'thaovt', author: 'thaovt'},
 	{ name: 'bubbles', author: 'Akshama' },
-  {name: 'Invicta', author: 'mani9896'},
+  {name: 'Invict', author: 'mani9896'},
 ];
