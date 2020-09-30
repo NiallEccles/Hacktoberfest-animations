@@ -8,7 +8,7 @@ Small animation selector for Hacktoberfest
 
 ## How to contribute
 
-- Fork this repo
+- Fork this repo.
 - Create a new CSS file with your cool animation name inside `./animations` folder, be creative!
 - Edit the `./animations.js` file to include your animation using the following structure:
 
@@ -29,7 +29,7 @@ If you have any problems/questions or issues please submit an issue and I will g
 
 Don't forget to star!
 
-## Showcase
+## Showcase:
 
 ![boogie by jdsteinbach](https://raw.githubusercontent.com/NiallEccles/Hacktoberfest-animations/master/showcase/boogie.gif)
 boogie by [jdsteinbach](https://github.com/jdsteinbach)
@@ -58,6 +58,6 @@ pumpkins by [ashwoodall](https://github.com/ashwoodall)
 ![border rainbow by brunobolting](https://raw.githubusercontent.com/NiallEccles/Hacktoberfest-animations/master/showcase/border-rainbow.gif)
 border-rainbow by [brunobolting](https://github.com/brunobolting)
 
-## Notable Contributions
+## Notable Contributions:
 
 Huge thanks to [reebr](https://github.com/reebr) for massively improving the structure of the project.
