@@ -1,0 +1,166 @@
+/** @format */
+
+@import url('https://fonts.googleapis.com/css2?family=Iceland&display=swap');
+
+body {
+	background: url('https://wallpaperaccess.com/full/983279.jpg');
+	background-size: cover;
+}
+
+.theLight {
+	background-image: radial-gradient(
+		ellipse 50% 35% at 50% 50%,
+		#18356b,
+		transparent
+	);
+
+	letter-spacing: 3;
+	margin: auto;
+	font-family: 'Iceland', cursive;
+	text-transform: uppercase;
+	font-size: 6em;
+	color: #ebe6ff;
+	text-shadow: 0 0 0.6rem #ebe6ff, 0 0 1.5rem #6581ff,
+		-0.2rem 0.1rem 1rem #6581ff, 0.2rem 0.1rem 1rem #6589ff,
+		0 -0.5rem 2rem #245eff, 0 0.5rem 3rem #244cff;
+	animation: shine 2s forwards, flicker 3s infinite;
+}
+
+@keyframes shine {
+	0% {
+		color: #18246b;
+		text-shadow: none;
+	}
+	100% {
+		color: #ffe6ff;
+		text-shadow: 0 0 0.6rem #ebe6ff, 0 0 1.5rem #6581ff,
+			-0.2rem 0.1rem 1rem #6581ff, 0.2rem 0.1rem 1rem #6589ff,
+			0 -0.5rem 2rem #245eff, 0 0.5rem 3rem #244cff;
+	}
+}
+
+@keyframes flicker {
+	from {
+		opacity: 1;
+	}
+
+	4% {
+		opacity: 0.9;
+	}
+
+	6% {
+		opacity: 0.85;
+	}
+
+	8% {
+		opacity: 0.95;
+	}
+
+	10% {
+		opacity: 0.9;
+	}
+
+	11% {
+		opacity: 0.922;
+	}
+
+	12% {
+		opacity: 0.9;
+	}
+
+	14% {
+		opacity: 0.95;
+	}
+
+	16% {
+		opacity: 0.98;
+	}
+
+	17% {
+		opacity: 0.9;
+	}
+
+	19% {
+		opacity: 0.93;
+	}
+
+	20% {
+		opacity: 0.99;
+	}
+
+	24% {
+		opacity: 1;
+	}
+
+	26% {
+		opacity: 0.94;
+	}
+
+	28% {
+		opacity: 0.98;
+	}
+
+	37% {
+		opacity: 0.93;
+	}
+
+	38% {
+		opacity: 0.5;
+	}
+
+	39% {
+		opacity: 0.96;
+	}
+
+	42% {
+		opacity: 1;
+	}
+
+	44% {
+		opacity: 0.97;
+	}
+
+	46% {
+		opacity: 0.94;
+	}
+
+	56% {
+		opacity: 0.9;
+	}
+
+	58% {
+		opacity: 0.9;
+	}
+
+	60% {
+		opacity: 0.99;
+	}
+
+	68% {
+		opacity: 1;
+	}
+
+	70% {
+		opacity: 0.9;
+	}
+
+	72% {
+		opacity: 0.95;
+	}
+
+	93% {
+		opacity: 0.93;
+	}
+
+	95% {
+		opacity: 0.95;
+	}
+
+	97% {
+		opacity: 0.93;
+	}
+
+	to {
+		opacity: 1;
+	}
+}
