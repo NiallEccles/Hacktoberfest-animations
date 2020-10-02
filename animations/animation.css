@@ -19,7 +19,7 @@
 	}
 } 
 
-/*.animation {
+.animation {
 	animation: blend;
 	padding: 20px;
 	border-top: 10px #edae49 solid;
@@ -29,12 +29,16 @@
 	animation-duration: 2s;
 	animation-iteration-count: infinite;
 	animation-direction: alternate-reverse;
-	letter-spacing: 3px;
-} */
-
+    letter-spacing: 3px;
+    font-weight: 800;
+    font-size: 3.8em;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+}
+/* 
 .animation {
     font-weight: 800;
     font-size: 3.8em;
     text-transform: uppercase;
     letter-spacing: 0.5em;
-  }
+  } */
