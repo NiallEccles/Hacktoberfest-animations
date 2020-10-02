@@ -18,8 +18,11 @@
 		border-right: 10px #00798c solid;
 	}
 } 
-
 .animation {
+	animation: blend;
+    padding: 20px;
+}
+.animation:before {
     animation: borderPulse 2s ease-in-out infinite;;
     padding: 20px;
     position: relative;
