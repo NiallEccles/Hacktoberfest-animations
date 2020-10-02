@@ -5,22 +5,28 @@
  */
 
 @keyframes animation {
-    from {
-		border-top: 10px #edae49 solid;
-		border-bottom: 10px #d1495b solid;
-		border-left: 10px #30638e solid;
-		border-right: 10px #edae49 solid;
+    0% {
+		transform: scale(1);
 	}
-	to {
-		border-top: 10px #d1495b solid;
-		border-bottom: 10px #00798c solid;
-		border-left: 10px #003d5b solid;
-		border-right: 10px #00798c solid;
+	50% {
+		transform: scale(1.1);
+	}
+	100% {
+		transform: scale(1);
 	}
 } 
 .animation{
-    padding: 10px 30px;
-	position: relative;
+    animation: borderPulse 2s ease-in-out infinite;;
+    padding: 20px;
+    position: relative;
+	border-top: 10px #edae49 solid;
+	border-bottom: 10px #d1495b solid;
+	border-right: 10px #30638e solid;
+	border-left: 10px #edae49 solid;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate-reverse;
+	letter-spacing: 3px;
 }
 
 .animation:after {
