@@ -36,8 +36,8 @@
 	animation: borderPulse 2s ease-in-out infinite;
 	border-top: 10px #4bca56 solid;
 	border-bottom: 10px #4bca56 solid;
-	border-right: 10px #d44398 solid;
-	border-left: 10px #d44398 solid;
+	border-right: 10px #e65fad solid;
+	border-left: 10px #e65fad solid;
 	content: '';
 	display: block;
 	margin: -15px;
