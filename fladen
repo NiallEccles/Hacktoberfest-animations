@@ -1,0 +1,26 @@
+/** @format */
+
+.fladen {
+	position: relative;
+	font-family: sans-serif;
+	text-transform: uppercase;
+	font-size: 1em;
+	letter-spacing: 4px;
+	overflow: hidden;
+	background: linear-gradient(75deg, #D2CBFA, #31303B, #67637A);
+	background-repeat: no-repeat;
+	background-size: 80%;
+	animation: animate 3s linear infinite;
+	-webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0);
+
+}
+
+@keyframes fladen {
+	0% {
+		background-position: -500%;
+	}
+	100% {
+		background-position: 500%;
+	}
+}
