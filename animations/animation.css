@@ -4,7 +4,7 @@
  * @format
  */
 
- /* @keyframes animation {
+@keyframes animation {
 	from {
 		border-top: 10px #edae49 solid;
 		border-bottom: 10px #d1495b solid;
@@ -17,9 +17,9 @@
 		border-left: 10px #003d5b solid;
 		border-right: 10px #00798c solid;
 	}
-}
+} 
 
-.animation {
+/*.animation {
 	animation: blend;
 	padding: 20px;
 	border-top: 10px #edae49 solid;
