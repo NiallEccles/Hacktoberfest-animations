@@ -20,7 +20,7 @@
 } 
 
 .animation {
-    animation: blend;
+    animation: borderPulse 2s ease-in-out infinite;;
     padding: 20px;
     position: relative;
 	border-top: 10px #edae49 solid;
