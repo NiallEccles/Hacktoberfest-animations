@@ -34,10 +34,10 @@
 
 .animation:after {
 	animation: borderPulse 2s ease-in-out infinite;
-	border-top: 10px #e4e13b solid;
-	border-bottom: 10px #e4e13b solid;
-	border-right: 10px #d44398 solid;
-	border-left: 10px #d44398 solid;
+	border-top: 10px #4bca56 solid;
+	border-bottom: 10px #4bca56 solid;
+	border-right: 10px #80b9e7 solid;
+	border-left: 10px #80b9e7 solid;
 	content: '';
 	display: block;
 	margin: -15px;
