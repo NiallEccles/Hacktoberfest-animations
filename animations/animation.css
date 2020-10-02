@@ -20,32 +20,6 @@
 } 
 
 .animation {
-    animation: borderPulse 2s ease-in-out infinite;
-	border: solid 10px #fa07ac;
-	content: '';
-	display: block;
-	margin: -15px;
-	position: absolute;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	transform: scale(1);
-    /* animation: blend;
-    padding: 20px;
-    position: relative;
-	border-top: 10px #edae49 solid;
-	border-bottom: 10px #d1495b solid;
-	border-right: 10px #30638e solid;
-	border-left: 10px #edae49 solid;
-	animation-duration: 2s;
-	animation-iteration-count: infinite;
-	animation-direction: alternate-reverse;
-	letter-spacing: 3px; */
-}
-
-.animation:after {
-    animation: borderPulse 2s ease-in-out infinite;
     animation: blend;
     padding: 20px;
     position: relative;
@@ -56,9 +30,15 @@
 	animation-duration: 2s;
 	animation-iteration-count: infinite;
 	animation-direction: alternate-reverse;
-    letter-spacing: 3px;
-    transform: scale(1);
-	/* border: solid 10px #fa07ac;
+	letter-spacing: 3px;
+}
+
+.animation:after {
+	animation: borderPulse 2s ease-in-out infinite;
+	border-top: 10px #edae49 solid;
+	border-bottom: 10px #d1495b solid;
+	border-right: 10px #30638e solid;
+	border-left: 10px #edae49 solid;
 	content: '';
 	display: block;
 	margin: -15px;
@@ -67,5 +47,5 @@
 	right: 0;
 	bottom: 0;
 	left: 0;
-	transform: scale(1); */
+	transform: scale(1);
 }
