@@ -19,10 +19,10 @@
     animation: borderPulse 2s ease-in-out infinite;;
     padding: 20px;
     position: relative;
-	border-top: 10px #edae49 solid;
-	border-bottom: 10px #d1495b solid;
-	border-right: 10px #30638e solid;
-	border-left: 10px #edae49 solid;
+	border-top: 10px #e4e13b solid;
+	border-bottom: 10px #d44398 solid;
+	border-right: 10px #80b9e7 solid;
+	border-left: 10px #4bca56 solid;
 	animation-duration: 2s;
 	animation-iteration-count: infinite;
 	animation-direction: alternate-reverse;
