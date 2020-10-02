@@ -1,0 +1,43 @@
+/**
+ * /* By: https://github.com/Graviton5
+ *
+ * @format
+ */
+
+
+body {
+	display: flex;
+	justify-content: center;
+}
+
+.bouncer {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	background-color: #FF5722;
+
+
+	animation: bounce 0.75s;
+	animation-timing-function: ease-in;
+	animation-direction: alternate;
+	animation-iteration-count: 4;
+}
+
+.scaler {
+	position: absolute;
+	animation: expand 2s forwards;
+	animation-timing-function: ease-in;
+	animation-delay: 3s;
+	animation-iteration-count: 1;
+}
+
+@keyframes bounce {
+	from { transform: translate3d(0, 0, 0);    }
+	to   { transform: translate3d(0, 100px, 0);}
+}
+@keyframes expand{
+	from{ transform: scale(1,1);
+			opacity: 100%; }
+	to{ transform:scale(4,4); 
+			opacity: 0%;}
+}

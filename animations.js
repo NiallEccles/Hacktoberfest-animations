@@ -11,6 +11,7 @@ window.animations = [
 	{ name: 'background', author: 'NullSilence' },
 	{ name: 'ballast', author: 'vijayranghar' },
 	{ name: 'beat', author: 'patriciafelixx' },
+	{ name: 'bounce-open', author: 'graviton5'},
 	{ name: 'blend', author: 'divanshi15' },
 	{ name: 'blinking-neon', author: 'aliheikal' },
 	{ name: 'alokGoldy', author: 'alokgoldy' },
