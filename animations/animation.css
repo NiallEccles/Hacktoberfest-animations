@@ -6,16 +6,16 @@
 
 @keyframes animation {
     from {
-		border-top: 10px #e4e13b solid;
-		border-bottom: 10px #d44398 solid;
-		border-left: 10px #80b9e7 solid;
-		border-right: 10px #4bca56 solid;
+		border-top: 10px #1dd8d8 solid;
+		border-bottom: 10px #f35fec solid;
+		border-left: 10px #98e969 solid;
+		border-right: 10px #dbdd47 solid;
 	}
 	to {
-		border-top: 10px #d1495b solid;
-		border-bottom: 10px #00798c solid;
-		border-left: 10px #003d5b solid;
-		border-right: 10px #00798c solid;
+		border-top: 10px #19e7e7 solid;
+		border-bottom: 10px #e643c2 solid;
+		border-left: 10px #70e03c solid;
+		border-right: 10px #eeeb49 solid;
 	}
 } 
 .animation{
