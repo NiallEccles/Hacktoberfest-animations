@@ -2,11 +2,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Iceland&display=swap');
 
-body {
-	background: url('https://wallpaperaccess.com/full/983279.jpg');
-	background-size: cover;
-}
-
 .theLight {
 	background-image: radial-gradient(
 		ellipse 50% 35% at 50% 50%,
