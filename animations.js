@@ -187,5 +187,5 @@ window.animations = [
 	{ name: 'Invicta-2', author: 'dhruvkumar4567' },
 	{ name: 'Invict', author: 'mani9896' },
 	{ name: 'lr-loop', author: 'Shivang0' },
-	{ name: 'animation', author: 'lovetyagi-17' },
+	{ name: 'doubleBorder', author: 'lovetyagi-17' },
 ];
