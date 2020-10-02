@@ -19,7 +19,7 @@
 	}
 } 
 .animation{
-    animation: blend;;
+    animation: blend;
     padding: 20px;
     position: relative;
 	border-top: 10px #e4e13b solid;
