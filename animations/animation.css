@@ -19,7 +19,7 @@
 	}
 } 
 
-.animation {
+.animation:after {
     animation: blend;
     padding: 20px;
     position: relative;
@@ -33,7 +33,7 @@
 	letter-spacing: 3px;
 }
 
-.animation:after {
+.animation:before {
 	animation: borderPulse 2s ease-in-out infinite;
 	border: solid 10px #fa07ac;
 	content: '';
