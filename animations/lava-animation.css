@@ -1,0 +1,43 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Casual Contact MF';
+}
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    min-height: 100vh;
+    background: #000;
+    white-space: nowrap;
+}
+.content {
+	position: relative;
+
+}
+.content h2 {
+	position: absolute;
+	transform: translate(-50%,-50%);
+	font-size: 8em;
+}
+.content h2:nth-child(1) {
+	color: transparent;
+	-webkit-text-stroke: 4px #E2224C;
+}
+.content h2:nth-child(2) {
+	color: #DB5521;
+	animation: wave 4s ease-in-out infinite;
+}
+@keyframes wave {
+	0%,100% 
+	{
+		clip-path: polygon(0 42%, 13% 48%, 26% 55%, 41% 64%, 56% 65%, 69% 58%, 84% 45%, 100% 38%, 100% 100%, 0% 100%);
+	}
+	50%
+	{
+		clip-path: polygon(0 63%, 14% 57%, 25% 50%, 40% 42%, 56% 40%, 71% 44%, 84% 50%, 100% 60%, 100% 100%, 0% 100%);
+	}
+}
+/*Credits to Online Tutorials
+https://www.youtube.com/channel/UCbwXnUipZsLfUckBPsC7Jog*/
