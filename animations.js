@@ -37,6 +37,7 @@ window.animations = [
 	{ name: 'coming-together', author: 'Demysdcl' },
 	{ name: 'cool-breeze', author: 'wajeehsheikh' },
 	{ name: 'crackling-ground', author: 'Pliavi' },
+	{ name: 'Water', author: 'DevarshiDoshi' },
 	{ name: 'crazy', author: 'MuhammadBilal' },
 	{ name: 'crazy-monkey', author: 'fernanDOTdo' },
 	{ name: 'crazy-rotation', author: 'Demysdcl' },
