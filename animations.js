@@ -66,7 +66,7 @@ window.animations = [
 	{ name: 'flipper', author: 'shubham9019' },
 	{ name: 'flipInX', author: 'fernandosutter' },
 	{ name: 'flipInAndOut', author: 'TheBangis' },
-	{ name: 'floating',author: 'Code-Recursion'},
+	{ name: 'floating', author: 'Code-Recursion' },
 	{ name: 'floatTitle', author: 'llespinasse' },
 	{ name: 'focusIn', author: 'MasihTak' },
 	{ name: 'focusBlur', author: 'Swong87' },
@@ -187,6 +187,7 @@ window.animations = [
 	{ name: 'invicta', author: 'mani9896' },
 	{ name: 'lr-loop', author: 'Shivang0' },
 	{ name: 'doubleBorder', author: 'lovetyagi-17' },
-	{ name: 'flashingtext', author: 'Jaammeesss'},
-  { name: 'alternate-reverse', author: 'jagadyudha' },
+	{ name: 'flashingtext', author: 'Jaammeesss' },
+	{ name: 'alternate-reverse', author: 'jagadyudha' },
+	{ name: 'hinge', author: 'medival' },
 ];
