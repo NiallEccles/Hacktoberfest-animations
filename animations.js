@@ -1,6 +1,7 @@
 /** @format */
 
 window.animations = [
+	{ name: 'luminous-brick', author: 'zanotti' },
 	{ name: 'staircase_bounce', author: 'vivekrawat' },
 	{ name: 'bounce', author: 'Biafer' },
 	{ name: 'fadeOutLeft', author: 'Biafer' },
@@ -188,5 +189,5 @@ window.animations = [
 	{ name: 'lr-loop', author: 'Shivang0' },
 	{ name: 'doubleBorder', author: 'lovetyagi-17' },
 	{ name: 'flashingtext', author: 'Jaammeesss'},
-  { name: 'alternate-reverse', author: 'jagadyudha' },
+  	{ name: 'alternate-reverse', author: 'jagadyudha' },
 ];
