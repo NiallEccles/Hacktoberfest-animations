@@ -43,6 +43,7 @@ window.animations = [
 	{ name: 'cvproud', author: 'cdfortes' },
 	{ name: 'darkBlack', author: 'TheBangis' },
 	{ name: 'digyan', author: 'silvasobrinho' },
+	{ name: 'doabarrelroll', author: 'GabrielTeixeiraC'},
 	{ name: 'dropbr', author: 'AlbericoD' },
 	{ name: 'dropSoft', author: 'Ellissandro' },
 	{ name: 'dingduang', author: 'isfatul-codersbd' },
