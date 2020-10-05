@@ -108,8 +108,9 @@ window.animations = [
 	{ name: 'pulse', author: 'makajeez' },
 	{ name: 'pulse-y', author: 'jessicavrooyen' },
 	{ name: 'pumpkins', author: 'ashwoodall' },
-	{ name: 'rainbow-by-vijayranghar', author: 'vijayranghar' },
 	{ name: 'rainbow', author: 'shanejustice' },
+	{ name: 'rainbow-by-vijayranghar', author: 'vijayranghar' },
+	{ name: 'neon-flicking', author: 'samuelsimoes31'},
 	{ name: 'reallyslow', author: 'rlavooij' },
 	{ name: 'reduce', author: 'dayanFreitas' },
 	{ name: 'random', author: 'marcelowis' },
@@ -188,5 +189,5 @@ window.animations = [
 	{ name: 'lr-loop', author: 'Shivang0' },
 	{ name: 'doubleBorder', author: 'lovetyagi-17' },
 	{ name: 'flashingtext', author: 'Jaammeesss'},
-  { name: 'alternate-reverse', author: 'jagadyudha' },
+  	{ name: 'alternate-reverse', author: 'jagadyudha' },
 ];
