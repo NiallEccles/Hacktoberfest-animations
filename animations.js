@@ -195,4 +195,5 @@ window.animations = [
 	{ name: 'doubleBorder', author: 'lovetyagi-17' },
 	{ name: 'flashingtext', author: 'Jaammeesss' },
 	{ name: 'alternate-reverse', author: 'jagadyudha' },
+	{ name: 'hinge', author: 'medival' },
 ];
