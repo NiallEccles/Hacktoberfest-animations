@@ -2,7 +2,7 @@
 
 window.animations = [
 	{ name: 'imdrunk', author: 'twopill' },
-  { name: 'bhaukaal', author: 'mani9896'}
+  { name: 'bhaukaal', author: 'mani9896'},
 	{ name: 'luminous-brick', author: 'zanotti' },
 	{ name: 'slideDownWithBorder', author: 'adrianoavelino' },
 	{ name: 'staircase_bounce', author: 'vivekrawat' },
