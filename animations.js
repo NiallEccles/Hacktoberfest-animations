@@ -2,6 +2,8 @@
 
 window.animations = [
   { name: 'bhaukaal', author: 'mani9896'}
+	{ name: 'luminous-brick', author: 'zanotti' },
+	{ name: 'slideDownWithBorder', author: 'adrianoavelino' },
 	{ name: 'staircase_bounce', author: 'vivekrawat' },
 	{ name: 'bounce', author: 'Biafer' },
 	{ name: 'fadeOutLeft', author: 'Biafer' },
@@ -67,7 +69,7 @@ window.animations = [
 	{ name: 'flipper', author: 'shubham9019' },
 	{ name: 'flipInX', author: 'fernandosutter' },
 	{ name: 'flipInAndOut', author: 'TheBangis' },
-	{ name: 'floating',author: 'Code-Recursion'},
+	{ name: 'floating', author: 'Code-Recursion' },
 	{ name: 'floatTitle', author: 'llespinasse' },
 	{ name: 'focusIn', author: 'MasihTak' },
 	{ name: 'focusBlur', author: 'Swong87' },
@@ -139,6 +141,7 @@ window.animations = [
 	{ name: 'smoke', author: 'chintanmshah' },
 	{ name: 'spider', author: 'laurelr2020' },
 	{ name: 'spinning', author: 'lucas-barros' },
+	{ name: 'spinNeon', author: 'vaibhavrajsingh2001' },
 	{ name: 'split-and-twist', author: 'viciouskitten' },
 	{ name: 'spooky', author: 'elizabethfinedev' },
 	{ name: 'spookyDoor-cgduncan7', author: 'cgduncan7' },
@@ -172,6 +175,7 @@ window.animations = [
 	{ name: 'jitterbug', author: 'andrewghood' },
 	{ name: 'pudding', author: 'sliceolife' },
 	{ name: 'shadow', author: 'jpinck' },
+	{ name: 'shadow-animation', author: 'lcnunes09' },
 	{ name: 'colourfull-ldt', author: 'ledangtuanbk' },
 	{ name: 'blurFade', author: 'aveselovalova' },
 	{ name: 'escaping', author: 'aveselovalova' },
@@ -188,6 +192,6 @@ window.animations = [
 	{ name: 'invicta', author: 'mani9896' },
 	{ name: 'lr-loop', author: 'Shivang0' },
 	{ name: 'doubleBorder', author: 'lovetyagi-17' },
-	{ name: 'flashingtext', author: 'Jaammeesss'},
-  { name: 'alternate-reverse', author: 'jagadyudha' },
+	{ name: 'flashingtext', author: 'Jaammeesss' },
+	{ name: 'alternate-reverse', author: 'jagadyudha' },
 ];
