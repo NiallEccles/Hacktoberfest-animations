@@ -1,6 +1,7 @@
 /** @format */
 
 window.animations = [
+  { name: 'bhaukaal', author: 'mani9896'}
 	{ name: 'luminous-brick', author: 'zanotti' },
 	{ name: 'slideDownWithBorder', author: 'adrianoavelino' },
 	{ name: 'staircase_bounce', author: 'vivekrawat' },
