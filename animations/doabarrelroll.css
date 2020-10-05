@@ -1,0 +1,21 @@
+/**
+ *
+ * @format
+ */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@keyframes doabarrelroll {
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+.doabarrelroll {
+    animation: doabarrelroll 2s infinite ;
+    color: rgb(255, 255, 255);
+    font-family: 'Press Start 2P', cursive;
+}
+
+.doabarrelroll::before,
+.doabarrelroll::after {
+	content: '🚀';
+}
