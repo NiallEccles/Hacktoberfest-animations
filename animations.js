@@ -1,6 +1,10 @@
 /** @format */
 
 window.animations = [
+	{ name: 'imdrunk', author: 'twopill' },
+  { name: 'bhaukaal', author: 'mani9896'},
+	{ name: 'luminous-brick', author: 'zanotti' },
+	{ name: 'slideDownWithBorder', author: 'adrianoavelino' },
 	{ name: 'staircase_bounce', author: 'vivekrawat' },
 	{ name: 'bounce', author: 'Biafer' },
 	{ name: 'fadeOutLeft', author: 'Biafer' },
@@ -138,6 +142,7 @@ window.animations = [
 	{ name: 'smoke', author: 'chintanmshah' },
 	{ name: 'spider', author: 'laurelr2020' },
 	{ name: 'spinning', author: 'lucas-barros' },
+	{ name: 'spinNeon', author: 'vaibhavrajsingh2001' },
 	{ name: 'split-and-twist', author: 'viciouskitten' },
 	{ name: 'spooky', author: 'elizabethfinedev' },
 	{ name: 'spookyDoor-cgduncan7', author: 'cgduncan7' },
@@ -171,6 +176,7 @@ window.animations = [
 	{ name: 'jitterbug', author: 'andrewghood' },
 	{ name: 'pudding', author: 'sliceolife' },
 	{ name: 'shadow', author: 'jpinck' },
+	{ name: 'shadow-animation', author: 'lcnunes09' },
 	{ name: 'colourfull-ldt', author: 'ledangtuanbk' },
 	{ name: 'blurFade', author: 'aveselovalova' },
 	{ name: 'escaping', author: 'aveselovalova' },
