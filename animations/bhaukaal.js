@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Righteous);
+@import url('https://fonts.googleapis.com/css?family=Righteous');
 
 .bhaukaal {
 	color:black;
