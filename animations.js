@@ -117,6 +117,7 @@ window.animations = [
 	{ name: 'reverseStretch', author: 'loetcodes' },
 	{ name: 'right-to-left', author: 'Demysdcl' },
 	{ name: 'rocket', author: 'ellieya' },
+  { name: 'glitchexperiment', author: 'Manuja'},
 	{ name: 'rollin-by-kylerits', author: 'kylerits' },
 	{ name: 'rollIn', author: 'ronlaniado' },
 	{ name: 'rollOut', author: 'ronlaniado' },
