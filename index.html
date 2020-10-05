@@ -23,34 +23,31 @@
 			href="https://fonts.googleapis.com/css?family=Nanum+Brush+Script&display=swap"
 			rel="stylesheet"
 		/>
-		<link rel="stylesheet" href="assets/style.css" />
+		<link rel="stylesheet" href="animations/bouncing.css" />
 	</head>
 
-	<body class="level-item">
+	<body class="bouncing">
 		<section class="section text-center">
 			<!--  here is the sample animation -->
 			<h1 id="target" class="title scare" data-text="Hacktoberfest animations">
 				Hacktoberfest animations
 			</h1>
 			<!--  here the animations will be inserted -->
-			<select id="animationSelect"></select>
 			<!--  here we show the animation name and who contribute with it -->
-			<div id="detail_elements" class="padding white max-w">
-				<p>Animation name: <span id="animationName"></span></p>
+			<div class="detail_elements" class="padding white max-w">
+				<p>Animation name: <span class="animationName">Bouncing</span></p>
 				<p>
-					Submitted by:
+					Submitted by: Geeky-star
 					<a
 						target="_blank"
-						style="color:#00ffff;"
+						style="color:white;"
 						rel="noopener noreferrer"
 						id="userName"
 					></a>
 				</p>
 			</div>
-			<a
-				class="custom-btn"
-				href="https://github.com/NiallEccles/Hacktoberfest-animations"
-			>
+			<div class="custom-btn">
+			<a href="https://github.com/NiallEccles/Hacktoberfest-animations">
 				<img
 					src="./assets/logo-github.png"
 					class="github-btn-logo"
@@ -58,8 +55,8 @@
 				/>
 				Contribute
 			</a>
+			</div>
 		</section>
-		<script src="animations.js"></script>
-		<script src="assets/script.js"></script>
+	<script src="animations.js"></script>
 	</body>
 </html>

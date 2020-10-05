@@ -1,6 +1,7 @@
 /** @format */
 
 window.animations = [
+	{ name: 'bouncing', author: 'Geeky-star'},
 	{ name: 'staircase_bounce', author: 'vivekrawat' },
 	{ name: 'bounce', author: 'Biafer' },
 	{ name: 'fadeOutLeft', author: 'Biafer' },
