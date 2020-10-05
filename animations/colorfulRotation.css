@@ -1,0 +1,70 @@
+/**
+ * /* By: https://github.com/lovetyagi-17
+ *
+ * @format
+ */ 
+
+ @keyframes colorfulRotation {
+	0% {
+		transform: translateX(-50%) translateY(-50%) rotate(0deg);
+	}
+	100% {
+		transform: translateX(-50%) translateY(-50%) rotate(360deg);
+    }
+}
+
+.colorfulRotation {
+    animation-name: cRight;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-align: center;
+    position: relative;
+	background-image: linear-gradient(
+		to right,
+		orange,
+		yellow,
+		green,
+		rgb(14, 139, 139),
+		rgba(66, 1, 141, 0.616),
+		violet
+	);
+    font-size: 30px;
+    left: 50%;
+	font-family: Arial;
+    animation-duration: 1s;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+
+.colorfulRotation:before,
+.colorfulRotation:after {
+	content: '';
+	padding: 0.9em 0.4em;
+	position: absolute;
+	left: 50%;
+	width: 100%;
+	top: 50%;
+	display: block;
+	background-image: linear-gradient(
+		to right,
+		orange,
+		rgb(231, 231, 151),
+		rgb(116, 230, 116),
+		rgb(108, 199, 199),
+		rgba(158, 117, 209, 0.616),
+		rgb(197, 132, 197)
+	);
+	transform: translateX(-50%) translateY(-50%) rotate(0deg);
+	animation: 8s infinite alternate ease-in-out colorfulRotation;
+}
+
+.colorfulRotation:before {
+	border-color: #d9524a #d9524a rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+	z-index: -1;
+}
+
+.colorfulRotation:after {
+	border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #d9524a #d9524a;
+	box-shadow: 25px 25px 25px rgba(46, 46, 49, 0.8);
+}
