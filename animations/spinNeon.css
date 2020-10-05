@@ -1,0 +1,29 @@
+/**
+ * /*by https://github.com/vaibhavrajsingh2001
+ *
+ * @format
+ */
+
+.spinNeon {
+	-webkit-animation: spinNeon infinite 7s alternate-reverse;
+	-moz-animation: spinNeon infinite 7s alternate-reverse;
+	animation: spinNeon infinite 7s alternate-reverse;
+}
+
+@keyframes spinNeon {
+	from {
+		color: #fff;
+		transform: rotate(0deg);
+		text-shadow: 0 0 10px #fd5205, 0 0 20px #fd5205, 0 0 30px #fd5205,
+			0 0 40px #fd5205, 0 0 50px #fd5205, 0 0 60px #fd5205, 0 0 70px #fd5205,
+			0 0 90px #fd5205;
+	}
+
+	to {
+		color: #fd6f3c;
+		transform: rotate(720deg);
+		text-shadow: 0 0 20px #f0aa19, 0 0 30px #f0aa19, 0 0 40px #f0aa19,
+			0 0 50px #f0aa19, 0 0 60px #f0aa19, 0 0 70px #f0aa19, 0 0 80px #f0aa19,
+			0 1 90px #f0aa19;
+	}
+}
