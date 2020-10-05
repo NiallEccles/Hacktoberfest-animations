@@ -173,6 +173,7 @@ window.animations = [
 	{ name: 'jitterbug', author: 'andrewghood' },
 	{ name: 'pudding', author: 'sliceolife' },
 	{ name: 'shadow', author: 'jpinck' },
+	{ name: 'shadow-animation', author: 'lcnunes09' },
 	{ name: 'colourfull-ldt', author: 'ledangtuanbk' },
 	{ name: 'blurFade', author: 'aveselovalova' },
 	{ name: 'escaping', author: 'aveselovalova' },
