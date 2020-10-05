@@ -1,14 +1,13 @@
-body {
-  background: black;
-  font-family: "Oswald", sans-serif;
-  font-style: italic;
-}
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 
 .container {
   position: absolute;
   transform: translate(-50%, -50%);
   top: 40%;
   left: 50%;
+  background: black;
+  font-family: "Oswald", sans-serif;
+  font-style: italic;
 }
 
 .glitch {
