@@ -1,6 +1,8 @@
 /** @format */
 
 window.animations = [
+	{ name: 'imdrunk', author: 'twopill' },
+  { name: 'bhaukaal', author: 'mani9896'},
 	{ name: 'luminous-brick', author: 'zanotti' },
 	{ name: 'slideDownWithBorder', author: 'adrianoavelino' },
 	{ name: 'staircase_bounce', author: 'vivekrawat' },
@@ -99,6 +101,7 @@ window.animations = [
 	{ name: 'nanananabatman', author: 'Pamblam' },
 	{ name: 'neon', author: 'AllDayAlone' },
 	{ name: 'neonplus', author: 'AdrianoBiolchi' },
+	{ name: 'neon-flicking', author: 'samuelsimoes31'},
 	{ name: 'new-page', author: 'nerdomancer' },
 	{ name: 'opacity-by-gabrielamattias', author: 'GabrielaMattias' },
 	{ name: 'orangeisthenewblack', author: 'kevinhuddy' },
@@ -110,8 +113,8 @@ window.animations = [
 	{ name: 'pulse', author: 'makajeez' },
 	{ name: 'pulse-y', author: 'jessicavrooyen' },
 	{ name: 'pumpkins', author: 'ashwoodall' },
-	{ name: 'rainbow-by-vijayranghar', author: 'vijayranghar' },
 	{ name: 'rainbow', author: 'shanejustice' },
+	{ name: 'rainbow-by-vijayranghar', author: 'vijayranghar' },
 	{ name: 'reallyslow', author: 'rlavooij' },
 	{ name: 'reduce', author: 'dayanFreitas' },
 	{ name: 'random', author: 'marcelowis' },
@@ -194,4 +197,5 @@ window.animations = [
 	{ name: 'flashingtext', author: 'Jaammeesss' },
 	{ name: 'alternate-reverse', author: 'jagadyudha' },
 	{ name: 'colorfulRotation', author: 'lovetyagi-17' },
+	{ name: 'hinge', author: 'medival' },
 ];
