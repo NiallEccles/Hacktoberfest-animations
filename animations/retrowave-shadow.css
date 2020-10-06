@@ -1,0 +1,38 @@
+/** @format */
+
+@keyframes popping {
+	0% {text-shadow:-1px 1px #ffd319,
+					-2px 2px #ffd319,
+					-3px 3px #ff901f,
+					-4px 4px #ff901f,
+					-5px 5px #ff2975,
+					-6px 6px #ff2975,
+					-7px 7px #c700b5,
+					-8px 8px #c700b5,
+					-9px 9px #b000ff,
+					-10px 10px #b000ff,
+					-11px 11px rebeccapurple,
+					-12px 12px rebeccapurple;
+	}
+	50% {text-shadow:-1px 1px #ff901f,
+					 -2px 2px #ff901f;
+	}
+	100% {text-shadow:-1px 1px #ffd319,
+					  -2px 2px #ffd319,
+					  -3px 3px #ff901f,
+					  -4px 4px #ff901f,
+					  -5px 5px #ff2975,
+					  -6px 6px #ff2975,
+					  -7px 7px #c700b5,
+					  -8px 8px #c700b5,
+					  -9px 9px #b000ff,
+					  -10px 10px #b000ff,
+					  -11px 11px rebeccapurple,
+					  -12px 12px rebeccapurple;
+	}
+}
+.retrowave-shadow{
+	transform: rotate(-5deg) skewX(20deg);
+	animation: popping infinite 4s;
+	text-shadow: 1px 1px rebeccapurple;
+}
