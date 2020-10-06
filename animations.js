@@ -204,5 +204,6 @@ window.animations = [
 	{ name: 'colorfulRotation', author: 'lovetyagi-17' },
 	{ name: 'hinge', author: 'medival' },
 	{ name: 'retrowave-shadow', author: 'pozda' },
-	{ name: 'shape-background-animation', author: 'LiseDmrg'}
+	{ name: 'matrix', author: 'randy'},
+  { name: 'shape-background-animation', author: 'LiseDmrg'}
 ];
