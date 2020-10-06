@@ -92,6 +92,7 @@ window.animations = [
 	{ name: 'jackInTheBox', author: 'fernandosutter' },
 	{ name: 'hurricane', author: 'marcosceo' },
 	{ name: 'jello', author: 'adsingh14' },
+	{ name: 'jelly-vertical', author: 'the-nathan-smith' },
 	{ name: 'jump', author: 'AmiterCodes' },
   { name: 'lava-animation', author: 'anaghkanungo7'},
 	{ name: 'lean-back', author: 'plaza223' },
