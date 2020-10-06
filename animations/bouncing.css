@@ -18,7 +18,7 @@
     0 10px 10px rgba(0, 0, 0, .6);
    }
 
-   @-webkit-keyframes bounce {
+   @keyframes bounce {
     100% {
     top: -30px;
    
