@@ -205,4 +205,5 @@ window.animations = [
 	{ name: 'hinge', author: 'medival' },
 	{ name: 'retrowave-shadow', author: 'pozda' },
 	{ name: 'matrix', author: 'randy'},
+  { name: 'shape-background-animation', author: 'LiseDmrg'}
 ];
