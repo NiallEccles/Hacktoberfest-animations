@@ -1,8 +1,8 @@
-.bouncing{
+.body{
     background-color: white;
 }
 
-h1 {
+.bouncing{
     cursor: default;
     position: absolute;
     top: 30px;
