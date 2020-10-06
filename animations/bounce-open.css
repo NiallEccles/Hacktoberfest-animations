@@ -1,0 +1,31 @@
+/**
+ * /* By: https://github.com/Graviton5
+ *
+ * @format
+ */
+
+
+body {
+	display: flex;
+	justify-content: center;
+}
+
+.blow {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	background-color: #FF5722;
+
+	animation: expand 2s forwards;
+	animation-timing-function: ease-in;
+	animation-delay: 3s;
+	animation-iteration-count: 1;
+}
+
+@keyframes expand{
+	from{ transform: scale(1,1);
+			opacity: 100%; }
+	to{ transform:scale(4,4); 
+			opacity: 0%;}
+}
+
