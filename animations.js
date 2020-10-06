@@ -91,6 +91,7 @@ window.animations = [
 	{ name: 'hurricane', author: 'marcosceo' },
 	{ name: 'jello', author: 'adsingh14' },
 	{ name: 'jump', author: 'AmiterCodes' },
+  { name: 'lava-animation', author: 'anaghkanungo7'},
 	{ name: 'lean-back', author: 'plaza223' },
 	{ name: 'letter-spacing', author: 'jun-low' },
 	{ name: 'lightSpeedIn', author: 'fernandosutter' },
