@@ -1,18 +1,6 @@
-.body{
-    background-color: white;
-}
-
 .bouncing{
     cursor: default;
-    position: absolute;
-    top: 30px;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    height: 100px;
-    margin: auto;
-    display: block;
-    -webkit-animation: bounce .3s ease infinite alternate;
+    animation: bounce .3s ease infinite alternate;
     font-family: 'Chewy', cursive;
     font-size: 80px;
     color: red;
