@@ -1,0 +1,33 @@
+.shape-background-animation {
+	display: block;
+	font-weight: normal;
+	font-size: 30px;
+	margin: 20px 0; 
+	animation: grow 3s ease infinite;
+	animation-direction: alternate;
+}
+
+.shape-background-animation:before {
+	content: '';
+    position: absolute;
+    z-index: -1;
+    height: 70px;
+	width: 70px;
+	background: linear-gradient(#183D5D, #A64B75, #F285E0, #96C6D9); 
+	clip-path: polygon(100% 100%, 100% 0%, 0% 0%, 0% 0%);
+	animation: moving-shape 3s ease infinite;
+	animation-direction: alternate;
+}
+
+@keyframes moving-shape {
+	100% {
+		clip-path: polygon(0% 0%, 100% 80%, 90% 20%, 10% 90%);
+		transform: scale(3);	 
+	}
+}
+
+@keyframes grow {
+	50% {
+	    transform: scale(2);
+	}
+}
