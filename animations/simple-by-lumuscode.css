@@ -5,8 +5,8 @@
  */
 
  .simple-by-lumuscode {
-    -webkit-animation-name: rubberBand;
-    animation-name: rubberBand;
+    -webkit-animation-name: simple-by-lumuscode;
+    animation-name: simple-by-lumuscode;
     -webkit-animation-duration: 1s;
     animation-duration: 1s;
     -webkit-animation-fill-mode: both;
