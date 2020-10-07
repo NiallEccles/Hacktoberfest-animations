@@ -1,0 +1,28 @@
+/**
+ * /* By: https://github.com/twopill
+ *
+ * @format
+ */
+
+ .imdrunk{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: sans-serif;
+    display: table-footer-group;
+    animation: 8s test ease-in forwards;
+ }
+
+ @keyframes test{
+    0%{
+        transform: rotate3d(1, 1, 1, 0deg);
+        text-shadow: 4px 3px 3px black, -2px -3px 3px #82828285;
+    }
+    50%{
+        text-shadow: -17px -6px 3px black, 20px 3px 3px #82828285;
+    }
+    100%{
+        transform: rotate3d(1, 1, 1, 360deg);
+        text-shadow: 4px 3px 3px black, -2px -3px 3px #82828285;
+    }
+ }
