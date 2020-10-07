@@ -1,0 +1,30 @@
+/**
+ * /* By: https://github.com/strawberries73
+ * @format
+ */
+
+ @keyframes harvestflare {
+	0%,
+	100% {
+        text-shadow: 0 0 1vw #f89524, 0 0 3vw #f76808,
+        0 0 10vw #81120f, 0 0 10vw #86130f, 0 0 0.4vw #c29f21, 
+        0.4vw 0.4vw 0.1vw #b4941e;
+		color: #c49e16;
+	}
+
+	50% {
+		text-shadow: 3px -3px 0 rgb(228, 124, 13), -2px 2px 0 rgb(255, 234, 0);
+		color: #806914;
+    }
+    25% {
+		text-shadow: 1.5px 1.5px 0 rgb(228, 124, 13),
+			-1.5px -1.5px 0 rgb(185, 172, 23);
+	}
+}
+
+.harvestflare {
+	font-family: 'Staatliches', cursive;
+    animation: flare 2s ease-in-out infinite;
+    transition: 0.6;
+}
+
