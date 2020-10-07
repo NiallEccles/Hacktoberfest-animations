@@ -1,4 +1,4 @@
-<style>
+
     @import url("https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap");
 .wrapper {
   display: flex;
@@ -16,11 +16,7 @@
     top: 10%;
     transform-style: preserve-3d;
     margin-right: 4px;
-    @for $i from 1 through 5 {
-      &:nth-child(#{$i}) {
-        animation-delay: 160ms * $i;
-      }
-    }
+    
   }
 
 @keyframes scaling {
@@ -74,23 +70,4 @@ body {
   overflow: hidden;
   background: black;
 }
-  </style>
-  /* HTML body Content
-  <body>
-<div class="wrapper">
-  <p>H</p>
-  <p>A</p>
-  <p>C</p>
-  <p>K</p>
-  <p>T</p>
-  <p>O</p>
-  <p>B</p>
-  <p>E</p>
-  <p>R</p>
-  <p>F</p>
-  <p>E</p>
-  <p>S</p>
-  <p>T</p>
-</div>
-</body>
-  */
+  
