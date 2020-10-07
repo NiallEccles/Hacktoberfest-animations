@@ -22,7 +22,7 @@ window.animations = [
 	{ name: 'boogie', author: 'jdsteinbach' },
 	{ name: 'bop', author: 'cutted' },
 	{ name: 'border-rainbow', author: 'brunobolting' },
-	{name: 'bouncing', author: 'Geeky-star'},
+	{ name: 'bouncing', author: 'Geeky-star'},
 	{ name: 'borderblend', author: 'erikadionn' },
 	{ name: 'bounce', author: 'marekgebka' },
 	{ name: 'bounceAround', author: 'wendelleloi' },
@@ -207,5 +207,6 @@ window.animations = [
 	{ name: 'hinge', author: 'medival' },
 	{ name: 'retrowave-shadow', author: 'pozda' },
 	{ name: 'matrix', author: 'randy'},
-  { name: 'shape-background-animation', author: 'LiseDmrg'}
+  { name: 'shape-background-animation', author: 'LiseDmrg'},
+  { name: 'popping' , author: 'Akansha-Bhandari'},
 ];
