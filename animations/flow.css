@@ -7,40 +7,22 @@
 
 @import url("https://fonts.googleapis.com/css?family=Montserrat");
 
-.flow {
-    fill: none;
-    stroke: white;
-    stroke-dasharray: 6% 29%;
-    stroke-width: 5px;
-    stroke-dashoffset: 0%;
-    animation: stroke-offset 5.5s infinite linear;
-}
+@keyframes color-change{
+  0% {color: #f8efd4;}
 
-.flow:nth-child(1){
-	stroke: #4D163D;
-	animation-delay: -1;
-}
+  25% {color: #edc988;}
 
-.flow:nth-child(2){
-	stroke: #840037;
-	animation-delay: -2s;
-}
+  50% {color: #de4463;}
 
-.flow:nth-child(3){
-	stroke: #BD0034;
-	animation-delay: -3s;
-}
+  75% {color: #de4463;}
 
-.flow:nth-child(4){
-	stroke: #BD0034;
-	animation-delay: -4s;
-}
+  100% {color: #f8efd4;}
+ }
+ 
 
-.flow:nth-child(5){
-	stroke: #FDB731;
-	animation-delay: -5s;
-}
 
-@keyframes stroke-offset{
-	100% {stroke-dashoffset: -35%;}
+
+ .flow {
+    font-family:'Montserrat';
+    animation:color-change 1s infinite;
 }
