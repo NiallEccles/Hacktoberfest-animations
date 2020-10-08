@@ -200,4 +200,5 @@ window.animations = [
 	{ name: 'alternate-reverse', author: 'jagadyudha' },
 	{ name: 'colorfulRotation', author: 'lovetyagi-17' },
 	{ name: 'hinge', author: 'medival' },
+	{ name: 'gradient', author: 'NataliaKiwibird' }
 ];

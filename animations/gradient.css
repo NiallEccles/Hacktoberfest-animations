@@ -1,0 +1,48 @@
+/**
+ * /* By: https://github.com/NataliaKiwibird
+ *
+ * @format
+ */
+.hacktober{
+    animation-name: gradient;
+    animation-duration: 4s;
+}
+ @keyframes gradient {
+	20% {
+        background-image:
+        radial-gradient(
+          circle closest-side,
+          yellow,
+          navy
+        );
+	}
+
+	40% {
+        background-image:
+        radial-gradient(
+          circle at top right,
+          yellow,
+          red
+        );
+	}
+
+	55% {
+        background-image: 
+        repeating-linear-gradient(
+          45deg,
+          yellow,
+          yellow 10px,
+          navy 10px,
+          navy 20px
+        );
+    }
+    100% {
+        background-image:
+        radial-gradient(
+          circle closest-side,
+          yellow,
+          navy
+        );
+	}
+
+}
