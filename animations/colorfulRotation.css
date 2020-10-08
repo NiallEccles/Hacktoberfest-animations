@@ -2,24 +2,24 @@
  * /* By: https://github.com/lovetyagi-17
  *
  * @format
- */ 
+ */
 
- @keyframes colorfulRotation {
+@keyframes colorfulRotation {
 	0% {
 		transform: translateX(-50%) translateY(-50%) rotate(0deg);
 	}
 	100% {
 		transform: translateX(-50%) translateY(-50%) rotate(360deg);
-    }
+	}
 }
 
 .colorfulRotation {
-    animation-name: cRight;
-    color: transparent;
-    background-clip: text;
-    -webkit-background-clip: text;
-    text-align: center;
-    position: relative;
+	animation-name: cRight;
+	color: transparent;
+	background-clip: text;
+	-webkit-background-clip: text;
+	text-align: center;
+	position: relative;
 	background-image: linear-gradient(
 		to right,
 		orange,
@@ -29,13 +29,12 @@
 		rgba(66, 1, 141, 0.616),
 		violet
 	);
-    font-size: 30px;
-    left: 50%;
+	font-size: 30px;
+	left: 50%;
 	font-family: Arial;
-    animation-duration: 1s;
-    transform: translateX(-50%) translateY(-50%);
+	animation-duration: 1s;
+	transform: translateX(-50%) translateY(-50%);
 }
-
 
 .colorfulRotation:before,
 .colorfulRotation:after {

@@ -2,7 +2,7 @@
  * @format
  */
 
- @keyframes jelly-vertical {
+@keyframes jelly-vertical {
 	0%,
 	100% {
 		transform: scale(1, 1);

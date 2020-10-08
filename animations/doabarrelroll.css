@@ -10,9 +10,9 @@
 }
 
 .doabarrelroll {
-    animation: doabarrelroll 2s infinite ;
-    color: rgb(255, 255, 255);
-    font-family: 'Press Start 2P', cursive;
+	animation: doabarrelroll 2s infinite;
+	color: rgb(255, 255, 255);
+	font-family: 'Press Start 2P', cursive;
 }
 
 .doabarrelroll::before,

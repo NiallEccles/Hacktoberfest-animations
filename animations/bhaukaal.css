@@ -1,7 +1,9 @@
+/** @format */
+
 @import url('https://fonts.googleapis.com/css?family=Righteous');
 
 .bhaukaal {
-	color:black;
+	color: black;
 	font-family: 'Righteous', serif;
 	font-size: 12em;
 	text-shadow: 0.03em 0.03em 0 hsla(330, 60%, 50%, 3);
