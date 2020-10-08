@@ -211,4 +211,5 @@ window.animations = [
 	{ name: 'matrix', author: 'randy'},
   { name: 'shape-background-animation', author: 'LiseDmrg'},
   { name: 'popping' , author: 'Akansha-Bhandari'},
+  { name: 'harvestflare', author: 'Jenn - strawberries73'},
 ];
