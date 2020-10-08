@@ -48,6 +48,7 @@ window.animations = [
 	{ name: 'crazy-monkey', author: 'fernanDOTdo' },
 	{ name: 'crazy-rotation', author: 'Demysdcl' },
 	{ name: 'cvproud', author: 'cdfortes' },
+	{ name: 'dances', author: 'kalamell'},
 	{ name: 'darkBlack', author: 'TheBangis' },
 	{ name: 'digyan', author: 'silvasobrinho' },
 	{ name: 'doabarrelroll', author: 'GabrielTeixeiraC'},
@@ -143,6 +144,7 @@ window.animations = [
 	{ name: 'shake', author: 'golomann' },
 	{ name: 'shaking-blinking', author: 'redpop' },
 	{ name: 'shimmy', author: 'nikiyasimpson' },
+	{ name: 'simulacrum', author: 'ayeteejay' },
 	{ name: 'slasher', author: 'Rabanov' },
 	{ name: 'slideOutUp', author: 'lospettro' },
 	{ name: 'slowglow', author: 'shailzaa' },
@@ -159,6 +161,7 @@ window.animations = [
 	{ name: 'strangerthings', author: 'crownedpigeon' },
 	{ name: 'stretchout', author: 's-Hale' },
 	{ name: 'swing-by-lumuscode', author: 'LumusCode' },
+	{ name: 'simple-by-lumuscode', author: 'LumusCode' },
 	{ name: 'swing', author: 'kenante' },
 	{ name: 'tada', author: 'marimendes' },
 	{ name: 'theLight', author: 'Himanshu' },
@@ -197,7 +200,6 @@ window.animations = [
 	{ name: 'lightSpeedOut', author: 'aarushi15002' },
 	{ name: 'lr-loop', author: 'luca-gouveia' },
 	{ name: 'thaovt', author: 'thaovt' },
-	{ name: 'bubbles', author: 'Akshama' },
 	{ name: 'invicta', author: 'mani9896' },
 	{ name: 'lr-loop', author: 'Shivang0' },
 	{ name: 'doubleBorder', author: 'lovetyagi-17' },
@@ -210,5 +212,4 @@ window.animations = [
   { name: 'shape-background-animation', author: 'LiseDmrg'},
   { name: 'popping' , author: 'Akansha-Bhandari'},
   { name: 'harvestflare', author: 'Jenn - strawberries73'},
-
 ];
