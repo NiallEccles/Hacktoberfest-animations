@@ -200,7 +200,6 @@ window.animations = [
 	{ name: 'lightSpeedOut', author: 'aarushi15002' },
 	{ name: 'lr-loop', author: 'luca-gouveia' },
 	{ name: 'thaovt', author: 'thaovt' },
-	{ name: 'bubbles', author: 'Akshama' },
 	{ name: 'invicta', author: 'mani9896' },
 	{ name: 'lr-loop', author: 'Shivang0' },
 	{ name: 'doubleBorder', author: 'lovetyagi-17' },
