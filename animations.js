@@ -48,6 +48,7 @@ window.animations = [
 	{ name: 'crazy-monkey', author: 'fernanDOTdo' },
 	{ name: 'crazy-rotation', author: 'Demysdcl' },
 	{ name: 'cvproud', author: 'cdfortes' },
+	{ name: 'dances', author: 'kalamell'},
 	{ name: 'darkBlack', author: 'TheBangis' },
 	{ name: 'digyan', author: 'silvasobrinho' },
 	{ name: 'doabarrelroll', author: 'GabrielTeixeiraC'},
