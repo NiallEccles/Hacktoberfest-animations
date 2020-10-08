@@ -159,6 +159,7 @@ window.animations = [
 	{ name: 'strangerthings', author: 'crownedpigeon' },
 	{ name: 'stretchout', author: 's-Hale' },
 	{ name: 'swing-by-lumuscode', author: 'LumusCode' },
+	{ name: 'simple-by-lumuscode', author: 'LumusCode' }
 	{ name: 'swing', author: 'kenante' },
 	{ name: 'tada', author: 'marimendes' },
 	{ name: 'theLight', author: 'Himanshu' },
