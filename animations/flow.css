@@ -5,21 +5,8 @@
  */
 
 
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
 
-@import url(https://fonts.googleapis.com/css?family=Montserrat);
-
-body{
-  background: #030321;
-  font-family: Arial;
-}
-
-svg {
-    display: block;
-    font: 10.5em 'Montserrat';
-    width: 960px;
-    height: 300px;
-    margin: 0 auto;
-}
 
 .flow {
     fill: none;
