@@ -214,4 +214,5 @@ window.animations = [
   { name: 'shape-background-animation', author: 'LiseDmrg'},
   { name: 'popping' , author: 'Akansha-Bhandari'},
   { name: 'harvestflare', author: 'Jenn - strawberries73'},
+	{ name: 'glowing', author: 'brunoeduardodev'}
 ];
