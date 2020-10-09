@@ -16,9 +16,9 @@
 .vote {
 	font-family: 'Helvetica Neue', 'Helvetica';
 	text-transform: uppercase;
-	color: #ff000;
+	color: #ff0000;
 	text-align: center;
-	animation: vote;
+	animation: vote 3s;
 }
 
 .vote::after {
