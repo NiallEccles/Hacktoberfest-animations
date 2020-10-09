@@ -98,6 +98,7 @@ window.animations = [
 	{ name: 'jello', author: 'adsingh14' },
 	{ name: 'jelly-vertical', author: 'the-nathan-smith' },
 	{ name: 'jump', author: 'AmiterCodes' },
+	{ name: 'spotlight-text', author: 'rtavaresramos' },
   { name: 'lava-animation', author: 'anaghkanungo7'},
 	{ name: 'lean-back', author: 'plaza223' },
 	{ name: 'letter-spacing', author: 'jun-low' },
