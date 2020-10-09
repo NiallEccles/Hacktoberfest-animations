@@ -103,6 +103,7 @@ window.animations = [
 	{ name: 'letter-spacing', author: 'jun-low' },
 	{ name: 'lightSpeedIn', author: 'fernandosutter' },
 	{ name: 'littleToBiggerRainbow', author: 'devtony322' },
+	{ name: 'mindhunter', author: 'ahsankhan26' },
 	{ name: 'mini-zoom', author: 'NiallEccles' },
 	{ name: 'movelineal', author: 'carlacentenor' },
 	{ name: 'moving-shadow', author: 'ClaudioFuriniJr' },
