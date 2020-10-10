@@ -1,0 +1,41 @@
+.neumorphism-animation{
+    color: rgb(79, 40, 58);
+    text-shadow: -4px -4px 18px rgba(247, 213, 224, 0.5),
+                  4px 4px 18px rgba(0, 0, 0, 0.8);
+    outline: none;
+
+    overflow: hidden;
+    white-space: nowrap;
+    transform: translateY(-50%);
+    
+    animation: typing 4s steps(30) 1s 1 alternate both,
+               cursorAnimation 800ms steps(30) infinite normal;
+
+    border-right: 1px solid #eee;
+}
+
+.title{
+    font-size: 6.5em !important;
+    font-family: 'Fira Code', sans-serif;
+    font-weight: bold; 
+}
+
+@keyframes typing {
+	from {
+		width: 0;
+	}
+	to {
+        width: 18em;
+        letter-spacing: 4.5px;
+        word-spacing: 2px;
+	}
+}
+
+@keyframes cursorAnimation {
+	from {
+		border-right-color: #eee;
+	}
+	to {
+		border-right-color: transparent;
+	}
+}
