@@ -3,46 +3,104 @@
  *
  * @format
  */
-.hacktober{
-    animation-name: gradient;
-    animation-duration: 4s;
+ .color {
+  width: 100%;
+  height: 10em;
+  background-color: navy;
+  animation-name: gradient;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
 }
- @keyframes gradient {
-	20% {
-        background-image:
-        radial-gradient(
-          circle closest-side,
-          yellow,
-          navy
-        );
-	}
+h1{
+color: white;
+font-size: 5em;
+text-align: center;
+padding-top: .4em;
+}
+@keyframes gradient {
+10% {
+  background-image:
+  radial-gradient(
+    circle,
+    yellow,
+    navy
+  );
+}
 
-	40% {
-        background-image:
-        radial-gradient(
-          circle at top right,
-          yellow,
-          red
-        );
-	}
+20% {
+  background-image:
+  radial-gradient(
+    circle,
+    orange 50%,
+    black
+  );
+}
 
-	55% {
-        background-image: 
-        repeating-linear-gradient(
-          45deg,
-          yellow,
-          yellow 10px,
-          navy 10px,
-          navy 20px
-        );
-    }
-    100% {
-        background-image:
-        radial-gradient(
-          circle closest-side,
-          yellow,
-          navy
-        );
-	}
-
+30% {
+  background-image: 
+  repeating-linear-gradient(
+    45deg,
+    yellow,
+    yellow 10px,
+    navy 10px,
+    navy 20px
+  );
+}
+40% {
+  background-image:
+  repeating-linear-gradient(
+    45deg,
+    black,
+    black 10px,
+    orange 10px,
+    orange 20px
+  );
+}
+50% {
+background-image:
+radial-gradient(
+circle,
+gold 40%,
+rgb(63, 38, 15)
+);
+}
+60% {
+background-image:
+repeating-linear-gradient(to bottom,
+  red,
+  gold 7%,
+  black 10%);
+}
+70% {
+background-image:
+radial-gradient(
+circle,
+orange 50%,
+black
+);
+}
+80% {
+background-image:
+radial-gradient(
+circle,
+rgb(56, 24, 11) 50%,
+gold
+);
+}
+90% {
+background-image:
+radial-gradient(
+circle,
+black 50%,
+gold
+);
+}
+100% {
+background-image:
+radial-gradient(
+circle closest-side,
+orange,
+black
+);
+}
 }
