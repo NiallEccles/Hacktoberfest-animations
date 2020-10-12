@@ -4,19 +4,16 @@
  * @format
  */
  .gradient {
-  width: 100%;
-  height: 8em;
   background-color: navy;
   animation-name: gradient;
   animation-duration: 3s;
   animation-iteration-count: infinite;
+    color: white;
+    font-size: 5em;
+    text-align: center;
+    padding: .5em;
 }
-h1{
-color: white;
-font-size: 5em;
-text-align: center;
-padding-top: .4em;
-}
+
 @keyframes gradient {
 10% {
   background-image:
