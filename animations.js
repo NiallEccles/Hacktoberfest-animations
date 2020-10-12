@@ -218,5 +218,6 @@ window.animations = [
 	{ name: 'popping', author: 'Akansha-Bhandari' },
 	{ name: 'harvestflare', author: 'Jenn - strawberries73' },
 	{ name: 'glowing', author: 'brunoeduardodev' },
-	{ name: 'cardy', author: 'antonioleutsch' },
+  { name: 'cardy', author: 'antonioleutsch' },
+  { name: 'arise', author: 'Ronnasayd' },
 ];
