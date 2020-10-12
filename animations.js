@@ -10,6 +10,7 @@ window.animations = [
 	{ name: 'fadeOutLeft', author: 'Biafer' },
 	{ name: 'zoomOut', author: 'Biafer' },
 	{ name: 'aberration', author: 'cnsumner' },
+	{ name: 'arise', author: 'Ronnasayd' },
 	{ name: 'autumn-gradient', author: 'marichka-offen' },
 	{ name: 'backFlip', author: 'adsingh14' },
 	{ name: 'background', author: 'NullSilence' },
@@ -55,6 +56,7 @@ window.animations = [
 	{ name: 'dropbr', author: 'AlbericoD' },
 	{ name: 'dropSoft', author: 'Ellissandro' },
 	{ name: 'dingduang', author: 'isfatul-codersbd' },
+	{ name: 'div_animation', author: 'jeanllopes'},
 	{ name: 'dvd', author: 'Quattro04' },
 	{ name: 'eduardo', author: 'EdoRguez' },
 	{ name: 'excited', author: 'torelafes' },
@@ -220,4 +222,5 @@ window.animations = [
 	{ name: 'harvestflare', author: 'Jenn - strawberries73' },
 	{ name: 'glowing', author: 'brunoeduardodev' },
 	{ name: 'cardy', author: 'antonioleutsch' },
+	{ name: 'save-amazon', author: 'claudioholanda' },
 ];
