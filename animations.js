@@ -219,4 +219,5 @@ window.animations = [
 	{ name: 'harvestflare', author: 'Jenn - strawberries73' },
 	{ name: 'glowing', author: 'brunoeduardodev' },
 	{ name: 'cardy', author: 'antonioleutsch' },
+	{ name: 'save-amazon', author: 'claudioholanda' },
 ];
