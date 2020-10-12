@@ -55,6 +55,7 @@ window.animations = [
 	{ name: 'dropbr', author: 'AlbericoD' },
 	{ name: 'dropSoft', author: 'Ellissandro' },
 	{ name: 'dingduang', author: 'isfatul-codersbd' },
+	{ name: 'div_animation', author: 'jeanllopes'},
 	{ name: 'dvd', author: 'Quattro04' },
 	{ name: 'eduardo', author: 'EdoRguez' },
 	{ name: 'excited', author: 'torelafes' },
@@ -219,5 +220,5 @@ window.animations = [
 	{ name: 'harvestflare', author: 'Jenn - strawberries73' },
 	{ name: 'glowing', author: 'brunoeduardodev' },
 	{ name: 'cardy', author: 'antonioleutsch' },
-	{ name: 'div_animation', author: 'jeanllopes'}
+	{ name: 'save-amazon', author: 'claudioholanda' },
 ];
