@@ -6,7 +6,7 @@
 }
 
 /* The element to apply the animation to */
-div {
+.div_animation {
   width: 100px;
   height: 100px;
   background-color: red;
