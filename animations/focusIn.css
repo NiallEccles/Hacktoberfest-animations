@@ -1,0 +1,39 @@
+/**
+ * By: https://github.com/masihtak
+ *
+ * @format
+ */
+
+@-webkit-keyframes focusIn {
+	0% {
+		transform: rotateY(90deg);
+		-webkit-filter: blur(10px);
+		filter: blur(10px);
+	}
+	100% {
+		opacity: 1;
+		transform: rotateY(0deg);
+		-webkit-filter: blur(0);
+		filter: blur(0);
+	}
+}
+
+@keyframes focusIn {
+	0% {
+		transform: rotateY(90deg);
+		-webkit-filter: blur(10px);
+		filter: blur(10px);
+	}
+	100% {
+		opacity: 1;
+		transform: rotateY(0deg);
+		-webkit-filter: blur(0);
+		filter: blur(0);
+	}
+}
+
+.focusIn {
+	-webkit-animation: focusIn 1s linear forwards;
+	animation: focusIn 1s linear forwards;
+	opacity: 0;
+}

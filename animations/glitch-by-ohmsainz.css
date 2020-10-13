@@ -1,66 +1,70 @@
-/* By: https://github.com/OhmSainz */
+/**
+ * /* By: https://github.com/OhmSainz
+ *
+ * @format
+ */
 
 @keyframes glitch-by-ohmsainz {
-  0% {
-    clip-path: inset(70px 200px 56px 0);
-  }
+	0% {
+		clip-path: inset(70px 0 56px 0);
+	}
 
-  20% {
-    clip-path: inset(29px 200px 26px 0);
-  }
+	20% {
+		clip-path: inset(29px 0 26px 0);
+	}
 
-  40% {
-    clip-path: inset(46px 200px 3px 0);
-    transform: skew(25deg);
-  }
+	40% {
+		clip-path: inset(46px 0 3px 0);
+		transform: skew(25deg);
+	}
 
-  60% {
-    clip-path: inset(72px 200px 78px 0);
-    transform: skew(0deg);
-  }
+	60% {
+		clip-path: inset(72px 0 78px 0);
+		transform: skew(0deg);
+	}
 
-  80% {
-    clip-path: inset(15px 200px 13px 0);
-  }
+	80% {
+		clip-path: inset(15px 0 13px 0);
+	}
 
-  100% {
-    clip-path: inset(50px 200px 5px 0);
-  }
+	100% {
+		clip-path: inset(50px 0 5px 0);
+	}
 }
 
 .glitch-by-ohmsainz {
-  position: relative;
+	position: relative;
 }
 
 .glitch-by-ohmsainz::before,
 .glitch-by-ohmsainz::after {
-  content: attr(data-text);
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: #411e2f;
+	content: attr(data-text);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #411e2f;
 }
 
 .glitch-by-ohmsainz::before {
-  position: absolute;
-  left: 2px;
-  text-shadow: -1px 0 rgba(0, 0, 255, 1);
-  top: 0;
-  color: white;
-  background: #411e2f;
+	position: absolute;
+	left: 2px;
+	text-shadow: -1px 0 rgba(0, 0, 255, 1);
+	top: 0;
+	color: white;
+	background: #411e2f;
 }
 
 .glitch-by-ohmsainz::after {
-  position: absolute;
-  left: -2px;
-  text-shadow: -1px 0 rgba(255, 0, 0, 1);
-  top: 0;
-  color: white;
-  background: #411e2f;
-  overflow: hidden;
-  -webkit-clip-path: inset(0 200px 0 0);
-  clip-path: inset(0 200px 0 0);
-  animation: glitch-by-ohmsainz 2s infinite linear alternate-reverse;
+	position: absolute;
+	left: -2px;
+	text-shadow: -1px 0 rgba(255, 0, 0, 1);
+	top: 0;
+	color: white;
+	background: #411e2f;
+	overflow: hidden;
+	-webkit-clip-path: inset(0 200px 0 0);
+	clip-path: inset(0 200px 0 0);
+	animation: glitch-by-ohmsainz 2s infinite linear alternate-reverse;
 }

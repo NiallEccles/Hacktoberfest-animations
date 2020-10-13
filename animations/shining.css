@@ -1,0 +1,20 @@
+/** @format */
+
+@keyframes animateShining {
+	0% {
+		background-position: -500%;
+	}
+	100% {
+		background-position: 500%;
+	}
+}
+.shining {
+	animation: animateShining 3s linear infinite;
+	background: linear-gradient(90deg, #ffbb40, #fff, #ffbb40);
+	background-repeat: no-repeat;
+	background-size: 80%;
+	overflow: hidden;
+	position: relative;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: rgba(255, 255, 255, 0);
+}

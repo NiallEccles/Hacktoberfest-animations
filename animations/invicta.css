@@ -1,0 +1,41 @@
+/** @format */
+
+.invicta {
+	animation: invicta 3s ease infinite;
+	transform-origin: 50% 50%;
+}
+
+@keyframes invicta {
+	0% {
+		opacity: 1;
+		color: blue;
+	}
+	16.66667% {
+		opacity: 0.3;
+		color: #ff9f57;
+	}
+	33.33333% {
+		opacity: 1;
+		color: blue;
+	}
+	50% {
+		opacity: 0;
+		color: #ff9f57;
+	}
+	66.66667% {
+		opacity: 1;
+		color: #fff;
+	}
+	100% {
+		opacity: 1;
+		color: #ff9f57;
+	}
+}
+
+.invicta::before {
+	content: ' 🎃 ';
+}
+
+.invicta::after {
+	content: ' 👻 ';
+}

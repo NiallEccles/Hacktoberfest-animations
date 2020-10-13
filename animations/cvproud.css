@@ -1,0 +1,48 @@
+/** @format */
+
+.cvproud {
+	background-image: url('https://i.ytimg.com/vi/-4R0hS9ute0/maxresdefault.jpg');
+	color: transparent;
+	-moz-background-clip: text;
+	-webkit-background-clip: text;
+	text-transform: uppercase;
+	line-height: 0.95;
+	font-weight: bold;
+	text-shadow: 0 0 rgba(255, 255, 255, 0.06);
+	animation: cvproud 3s infinite linear;
+	background-size: 200px 100px;
+	background-repeat: repeat-x;
+	opacity: 1;
+}
+
+.cvproud::before {
+	content: 'Cabo Verde';
+	display: block;
+	line-height: 0.45;
+	margin-bottom: 1rem;
+	font-size: 25px;
+	color: aliceblue;
+	border: 1px dotted blue;
+	animation: opaciti 3s infinite linear;
+	background: #000;
+}
+
+@keyframes cvproud {
+	0% {
+		background-position: 0 bottom;
+	}
+
+	100% {
+		background-position: 300px bottom;
+	}
+}
+
+@keyframes opaciti {
+	0% {
+		opacity: 1;
+	}
+
+	100% {
+		opacity: 0.6;
+	}
+}

@@ -1,0 +1,28 @@
+/**
+ * /* By: https://github.com/jun-low
+ *
+ * @format
+ */
+
+.letter-spacing {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-align: center;
+	animation: letter-spacing-animation 2s ease-in-out forwards;
+	color: #e28265;
+	width: 500vw;
+}
+
+@keyframes letter-spacing-animation {
+	0% {
+		letter-spacing: 10vw;
+		word-spacing: 100vw;
+		opacity: 0;
+	}
+	100% {
+		letter-spacing: 4px;
+		word-spacing: 1vw;
+		opacity: 1;
+	}
+}

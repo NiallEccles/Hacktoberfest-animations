@@ -1,0 +1,99 @@
+/**
+ * /* By: https://github.com/luca-gouveia
+ *
+ * @format
+ */
+
+@import url('https://fonts.googleapis.com/css?family=Audiowide&display=swap');
+
+.lr-loop {
+	color: #23204c;
+	animation-name: lr-loop;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	position: relative;
+	text-align: center;
+	text-shadow: #e13d7d 0px 0px 30px;
+	font-family: 'Audiowide', cursive;
+	-webkit-animation-name: lr-loop;
+	-webkit-animation-duration: 5s;
+	-webkit-animation-iteration-count: infinite;
+}
+
+@keyframes lr-loop {
+	0% {
+		color: #941baf;
+		left: 0px;
+		text-shadow: #941baf 0px 0px 30px;
+		transform: scale(1.2);
+	}
+	20% {
+		color: #a921c8;
+		left: 100px;
+		text-shadow: #a921c8 0px 0px 30px;
+		transform: scale(1);
+	}
+	40% {
+		color: #9721c8;
+		left: 0px;
+		text-shadow: #9721c8 0px 0px 30px;
+		transform: scale(1);
+	}
+	60% {
+		color: #da0cb5;
+		left: -100px;
+		text-shadow: #da0cb5 0px 0px 30px;
+		transform: scale(1);
+	}
+	80% {
+		color: #e13d7d;
+		left: 0;
+		text-shadow: #e13d7d 0px 0px 30px;
+		transform: scale(1);
+	}
+	100% {
+		color: #941baf;
+		left: 0;
+		text-shadow: #941baf 0px 0px 30px;
+		transform: scale(1.2);
+	}
+}
+
+@-webkit-keyframes lr-loop {
+	0% {
+		color: #941baf;
+		left: 0px;
+		text-shadow: #941baf 0px 0px 30px;
+		transform: scale(1.2);
+	}
+	20% {
+		color: #a921c8;
+		left: 100px;
+		text-shadow: #a921c8 0px 0px 30px;
+		transform: scale(1);
+	}
+	40% {
+		color: #9721c8;
+		left: 0px;
+		text-shadow: #9721c8 0px 0px 30px;
+		transform: scale(1);
+	}
+	60% {
+		color: #da0cb5;
+		left: -100px;
+		text-shadow: #da0cb5 0px 0px 30px;
+		transform: scale(1);
+	}
+	80% {
+		color: #e13d7d;
+		left: 0;
+		text-shadow: #e13d7d 0px 0px 30px;
+		transform: scale(1);
+	}
+	100% {
+		color: #941baf;
+		left: 0;
+		text-shadow: #941baf 0px 0px 30px;
+		transform: scale(1.2);
+	}
+}

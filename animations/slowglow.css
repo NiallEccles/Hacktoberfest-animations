@@ -1,0 +1,54 @@
+/** @format */
+
+.slowglow {
+	font-family: 'Monoton', cursive;
+	font-size: 40px;
+	color: #fff;
+	-webkit-animation: h1 8s infinite;
+	animation: h1 8s infinite;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes slowglow {
+	0% {
+		text-shadow: 0 0 3px #ff0000;
+		color: #fff;
+	}
+	25% {
+		text-shadow: 0 0 12px #ff0000;
+	}
+	50% {
+		text-shadow: 0 0 20px #ff0000;
+		color: pink;
+	}
+	75% {
+		text-shadow: 0 0 12px #ff0000;
+	}
+	100% {
+		text-shadow: 0 0 3px #ff0000;
+		color: #fff;
+	}
+}
+
+/* Internet Explorer */
+
+@keyframes slowglow {
+	0% {
+		text-shadow: 0 0 3px #ff0000;
+		color: #fff;
+	}
+	25% {
+		text-shadow: 0 0 12px #ff0000;
+	}
+	50% {
+		text-shadow: 0 0 20px #ff0000;
+		color: pink;
+	}
+	75% {
+		text-shadow: 0 0 12px #ff0000;
+	}
+	100% {
+		text-shadow: 0 0 3px #ff0000;
+		color: #fff;
+	}
+}

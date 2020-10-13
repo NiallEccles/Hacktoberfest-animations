@@ -1,16 +1,20 @@
-/* By: https://github.com/patriciafelixx */
+/**
+ * /* By: https://github.com/patriciafelixx
+ *
+ * @format
+ */
 
 @keyframes beat {
-    0% {
-        transform: translateY(-200%);
-    }
-    100% {
-        transform: translateY(0);
-    }
-  }
-  
-  .beat {
-  color: #F7054F;
-  display: block;
-  animation: bounce .5s alternate infinite ease-in;
-  }
+	0% {
+		transform: translateY(-200%);
+	}
+	100% {
+		transform: translateY(0);
+	}
+}
+
+.beat {
+	color: #f7054f;
+	display: block;
+	animation: bounce 0.5s alternate infinite ease-in;
+}

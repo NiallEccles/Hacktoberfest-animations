@@ -1,0 +1,26 @@
+/**
+ * /* By: https://github.com/jiteshkumarr
+ *
+ * @format
+ */
+
+@keyframes brighterr {
+	0% {
+		color: red;
+	}
+
+	50% {
+		color: black;
+	}
+
+	100% {
+		color: orange;
+	}
+}
+
+.brighterr {
+	-webkit-animation-name: brighterr;
+	animation-name: brighterr;
+	animation-duration: 1s;
+	animation-timing-function: ease-in-out, bezier;
+}

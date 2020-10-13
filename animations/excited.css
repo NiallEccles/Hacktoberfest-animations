@@ -1,0 +1,48 @@
+/**
+ * /* By: https://github.com/torelafes
+ *
+ * @format
+ */
+
+@font-face {
+	font-family: 'Luckiest Guy';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: local('Luckiest Guy Regular'), local('LuckiestGuy-Regular'),
+		url(https://fonts.gstatic.com/s/luckiestguy/v10/_gP_1RrxsjcxVyin9l9n_j2hTd52ijl7aQ.woff2)
+			format('woff2');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+		U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+		U+FEFF, U+FFFD;
+}
+
+@-webkit-keyframes excited {
+	100% {
+		top: -20px;
+		text-shadow: 0 1px 0 #770e09, 0 2px 0 #770e09, 0 3px 0 #770e09,
+			0 4px 0 #770e09, 0 5px 0 #770e09, 0 6px 0 #770e09, 0 7px 0 #770e09,
+			0 8px 0 #770e09, 0 9px 0 #770e09, 0 50px 25px rgba(0, 0, 0, 0.2);
+	}
+}
+@keyframes excited {
+	100% {
+		top: -20px;
+		text-shadow: 0 1px 0 #770e09, 0 2px 0 #770e09, 0 3px 0 #770e09,
+			0 4px 0 #770e09, 0 5px 0 #770e09, 0 6px 0 #770e09, 0 7px 0 #770e09,
+			0 8px 0 #770e09, 0 9px 0 #770e09, 0 50px 25px rgba(0, 0, 0, 0.2);
+	}
+}
+
+.excited {
+	display: block;
+	position: relative;
+	top: 20px;
+	color: #fd7223;
+	font-family: 'Luckiest Guy', cursive;
+	text-shadow: 0 1px 0 #770e09, 0 2px 0 #770e09, 0 3px 0 #770e09,
+		0 4px 0 #770e09, 0 5px 0 #770e09, 0 6px 0 transparent, 0 7px 0 transparent,
+		0 8px 0 transparent, 0 9px 0 transparent, 0 10px 10px rgba(0, 0, 0, 0.4);
+	-webkit-animation: excited 0.4s ease infinite alternate;
+	animation: excited 0.4s ease infinite alternate;
+}

@@ -1,0 +1,54 @@
+/** @format */
+
+@keyframes falling-to-ground {
+	0% {
+		transform: scale(5);
+		text-shadow: 0 20px 10px #000c, 0 0 0 #6300;
+	}
+	50% {
+		transform: scale(1);
+		text-shadow: 0 0 0 #000c, 0 0 0 #630c;
+	}
+	80% {
+		text-shadow: 0 0 0 #000c, 0 0 30px #333c, 0 0 45px #420c, 0 0 60px #420c;
+	}
+	90% {
+		text-shadow: 0 0 0 #000c, 0 0 40px #333f, 0 0 50px #333f, 0 0 60px #420f,
+			0 0 70px #420f;
+	}
+}
+
+@keyframes crackling {
+	0% {
+		transform: translate(-50%, -50%) scale(0, 1);
+	}
+	50% {
+		transform: translate(-50%, -50%) scale(0, 1);
+		background-size: 100% 100%;
+	}
+	80% {
+		transform: translate(-50%, -50%) scale(1, 1);
+		background-size: 25% 100%;
+	}
+}
+
+.crackling-ground {
+	animation: 3s falling-to-ground infinite linear;
+}
+
+.crackling-ground:before {
+	content: '';
+	display: block;
+	position: absolute;
+	z-index: -1;
+	width: 120%;
+	height: 150%;
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAASklEQVQoU5WPgQoAMAQFnz/fpy8aYShqrbbjHUJfBwAfKXq3PvrPNSgN1UQOCdMyOOhGxwmUaNusiNTm4Khu3tFc8zI5/gM7PwMvcWgUi8ZcrgMAAAAASUVORK5CYII=);
+	background-size: 25% 100%;
+	background-repeat: repeat-x;
+	image-rendering: pixelated;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	animation: 3s crackling infinite linear;
+}

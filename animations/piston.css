@@ -1,0 +1,27 @@
+/**
+ * /* By: https://github.com/sockopera
+ *
+ * @format
+ */
+
+.piston {
+	animation-name: piston;
+	animation-duration: 0.6s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-timing-function: ease-in-out;
+}
+@keyframes piston {
+	0% {
+		top: 0px;
+		left: 0px;
+		text-shadow: 1px 1px 0px #000, 2px 2px 0px #000, 3px 3px 0px #000,
+			4px 4px 0px #000, 5px 5px 0px #000, 6px 6px 0px #000, 7px 7px 0px #000,
+			8px 8px 0px #000, 9px 9px 0px #000, 10px 10px 0px #000, 11px 11px 0px #000,
+			12px 12px 0px #000;
+	}
+	100% {
+		transform: translateY(12px) translateX(12px);
+		text-shadow: 0px 0px;
+	}
+}
