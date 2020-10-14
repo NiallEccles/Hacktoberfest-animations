@@ -183,6 +183,7 @@ window.animations = [
 	{ name: 'typewriter', author: 'aihowes' },
 	{ name: 'typingWithCursor', author: 'luisrondow' },
 	{ name: 'vote', author: 'Shreya-L' },
+	{ name: 'vibrantColors', author: 'mareedez' },
 	{ name: 'walk', author: 'melkyy' },
 	{ name: 'warp-drive', author: 'chrisrhymes' },
 	{ name: 'wiggle', author: 'HJain13' },
