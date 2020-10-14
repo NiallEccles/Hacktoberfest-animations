@@ -53,6 +53,7 @@ window.animations = [
 	{ name: 'darkBlack', author: 'TheBangis' },
 	{ name: 'digyan', author: 'silvasobrinho' },
 	{ name: 'doabarrelroll', author: 'GabrielTeixeiraC' },
+	{ name: 'drop-bounce', author: 'coderninjakashyap'},
 	{ name: 'dropbr', author: 'AlbericoD' },
 	{ name: 'dropSoft', author: 'Ellissandro' },
 	{ name: 'dingduang', author: 'isfatul-codersbd' },
