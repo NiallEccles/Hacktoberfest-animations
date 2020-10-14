@@ -145,6 +145,7 @@ window.animations = [
 	{ name: 'rollOut', author: 'ronlaniado' },
 	{ name: 'rotate-it', author: 'MrAfrazKhan' },
 	{ name: 'rotateScaleColor', author: 'dankmir' },
+	{ name: 'rotatingCard', author: 'patriciafelixx' },
 	{ name: 'rubberband', author: 'makajeez' },
 	{ name: 'scale', author: 'addenordh' },
 	{ name: 'scale-up-center', author: 'baronrafael' },
