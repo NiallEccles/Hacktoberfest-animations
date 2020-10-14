@@ -87,6 +87,7 @@ window.animations = [
 	{ name: 'ghost', author: 'FernandaDagostin' },
 	{ name: 'glitch-by-ohmsainz', author: 'OhmSainz' },
 	{ name: 'glitch', author: 'dansegliode' },
+	{ name: 'gradient', author: 'NataliaKiwibird' },
 	{ name: 'haleemah', author: 'bolajiscott' },
 	{ name: 'halloween', author: 'honeyyenoh' },
 	{ name: 'halloweenColors', author: 'gabrielaleal' },
