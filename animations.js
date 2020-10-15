@@ -229,4 +229,5 @@ window.animations = [
 	{ name: 'glowing', author: 'brunoeduardodev' },
 	{ name: 'cardy', author: 'antonioleutsch' },
 	{ name: 'save-amazon', author: 'claudioholanda' },
+	{ name: 'text-shadow', author: 'Zaheudev' },
 ];
