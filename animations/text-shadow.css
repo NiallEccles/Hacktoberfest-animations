@@ -14,3 +14,7 @@
       transform: translateX(-8px) translateY(8px);
     }
   }
+
+  .text-shadow {
+    animation: shadow-pop-tr 2s infinite;
+    }
