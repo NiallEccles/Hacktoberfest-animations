@@ -34,7 +34,7 @@
 	}
 }
 
-.rainbow {
+.rainbow-text {
 	animation-name: rainbow;
 	animation-duration: 7s;
 	animation-fill-mode: forwards;
