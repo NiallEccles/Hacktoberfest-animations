@@ -90,6 +90,7 @@ window.animations = [
 	{ name: 'ghost', author: 'FernandaDagostin' },
 	{ name: 'glitch-by-ohmsainz', author: 'OhmSainz' },
 	{ name: 'glitch', author: 'dansegliode' },
+	{ name: 'glow-sign', author: 'muskan-9'},
 	{ name: 'gogogo', author: 'kalamell'},	
 	{ name: 'gradient', author: 'NataliaKiwibird' },
 	{ name: 'haleemah', author: 'bolajiscott' },
