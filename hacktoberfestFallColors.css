@@ -1,0 +1,28 @@
+
+      
+      {
+           name: 'hacktoberfestFallColors.css',
+           author: 'BaguetteDev'
+      }
+
+      
+      .hacktoberfestFallColors {
+      -webkit-background-clip: text;      
+      font-size: 800%;
+      color: transparent;
+      background-color: red;
+      animation-name: colors;
+      animation-duration: 2s;
+      font-family: courier new;
+      animation-iteration-count: infinite;
+      }
+      
+      @keyframes colors {
+      0% {background-color: red;}
+      25% {background-color: yellow;}
+      50% {background-color: green;}
+      75% {background-color: orange;}
+      100% {background-color: red;}
+    
+      }
+      
