@@ -190,6 +190,7 @@ window.animations = [
 	{ name: 'warp-drive', author: 'chrisrhymes' },
 	{ name: 'wiggle', author: 'HJain13' },
 	{ name: 'wobble', author: 'golomann' },
+	{ name: 'wrongGuyAnimation', author: 'the-wrong-guy' },
 	{ name: 'zoomIn', author: 'MansiNegi27' },
 	{ name: 'zoomright', author: 'sunny-aguilar' },
 	{ name: 'zoomInLeft', author: 'fernandosutter' },
