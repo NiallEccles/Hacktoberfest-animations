@@ -65,6 +65,7 @@ window.animations = [
 	{ name: 'explode', author: 'AmiterCodes' },
 	{ name: 'expand', author: 'lospettro' },
 	{ name: 'fadeIn', author: 'tummala-manasa' },
+	{ name: 'fadeInCharacters', author: 'Jojohomefries' },
 	{ name: 'fadeRollIn', author: 'pavan1645' },
 	{ name: 'fadeRollOut', author: 'pavan1645' },
 	{ name: 'fadeSlideDown', author: 'adsingh14' },
