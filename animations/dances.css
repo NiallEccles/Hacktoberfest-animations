@@ -4,7 +4,7 @@
  * @format
  */
 
- @keyframes dances {
+@keyframes dances {
 	0% {
 		color: #ffffff;
 	}
@@ -51,9 +51,9 @@
 }
 
 .dances {
-    animation: dances 5s linear infinite;
-    animation-timing-function: ease;
+	animation: dances 5s linear infinite;
+	animation-timing-function: ease;
 	-webkit-animation: dropbr 1s ease-in-out infinite;
 	-webkit-animation-timing-function: ease;
-    transform-origin: 10% 10%;
+	transform-origin: 10% 10%;
 }

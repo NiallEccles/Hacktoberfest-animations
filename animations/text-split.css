@@ -1,0 +1,65 @@
+/** @format */
+
+.text-split {
+	text-indent: -500%;
+	position: relative;
+	overflow: hidden;
+}
+
+.text-split::before,
+.text-split::after {
+	background-clip: text;
+	-webkit-background-clip: text;
+	text-indent: 0;
+	position: absolute;
+	top: 0;
+	color: white;
+	background-image: linear-gradient(90deg, #76e635, #e3ee47);
+}
+
+.text-split::before {
+	content: 'Hacktoberfest';
+	left: -400px;
+	animation: left-animation 2s forwards linear,
+		transform-animation-1 0.5s 4 alternate linear;
+}
+
+.text-split::after {
+	content: 'animations';
+	right: -310px;
+	animation: right-animation 2s forwards linear,
+		transform-animation-2 0.5s 4 alternate linear;
+}
+
+@keyframes left-animation {
+	100% {
+		left: 0;
+		color: transparent;
+		font-weight: bold;
+	}
+}
+
+@keyframes right-animation {
+	100% {
+		right: 0;
+		color: transparent;
+	}
+}
+
+@keyframes transform-animation-1 {
+	100% {
+		transform: rotateZ(-5deg);
+	}
+}
+
+@keyframes transform-animation-2 {
+	100% {
+		transform: rotateZ(5deg);
+	}
+}
+
+@media only screen and (max-width: 654px) {
+	.text-split {
+		font-size: 29px !important;
+	}
+}
