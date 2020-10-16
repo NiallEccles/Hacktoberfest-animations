@@ -30,7 +30,7 @@
 
 /* CHANGE THE ANIMATION SPEED HERE */
 .rainbow {
-	animation-name: rainbow;
+	animation-name: rainbow-text;
 	animation-duration: 3s;
 	animation-iteration-count: infinite;
 }
