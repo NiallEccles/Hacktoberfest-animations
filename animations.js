@@ -138,6 +138,7 @@ window.animations = [
 	{ name: 'reallyslow', author: 'rlavooij' },
 	{ name: 'reduce', author: 'dayanFreitas' },
 	{ name: 'random', author: 'marcelowis' },
+	{ name: 'rainbow-text', author: 'armspkt' },
 	{ name: 'reveal', author: 'NuCelyA' },
 	{ name: 'reverseStretch', author: 'loetcodes' },
 	{ name: 'right-to-left', author: 'Demysdcl' },
