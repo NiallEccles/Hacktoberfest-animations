@@ -1,0 +1,25 @@
+/** @format */
+
+.circleFlashing {
+	width: 50px;
+  height: 50px;
+  background-color: rgb(37, 37, 37);
+  position: relative;
+  animation-duration: 0.5s;
+  animation-delay: 1s;
+  border-radius: 50%
+}
+
+@keyframes circleFlashing {
+    0%   {background-color:rgb(37, 37, 37); left:0px; top:0px;}
+    10%  {background-color:yellow; left:20px; top:0px;}
+    20% {background-color:rgb(37, 37, 37); left:0px; top:0px;}
+    30%  {background-color:yellow; left:20px; top:0px;}
+    40% {background-color:rgb(37, 37, 37); left:0px; top:0px;}
+    50%  {background-color:yellow; left:20px; top:0px;}
+    60% {background-color:rgb(37, 37, 37); left:0px; top:0px;}
+    70%  {background-color:yellow; left:20px; top:0px;}
+    80% {background-color:rgb(37, 37, 37); left:0px; top:0px;}
+     90%  {background-color:yellow; left:20px; top:0px;}
+    100% {background-color:rgb(37, 37, 37); left:0px; top:0px;}
+}
