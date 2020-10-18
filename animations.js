@@ -186,6 +186,7 @@ window.animations = [
 	{ name: 'top-down', author: 'Demysdcl' },
 	{ name: 'tipsy', author: 'Maria218' },
 	{ name: 'toospooky', author: 'erikadionn' },
+	{ name: 'twenty-twenty-colors', author: 'csteacher1'},
 	{ name: 'typewriter', author: 'aihowes' },
 	{ name: 'typingWithCursor', author: 'luisrondow' },
 	{ name: 'vote', author: 'Shreya-L' },
