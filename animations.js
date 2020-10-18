@@ -179,6 +179,7 @@ window.animations = [
 	{ name: 'simple-by-lumuscode', author: 'LumusCode' },
 	{ name: 'swing', author: 'kenante' },
 	{ name: 'tada', author: 'marimendes' },
+	{ name: 'text-shadow', author: 'Zaheudev' },
 	{ name: 'text-split', author: 'hariramjp777'},
 	{ name: 'theLight', author: 'Himanshu' },
 	{ name: 'the-shining', author: 'kshitijsriv' },
