@@ -1,0 +1,18 @@
+/** @format */
+
+.thin-air {
+	font-family: 'Cormorant Garamond', serif;
+	background-color: transparent;
+	animation-name: disappear;
+	animation-duration: 3s;
+	animation-direction: alternate-reverse;
+	animation-iteration-count: infinite;
+}
+@keyframes disappear {
+	from {
+		color: black;
+	}
+	to {
+		color: transparent;
+	}
+}

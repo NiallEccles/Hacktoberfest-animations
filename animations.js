@@ -241,4 +241,5 @@ window.animations = [
 	{ name: 'glowing', author: 'brunoeduardodev' },
 	{ name: 'cardy', author: 'antonioleutsch' },
 	{ name: 'save-amazon', author: 'claudioholanda' },
+	{ name: 'thin-air', author: 'sniemeyer1'}
 ];
