@@ -98,6 +98,7 @@ window.animations = [
 	{ name: 'glow-sign', author: 'muskan-9'},
 	{ name: 'gogogo', author: 'kalamell'},	
 	{ name: 'gradient', author: 'NataliaKiwibird' },
+	{ name: 'growrotateflip', author: 'Prathamesh-Shanbhag' },
 	{ name: 'haleemah', author: 'bolajiscott' },
 	{ name: 'halloween', author: 'honeyyenoh' },
 	{ name: 'halloweenColors', author: 'gabrielaleal' },
