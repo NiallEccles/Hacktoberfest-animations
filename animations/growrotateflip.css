@@ -1,0 +1,55 @@
+/**
+ * /* By: https://github.com/Prathamesh-Shanbhag
+ *
+ * @format
+ */
+
+.growrotateflip {
+	color: #fff;
+	cursor: pointer;
+	font-family: 'Fredoka One', sans-serif;
+	font-size: 200px;
+	font-weight: normal;
+	margin: auto;
+	padding: 0 2rem;
+	outline: none;
+	animation: growrotateflip 2s ease-in-out infinite,
+		growrotatejump 3s ease-out infinite;
+}
+
+@keyframes growrotateflip {
+	20% {
+		text-shadow: 0px 0 #e8332e, 0px 0 #fc9e05, 0px 0 #891696;
+		transform: scale(0.9, 1) rotatey(-10deg);
+	}
+	40% {
+		transform: scale(0.9, 2) translatey(16px);
+		text-shadow: -10px 0px #e8332e, -20px 0 #fc9e05, -30px 0 #891696;
+	}
+	60% {
+		transform: scale(0.9, 1) rotatey(-5deg);
+		text-shadow: 0px 0 #e8332e, 0px 0 #fc9e05, 0px 0 #891696;
+	}
+	80% {
+		transform: scale(0.9, 2) translatey(16px);
+		text-shadow: 10px 0px #e8332e, 20px 0 #fc9e05, 30px 0 #891696;
+	}
+}
+@keyframes growrotatejump {
+	20% {
+		transform: translatey(0) scale(0);
+		opacity: 0;
+	}
+	40% {
+		transform: translatey(-50px) scale(1);
+		opacity: 1;
+	}
+	60% {
+		transform: translatey(0) scale(0);
+		opacity: 0;
+	}
+	80% {
+		transform: translatey(-50px) scale(1);
+		opacity: 1;
+	}
+}
