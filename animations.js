@@ -23,6 +23,7 @@ window.animations = [
 	{ name: 'alokGoldy', author: 'alokgoldy' },
 	{ name: 'boogie', author: 'jdsteinbach' },
 	{ name: 'bop', author: 'cutted' },
+	{ name: 'borderedbackandfourth', author: 'mamadou-diallo' },
 	{ name: 'border-rainbow', author: 'brunobolting' },
 	{ name: 'bouncing', author: 'Geeky-star' },
 	{ name: 'borderblend', author: 'erikadionn' },
