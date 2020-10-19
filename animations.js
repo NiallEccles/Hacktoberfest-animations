@@ -137,6 +137,7 @@ window.animations = [
 	{ name: 'pinheiro', author: 'micaelgoms' },
 	{ name: 'piston', author: 'sockopera' },
 	{ name: 'pivot', author: 'ronlaniado' },
+	{ name: 'press-start', author: 'MagoMagoado' },
 	{ name: 'pulse', author: 'makajeez' },
 	{ name: 'pulse-y', author: 'jessicavrooyen' },
 	{ name: 'pumpkins', author: 'ashwoodall' },
