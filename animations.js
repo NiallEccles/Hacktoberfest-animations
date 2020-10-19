@@ -1,7 +1,6 @@
 /** @format */
 
 window.animations = [
-	{ name: 'hit-the-corner', author: 'Kadugs'},
 	{ name: 'imdrunk', author: 'twopill' },
 	{ name: 'bhaukaal', author: 'mani9896' },
 	{ name: 'luminous-brick', author: 'zanotti' },
@@ -24,6 +23,7 @@ window.animations = [
 	{ name: 'alokGoldy', author: 'alokgoldy' },
 	{ name: 'boogie', author: 'jdsteinbach' },
 	{ name: 'bop', author: 'cutted' },
+	{ name: 'borderedbackandfourth', author: 'mamadou-diallo' },
 	{ name: 'border-rainbow', author: 'brunobolting' },
 	{ name: 'bouncing', author: 'Geeky-star' },
 	{ name: 'borderblend', author: 'erikadionn' },
@@ -47,6 +47,7 @@ window.animations = [
 	{ name: 'coming-together', author: 'Demysdcl' },
 	{ name: 'cool-breeze', author: 'wajeehsheikh' },
 	{ name: 'crackling-ground', author: 'Pliavi' },
+	{ name: 'crt-flicker', author: 'Daninator1' },
 	{ name: 'Water', author: 'DevarshiDoshi' },
 	{ name: 'crazy', author: 'MuhammadBilal' },
 	{ name: 'crazy-monkey', author: 'fernanDOTdo' },
@@ -105,6 +106,7 @@ window.animations = [
 	{ name: 'heartbeat-by-azrizhaziq', author: 'azrizhaziq' },
 	{ name: 'heartbeat', author: 'sunny-aguilar' },
 	{ name: 'hibouCoucou', author: 'af1ne' },
+	{ name: 'hit-the-corner', author: 'Kadugs'},
 	{ name: 'jackInTheBox', author: 'fernandosutter' },
 	{ name: 'hurricane', author: 'marcosceo' },
 	{ name: 'jello', author: 'adsingh14' },
@@ -188,6 +190,7 @@ window.animations = [
 	{ name: 'text-shadow', author: 'Zaheudev' },
 	{ name: 'text-split', author: 'hariramjp777'},
 	{ name: 'theLight', author: 'Himanshu' },
+	{ name: 'thin-air', author: 'sniemeyer1'},
 	{ name: 'the-shining', author: 'kshitijsriv' },
 	{ name: 'top-down', author: 'Demysdcl' },
 	{ name: 'tipsy', author: 'Maria218' },
