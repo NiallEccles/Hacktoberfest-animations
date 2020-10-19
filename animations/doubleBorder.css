@@ -5,7 +5,7 @@
  */
 
 @keyframes doubleBorder {
-    from {
+	from {
 		border-top: 10px #1dd8d8 solid;
 		border-bottom: 10px #f35fec solid;
 		border-left: 10px #98e969 solid;
@@ -17,11 +17,11 @@
 		border-left: 10px #70e03c solid;
 		border-right: 10px #eeeb49 solid;
 	}
-} 
-.doubleBorder{
-    animation: blend;
-    padding: 20px;
-    position: relative;
+}
+.doubleBorder {
+	animation: blend;
+	padding: 20px;
+	position: relative;
 	border-top: 10px #e4e13b solid;
 	border-bottom: 10px #d44398 solid;
 	border-right: 10px #80b9e7 solid;

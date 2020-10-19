@@ -1,0 +1,23 @@
+/*
+ * name:  2020colors.css
+ * author: https://github.com/csteacher1
+ * 
+ */
+
+ @import url('https://fonts.googleapis.com/css?family=Piedra');
+
+.twenty-twenty-colors {
+  font-family: Piedra;
+  font-style: italic, bold;
+  font-size: 32pt;
+  text-align: center;
+  animation: colors 5s infinite;
+}
+
+@keyframes colors {
+  0%   {top: 0px; left: 0px; background: white;}
+  25%  {top: 0px; left: 100px; background: #E0FFFF;}
+  50%  {top: 100px; left: 100px; background: #DB7093;}
+  75%  {top: 100px; left: 0px; background: #ADD8E6;}
+  100% {top: 0px; left: 0px; background: #FFB6C1;}
+}
