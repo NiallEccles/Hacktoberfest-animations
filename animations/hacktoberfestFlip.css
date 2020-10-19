@@ -1,0 +1,36 @@
+{
+    name: 'hacktoberfestFlip',
+    author: 'saclig202'
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #111;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.hacktoberfestFlip {
+  position: relative;
+}
+.hacktoberfestFlip span {
+  position: relative;
+  display: inline-block;
+  font-size: 40px;
+  color: #fff;
+  text-transform: uppercase;
+  animation: flip 2.5s infinite;
+  animation-delay: calc(.2s * var(--i))
+}
+
+@keyframes flip {
+  0%,80% {
+    transform: rotateY(360deg) 
+  }
+}
