@@ -23,6 +23,7 @@ window.animations = [
 	{ name: 'alokGoldy', author: 'alokgoldy' },
 	{ name: 'boogie', author: 'jdsteinbach' },
 	{ name: 'bop', author: 'cutted' },
+	{ name: 'borderedbackandfourth', author: 'mamadou-diallo' },
 	{ name: 'border-rainbow', author: 'brunobolting' },
 	{ name: 'bouncing', author: 'Geeky-star' },
 	{ name: 'borderblend', author: 'erikadionn' },
@@ -46,6 +47,7 @@ window.animations = [
 	{ name: 'coming-together', author: 'Demysdcl' },
 	{ name: 'cool-breeze', author: 'wajeehsheikh' },
 	{ name: 'crackling-ground', author: 'Pliavi' },
+	{ name: 'crt-flicker', author: 'Daninator1' },
 	{ name: 'Water', author: 'DevarshiDoshi' },
 	{ name: 'crazy', author: 'MuhammadBilal' },
 	{ name: 'crazy-monkey', author: 'fernanDOTdo' },
@@ -187,6 +189,7 @@ window.animations = [
 	{ name: 'text-shadow', author: 'Zaheudev' },
 	{ name: 'text-split', author: 'hariramjp777'},
 	{ name: 'theLight', author: 'Himanshu' },
+	{ name: 'thin-air', author: 'sniemeyer1'},
 	{ name: 'the-shining', author: 'kshitijsriv' },
 	{ name: 'top-down', author: 'Demysdcl' },
 	{ name: 'tipsy', author: 'Maria218' },
@@ -241,5 +244,4 @@ window.animations = [
 	{ name: 'glowing', author: 'brunoeduardodev' },
 	{ name: 'cardy', author: 'antonioleutsch' },
 	{ name: 'save-amazon', author: 'claudioholanda' },
-	{ name: 'thin-air', author: 'sniemeyer1'}
 ];
