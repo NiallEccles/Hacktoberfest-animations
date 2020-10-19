@@ -189,6 +189,7 @@ window.animations = [
 	{ name: 'text-shadow', author: 'Zaheudev' },
 	{ name: 'text-split', author: 'hariramjp777'},
 	{ name: 'theLight', author: 'Himanshu' },
+	{ name: 'thin-air', author: 'sniemeyer1'},
 	{ name: 'the-shining', author: 'kshitijsriv' },
 	{ name: 'top-down', author: 'Demysdcl' },
 	{ name: 'tipsy', author: 'Maria218' },
