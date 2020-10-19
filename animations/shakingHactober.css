@@ -1,0 +1,26 @@
+{
+    author: https://github.com/shriyag35
+    name: shakingHactober.css
+ }
+
+@import url("https://fonts.googleapis.com/css?family=Eater" rel="stylesheet" type="text/css")
+
+.shakingHacktober {
+ font-size:37pt;
+ text-align: center;
+ text-shadow: 4px 3px orange;
+ animation: shake 1s infinite;
+ font-family: Eater;
+ margin-top: 5px;
+ -webkit-text-stroke: 2px black;
+}
+
+@keyframes shake {
+  0% { transform: skewX(-30deg); }
+  15% { transform: skewX(-15deg); }
+  30% { transform: skewX(15deg); }
+  45% { transform: skewX(0deg); }
+  60% { transform: skewX(-15deg); }
+  75% { transform: skewX(-30deg); }
+  100% { transform: skewX(-30deg); }
+}
