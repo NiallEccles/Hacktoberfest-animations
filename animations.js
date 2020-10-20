@@ -7,7 +7,6 @@ window.animations = [
 	{ name: 'arise', author: 'Ronnasayd' },
 	{ name: 'autumn-gradient', author: 'marichka-offen' },
 	{ name: 'backflip', author: 'magicaljellybeans' },
-	{ name: 'backFlip', author: 'adsingh14' },
 	{ name: 'background', author: 'NullSilence' },
 	{ name: 'ballast', author: 'vijayranghar' },
 	{ name: 'beat', author: 'patriciafelixx' },
