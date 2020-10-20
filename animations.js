@@ -175,6 +175,7 @@ window.animations = [
 	{ name: 'simulacrum', author: 'ayeteejay' },
 	{ name: 'slasher', author: 'Rabanov' },
 	{ name: 'slideOutUp', author: 'lospettro' },
+	{ name: 'slidingGradient' , author: 'hrshk15'},
 	{ name: 'slowglow', author: 'shailzaa' },
 	{ name: 'showRight', author: 'janczer' },
 	{ name: 'smoke', author: 'chintanmshah' },
