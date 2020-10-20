@@ -1,0 +1,34 @@
+{
+  name: 'colorChangingText'
+  author: 'samadeee'
+}
+
+
+@import url("https://fonts.googleapis.com/css?family=Piedra" rel="stylesheet" type="text/css")
+
+body {
+  background-color: rgb(46, 78, 140);
+  animation: background-colors 3s infinite;
+}
+
+.colorChangingText {
+  font-size: 60px;
+  color: rgb(247, 99, 70);
+  font-family: Piedra;
+  text-shadow: -5px 5px black;
+  text-align: center;
+  animation: colors 3s infinite;
+}
+
+@keyframes colors {
+  0% {color: rgb(247, 99, 70)}
+  50%{color: rgb(243, 243, 243)}
+  100% {color: rgb(247, 99, 70)}
+
+} 
+
+@keyframes background-colors{
+  0% {background-color: rgb(46, 78, 140)}
+  50%{background-color: rgb(3, 3, 23)}
+  100% {background-color: rgb(46, 78, 140)}
+}
