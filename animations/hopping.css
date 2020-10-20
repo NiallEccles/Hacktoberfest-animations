@@ -1,0 +1,37 @@
+@keyframes hopping {
+	20% {
+		transform: scaleY(0.03);
+		transform-origin: top;
+	}
+	40% {
+		transform: scaleY(5) translateY(-35px);
+	}
+	55% {
+		transform: translateY(-25px);
+	}
+	60% {
+		transform: translate(2.5px, -3.5px) scaleY(0.7);
+		transform-origin: bottom;
+	}
+	62% {
+		transform: translate(-5px, -3px) scaleY(0.8);
+		transform-origin: bottom;
+	}
+	64% {
+		transform: translateX(6px, -6px) scaleY(0.85);
+		transform-origin: bottom;
+	}
+	66% {
+		transform: translate(-5px, -3px) scaleY(0.9);
+		transform-origin: bottom;
+	}
+	68% {
+		transform: translateX(4px, -5px) scaleY(0.95);
+		transform-origin: bottom;
+	}
+}
+.hopping {
+	-webkit-animation-name: hopping;
+	animation-name: hopping;
+	animation-duration: 5s;
+}
