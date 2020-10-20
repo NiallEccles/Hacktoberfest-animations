@@ -1,0 +1,24 @@
+{
+    name: 'ombreHacktober',
+    author: 'shriyag35'
+}
+
+@import url("https://fonts.googleapis.com/css?family=Creepster" rel="stylesheet" type="text/css");
+
+h1{
+  font-size:40pt;
+  animation: color-change 3.5s infinite;
+  text-shadow: 2px 3px red;
+  margin-top: 10px;
+  margin-bottom: 1px;
+  font-family: Creepster;
+  text-align: center;
+}
+
+@keyframes color-change {
+  0% {color: white}
+  25% {color:#ffd7d4}
+  50% {color:#fca19a}
+  75% {color:#ff6054}
+  100% {color: red}
+}
