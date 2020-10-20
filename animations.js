@@ -1,7 +1,6 @@
 /** @format */
 
 window.animations = [
-	{name: 'ease-in-out', author: 'adrsh79086'},
 	{ name: 'imdrunk', author: 'twopill' },
 	{ name: 'bhaukaal', author: 'mani9896' },
 	{ name: 'luminous-brick', author: 'zanotti' },
@@ -22,6 +21,7 @@ window.animations = [
 	{ name: 'blend', author: 'divanshi15' },
 	{ name: 'blinking-neon', author: 'aliheikal' },
 	{ name: 'alokGoldy', author: 'alokgoldy' },
+	{ name: 'backflip', author: 'magicaljellybeans' },
 	{ name: 'boogie', author: 'jdsteinbach' },
 	{ name: 'bop', author: 'cutted' },
 	{ name: 'borderedbackandfourth', author: 'mamadou-diallo' },
@@ -41,6 +41,7 @@ window.animations = [
 	{ name: 'circimental', author: 'isfatul-codersbd' },
 	{ name: 'classyAppear', author: 'roganoalien' },
 	{ name: 'colour-changes', author: 'rishabhp99' },
+	{ name: 'colorfull', author: 'aflajismail' },
 	{ name: 'cLeft', author: 'TheBangis' },
 	{ name: 'colourfull', author: 'hurleyandrew' },
 	{ name: 'colours', author: 'zerossb' },
@@ -65,6 +66,7 @@ window.animations = [
 	{ name: 'div_animation', author: 'jeanllopes'},
 	{ name: 'dvd', author: 'Quattro04' },
 	{ name: 'ElectricHover',author: 'itsaamyth'},
+	{ name: 'ease-in-out', author: 'adrsh79086'},
 	{ name: 'eduardo', author: 'EdoRguez' },
 	{ name: 'excited', author: 'torelafes' },
 	{ name: 'explode', author: 'AmiterCodes' },
@@ -109,6 +111,7 @@ window.animations = [
 	{ name: 'heartbeat', author: 'sunny-aguilar' },
 	{ name: 'hibouCoucou', author: 'af1ne' },
 	{ name: 'hit-the-corner', author: 'Kadugs'},
+	{ name: 'hopping', author: 'vatsalvj'},
 	{ name: 'jackInTheBox', author: 'fernandosutter' },
 	{ name: 'hurricane', author: 'marcosceo' },
 	{ name: 'jello', author: 'adsingh14' },
@@ -173,6 +176,7 @@ window.animations = [
 	{ name: 'simulacrum', author: 'ayeteejay' },
 	{ name: 'slasher', author: 'Rabanov' },
 	{ name: 'slideOutUp', author: 'lospettro' },
+	{ name: 'slidingGradient' , author: 'hrshk15'},
 	{ name: 'slowglow', author: 'shailzaa' },
 	{ name: 'showRight', author: 'janczer' },
 	{ name: 'smoke', author: 'chintanmshah' },
