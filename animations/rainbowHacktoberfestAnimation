@@ -1,0 +1,24 @@
+
+{
+  name: 'rainbowHacktoberfestAnimation'
+  author: 'AsiCas1417'
+}
+
+@import url('<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css"'>
+
+.rainbowHacktoberfestAnimation {
+  text-align: center;
+  font-size: 100pt;
+  font-family: lobster;
+  font-weight: 1000;
+  animation: colorChange 5s infinite;
+}
+
+@keyframes colorChange {
+  0% { color: hsl(1, 100%, 50%); }
+  20% { color: hsl(35, 100%, 50%); }
+  40% { color: hsl(60, 100%, 50%); }
+  65% { color: hsl(115, 100%, 50%); }
+  80% { color: hsl(240, 100%, 50%); }
+  100% { color: hsl(0, 100%, 50%); }
+}
