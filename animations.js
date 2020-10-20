@@ -21,6 +21,7 @@ window.animations = [
 	{ name: 'blend', author: 'divanshi15' },
 	{ name: 'blinking-neon', author: 'aliheikal' },
 	{ name: 'alokGoldy', author: 'alokgoldy' },
+	{ name: 'backflip', author: 'magicaljellybeans' },
 	{ name: 'boogie', author: 'jdsteinbach' },
 	{ name: 'bop', author: 'cutted' },
 	{ name: 'borderedbackandfourth', author: 'mamadou-diallo' },
