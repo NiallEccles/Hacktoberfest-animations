@@ -66,6 +66,7 @@ window.animations = [
 	{ name: 'div_animation', author: 'jeanllopes'},
 	{ name: 'dvd', author: 'Quattro04' },
 	{ name: 'ElectricHover',author: 'itsaamyth'},
+	{ name: 'ease-in-out', author: 'adrsh79086'},
 	{ name: 'eduardo', author: 'EdoRguez' },
 	{ name: 'excited', author: 'torelafes' },
 	{ name: 'explode', author: 'AmiterCodes' },
