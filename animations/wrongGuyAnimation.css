@@ -1,62 +1,63 @@
+/** @format */
+
 .wrongGuyAnimation {
-    text-align: center;
-    font-size: 3rem;
-    animation: wrongGuyAnimation 5s linear infinite alternate;
-  }
-  
-  @keyframes wrongGuyAnimation {
-    0% {
-      -webkit-text-stroke: 1px rgb(255, 128, 31);
-      -webkit-text-fill-color: #fff;
-      background-image: linear-gradient(to right, rgb(255, 0, 234), yellow);
-    }
-  
-    20% {
-      -webkit-text-stroke: 1.7px rgb(254, 64, 146);
-      -webkit-text-fill-color: rgb(0, 0, 0);
-      background-image: linear-gradient(to right, yellow, rgb(232, 190, 23));
-    }
-  
-    40% {
-      -webkit-text-stroke: 2px rgb(255, 217, 0);
-      -webkit-text-fill-color: rgb(255, 255, 255);
-      background-image: linear-gradient(
-        to right,
-        rgb(232, 190, 23),
-        rgb(163, 230, 69)
-      );
-    }
-  
-    60% {
-      -webkit-text-stroke: 2.3px rgb(255, 162, 0);
-      -webkit-text-fill-color: rgb(13, 223, 247);
-      background-image: linear-gradient(
-        to right,
-        rgb(163, 230, 69),
-        rgb(73, 215, 240)
-      );
-    }
-  
-    80% {
-      -webkit-text-stroke: 2.5px rgb(255, 0, 183);
-      -webkit-text-fill-color: #fff;
-      background-image: linear-gradient(
-        to right,
-        rgb(73, 215, 240),
-        rgb(175, 66, 230)
-      );
-    }
-  
-    100% {
-      -webkit-text-stroke: 2.7px rgb(172, 127, 223);
-      -webkit-text-fill-color: rgb(93, 235, 150);
-      background-image: linear-gradient(
-        to right,
-        rgb(175, 66, 230),
-        rgba(232, 235, 71, 0.94)
-      );
-      letter-spacing: 20px;
-      word-spacing: 20rem;
-    }
-  }
-  
+	text-align: center;
+	font-size: 3rem;
+	animation: wrongGuyAnimation 5s linear infinite alternate;
+}
+
+@keyframes wrongGuyAnimation {
+	0% {
+		-webkit-text-stroke: 1px rgb(255, 128, 31);
+		-webkit-text-fill-color: #fff;
+		background-image: linear-gradient(to right, rgb(255, 0, 234), yellow);
+	}
+
+	20% {
+		-webkit-text-stroke: 1.7px rgb(254, 64, 146);
+		-webkit-text-fill-color: rgb(0, 0, 0);
+		background-image: linear-gradient(to right, yellow, rgb(232, 190, 23));
+	}
+
+	40% {
+		-webkit-text-stroke: 2px rgb(255, 217, 0);
+		-webkit-text-fill-color: rgb(255, 255, 255);
+		background-image: linear-gradient(
+			to right,
+			rgb(232, 190, 23),
+			rgb(163, 230, 69)
+		);
+	}
+
+	60% {
+		-webkit-text-stroke: 2.3px rgb(255, 162, 0);
+		-webkit-text-fill-color: rgb(13, 223, 247);
+		background-image: linear-gradient(
+			to right,
+			rgb(163, 230, 69),
+			rgb(73, 215, 240)
+		);
+	}
+
+	80% {
+		-webkit-text-stroke: 2.5px rgb(255, 0, 183);
+		-webkit-text-fill-color: #fff;
+		background-image: linear-gradient(
+			to right,
+			rgb(73, 215, 240),
+			rgb(175, 66, 230)
+		);
+	}
+
+	100% {
+		-webkit-text-stroke: 2.7px rgb(172, 127, 223);
+		-webkit-text-fill-color: rgb(93, 235, 150);
+		background-image: linear-gradient(
+			to right,
+			rgb(175, 66, 230),
+			rgba(232, 235, 71, 0.94)
+		);
+		letter-spacing: 20px;
+		word-spacing: 20rem;
+	}
+}

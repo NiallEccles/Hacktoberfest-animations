@@ -4,7 +4,7 @@
  * @format
  */
 
- @keyframes animate {
+@keyframes animate {
 	0% {
 		background-position: -500%;
 	}
@@ -22,20 +22,15 @@
 	text-transform: uppercase;
 	overflow: hidden;
 
-	text-shadow:
-    -1.25px -1.25px 0 #fff,
-    1.25px -1.25px 0 #fff,
-    -1.25px 1.25px 0 #fff,
-    1.25px 1.25px 0 #fff;
-    -webkit-transition: all 4s;
-    -moz-transition: all 4s;
-    -o-transition: all 4s;
-    transition: all 4s ease-in-out;
-
+	text-shadow: -1.25px -1.25px 0 #fff, 1.25px -1.25px 0 #fff,
+		-1.25px 1.25px 0 #fff, 1.25px 1.25px 0 #fff;
+	-webkit-transition: all 4s;
+	-moz-transition: all 4s;
+	-o-transition: all 4s;
+	transition: all 4s ease-in-out;
 }
 
 .mindhunter:hover {
 	text-shadow: 0px 0px #fff;
-	letter-spacing: 15px;;
-
+	letter-spacing: 15px;
 }

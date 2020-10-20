@@ -4,130 +4,141 @@
  * @format
  */
 
- @import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
 
- .glow-sign 
-{
-    position : relative;
-    text-align: center;
-    font-family: 'Sacramento', cursive;
-    font-size: 200%;
-    padding: 30px;
-    color: #92fdfa; 
-    border: 5px solid #15f4ee;
-    text-transform: lowercase;
-    border-radius: 10px;
-    box-shadow: 0 5px 20px 0 #15f4ee inset, 0 5px 20px 0 #15f4ee;
-    text-shadow: 0 0px 5px #15f4ee, 0 0px 10px #15f4ee;
-    animation: glow-sign 3s linear both;
+.glow-sign {
+	position: relative;
+	text-align: center;
+	font-family: 'Sacramento', cursive;
+	font-size: 200%;
+	padding: 30px;
+	color: #92fdfa;
+	border: 5px solid #15f4ee;
+	text-transform: lowercase;
+	border-radius: 10px;
+	box-shadow: 0 5px 20px 0 #15f4ee inset, 0 5px 20px 0 #15f4ee;
+	text-shadow: 0 0px 5px #15f4ee, 0 0px 10px #15f4ee;
+	animation: glow-sign 3s linear both;
 }
 
- @keyframes glow-sign {
-    0% {
-      opacity: 0;
-    }
-    20.1% {
-      opacity: 1;
-      text-shadow: 0 0 30px rgba(21, 244, 238, 0.25);
-    }
-    20.6% {
-      opacity: 0;
-      text-shadow: none;
-    }
-    30% {
-      opacity: 0;
-      text-shadow: none;
-    }
-    30.1% {
-      opacity: 1;
-      text-shadow: 0 0 30px rgba(21, 244, 238, 0.45), 0 0 60px rgba(21, 244, 238, 0.25);
-    }
-    30.5% {
-      opacity: 1;
-      text-shadow: 0 0 30px rgba(21, 244, 238, 0.45), 0 0 60px rgba(21, 244, 238, 0.25);
-    }
-    30.6% {
-      opacity: 0;
-      text-shadow: none;
-    }
-    45% {
-      opacity: 0;
-      text-shadow: none;
-    }
-    45.1% {
-      opacity: 1;
-      text-shadow: 0 0 10px rgba(21, 244, 238, 0.45), 0 0 15px rgba(21, 244, 238, 0.25);
-    }
-    50% {
-      opacity: 1;
-      text-shadow: 0 0 10px rgba(21, 244, 238, 0.45), 0 0 15px rgba(21, 244, 238, 0.25);
-    }
-    55% {
-      opacity: 1;
-      text-shadow: 0 0 10px rgba(21, 244, 238, 0.45), 0 0 15px rgba(21, 244, 238, 0.25);
-    }
-    55.1% {
-      opacity: 0;
-      text-shadow: none;
-    }
-    57% {
-      opacity: 0;
-      text-shadow: none;
-    }
-    57.1% {
-      opacity: 1;
-      text-shadow: 0 0 10px rgba(21, 244, 238, 0.55), 0 0 15px rgba(21, 244, 238, 0.35);
-    }
-    60% {
-      opacity: 1;
-      text-shadow: 0 0 10px rgba(21, 244, 238, 0.55), 0 0 15px rgba(21, 244, 238, 0.35);
-    }
-    60.1% {
-      opacity: 0;
-      text-shadow: none;
-    }
-    65% {
-      opacity: 0;
-      text-shadow: none;
-    }
-    65.1% {
-      opacity: 1;
-      text-shadow: 0 0 10px rgba(21, 244, 238, 0.6), 0 0 15px rgba(21, 244, 238, 0.35);
-    }
-    75% {
-      opacity: 1;
-      text-shadow: 0 0 10px rgba(21, 244, 238, 0.65), 0 0 15px rgba(21, 244, 238, 0.35);
-    }
-    75.1% {
-      opacity: 0;
-      text-shadow: none;
-    }
-    77% {
-      opacity: 0;
-      text-shadow: none;
-    }
-    77.1% {
-      opacity: 1;
-      text-shadow: 0 0 10px rgba(21, 244, 238, 0.7), 0 0 15px rgba(21, 244, 238, 0.4);
-    }
-    85% {
-      opacity: 1;
-      text-shadow: 0 0 10px rgba(21, 244, 238, 0.75), 0 0 15px rgba(21, 244, 238, 0.4);
-    }
-    85.1% {
-      opacity: 0;
-      text-shadow: none;
-    }
-    86% {
-      opacity: 0;
-      text-shadow: none;
-    }
-    86.1% {
-      opacity: 1;
-      text-shadow: 0 0 10px rgba(21, 244, 238, 0.8), 0 0 15px rgba(21, 244, 238, 0.45);
-    }
-    100% {
-      opacity: 1;
-      text-shadow: 0 0px 5px #15f4ee, 0 0px 10px #15f4ee;
-    }
-  }
+@keyframes glow-sign {
+	0% {
+		opacity: 0;
+	}
+	20.1% {
+		opacity: 1;
+		text-shadow: 0 0 30px rgba(21, 244, 238, 0.25);
+	}
+	20.6% {
+		opacity: 0;
+		text-shadow: none;
+	}
+	30% {
+		opacity: 0;
+		text-shadow: none;
+	}
+	30.1% {
+		opacity: 1;
+		text-shadow: 0 0 30px rgba(21, 244, 238, 0.45),
+			0 0 60px rgba(21, 244, 238, 0.25);
+	}
+	30.5% {
+		opacity: 1;
+		text-shadow: 0 0 30px rgba(21, 244, 238, 0.45),
+			0 0 60px rgba(21, 244, 238, 0.25);
+	}
+	30.6% {
+		opacity: 0;
+		text-shadow: none;
+	}
+	45% {
+		opacity: 0;
+		text-shadow: none;
+	}
+	45.1% {
+		opacity: 1;
+		text-shadow: 0 0 10px rgba(21, 244, 238, 0.45),
+			0 0 15px rgba(21, 244, 238, 0.25);
+	}
+	50% {
+		opacity: 1;
+		text-shadow: 0 0 10px rgba(21, 244, 238, 0.45),
+			0 0 15px rgba(21, 244, 238, 0.25);
+	}
+	55% {
+		opacity: 1;
+		text-shadow: 0 0 10px rgba(21, 244, 238, 0.45),
+			0 0 15px rgba(21, 244, 238, 0.25);
+	}
+	55.1% {
+		opacity: 0;
+		text-shadow: none;
+	}
+	57% {
+		opacity: 0;
+		text-shadow: none;
+	}
+	57.1% {
+		opacity: 1;
+		text-shadow: 0 0 10px rgba(21, 244, 238, 0.55),
+			0 0 15px rgba(21, 244, 238, 0.35);
+	}
+	60% {
+		opacity: 1;
+		text-shadow: 0 0 10px rgba(21, 244, 238, 0.55),
+			0 0 15px rgba(21, 244, 238, 0.35);
+	}
+	60.1% {
+		opacity: 0;
+		text-shadow: none;
+	}
+	65% {
+		opacity: 0;
+		text-shadow: none;
+	}
+	65.1% {
+		opacity: 1;
+		text-shadow: 0 0 10px rgba(21, 244, 238, 0.6),
+			0 0 15px rgba(21, 244, 238, 0.35);
+	}
+	75% {
+		opacity: 1;
+		text-shadow: 0 0 10px rgba(21, 244, 238, 0.65),
+			0 0 15px rgba(21, 244, 238, 0.35);
+	}
+	75.1% {
+		opacity: 0;
+		text-shadow: none;
+	}
+	77% {
+		opacity: 0;
+		text-shadow: none;
+	}
+	77.1% {
+		opacity: 1;
+		text-shadow: 0 0 10px rgba(21, 244, 238, 0.7),
+			0 0 15px rgba(21, 244, 238, 0.4);
+	}
+	85% {
+		opacity: 1;
+		text-shadow: 0 0 10px rgba(21, 244, 238, 0.75),
+			0 0 15px rgba(21, 244, 238, 0.4);
+	}
+	85.1% {
+		opacity: 0;
+		text-shadow: none;
+	}
+	86% {
+		opacity: 0;
+		text-shadow: none;
+	}
+	86.1% {
+		opacity: 1;
+		text-shadow: 0 0 10px rgba(21, 244, 238, 0.8),
+			0 0 15px rgba(21, 244, 238, 0.45);
+	}
+	100% {
+		opacity: 1;
+		text-shadow: 0 0px 5px #15f4ee, 0 0px 10px #15f4ee;
+	}
+}

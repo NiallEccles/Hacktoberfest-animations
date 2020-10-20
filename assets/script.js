@@ -34,7 +34,7 @@ function getAnimationName(rand) {
  * @param { Array } animations the animations from 'window.animations'.
  */
 function sortAnimationByName(animations) {
-	animations.sort(function(a, b) {
+	animations.sort(function (a, b) {
 		if (a.name > b.name) return 1;
 		if (a.name < b.name) return -1;
 		return 0;
@@ -72,8 +72,8 @@ function loadAnimations() {
 	getAnimationName(true);
 }
 
-document.addEventListener('DOMContentLoaded', function() {
-	select.addEventListener('change', function() {
+document.addEventListener('DOMContentLoaded', function () {
+	select.addEventListener('change', function () {
 		getAnimationName();
 	});
 	loadAnimations();

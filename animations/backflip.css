@@ -5,23 +5,23 @@
  */
 
 @keyframes backflip {
-    25% {
-        transform: rotateX(90deg) scale(2,2) translateY(20px);
-    }
+	25% {
+		transform: rotateX(90deg) scale(2, 2) translateY(20px);
+	}
 
-    50% {
-        transform: rotateX(180deg) scale(1,1) translateY(40px);
-    }
+	50% {
+		transform: rotateX(180deg) scale(1, 1) translateY(40px);
+	}
 
-    75% {
-        transform: rotateX(270deg) scale(0.5, 0.5) translateY(20px);
-    }
+	75% {
+		transform: rotateX(270deg) scale(0.5, 0.5) translateY(20px);
+	}
 
-    100% {
-        transform: rotateX(360deg) scale(1,1) translateY(0px);
-    }
+	100% {
+		transform: rotateX(360deg) scale(1, 1) translateY(0px);
+	}
 }
 
 .backflip {
-    animation: backflip 2s linear 1s infinite;
+	animation: backflip 2s linear 1s infinite;
 }

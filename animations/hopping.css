@@ -1,3 +1,5 @@
+/** @format */
+
 @keyframes hopping {
 	20% {
 		transform: scaleY(0.03);

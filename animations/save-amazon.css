@@ -3,10 +3,9 @@
  *
  * @format
  */
-   
-    
+
 @keyframes save-amazon {
-    from {
+	from {
 		-webkit-transform: scale3d(1, 1, 1);
 		transform: scale3d(1, 1, 1);
 	}
@@ -41,18 +40,18 @@
 		transform: scale3d(1, 1, 1);
 	}
 }
-    
-    .save-amazon {
-        white-space: nowrap;
-        text-transform: uppercase;
-        animation: save-amazon 3s ease-in-out infinite;
-        color: #eb007d;
-    }
-    
-    .save-amazon::before,
-    .save-amazon::after {
-        content: "\1F333";
-    }
+
+.save-amazon {
+	white-space: nowrap;
+	text-transform: uppercase;
+	animation: save-amazon 3s ease-in-out infinite;
+	color: #eb007d;
+}
+
+.save-amazon::before,
+.save-amazon::after {
+	content: '\1F333';
+}
 
 .save-amazon {
 	color: red;
