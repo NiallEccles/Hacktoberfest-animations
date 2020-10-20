@@ -1,0 +1,113 @@
+{
+    name: 'fadeAnimation',
+    author: 'Tamgla412'
+}
+{
+	margin: 0;
+	padding: 0;
+}
+body
+{
+	margin: 0;
+	padding: 0;
+	background: #000;
+
+}
+.smoky-text
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	   -moz-transform: translate(-50%, -50%);
+	    -ms-transform: translate(-50%, -50%);
+	     -o-transform: translate(-50%, -50%);
+	        transform: translate(-50%, -50%);
+}
+.smoky-text span
+{
+	position: relative;
+	background: linear-gradient(to right, #F11D28, #FD3A2D, #FE612C, #FF872C, #FFA12C);
+	font-family: verdana;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-weight: bold;
+	letter-spacing: 15px;
+	font-size: 40px;
+	animation: animate 2.8s linear infinite;
+}
+@keyframes animate 
+{
+	0%
+	{
+		
+		filter: blur(0);
+	}
+	40%
+	{
+		
+		filter: blur(20px);
+	}
+	80%
+	{
+		
+		filter: blur(0);
+	}
+	100%
+	{
+		
+		filter: blur(0);
+	}
+}
+.smoky-text span:nth-child(1)
+{
+	animation-delay: 0.2s;
+}
+.smoky-text span:nth-child(2)
+{
+	animation-delay: 0.4s;
+}
+.smoky-text span:nth-child(3)
+{
+	animation-delay: 0.6s;
+}
+.smoky-text span:nth-child(4)
+{
+	animation-delay: .8s;
+}
+.smoky-text span:nth-child(5)
+{
+	animation-delay: 1s;
+}
+.smoky-text span:nth-child(6)
+{
+	animation-delay: 1.2s;
+}
+.smoky-text span:nth-child(7)
+{
+	animation-delay: 1.4s;
+}
+.smoky-text span:nth-child(8)
+{
+	animation-delay: 1.6s;
+}
+.smoky-text span:nth-child(9)
+{
+	animation-delay: 1.8s;
+}
+.smoky-text span:nth-child(10)
+{
+	animation-delay: 2s;
+}
+.smoky-text span:nth-child(11)
+{
+	animation-delay: 2.2s;
+}
+.smoky-text span:nth-child(12)
+{
+	animation-delay: 2.4s;
+}
+.smoky-text span:nth-child(13)
+{
+	animation-delay: 2.6s;
+}
