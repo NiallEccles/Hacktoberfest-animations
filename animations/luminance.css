@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro");
+.luminance {
+  background: 50% 100% / 50% 50% no-repeat
+              radial-gradient(ellipse at bottom, #fff, transparent, transparent);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-size: 10vw;
+  font-family: "Source Sans Pro", sans-serif;
+  animation: luminance 2500ms linear infinite 2000ms;
+}
+  @keyframes luminance {
+    40% {
+      text-shadow: 0 0 8px #fff;
+    }
+  }
+}  

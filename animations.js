@@ -140,6 +140,7 @@ window.animations = [
 	{ name: 'littleToBiggerRainbow', author: 'devtony322' },
 	{ name: 'lr-loop', author: 'luca-gouveia' },
 	{ name: 'lr-loop', author: 'Shivang0' },
+	{ name: 'luminance', author: 'mahajansaksham' },
 	{ name: 'luminous-brick', author: 'zanotti' },
 	{ name: 'matrix', author: 'randy' },
 	{ name: 'mindhunter', author: 'ahsankhan26' },
