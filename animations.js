@@ -45,6 +45,7 @@ window.animations = [
 	{ name: 'colours', author: 'zerossb' },
 	{ name: 'come-and-go', author: 'hoehooiyan' },
 	{ name: 'comeOver', author: 'TheBangis' },
+	{ name: 'onfirehack', author: 'mkhy19' },
 	{ name: 'coming-together', author: 'Demysdcl' },
 	{ name: 'cool-breeze', author: 'wajeehsheikh' },
 	{ name: 'crackling-ground', author: 'Pliavi' },
