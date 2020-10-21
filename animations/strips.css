@@ -1,0 +1,198 @@
+
+{
+  name: 'strips.css'
+  author: 'Cristian408'
+}
+
+
+$color1: blue;
+@mixin easeOut {
+  transition: all .6s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+@mixin break {
+  @media screen and (max-width: 760px) {
+    @content;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.strips {
+  min-height: 300vh;
+  text-align: center;
+  overflow: hidden;
+  color: white;
+  
+  &__strip {
+    will-change: width, left, z-index, height;
+    position: absolute;
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+    cursor: pointer;
+    @include easeOut;
+    
+    &:nth-child(1) {
+      left: 0;
+    }
+    
+    &:nth-child(1) {
+      .strip__content {
+        background: $color1;
+        transform: translate3d(-100%, 0, 0);
+        animation-name: strip1;
+        animation-delay: 0.1s;
+      }
+    }
+    
+    @include break {
+      min-height: 20vh;
+      &:nth-child(1) {
+        top: 0;
+        left: 0;
+        width: 100%;
+      }
+    }
+  }
+  
+  .strip__content {
+    animation-duration: 3.5s;
+    animation-timing-function: cubic-bezier(0.23, 1, 0.32, 1);
+    animation-fill-mode: both;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+
+    &:hover {
+      &:before {
+        transform: few(-30deg) scale(3) translate(0, 0);
+        opacity: 0.1;
+      }
+    }
+
+    &:before {
+      content: "";
+      position: absolute;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: white;
+      opacity: 0.05;
+      transform-origin: center center;
+      transform: skew(-30deg) scaleY(1) translate(0, 0);
+      @include easeOut;
+    }
+  }
+  
+  .strip__inner-text {
+    will-change: transform, opacity;
+    position: absolute;
+    z-index: 5;
+    top: 50%;
+    left: 50%;
+    width: 70%;
+    transform: translate(-50%,-50%) scale(0.5);
+    opacity: 0;
+    @include easeOut;
+  }
+  
+  &__strip--expanded {
+    width: 100%;
+    top: 0 !important;
+    left: 0 !important;
+    z-index: 3;
+    cursor: default;
+    
+    @include break {
+      min-height: 100vh;
+    }
+    
+    .strip__content {
+      &:hover {
+        &:before {
+          transform: skew(-30deg) scale(1) translate(0, 0);
+          opacity: 0.05;
+        }
+      }
+    }
+    
+    .strip__title {
+      opacity: 0;
+    }
+    
+    .strip__inner-text {
+      opacity: 1;
+      transform: translate(-50%, -50%) scale(1);
+    }
+  }
+}
+
+.strip__title {
+  display: block;
+  margin: 0;
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  font-size: 3.5vw;
+  color: white;
+  @include easeOut;
+  
+  @include break {
+    font-size: 28px;
+  }
+}
+
+.strip__close {
+  position: absolute;
+  right: 3vw;
+  top: 3vw;
+  opacity: 0;
+  z-index: 10;
+  @include easeOut;
+  cursor: pointer;
+  transition-delay: 0.5s;
+  
+  &--show {
+    opacity: 1;
+  }
+}
+
+@keyframes strip1 {
+  0% {
+    transform: translate3d(-100%, 0, 0);
+  }
+  
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+body {
+  font-family: 'Lato';
+  -webkit-font-smoothing: antialiased;
+  text-rendering: geometricPrecision;
+  line-height: 1.5;
+}
+
+h1, h2 {
+  font-weight: 500;
+}
+
+.fa {
+  font-size: 50px;
+  color: white;
+}
+p {
+  margin: 0 0 16px;
+}
