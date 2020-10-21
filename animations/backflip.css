@@ -1,27 +1,31 @@
 /**
- * /* By: https://github.com/magicaljellybeans
+ * /* By: https://github.com/adsingh14
  *
  * @format
  */
 
-@keyframes backflip {
-	25% {
-		transform: rotateX(90deg) scale(2, 2) translateY(20px);
+@keyframes backFlip {
+	0% {
+		transform: rotateX(0deg) translateZ(0px);
+		transition-timing-function: linear;
+		text-shadow: 0 0 10px #fff;
 	}
 
-	50% {
-		transform: rotateX(180deg) scale(1, 1) translateY(40px);
-	}
-
-	75% {
-		transform: rotateX(270deg) scale(0.5, 0.5) translateY(20px);
+	40% {
+		transform: rotateX(100deg) translateZ(100px);
+		transition-timing-function: ease;
+		color: rgba(255, 255, 255, 0.7);
+		text-shadow: 0 0 0 rgba(0, 0, 0, 0);
 	}
 
 	100% {
-		transform: rotateX(360deg) scale(1, 1) translateY(0px);
+		text-shadow: 0 0 10px #fff;
+		transform: rotateX(360deg) translateZ(50px);
 	}
 }
 
-.backflip {
-	animation: backflip 2s linear 1s infinite;
+.backFlip {
+	animation: backFlip 2s infinite cubic-bezier(0.87, 0.05, 0, 0.77) forwards;
+	transform-style: preserve-3d;
+	perspective: 600px;
 }
