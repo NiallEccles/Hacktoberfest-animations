@@ -59,15 +59,24 @@ select {
 	max-width: 90vw;
 	margin-top: 50px;
 	margin-bottom: 20px;
-	padding: 5px 35px 5px 5px;
+	padding: 5px 35px 5px 5px !important;
 	font-size: 16px;
-	border: 1px solid #ccc;
+	border: 2px solid #ccc;
 	height: 34px;
 	-webkit-appearance: none;
-	background: url(arrow-down.png) no-repeat right #fff;
-	background-position-x: 97%;
+	background: url(arrow-down.png) no-repeat right #fff !important;
+	background-position-x: 97% !important;
+	box-shadow: 1px 1px 10px 2px #f1d4d4;
 }
-
+.selectbar{
+  width: 400px;
+  height: 50px;
+  border-radius:36px;
+  display:inline-block;
+  overflow:hidden;
+  background:#cccccc;
+  border:2px solid #6a097d;
+}
 #detail_elements p {
 	margin: 4px 0;
 }
