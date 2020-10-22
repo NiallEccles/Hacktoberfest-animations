@@ -156,6 +156,7 @@ window.animations = [
 	{ name: 'new-page', author: 'nerdomancer' },
 	{ name: 'opacity-by-gabrielamattias', author: 'GabrielaMattias' },
 	{ name: 'orangeisthenewblack', author: 'kevinhuddy' },
+	{ name: 'peakyblinders', author: 'Nymika' },
 	{ name: 'ping', author: 'Tatvam' },
 	{ name: 'pinheiro', author: 'micaelgoms' },
 	{ name: 'piston', author: 'sockopera' },
