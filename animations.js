@@ -144,6 +144,7 @@ window.animations = [
 	{ name: 'pumpkins', author: 'ashwoodall' },
 	{ name: 'rainbow', author: 'shanejustice' },
 	{ name: 'rainbow-by-vijayranghar', author: 'vijayranghar' },
+  { name: 'rainbowHacktoberfestAnimation', author: 'AsiCas1417' },
 	{ name: 'reallyslow', author: 'rlavooij' },
 	{ name: 'reduce', author: 'dayanFreitas' },
 	{ name: 'random', author: 'marcelowis' },
