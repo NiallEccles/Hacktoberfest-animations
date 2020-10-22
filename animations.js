@@ -179,6 +179,7 @@ window.animations = [
 	{ name: 'retrowave-shadow', author: 'pozda' },
 	{ name: 'reveal', author: 'NuCelyA' },
 	{ name: 'reverseStretch', author: 'loetcodes' },
+	{ name: 'rgb-glow', author: 'Topekz'},
 	{ name: 'right-to-left', author: 'Demysdcl' },
 	{ name: 'rocket', author: 'ellieya' },
 	{ name: 'rollIn', author: 'ronlaniado' },
