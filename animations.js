@@ -174,6 +174,7 @@ window.animations = [
 	{ name: 'random', author: 'marcelowis' },
 	{ name: 'randomly', author: 'hidalgo_vntu' },
 	{ name: 'reallyslow', author: 'rlavooij' },
+	{ name: 'redacted', author: 'web2feel' },
 	{ name: 'reduce', author: 'dayanFreitas' },
 	{ name: 'resize', author: 'SudharshanBhimisetty' },
 	{ name: 'retrowave-shadow', author: 'pozda' },
