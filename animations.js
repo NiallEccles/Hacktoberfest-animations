@@ -62,6 +62,7 @@ window.animations = [
 	{ name: 'div_animation', author: 'jeanllopes' },
 	{ name: 'doabarrelroll', author: 'GabrielTeixeiraC' },
 	{ name: 'doubleBorder', author: 'lovetyagi-17' },
+	{ name: 'drop', author: 'anujpandey785' },
 	{ name: 'drop-bounce', author: 'coderninjakashyap' },
 	{ name: 'dropbr', author: 'AlbericoD' },
 	{ name: 'dropSoft', author: 'Ellissandro' },
