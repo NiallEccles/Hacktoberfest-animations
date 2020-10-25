@@ -114,6 +114,7 @@ window.animations = [
 	{ name: 'halloween', author: 'honeyyenoh' },
 	{ name: 'halloweenColors', author: 'gabrielaleal' },
 	{ name: 'harrypotter', author: 'naftalima' },
+	{ name: 'harjotSmashes', author: 'harjotkarwal' },
 	{ name: 'harvestflare', author: 'Jenn - strawberries73' },
 	{ name: 'headShake', author: 'lospettro' },
 	{ name: 'heartbeat', author: 'sunny-aguilar' },
