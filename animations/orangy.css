@@ -1,0 +1,29 @@
+@keyframes example {
+    from {color: bown;}
+    to {color: orange;}
+  }
+  
+  .header {
+    color: brown;
+    font-size: 30px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Staatliches', cursive;
+    letter-spacing: 10px;
+    word-spacing: 20px;  
+    opacity: 0.6;
+  }
+  
+  .text {
+      animation-name: example;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;  animation-direction: alternate;
+  }
+  
+  
+  .header:hover {
+    opacity: 1;
+    background-color: black;
+   }
