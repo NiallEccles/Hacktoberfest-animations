@@ -29,6 +29,7 @@ window.animations = [
 	{ name: 'bounceAround', author: 'wendelleloi' },
 	{ name: 'bouncing', author: 'Geeky-star' },
 	{ name: 'boxshadowglow', author: 'kopikob' },
+	{ name: 'brasil', author: 'igorbrands' },
 	{ name: 'breathe', author: 'runningdeveloper' },
 	{ name: 'brighterr', author: 'jiteshkumarr' },
 	{ name: 'cardy', author: 'antonioleutsch' },
