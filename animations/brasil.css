@@ -26,7 +26,7 @@
 }
 .brasil {
 	animation: colorBar 5s ease infinite;
-	-webkit-animation: Gradient 15s ease infinite;
+	-webkit-animation: Gradient 10s ease infinite;
 	-moz-animation: Gradient 5s ease infinite;
 }
 
