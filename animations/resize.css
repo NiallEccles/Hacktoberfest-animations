@@ -1,0 +1,33 @@
+/**
+ * /* By: https://github.com/SudharshanBhimisetty
+ *
+ * @format
+ */
+
+.resize {
+	animation: resize 3s infinite forwards;
+	transition: linear;
+}
+
+@keyframes resize {
+	0% {
+		transform: scale(0);
+		color: rgb(255, 208, 0);
+	}
+	10% {
+		transform: scale(0.4) rotate(10deg);
+		color: aqua;
+	}
+	30% {
+		transform: scale(0.8) rotate(0deg);
+		color: rgb(156, 165, 185);
+	}
+	60% {
+		transform: scale(1.2) rotate(-10deg);
+		color: rgb(50, 34, 56);
+	}
+	100% {
+		transform: scale(1) rotate(0deg);
+		color: rgb(41, 22, 23);
+	}
+}

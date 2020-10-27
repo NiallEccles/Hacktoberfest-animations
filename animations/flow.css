@@ -4,25 +4,31 @@
  * @format
  */
 
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
 
-@import url("https://fonts.googleapis.com/css?family=Montserrat");
+@keyframes color-change {
+	0% {
+		color: #f8efd4;
+	}
 
-@keyframes color-change{
-  0% {color: #f8efd4;}
+	25% {
+		color: #edc988;
+	}
 
-  25% {color: #edc988;}
+	50% {
+		color: #de4463;
+	}
 
-  50% {color: #de4463;}
+	75% {
+		color: #de4463;
+	}
 
-  75% {color: #de4463;}
+	100% {
+		color: #f8efd4;
+	}
+}
 
-  100% {color: #f8efd4;}
- }
- 
-
-
-
- .flow {
-    font-family:'Montserrat';
-    animation:color-change 1s infinite;
+.flow {
+	font-family: 'Montserrat';
+	animation: color-change 1s infinite;
 }

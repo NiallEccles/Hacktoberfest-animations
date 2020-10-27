@@ -4,35 +4,29 @@
  * @format
  */
 
-
 @keyframes spotlight-text {
-from{
-  background-position:  -500%;
-
-
-}
-to{
-  background-position:  500%;
-
-};
+	from {
+		background-position: -500%;
+	}
+	to {
+		background-position: 500%;
+	}
 }
 
-.spotlight-text{
-  position: relative;
+.spotlight-text {
+	position: relative;
 	animation: spotlight-text 3s linear infinite alternate;
 
- color: #fff;
-  font-size: 8vw!important;
-  line-height: 15px;
+	color: #fff;
+	font-size: 8vw !important;
+	line-height: 15px;
 
+	background: linear-gradient(90deg, #582d42, #cee1ff, #fff, #f7cbdc, #582d42);
+	background-repeat: no-repeat;
+	background-size: 80%;
+	height: auto;
+	padding: 50px 0;
 
-  background: linear-gradient(90deg, #582D42 , #CEE1FF , #fff, #F7CBDC , #582D42);
-  background-repeat: no-repeat;
-  background-size: 80%;
-  height: auto;
-  padding: 50px 0;
-
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
-

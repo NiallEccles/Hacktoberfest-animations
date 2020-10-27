@@ -1,0 +1,35 @@
+/**
+ * /* By: https://github.com/mamadou-diallo
+ *
+ * @format
+ */
+
+@keyframes borderedbackandfourth {
+	from {
+		width: 0;
+		transform: rotate(0);
+	}
+
+	to {
+		width: 13.5em;
+		transform: rotate(360);
+	}
+}
+
+.borderedbackandfourth {
+	display: block;
+	content: 'Hacktoberfest animations';
+	align-content: center;
+	position: center;
+	top: 0;
+	left: 0;
+	height: 25%;
+	width: 50%;
+	opacity: 0.8;
+	animation: borderedbackandfourth 1s cubic-bezier(0.35, 0.35, 0.35, 0.35)
+		reverse both infinite;
+	animation-direction: alternate-reverse;
+	border-style: dashed;
+	color: #8b0000;
+	z-index: -2;
+}

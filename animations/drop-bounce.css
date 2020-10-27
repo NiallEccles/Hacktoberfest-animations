@@ -1,13 +1,15 @@
-.drop-bounce{
-  position: relative;
-  top: 10vh;
-  animation: anim 1s cubic-bezier(0.5, 0.05, 1, 0.5) alternate infinite;
+/** @format */
+
+.drop-bounce {
+	position: relative;
+	top: 10vh;
+	animation: anim 1s cubic-bezier(0.5, 0.05, 1, 0.5) alternate infinite;
 }
-@keyframes anim{
-  from{
-    transform: translateY(0);
-  }
-  to{
-    transform: translateY(70vh);
-  }
+@keyframes anim {
+	from {
+		transform: translateY(0);
+	}
+	to {
+		transform: translateY(70vh);
+	}
 }
