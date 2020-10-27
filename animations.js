@@ -167,6 +167,7 @@ window.animations = [
 	{ name: 'pinheiro', author: 'micaelgoms' },
 	{ name: 'piston', author: 'sockopera' },
 	{ name: 'pivot', author: 'ronlaniado' },
+	{ name: 'pixar-h', author: 'pliavi' },
 	{ name: 'popping', author: 'Akansha-Bhandari' },
 	{ name: 'press-start', author: 'MagoMagoado' },
 	{ name: 'pudding', author: 'sliceolife' },
