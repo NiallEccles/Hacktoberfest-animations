@@ -33,5 +33,4 @@
 .brasil::before,
 .brasil::after {
 	content: '🇧🇷';
-	-webkit-text-fill-color: none;
 }
