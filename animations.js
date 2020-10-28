@@ -44,6 +44,7 @@ window.animations = [
 	{ name: 'colour-changes', author: 'rishabhp99' },
 	{ name: 'colourfull', author: 'hurleyandrew' },
 	{ name: 'colourfull-ldt', author: 'ledangtuanbk' },
+	{ name: 'colourfull-ldt2020', author: 'ledangtuanbk' },
 	{ name: 'colours', author: 'zerossb' },
 	{ name: 'come-and-go', author: 'hoehooiyan' },
 	{ name: 'comeOver', author: 'TheBangis' },
