@@ -60,4 +60,4 @@ border-rainbow by [brunobolting](https://github.com/brunobolting)
 
 ## Notable Contributions
 
-Huge thanks to [reebr](https://github.com/reebr) for massively improving the structure of the project.
+Huge thanks to [rn4n](https://github.com/rn4n) for massively improving the structure of the project.
