@@ -1,3 +1,5 @@
+/** @format */
+
 @keyframes gogogo {
 	from {
 		-webkit-transform: scale3d(1, 1, 1);
@@ -22,12 +24,11 @@
 		-webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
 		transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
 	}
-
 }
 
 .gogogo {
 	-webkit-animation-name: gogogo;
-    animation-name: gogogo;
-    animation-iteration-count: 10;
+	animation-name: gogogo;
+	animation-iteration-count: 10;
 	animation-duration: 0.8s;
 }

@@ -5,12 +5,22 @@
  */
 
 @keyframes vote {
-	50% {transform: scale(10);}
-	0% { transform: scale(1);}
-  
-  0%   {background-color: red;}
-  50%  {background-color: white;}
-  100% {background-color: blue;}
+	50% {
+		transform: scale(10);
+	}
+	0% {
+		transform: scale(1);
+	}
+
+	0% {
+		background-color: red;
+	}
+	50% {
+		background-color: white;
+	}
+	100% {
+		background-color: blue;
+	}
 }
 
 .vote {

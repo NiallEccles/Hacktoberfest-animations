@@ -1,20 +1,22 @@
-.neumorphism-animation{
-    font-size: 6.5em !important;
-    font-family: 'Fira Code', sans-serif;
-    font-weight: bold;
-    color: rgb(79, 40, 58);
-    text-shadow: -4px -4px 18px rgba(247, 213, 224, 0.5),
-                  4px 4px 18px rgba(0, 0, 0, 0.8);
-    outline: none;
+/** @format */
 
-    overflow: hidden;
-    white-space: nowrap;
-    transform: translateY(-50%);
-    
-    animation: typing 4s steps(30) 1s 1 alternate both,
-               cursorAnimation 800ms steps(30) infinite normal;
+.neumorphism-animation {
+	font-size: 6.5em !important;
+	font-family: 'Fira Code', sans-serif;
+	font-weight: bold;
+	color: rgb(79, 40, 58);
+	text-shadow: -4px -4px 18px rgba(247, 213, 224, 0.5),
+		4px 4px 18px rgba(0, 0, 0, 0.8);
+	outline: none;
 
-    border-right: 1px solid #eee;
+	overflow: hidden;
+	white-space: nowrap;
+	transform: translateY(-50%);
+
+	animation: typing 4s steps(30) 1s 1 alternate both,
+		cursorAnimation 800ms steps(30) infinite normal;
+
+	border-right: 1px solid #eee;
 }
 
 @keyframes typing {
@@ -22,9 +24,9 @@
 		width: 0;
 	}
 	to {
-        width: 18em;
-        letter-spacing: 4.5px;
-        word-spacing: 2px;
+		width: 18em;
+		letter-spacing: 4.5px;
+		word-spacing: 2px;
 	}
 }
 
