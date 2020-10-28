@@ -1,0 +1,37 @@
+/**
+ * /* By: https://github.com/dlu117
+ *
+ * @format
+ */
+
+ @keyframes pulsing-outline {
+    0% {
+        transform: scale(1);
+    }
+    
+    20% {
+        transform: scale(2);
+    }
+    
+    40% {
+        transform: scale(1);
+    }
+    
+    60% {
+        transform: scale(2);
+    }
+    
+    80% {
+        transform: scale(1);
+        text-shadow: -1px 1px 1px #63e606,
+                      1px 1px 1px  #63e606,
+                      1px -1px 1px  #63e606,
+                     -1px -1px 1px  #63e606;
+   }
+ }
+
+.pulsing-outline{
+    animation-name: pulsing-outline;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+ }
