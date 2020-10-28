@@ -92,6 +92,7 @@ window.animations = [
 	{ name: 'firer', author: 'kalamell' },
 	{ name: 'firetext', author: 'KrindgesJuliano' },
 	{ name: 'flash', author: 'haych8' },
+	{ name: 'flashbeam', author: 'hrshk15' },
 	{ name: 'flashingtext', author: 'Jaammeesss' },
 	{ name: 'flashtext', author: 'cTahirih' },
 	{ name: 'flashtext', author: 'cTahirih' },
