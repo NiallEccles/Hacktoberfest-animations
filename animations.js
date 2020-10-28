@@ -178,6 +178,7 @@ window.animations = [
 	{ name: 'pulse-y', author: 'jessicavrooyen' },
 	{ name: 'pulsing-outline' , author:'dlu117'},
 	{ name: 'pumpkins', author: 'ashwoodall' },
+	{ name: 'radial', author: 'adrsh79086' },
 	{ name: 'rainbow', author: 'shanejustice' },
 	{ name: 'rainbow-by-vijayranghar', author: 'vijayranghar' },
 	{ name: 'rainbow-text', author: 'armspkt' },
