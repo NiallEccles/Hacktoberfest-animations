@@ -165,6 +165,7 @@ window.animations = [
 	{ name: 'onfirehack', author: 'mkhy19' },
 	{ name: 'opacity-by-gabrielamattias', author: 'GabrielaMattias' },
 	{ name: 'orangeisthenewblack', author: 'kevinhuddy' },
+	{ name: 'orangy', author: 'casiimir' },
 	{ name: 'pcfilho', author: 'paulo-filho-dev' },
 	{ name: 'peakyblinders', author: 'Nymika' },
 	{ name: 'ping', author: 'Tatvam' },
