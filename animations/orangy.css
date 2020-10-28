@@ -1,9 +1,9 @@
-@keyframes example {
-    from {color: bown;}
+@keyframes animate {
+    from {color: brown;}
     to {color: orange;}
   }
   
-  .header {
+  .orangy {
     color: brown;
     font-size: 30px;
     height: 100vh;
@@ -13,17 +13,12 @@
     font-family: 'Staatliches', cursive;
     letter-spacing: 10px;
     word-spacing: 20px;  
-    opacity: 0.6;
-  }
-  
-  .text {
-      animation-name: example;
+    opacity: 0.6;    
+    animation-name: animate;
     animation-duration: 0.5s;
     animation-iteration-count: infinite;  animation-direction: alternate;
-  }
-  
-  
-  .header:hover {
+  }  
+  .orangy:hover {
     opacity: 1;
     background-color: black;
    }
