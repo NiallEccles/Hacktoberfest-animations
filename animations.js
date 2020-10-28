@@ -224,6 +224,7 @@ window.animations = [
 	{ name: 'slidingGradient', author: 'hrshk15' },
 	{ name: 'slowglow', author: 'shailzaa' },
 	{ name: 'smoke', author: 'chintanmshah' },
+	{ name: 'spaceup', author: 'Swayamsvk' },
 	{ name: 'spider', author: 'laurelr2020' },
 	{ name: 'spinNeon', author: 'vaibhavrajsingh2001' },
 	{ name: 'spinning', author: 'lucas-barros' },
