@@ -1,0 +1,18 @@
+@keyframes animationFrames{
+    0% {
+        opacity:1;
+        transform:  rotate(0deg) scaleX(1.02) scaleY(1.02) ;
+    }
+    100% {
+        opacity:0;
+        transform:  rotate(200deg) scaleX(1.02) scaleY(1.02) ;
+    }
+}
+
+.pcfilho{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: blueviolet;
+    animation: animationFrames ease-out 0.3s;
+    animation-iteration-count: infinite;
+    transform-origin: 50% 50%;
+}
