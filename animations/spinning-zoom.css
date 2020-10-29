@@ -1,0 +1,14 @@
+/**
+ * /* By: https://github.com/seanevans-test
+ *
+ * @format
+ */
+
+ @keyframes spinner-zoom {
+	0%, 100% { transform: scale(0) rotate(0deg); }
+	50% { transform: scale(1) rotate(360deg); }
+}
+
+.spinning-zoom {
+    animation: spinner-zoom 3s infinite;
+}
