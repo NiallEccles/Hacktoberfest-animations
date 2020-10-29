@@ -233,6 +233,7 @@ window.animations = [
 	{ name: 'spider', author: 'laurelr2020' },
 	{ name: 'spinNeon', author: 'vaibhavrajsingh2001' },
 	{ name: 'spinning', author: 'lucas-barros' },
+	{ name: 'spinning-zoom', author: 'sean-evans' },
 	{ name: 'split-and-twist', author: 'viciouskitten' },
 	{ name: 'spooky', author: 'elizabethfinedev' },
 	{ name: 'spookyDoor-cgduncan7', author: 'cgduncan7' },
