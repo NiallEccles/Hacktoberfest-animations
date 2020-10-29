@@ -12,3 +12,13 @@
 .spinning-zoom {
     animation: spinner-zoom 3s infinite;
 }
+
+/* styles */
+
+.title {
+    color: #ff8ae2;
+    letter-spacing: 1px;
+    text-shadow: 6px 4px 7px #072540;
+    font-family: "Inter Bold", "Helvetica", "Arial", san-serif;
+    font-weight: 600;
+}
