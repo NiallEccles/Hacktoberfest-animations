@@ -9,6 +9,11 @@
 	50% { transform: scale(1) rotate(360deg); }
 }
 
+@keyframes backgroundAnimation {
+    0%,100% {background-position:0% 47%}
+    50%{background-position:100% 54%}
+}
+
 .spinning-zoom {
     animation: spinner-zoom 3s infinite;
 }
@@ -21,4 +26,10 @@
     text-shadow: 6px 4px 7px #072540;
     font-family: "Inter Bold", "Helvetica", "Arial", san-serif;
     font-weight: 600;
+}
+
+body {
+    background: linear-gradient(271deg, #072540, #ff8ae2);
+    background-size: 400% 400%;
+    animation: backgroundAnimation 3s ease infinite;
 }
