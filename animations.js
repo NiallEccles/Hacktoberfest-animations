@@ -1,6 +1,7 @@
 /** @format */
 
 window.animations = [
+	{ name: 'vibrate', author: 'adrsh79086' },
 	{ name: 'aberration', author: 'cnsumner' },
 	{ name: 'alokGoldy', author: 'alokgoldy' },
 	{ name: 'alternate-reverse', author: 'jagadyudha' },
