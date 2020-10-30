@@ -9,7 +9,7 @@
   color: rgb(223, 191, 191);
   position: relative;
   font-size: 20vw;
-  animation: glitch 5s 5s infinite;
+  animation: glitch 3s 3s infinite;
 }
 
 .erroranimation::before {
@@ -20,5 +20,5 @@
   #background: black;
   overflow: hidden;
   top: 0;
-  animation: noise-1 3s linear infinite alternate-reverse, glitch 5s 5.05s infinite;
+  animation: noise-1 3s linear infinite alternate-reverse, glitch 3s 3.03s infinite;
 }
