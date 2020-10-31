@@ -7,7 +7,7 @@
 
  .stepittap {
 	-webkit-animation:  0.5s cubic-bezier(0.550, 0.055, 0.675, 0.190) both;
-            animation: stepitta 0.5s cubic-bezier(0.550, 0.055, 0.675, 0.190) both;
+            animation: stepittap 0.5s cubic-bezier(0.550, 0.055, 0.675, 0.190) both;
             -webkit-box-shadow: 26px 25px 15px 7px rgba(96,36,55,1);
             -moz-box-shadow: 26px 25px 15px 7px rgba(96,36,55,1);
             box-shadow: 26px 25px 15px 7px rgba(96,36,55,1);
