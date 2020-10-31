@@ -1,0 +1,34 @@
+/** @format */
+
+.minihimiash {
+	text-decoration-color: bisque;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	animation: fill 0.5s ease forwards 3s;
+}
+
+.minihimiash path:nth-child(even) {
+	stroke-dasharray: 200px;
+	stroke-dasharray: 50px;
+	animation: line-anim 2s ease forwards;
+}
+.minihimiash path:nth-child(odd) {
+	stroke-dasharray: 200px;
+	stroke-dasharray: 50px;
+	animation: line-anim 2s ease forwards 0.9s;
+}
+@keyframes line-anim {
+	to {
+		stroke-dashoffset: 0;
+	}
+}
+@keyframes fill {
+	from {
+		fill: transparent;
+	}
+	to {
+		fill: rgb(200, 233, 167);
+	}
+}
