@@ -243,6 +243,7 @@ window.animations = [
 	{ name: 'star-wars-roll', author: 'MandeeD' },
 	{ name: 'static', author: 'DekyDesigns' },	
 	{ name: 'strangerthings', author: 'crownedpigeon' },
+	{ name: 'stepittap', author: 'verissteph'},
 	{ name: 'stretchout', author: 's-Hale' },
 	{ name: 'strobe', author: 'phoffmeister' },
 	{ name: 'swing', author: 'kenante' },
