@@ -244,6 +244,7 @@ window.animations = [
 	{ name: 'static', author: 'DekyDesigns' },	
 	{ name: 'strangerthings', author: 'crownedpigeon' },
 	{ name: 'stretchout', author: 's-Hale' },
+	{ name: 'strobe', author: 'phoffmeister' },
 	{ name: 'swing', author: 'kenante' },
 	{ name: 'swing-by-lumuscode', author: 'LumusCode' },
 	{ name: 'tada', author: 'marimendes' },
