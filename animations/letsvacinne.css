@@ -1,0 +1,27 @@
+/**
+ * /* By: https://github.com/silvasobrinho
+ *
+ * @format
+ */
+
+ @keyframes letsvacinne {
+	0% {
+		transform: scale(10);
+	}
+	50% {
+		transform: scale(1);
+	}
+}
+
+.letsvacinne {
+	font-family: 'Comic Sans MS', 'cursive';
+	text-transform: uppercase;
+	color: #E81224;
+	filter: drop-shadow(0 0 25px rgb(232, 18, 112));
+	text-align: center;
+	animation: letsvacinne 3s infinite;
+}
+
+.letsvacinne::after {
+	content: ' 💉💉 ';
+}

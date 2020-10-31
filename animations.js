@@ -142,6 +142,7 @@ window.animations = [
 	{ name: 'lava-animation', author: 'anaghkanungo7' },
 	{ name: 'lean-back', author: 'plaza223' },
 	{ name: 'letter-spacing', author: 'jun-low' },
+	{ name: 'letsvacinne', author: 'silvasobrinho' },
 	{ name: 'lightSpeedIn', author: 'fernandosutter' },
 	{ name: 'lightSpeedOut', author: 'aarushi15002' },
 	{ name: 'littleToBiggerRainbow', author: 'devtony322' },
