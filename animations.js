@@ -142,6 +142,7 @@ window.animations = [
 	{ name: 'jump', author: 'AmiterCodes' },
 	{ name: 'lava-animation', author: 'anaghkanungo7' },
 	{ name: 'lean-back', author: 'plaza223' },
+	{ name: 'letsvacinne', author: 'silvasobrinho' },
 	{ name: 'letter-spacing', author: 'jun-low' },
 	{ name: 'lightSpeedIn', author: 'fernandosutter' },
 	{ name: 'lightSpeedOut', author: 'aarushi15002' },
