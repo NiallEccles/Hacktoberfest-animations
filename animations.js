@@ -1,7 +1,6 @@
 /** @format */
 
 window.animations = [
-	{ name: 'vibrate', author: 'adrsh79086' },
 	{ name: 'aberration', author: 'cnsumner' },
 	{ name: 'alokGoldy', author: 'alokgoldy' },
 	{ name: 'alternate-reverse', author: 'jagadyudha' },
@@ -259,6 +258,7 @@ window.animations = [
 	{ name: 'typewriter', author: 'aihowes' },
 	{ name: 'typingWithCursor', author: 'luisrondow' },
 	{ name: 'vibrantColors', author: 'mareedez' },
+	{ name: 'vibrate', author: 'adrsh79086' },
 	{ name: 'vote', author: 'Shreya-L' },
 	{ name: 'walk', author: 'melkyy' },
 	{ name: 'warp-drive', author: 'chrisrhymes' },
