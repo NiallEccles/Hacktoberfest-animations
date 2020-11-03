@@ -1,6 +1,7 @@
 /** @format */
 
 window.animations = [
+	{ name: 'pulserate', author: 'adrsh79086' },
 	{ name: 'vibrate', author: 'adrsh79086' },
 	{ name: 'aberration', author: 'cnsumner' },
 	{ name: 'alokGoldy', author: 'alokgoldy' },
@@ -271,3 +272,4 @@ window.animations = [
 	{ name: 'zoomOut', author: 'Biafer' },
 	{ name: 'zoomright', author: 'sunny-aguilar' },
 ];
+

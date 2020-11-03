@@ -1,0 +1,36 @@
+
+
+ @-webkit-keyframes pulsate-fwd {
+    0% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+    50% {
+      -webkit-transform: scale(1.1);
+              transform: scale(1.1);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }
+  @keyframes pulsate-fwd {
+    0% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+    50% {
+      -webkit-transform: scale(1.1);
+              transform: scale(1.1);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }
+  
+
+  .pulserate{
+	-webkit-animation: pulsate-fwd 0.5s ease-in-out infinite both;
+	        animation: pulsate-fwd 0.5s ease-in-out infinite both;
+}
