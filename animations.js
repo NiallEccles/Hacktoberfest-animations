@@ -262,6 +262,7 @@ window.animations = [
 	{ name: 'top-down', author: 'Demysdcl' },
 	{ name: 'twenty-twenty-colors', author: 'csteacher1' },
 	{ name: 'typewriter', author: 'aihowes' },
+	{ name: 'type-pulse', author: 'marincor' },
 	{ name: 'typingWithCursor', author: 'luisrondow' },
 	{ name: 'up-down', author: 'dilekuzulmez' },
 	{ name: 'vibrantColors', author: 'mareedez' },
