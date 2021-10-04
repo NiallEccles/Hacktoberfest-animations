@@ -263,6 +263,7 @@ window.animations = [
 	{ name: 'tubelight', author: 'mnaiwrit52'},
 	{ name: 'twenty-twenty-colors', author: 'csteacher1' },
 	{ name: 'typewriter', author: 'aihowes' },
+	{ name: 'type-pulse', author: 'marincor' },
 	{ name: 'typingWithCursor', author: 'luisrondow' },
 	{ name: 'up-down', author: 'dilekuzulmez' },
 	{ name: 'vibrantColors', author: 'mareedez' },
