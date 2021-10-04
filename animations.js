@@ -1,6 +1,7 @@
 /** @format */
 
 window.animations = [
+	{ name: 'bounce-and-glow', author: 'riddhidamani' },
 	{ name: 'aberration', author: 'cnsumner' },
 	{ name: 'alokGoldy', author: 'alokgoldy' },
 	{ name: 'alternate-reverse', author: 'jagadyudha' },
@@ -180,7 +181,7 @@ window.animations = [
 	{ name: 'pudding', author: 'sliceolife' },
 	{ name: 'pulse', author: 'makajeez' },
 	{ name: 'pulse-y', author: 'jessicavrooyen' },
-	{ name: 'pulsing-outline' , author:'dlu117'},
+	{ name: 'pulsing-outline', author: 'dlu117' },
 	{ name: 'pumpkins', author: 'ashwoodall' },
 	{ name: 'radial', author: 'adrsh79086' },
 	{ name: 'rainbow', author: 'shanejustice' },
@@ -195,7 +196,7 @@ window.animations = [
 	{ name: 'retrowave-shadow', author: 'pozda' },
 	{ name: 'reveal', author: 'NuCelyA' },
 	{ name: 'reverseStretch', author: 'loetcodes' },
-	{ name: 'rgb-glow', author: 'Topekz'},
+	{ name: 'rgb-glow', author: 'Topekz' },
 	{ name: 'right-to-left', author: 'Demysdcl' },
 	{ name: 'rocket', author: 'ellieya' },
 	{ name: 'rollIn', author: 'ronlaniado' },
@@ -243,9 +244,9 @@ window.animations = [
 	{ name: 'spotlight-text', author: 'rtavaresramos' },
 	{ name: 'staircase_bounce', author: 'vivekrawat' },
 	{ name: 'star-wars-roll', author: 'MandeeD' },
-	{ name: 'static', author: 'DekyDesigns' },	
+	{ name: 'static', author: 'DekyDesigns' },
 	{ name: 'strangerthings', author: 'crownedpigeon' },
-	{ name: 'stepittap', author: 'verissteph'},
+	{ name: 'stepittap', author: 'verissteph' },
 	{ name: 'stretchout', author: 's-Hale' },
 	{ name: 'strobe', author: 'phoffmeister' },
 	{ name: 'swing', author: 'kenante' },
