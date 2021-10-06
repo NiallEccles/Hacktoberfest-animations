@@ -280,5 +280,5 @@ window.animations = [
 	{ name: 'zoomInLeft', author: 'fernandosutter' },
 	{ name: 'zoomOut', author: 'Biafer' },
 	{ name: 'zoomright', author: 'sunny-aguilar' },
-	{ name: 'hover-zoom', author: 'vishal-nakum' },
+	{ name: 'zoom', author: 'vishal-nakum' },
 ];
