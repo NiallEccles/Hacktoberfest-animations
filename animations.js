@@ -2,6 +2,7 @@
 
 window.animations = [
 	{ name: 'aberration', author: 'cnsumner' },
+	{ name: 'ainneone', author: 'ainneo'},
 	{ name: 'alokGoldy', author: 'alokgoldy' },
 	{ name: 'alternate-reverse', author: 'jagadyudha' },
 	{ name: 'arise', author: 'Ronnasayd' },
@@ -55,6 +56,7 @@ window.animations = [
 	{ name: 'crazy', author: 'MuhammadBilal' },
 	{ name: 'crazy-monkey', author: 'fernanDOTdo' },
 	{ name: 'crazy-rotation', author: 'Demysdcl' },
+	{ name: 'cross-shadow', author: 'Kenny-08' },
 	{ name: 'crt-flicker', author: 'Daninator1' },
 	{ name: 'crtwarp', author: 'nelson-w' },
 	{ name: 'cvproud', author: 'cdfortes' },
@@ -118,6 +120,7 @@ window.animations = [
 	{ name: 'glowing', author: 'brunoeduardodev' },
 	{ name: 'gogogo', author: 'kalamell' },
 	{ name: 'gradient', author: 'NataliaKiwibird' },
+	{ name: 'gradient-ride', author: 'try-catch-stack' },
 	{ name: 'growrotateflip', author: 'Prathamesh-Shanbhag' },
 	{ name: 'haleemah', author: 'bolajiscott' },
 	{ name: 'halloween', author: 'honeyyenoh' },
