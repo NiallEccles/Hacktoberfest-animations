@@ -152,6 +152,7 @@ window.animations = [
 	{ name: 'lightSpeedIn', author: 'fernandosutter' },
 	{ name: 'lightSpeedOut', author: 'aarushi15002' },
 	{ name: 'littleToBiggerRainbow', author: 'devtony322' },
+	{ name: 'lonewolf', author: 'pushpanjali-10' },
 	{ name: 'lr-loop', author: 'luca-gouveia' },
 	{ name: 'lr-loop', author: 'Shivang0' },
 	{ name: 'luminance', author: 'mahajansaksham' },
