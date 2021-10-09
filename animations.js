@@ -1,7 +1,6 @@
 /** @format */
 
 window.animations = [
-	{ name: 'neon-flicker', author: 'Kyle-Atienza'},
 	{ name: 'aberration', author: 'cnsumner' },
 	{ name: 'ainneone', author: 'ainneo'},
 	{ name: 'alokGoldy', author: 'alokgoldy' },
@@ -165,6 +164,7 @@ window.animations = [
 	{ name: 'multicolor-stretch', author: 'jonboundy' },
 	{ name: 'nanananabatman', author: 'Pamblam' },
 	{ name: 'neon', author: 'AllDayAlone' },
+	{ name: 'neon-flicker', author: 'Kyle-Atienza'},
 	{ name: 'neon-flicking', author: 'samuelsimoes31' },
 	{ name: 'neon-glow', author: 'dheerajgandhi9' },
 	{ name: 'neonplus', author: 'AdrianoBiolchi' },
