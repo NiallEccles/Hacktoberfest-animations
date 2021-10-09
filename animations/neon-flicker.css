@@ -1,7 +1,5 @@
 .neon-flicker{
-    font-family: 'Marquee-Moon', cursive;
-    font-weight: normal;
-    font-size: 7rem;
+    
     animation: neon-flicker 3s infinite;
 }
 
