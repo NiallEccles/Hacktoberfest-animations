@@ -1,0 +1,17 @@
+.neon-flicker{
+    font-family: 'Marquee-Moon', cursive;
+    font-weight: normal;
+    font-size: 7rem;
+    animation: neon-flicker 3s infinite;
+}
+
+@keyframes neon-flicker {
+    0%, 3%, 17%, 75%, 85%, 100%{
+        color: rgb(191, 191, 191);
+        text-shadow: 0;
+    }
+    2%, 4%, 15%, 30%, 70%, 80%, 82%, 90%, 95%{
+        color: rgb(255, 239, 248);
+        text-shadow: 0 0 10px rgb(255, 0, 144), 0px 0px 100px rgb(255, 115, 220);
+    }
+}
