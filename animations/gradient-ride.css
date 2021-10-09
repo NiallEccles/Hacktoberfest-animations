@@ -1,0 +1,35 @@
+/** @format */
+
+@keyframes fromRight {
+	from {
+		margin-left: 100%;
+		width: 300%;
+	}
+	to {
+		margin-left: 0;
+		width: 100%;
+	}
+}
+
+.gradient-ride {
+	font-family: 'Zen Tokyo Zoo, cursive';
+	cursor: default;
+	background: linear-gradient(
+		to right,
+		#32502e,
+		#6d9886,
+		white,
+		#a8e7e9,
+		#d9cab3 70%
+	);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-size: 200% 100%;
+	background-position: 100%;
+	transition: background-position 700ms ease;
+	animation: fromRight 3s;
+}
+.gradient-ride:hover {
+	background-position: 0 100%;
+}

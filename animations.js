@@ -118,6 +118,7 @@ window.animations = [
 	{ name: 'glowing', author: 'brunoeduardodev' },
 	{ name: 'gogogo', author: 'kalamell' },
 	{ name: 'gradient', author: 'NataliaKiwibird' },
+	{ name: 'gradient-ride', author: 'try-catch-stack' },
 	{ name: 'growrotateflip', author: 'Prathamesh-Shanbhag' },
 	{ name: 'haleemah', author: 'bolajiscott' },
 	{ name: 'halloween', author: 'honeyyenoh' },
