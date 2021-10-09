@@ -1,0 +1,39 @@
+/**
+ * /* By: https://github.com/erikadionn
+ *
+ * @format
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+
+.ghostyFade {
+    animation: ghostyFade 3s infinite;
+    font-family: 'Special Elite', cursive;
+    text-transform: lowercase;
+    font-weight: normal;
+}
+
+@keyframes ghostyFade {
+    0% {
+        opacity: 0;
+        filter: blur(15px);
+        -webkit-filter: blur(15px);
+        letter-spacing: 40px;
+    }
+    20% {
+        opacity: 1;
+    }
+    70% {
+        opacity: 1;
+        filter: blur(0px);
+        -webkit-filter: blur(0px);
+        letter-spacing: 15px;
+    }
+    90% {
+        opacity: 0;
+        letter-spacing: 15px;
+    }
+    100% {
+        opacity: 0;
+    }
+}

@@ -112,6 +112,7 @@ window.animations = [
 	{ name: 'focusIn', author: 'MasihTak' },
 	{ name: 'fromright', author: 'jespicas' },
 	{ name: 'ghost', author: 'FernandaDagostin' },
+	{ name: 'ghostyFade', author: 'Jaebirds' },
 	{ name: 'glitch', author: 'dansegliode' },
 	{ name: 'glitch-by-ohmsainz', author: 'OhmSainz' },
 	{ name: 'glitchexperiment', author: 'Manuja' },
