@@ -56,6 +56,7 @@ window.animations = [
 	{ name: 'crazy', author: 'MuhammadBilal' },
 	{ name: 'crazy-monkey', author: 'fernanDOTdo' },
 	{ name: 'crazy-rotation', author: 'Demysdcl' },
+	{ name: 'cross-shadow', author: 'Kenny-08' },
 	{ name: 'crt-flicker', author: 'Daninator1' },
 	{ name: 'crtwarp', author: 'nelson-w' },
 	{ name: 'cvproud', author: 'cdfortes' },

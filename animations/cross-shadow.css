@@ -1,0 +1,34 @@
+.cross-shadow {
+    color: #542b3e;
+    /* same as bg color */
+    text-shadow: -3px 1px 0.1em white;
+    font-weight: 800;
+    letter-spacing: 2px;
+    font-size: 4em;
+    animation: shadow-cross 2.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes shadow-cross {
+    0% {
+        transform: translateY(0);
+        text-shadow: 0 0 0 #ffc0cb, 0 0 0 #ffffff,
+    }
+    20% {
+        transform: translateY(10vh);
+        text-shadow: -0.025em 0.15em 0 #ffc0cb, 0.025em -0.15em 0 #ffffff;
+    }
+    40% {
+        transform: translateY(0);
+        text-shadow: 0.025em -0.15em 0 #ffc2cc, -0.025em 0.15em 0 #ffffff,
+    }
+    60% {
+        transform: translateY(-10vh);
+        text-shadow: -0.025em 0.15em 0 #ffc0cb, 0.025em -0.15em 0 #ffffff,
+    }
+    80% {
+        transform: translateY(0);
+        text-shadow: 0.025em -0.15em 0 #ffc0cb, -0.025em 0.15em 0 #ffffff,
+    }
+}
