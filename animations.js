@@ -1,6 +1,7 @@
 /** @format */
 
 window.animations = [
+	{ name: 'neon-flicker', author: 'Kyle-Atienza'},
 	{ name: 'aberration', author: 'cnsumner' },
 	{ name: 'ainneone', author: 'ainneo'},
 	{ name: 'alokGoldy', author: 'alokgoldy' },
