@@ -266,6 +266,7 @@ window.animations = [
 	{ name: 'tipsy', author: 'Maria218' },
 	{ name: 'toospooky', author: 'erikadionn' },
 	{ name: 'top-down', author: 'Demysdcl' },
+	{ name: 'tracKing', author: 'lmNoob' },
 	{ name: 'tubelight', author: 'mnaiwrit52'},
 	{ name: 'tracking-in-contract-bck-bottom', author: 'vale-c'},
 	{ name: 'twenty-twenty-colors', author: 'csteacher1' },
