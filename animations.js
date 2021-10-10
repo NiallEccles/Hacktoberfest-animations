@@ -157,6 +157,7 @@ window.animations = [
 	{ name: 'luminance', author: 'mahajansaksham' },
 	{ name: 'luminous-brick', author: 'zanotti' },
 	{ name: 'matrix', author: 'randy' },
+	{ name: 'mikasa', author: 'pushpanjali-10' },
 	{ name: 'mindhunter', author: 'ahsankhan26' },
 	{ name: 'mini-zoom', author: 'NiallEccles' },
 	{ name: 'movelineal', author: 'carlacentenor' },
