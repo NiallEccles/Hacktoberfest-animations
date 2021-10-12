@@ -16,6 +16,7 @@ window.animations = [
 	{ name: 'blacknwhiteunderline', author: 'baranwal' },
 	{ name: 'blend', author: 'divanshi15' },
 	{ name: 'blinking-neon', author: 'aliheikal' },
+	{ name: 'blood', author: 'beatrizsmerino'},
 	{ name: 'blow', author: 'graviton5' },
 	{ name: 'BluePulse', author: 'JMustang' },
 	{ name: 'blurFade', author: 'aveselovalova' },
