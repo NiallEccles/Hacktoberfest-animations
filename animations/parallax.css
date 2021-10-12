@@ -1,0 +1,30 @@
+.parallax {
+    -webkit-animation: parallax 10s linear infinite;
+    animation: parallax 10s linear infinite;
+    background-image: url("https://images.unsplash.com/photo-1542518268-a61d87d3d2be?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80");
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-size: 1000px;
+    font-size: 9em !important;
+    letter-spacing: 1px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 3px #000;
+}
+
+@-webkit-keyframes parallax {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 500px -1000px;
+    }
+}
+
+@keyframes parallax {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 500px -1000px;
+    }
+}
