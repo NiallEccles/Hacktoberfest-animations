@@ -1,0 +1,30 @@
+/**
+ * /* By: https://github.com/joedag32
+ *
+ * @format
+ */
+
+ @keyframes bounce-simple {
+	0%,
+	100% {
+		transform: scale(1);
+	}
+
+	25% {
+		transform: scale(0.9);
+	}
+
+	50% {
+		transform: scale(1.4);
+	}
+
+	75% {
+		transform: scale(1.35);
+	}
+}
+
+.bounce-simple {
+	animation-name: bounce-simple;
+	animation-duration: 4s;
+	animation-timing-function: cubic-bezier(0.25, 0.89, 0.32, 1.28);
+}
