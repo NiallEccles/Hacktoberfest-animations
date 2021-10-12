@@ -251,7 +251,7 @@ window.animations = [
 	{ name: 'spotlight-text', author: 'rtavaresramos' },
 	{ name: 'staircase_bounce', author: 'vivekrawat' },
 	{ name: 'star-wars-roll', author: 'MandeeD' },
-	{ name: 'static', author: 'DekyDesigns' },
+	{ name: 'static', author: 'DekyDesigns' },	
 	{ name: 'strangerthings', author: 'crownedpigeon' },
 	{ name: 'stepittap', author: 'verissteph'},
 	{ name: 'stretchout', author: 's-Hale' },
