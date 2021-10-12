@@ -54,6 +54,7 @@ window.animations = [
 	{ name: 'comeOver', author: 'TheBangis' },
 	{ name: 'coming-together', author: 'Demysdcl' },
 	{ name: 'cool-breeze', author: 'wajeehsheikh' },
+	{ name: 'cotr', author: 'GabrielTeixeiraC'},
 	{ name: 'crackling-ground', author: 'Pliavi' },
 	{ name: 'crazy', author: 'MuhammadBilal' },
 	{ name: 'crazy-monkey', author: 'fernanDOTdo' },
