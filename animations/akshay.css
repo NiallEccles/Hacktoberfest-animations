@@ -20,6 +20,7 @@
 	transform-style: preserve-3d;
 	perspective: 600px;
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  animation-name: col;
 	animation-duration: 2s;
 	animation-iteration-count: infinite;
 	animation-direction: alternate-reverse;
