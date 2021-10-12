@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Fira+Mono:400');
 
 
-.title{
+.mikasa{
   animation: mikasa 1s linear infinite;
 }
 
@@ -17,14 +17,14 @@
   }
 }
 
-.title:before,
-.title:after{
-  content: attr(title);
+.mikasa:before,
+.mikasa:after{
+  content: attr(mikasa);
   position: absolute;
   left: 0;
 }
 
-.title:before{
+.mikasa:before{
   animation: mikasatop 1s linear infinite;
   clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
@@ -42,7 +42,7 @@
   }
 }
 
-.title:after{
+.mikasa:after{
   animation: mikasabottom 1.5s linear infinite;
   clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
   -webkit-clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
