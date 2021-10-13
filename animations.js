@@ -15,6 +15,7 @@ window.animations = [
 	{ name: 'bhaukaal', author: 'mani9896' },
 	{ name: 'blacknwhiteunderline', author: 'baranwal' },
 	{ name: 'blend', author: 'divanshi15' },
+	{ name: 'blink', author: 'rajdeepdev10' },
 	{ name: 'blinking-neon', author: 'aliheikal' },
 	{ name: 'blood', author: 'beatrizsmerino'},
 	{ name: 'blow', author: 'graviton5' },
