@@ -15,6 +15,7 @@ window.animations = [
 	{ name: 'bhaukaal', author: 'mani9896' },
 	{ name: 'blacknwhiteunderline', author: 'baranwal' },
 	{ name: 'blend', author: 'divanshi15' },
+	{ name: 'blink', author: 'rajdeepdev10' },
 	{ name: 'blinking-neon', author: 'aliheikal' },
 	{ name: 'blood', author: 'beatrizsmerino'},
 	{ name: 'blow', author: 'graviton5' },
@@ -290,9 +291,9 @@ window.animations = [
 	{ name: 'wobble', author: 'golomann' },
 	{ name: 'wrongGuyAnimation', author: 'the-wrong-guy' },
 	{ name: 'z-dance', author: 'vishnuxx' },
+	{ name: 'zoom-in-out', author: 'Harvansh-1234' },
 	{ name: 'zoomIn', author: 'MansiNegi27' },
 	{ name: 'zoomInLeft', author: 'fernandosutter' },
 	{ name: 'zoomOut', author: 'Biafer' },
 	{ name: 'zoomright', author: 'sunny-aguilar' },
-	{ name: 'zoom-in-out', author: 'Harvansh-1234' },
 ];
