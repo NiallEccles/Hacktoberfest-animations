@@ -1,0 +1,40 @@
+/**
+ * /* By: https://github.com/jojoee/
+ *
+ * @format
+ */
+
+.glitch-shake {
+  -webkit-animation: glitch-shake steps(3) 0.3s infinite;
+  animation: glitch-shake steps(3) 0.3s infinite;
+}
+
+@-webkit-keyframes glitch-shake {
+	0% {
+		transform: translate(7px, 0px);
+	}
+	30% {
+		transform: translate(4px, 9px);
+	}
+	70% {
+		transform: translate(3px, 0px);
+	}
+	100% {
+		transform: translate(1px, 3px);
+	}
+}
+
+@keyframes glitch-shake {
+	0% {
+		transform: translate(7px, 0px);
+	}
+	30% {
+		transform: translate(4px, 9px);
+	}
+	70% {
+		transform: translate(3px, 0px);
+	}
+	100% {
+		transform: translate(1px, 3px);
+	}
+}

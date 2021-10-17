@@ -120,6 +120,7 @@ window.animations = [
 	{ name: 'ghostyFade', author: 'Jaebirds' },
 	{ name: 'glitch', author: 'dansegliode' },
 	{ name: 'glitch-by-ohmsainz', author: 'OhmSainz' },
+	{ name: 'glitch-shake', author: 'jojoee' },
 	{ name: 'glitchexperiment', author: 'Manuja' },
 	{ name: 'glow-sign', author: 'muskan-9' },
 	{ name: 'glowing', author: 'brunoeduardodev' },
