@@ -191,6 +191,7 @@ window.animations = [
 	{ name: 'popping', author: 'Akansha-Bhandari' },
 	{ name: 'press-start', author: 'MagoMagoado' },
 	{ name: 'pudding', author: 'sliceolife' },
+	{ name: 'pulled', author: 'Samarth-Khatri'},
 	{ name: 'pulse', author: 'makajeez' },
 	{ name: 'pulse-y', author: 'jessicavrooyen' },
 	{ name: 'pulsing-outline' , author:'dlu117'},
