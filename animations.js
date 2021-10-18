@@ -6,6 +6,7 @@ window.animations = [
 	{ name: 'akshay', author: 'akshayparmar90'},
 	{ name: 'alokGoldy', author: 'alokgoldy' },
 	{ name: 'alternate-reverse', author: 'jagadyudha' },
+	{ name: 'appear', author: 'chandrajitsatapathy' },
 	{ name: 'arise', author: 'Ronnasayd' },
 	{ name: 'autumn-gradient', author: 'marichka-offen' },
 	{ name: 'backflip', author: 'magicaljellybeans' },
