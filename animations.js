@@ -292,6 +292,7 @@ window.animations = [
 	{ name: 'walk', author: 'melkyy' },
 	{ name: 'warp-drive', author: 'chrisrhymes' },
 	{ name: 'Water', author: 'DevarshiDoshi' },
+	{ name: 'wheelie', author: 'mbeckdev' },
 	{ name: 'wiggle', author: 'HJain13' },
 	{ name: 'wobble', author: 'golomann' },
 	{ name: 'wrongGuyAnimation', author: 'the-wrong-guy' },
