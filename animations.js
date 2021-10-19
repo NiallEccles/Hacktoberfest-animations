@@ -267,6 +267,7 @@ window.animations = [
 	{ name: 'swing', author: 'kenante' },
 	{ name: 'swing-by-lumuscode', author: 'LumusCode' },
 	{ name: 'tada', author: 'marimendes' },
+	{ name: 'terminal', author: 'daywisonSilva' },
 	{ name: 'text-shadow', author: 'Zaheudev' },
 	{ name: 'text-split', author: 'hariramjp777' },
 	{ name: 'thaovt', author: 'thaovt' },
