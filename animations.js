@@ -121,6 +121,7 @@ window.animations = [
 	{ name: 'glitch', author: 'dansegliode' },
 	{ name: 'glitch-by-ohmsainz', author: 'OhmSainz' },
 	{ name: 'glitchexperiment', author: 'Manuja' },
+	{ name: 'glow', author: 'Mansi-2000'},
 	{ name: 'glow-sign', author: 'muskan-9' },
 	{ name: 'glowing', author: 'brunoeduardodev' },
 	{ name: 'gogogo', author: 'kalamell' },
