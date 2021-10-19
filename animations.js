@@ -298,6 +298,7 @@ window.animations = [
 	{ name: 'wobble', author: 'golomann' },
 	{ name: 'wrongGuyAnimation', author: 'the-wrong-guy' },
 	{ name: 'z-dance', author: 'vishnuxx' },
+	{ name: 'zeno', author: 'AnshuPathak-88825/' },
 	{ name: 'zoom-in-out', author: 'Harvansh-1234' },
 	{ name: 'zoomIn', author: 'MansiNegi27' },
 	{ name: 'zoomInLeft', author: 'fernandosutter' },
