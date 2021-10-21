@@ -19,6 +19,7 @@ window.animations = [
 	{ name: 'blend', author: 'divanshi15' },
 	{ name: 'blink', author: 'rajdeepdev10' },
 	{ name: 'blinking-neon', author: 'aliheikal' },
+	{ name: 'blinkShadow', author: 'rpvsilva' },
 	{ name: 'blood', author: 'beatrizsmerino'},
 	{ name: 'blow', author: 'graviton5' },
 	{ name: 'BluePulse', author: 'JMustang' },
