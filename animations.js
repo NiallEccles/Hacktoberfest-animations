@@ -300,6 +300,7 @@ window.animations = [
 	{ name: 'wiggle', author: 'HJain13' },
 	{ name: 'wobble', author: 'golomann' },
 	{ name: 'wrongGuyAnimation', author: 'the-wrong-guy' },
+	{ name: 'x-ray', author: 'jomifepe' },
 	{ name: 'z-dance', author: 'vishnuxx' },
 	{ name: 'zeno', author: 'AnshuPathak-88825/' },
 	{ name: 'zoom-in-out', author: 'Harvansh-1234' },

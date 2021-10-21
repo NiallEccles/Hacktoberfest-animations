@@ -8,12 +8,12 @@
 .Stripes-text {
 	font-family: 'Rancho', cursive;
 	font-weight: 800;
-	font-size: 8vw;
+	font-size: 9vw !important;
 	text-align: center;
 	-webkit-text-fill-color: transparent;
 	-webkit-background-clip: text;
 	animation: stripes 2s linear infinite;
-	background-image: -webkit-linear-gradient(#000 50%, #fff 50%);
+	background-image: -webkit-linear-gradient(#582D41 50%, #fff 50%);
 	background-repeat: repeat;
 	background-position: 0 0;
 	background-size: 100% 10px;
