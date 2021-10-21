@@ -1,0 +1,22 @@
+
+/*nav.natural styles*/
+.jumping{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background:  #364E40;
+	border: 3px solid #fff;
+	padding: 20px;
+    height: 200px;
+	animation: animatet 1s ease-in-out infinite;
+	/* border-radius: 100px 100px 0 0; */
+}
+
+	
+  
+@keyframes animatet{
+	0%{transform: translateY(0px);}
+	20%{transform: translateY(-40px);}
+	40%,100%{transform: translateY(0px);}
+}
+/*end of nav.natural styles*/
