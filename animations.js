@@ -154,6 +154,7 @@ window.animations = [
 	{ name: 'jelly-vertical', author: 'the-nathan-smith' },
 	{ name: 'jitterbug', author: 'andrewghood' },
 	{ name: 'jump', author: 'AmiterCodes' },
+	{ name: 'jumping', author: 'Manishgupta200' },
 	{ name: 'lava-animation', author: 'anaghkanungo7' },
 	{ name: 'lean-back', author: 'plaza223' },
 	{ name: 'letsvacinne', author: 'silvasobrinho' },
