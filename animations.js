@@ -154,6 +154,7 @@ window.animations = [
 	{ name: 'jelly-vertical', author: 'the-nathan-smith' },
 	{ name: 'jitterbug', author: 'andrewghood' },
 	{ name: 'jump', author: 'AmiterCodes' },
+	{ name: 'jumping', author: 'Manishgupta200' },
 	{ name: 'lava-animation', author: 'anaghkanungo7' },
 	{ name: 'lean-back', author: 'plaza223' },
 	{ name: 'letsvacinne', author: 'silvasobrinho' },
@@ -266,6 +267,7 @@ window.animations = [
 	{ name: 'strangerthings', author: 'crownedpigeon' },
 	{ name: 'stepittap', author: 'verissteph'},
 	{ name: 'stretchout', author: 's-Hale' },
+	{ name: 'Stripes-text', author: 'dilshadnoshad' },
 	{ name: 'strobe', author: 'phoffmeister' },
 	{ name: 'swing', author: 'kenante' },
 	{ name: 'swing-by-lumuscode', author: 'LumusCode' },
@@ -298,6 +300,7 @@ window.animations = [
 	{ name: 'wiggle', author: 'HJain13' },
 	{ name: 'wobble', author: 'golomann' },
 	{ name: 'wrongGuyAnimation', author: 'the-wrong-guy' },
+	{ name: 'x-ray', author: 'jomifepe' },
 	{ name: 'z-dance', author: 'vishnuxx' },
 	{ name: 'zeno', author: 'AnshuPathak-88825/' },
 	{ name: 'zoom-in-out', author: 'Harvansh-1234' },
@@ -305,5 +308,4 @@ window.animations = [
 	{ name: 'zoomInLeft', author: 'fernandosutter' },
 	{ name: 'zoomOut', author: 'Biafer' },
 	{ name: 'zoomright', author: 'sunny-aguilar' },
-	{ name: 'jumping', author: 'Manishgupta200' }
 ];
