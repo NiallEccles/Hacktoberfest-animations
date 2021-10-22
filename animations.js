@@ -112,6 +112,7 @@ window.animations = [
 	{ name: 'flip-all', author: 'istellar' },
 	{ name: 'flipInAndOut', author: 'TheBangis' },
 	{ name: 'flipInX', author: 'fernandosutter' },
+	{ name: 'flipItAndTwistIt', author: 'mraguso2' },
 	{ name: 'flipper', author: 'shubham9019' },
 	{ name: 'floating', author: 'Code-Recursion' },
 	{ name: 'floatTitle', author: 'llespinasse' },
