@@ -6,23 +6,18 @@
 
 @keyframes repulsion {
 	0% {
-		opacity: 1;
+		word-spacing: 2rem;
 	}
 	50% {
-		transform: translateX(-10);
 		word-spacing: 10rem;
 	}
-	75% {
-		transform: translateX(10);
-	}
 	100% {
-		transform: translateX(0);
+		word-spacing: 2rem;
 	}
 }
 
 .repulsion {
 	animation: repulsion 3s cubic-bezier(0.54, -0.07, 0, 1.02) infinite;
 	color: #fff;
-	transform: translateX(10);
 	word-spacing: 2rem;
 }
