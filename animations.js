@@ -214,6 +214,7 @@ window.animations = [
 	{ name: 'redacted', author: 'web2feel' },
 	{ name: 'reduce', author: 'dayanFreitas' },
 	{ name: 'resize', author: 'SudharshanBhimisetty' },
+	{ name: 'repulsion', author: 'DolenDeori' },
 	{ name: 'retrowave-shadow', author: 'pozda' },
 	{ name: 'reveal', author: 'NuCelyA' },
 	{ name: 'reverseStretch', author: 'loetcodes' },
