@@ -71,6 +71,7 @@ window.animations = [
 	{ name: 'dances', author: 'kalamell' },
 	{ name: 'dang', author: 'carlosnufe' },
 	{ name: 'darkBlack', author: 'TheBangis' },
+	{ name: 'dayNight', author: 'GabrielTeixeiraC' },
 	{ name: 'digyan', author: 'silvasobrinho' },
 	{ name: 'dingduang', author: 'isfatul-codersbd' },
 	{ name: 'div_animation', author: 'jeanllopes' },
