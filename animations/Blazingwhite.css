@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap');
+
+.Blazingwhite {
+	background: linear-gradient(to right, rgb(184, 176, 173), rgb(34, 34, 33));
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+	background-clip: text;
+	font-weight: bold;
+	animation: BlazingWhite 1s ease infinite alternate-reverse;
+	position: relative;
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+@keyframes BlazingWhite {
+	
+	50% {
+		background-position: 1000px;
+	}
+	60% {
+		background-position: 1200px;
+	}
+	80% {
+		background-position: 1400px;
+	}
+	100% {
+		background-position: 1450px;
+	}
+}
