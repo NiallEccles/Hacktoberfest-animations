@@ -14,6 +14,7 @@ window.animations = [
 	{ name: 'ballast', author: 'vijayranghar' },
 	{ name: 'beat', author: 'patriciafelixx' },
 	{ name: 'bhaukaal', author: 'mani9896' },
+	{ name: 'bigStretch', author: 'timstrato2' },
 	{ name: 'blacknwhiteunderline', author: 'baranwal' },
 	{ name: 'Blazingwhite' , author: 'muskan2566'},
 	{ name: 'blend-in-out', author: 'panvicka' },
