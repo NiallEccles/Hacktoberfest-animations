@@ -301,6 +301,7 @@ window.animations = [
 	{ name: 'vibrate', author: 'adrsh79086' },
 	{ name: 'vote', author: 'Shreya-L' },
 	{ name: 'walk', author: 'melkyy' },
+	{ name: 'walterbanda', author: 'walterbanda' },
 	{ name: 'warp-drive', author: 'chrisrhymes' },
 	{ name: 'Water', author: 'DevarshiDoshi' },
 	{ name: 'wheelie', author: 'mbeckdev' },
