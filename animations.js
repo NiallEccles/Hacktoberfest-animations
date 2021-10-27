@@ -15,6 +15,7 @@ window.animations = [
 	{ name: 'beat', author: 'patriciafelixx' },
 	{ name: 'bhaukaal', author: 'mani9896' },
 	{ name: 'blacknwhiteunderline', author: 'baranwal' },
+	{ name: 'Blazingwhite' , author: 'muskan2566'},
 	{ name: 'blend-in-out', author: 'panvicka' },
 	{ name: 'blend', author: 'divanshi15' },
 	{ name: 'blink', author: 'rajdeepdev10' },
@@ -90,6 +91,7 @@ window.animations = [
 	{ name: 'excited', author: 'torelafes' },
 	{ name: 'expand', author: 'lospettro' },
 	{ name: 'explode', author: 'AmiterCodes' },
+	{ name: 'eyeopener', author: 'rashafathima' },	
 	{ name: 'fadeIn', author: 'tummala-manasa' },
 	{ name: 'fadeInCharacters', author: 'Jojohomefries' },
 	{ name: 'fadeOutLeft', author: 'Biafer' },
@@ -313,5 +315,4 @@ window.animations = [
 	{ name: 'zoomInLeft', author: 'fernandosutter' },
 	{ name: 'zoomOut', author: 'Biafer' },
 	{ name: 'zoomright', author: 'sunny-aguilar' },
-	{ name: 'Blazingwhite' , author: 'muskan2566'},
 ];
