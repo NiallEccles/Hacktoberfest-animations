@@ -1,0 +1,51 @@
+
+/**
+ * /* By: https://github.com/thaura644
+ *
+ * @format
+ */
+  
+  @keyframes doink {
+    from {
+        opacity: 1;
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    75% {
+        opacity: 0;
+      font-size: 300%;
+      margin-left: 25%;
+      width: 150%;
+    }
+  
+    to {
+        opacity: 1;
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+  
+
+.doink{
+    animation-duration: 3s;
+    animation-name: doink;
+    font-size: 32px;
+    font-family: Consolas;
+    background-color: silver;
+    background-size: contain;
+    color: brown;
+
+
+    
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+  
+    position: relative;
+    border: 4px solid transparent;
+    border: 4px solid darkorange;
+    padding: 5px;
+
+    
+  }
+
