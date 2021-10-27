@@ -1,0 +1,36 @@
+@keyframes sliderr{
+    0%{
+        background-color:darkslategray;
+        top:-50px;
+    }
+    50%{
+        background-color:white;
+        top:50px;
+
+    }
+    100%{
+        background-color:darkslategray;
+        top:60px;
+        color:black;
+
+    }
+
+}  
+.sliderr{
+    color:white;
+    animation-name: sliderr;
+    animation-duration:3s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forward;
+    box-shadow: 50px;
+    width:90%;
+    height:100%;
+    top: 60px;
+    bottom:79;
+    margin:50px;
+    position:relative;
+   
+    animation-timing-function:ease-in;
+    border-radius: 4px;
+
+}
