@@ -90,7 +90,7 @@ window.animations = [
 	{ name: 'excited', author: 'torelafes' },
 	{ name: 'expand', author: 'lospettro' },
 	{ name: 'explode', author: 'AmiterCodes' },
-  { name: 'eyeopener', author: 'rashafathima' },	
+	{ name: 'eyeopener', author: 'rashafathima' },	
 	{ name: 'fadeIn', author: 'tummala-manasa' },
 	{ name: 'fadeInCharacters', author: 'Jojohomefries' },
 	{ name: 'fadeOutLeft', author: 'Biafer' },
