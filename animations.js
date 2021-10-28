@@ -254,6 +254,7 @@ window.animations = [
 	{ name: 'simulacrum', author: 'ayeteejay' },
 	{ name: 'slasher', author: 'Rabanov' },
 	{ name: 'slideDownWithBorder', author: 'adrianoavelino' },
+	{ name: 'sliderr',author: 'davdtheemonk'},
 	{ name: 'slideOutUp', author: 'lospettro' },
 	{ name: 'slide_clr', author: 'dilshadnoshad' },
 	{ name: 'slidingGradient', author: 'hrshk15' },
