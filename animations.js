@@ -153,6 +153,7 @@ window.animations = [
 	{ name: 'hurricane', author: 'marcosceo' },
 	{ name: 'hydrated', author: 'tancredosouza' },
 	{ name: 'imdrunk', author: 'twopill' },
+	{ name: 'infinite-shake', author: 'jcardoz' },
 	{ name: 'infinite-spinning', author: 'brecarv' },
 	{ name: 'invicta', author: 'mani9896' },
 	{ name: 'jackInTheBox', author: 'fernandosutter' },
