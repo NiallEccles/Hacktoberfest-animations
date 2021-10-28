@@ -1,0 +1,62 @@
+/* credit to jonnyscholes https://github.com/jonnyscholes */
+
+@keyframes mask-move {
+  0%   {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(179px - 50px);
+  }
+}
+
+@keyframes mask-inner-move {
+  0%   {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-(179px - 50px));
+  }
+}
+
+
+.focus {
+  font-size: 3rem;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: .2rem;
+  line-height: 1;
+  position: relative;
+  width: 179px;
+}
+
+.focus:before {
+  content: 'Focus';
+  filter: blur(3px);
+}
+
+.focus:after {
+  content: '';
+  position: absolute;
+  width: 50px;
+  height: calc(100% + 8px);
+  top: -(8px / 2);
+  left: 0;
+  border-top: 2px solid;
+  border-bottom: 2px solid;
+  animation: mask-move 1s linear infinite alternate;
+}
+
+.focus--mask {
+  overflow: hidden;
+  position: absolute;
+  width: 50px;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: #89cb66;
+  animation: mask-move 1s linear infinite alternate;
+}
+
+.focus--mask-inner {
+  animation: mask-inner-move 1s linear infinite alternate;
+}
