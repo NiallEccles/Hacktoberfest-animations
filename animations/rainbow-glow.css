@@ -1,0 +1,44 @@
+/**
+ * /* By: https://github.com/AritriBasu
+ *
+ * @format
+ */
+
+ @import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap');
+
+ @keyframes rainbow-glow {
+	0% {
+		text-shadow: 0 0 40px #9400D3;
+	}
+
+	15% {
+		text-shadow: 0 0 40px #4B0082;
+	}
+
+	30% {
+		text-shadow: 0 0 40px #0000FF;
+	}
+
+	45% {
+		text-shadow: 0 0 40px #00FF00;
+	}
+
+	60% {
+		text-shadow: 0 0 40px #FFFF00;
+	}
+
+	75% {
+		text-shadow: 0 0 40px #FF7F00;
+	}
+
+	100% {
+		text-shadow: 0 0 40px #FF0000;
+	}
+}
+
+.rainbow-glow {
+    animation: rainbow-glow 2s infinite;
+    font-family: 'Homemade Apple', cursive;
+    text-decoration: dotted;
+    border-bottom: 3px double white;
+}
