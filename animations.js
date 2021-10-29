@@ -212,6 +212,7 @@ window.animations = [
 	{ name: 'radial', author: 'adrsh79086' },
 	{ name: 'rainbow', author: 'shanejustice' },
 	{ name: 'rainbow-by-vijayranghar', author: 'vijayranghar' },
+	{ name: 'rainbow-glow', author: 'AritriBasu' },
 	{ name: 'rainbow-text', author: 'armspkt' },
 	{ name: 'random', author: 'marcelowis' },
 	{ name: 'randomly', author: 'hidalgo_vntu' },
