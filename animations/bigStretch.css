@@ -1,0 +1,15 @@
+@keyframes bigStretch {
+    0% {
+        transform: none;
+    }
+    50% {
+        transform: scale(1.5) skew(15deg, 20deg) rotate(-10deg);
+    }   
+    100% {
+        transform: scale(1) rotate(0deg);
+    }
+}
+
+.bigStretch {
+	animation: bigStretch 3s infinite alternate-reverse both;
+}
