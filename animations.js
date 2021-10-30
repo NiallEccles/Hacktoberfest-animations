@@ -269,6 +269,7 @@ window.animations = [
 	{ name: 'spinning-zoom', author: 'sean-evans' },
 	{ name: 'split-and-twist', author: 'viciouskitten' },
 	{ name: 'spooky', author: 'elizabethfinedev' },
+	{ name: 'spookyblur', author: 'nandiniguptaz' },
 	{ name: 'spookyDoor-cgduncan7', author: 'cgduncan7' },
 	{ name: 'spotlight', author: 'siobhan-collopy' },
 	{ name: 'spotlight-text', author: 'rtavaresramos' },
@@ -320,4 +321,5 @@ window.animations = [
 	{ name: 'zoomInLeft', author: 'fernandosutter' },
 	{ name: 'zoomOut', author: 'Biafer' },
 	{ name: 'zoomright', author: 'sunny-aguilar' },
+	
 ];
