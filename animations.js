@@ -133,6 +133,7 @@ window.animations = [
 	{ name: 'glitchexperiment', author: 'Manuja' },
 	{ name: 'glow', author: 'Mansi-2000' },
 	{ name: 'glow-sign', author: 'muskan-9' },
+	{ name: 'glow-hover', author: 'rockkidd23' },
 	{ name: 'glowing', author: 'brunoeduardodev' },
 	{ name: 'gogogo', author: 'kalamell' },
 	{ name: 'gradient', author: 'NataliaKiwibird' },
