@@ -210,6 +210,7 @@ window.animations = [
 	{ name: 'pulsing-outline', author: 'dlu117' },
 	{ name: 'pumpkins', author: 'ashwoodall' },
 	{ name: 'purple', author: 'ritwized' },
+	{ name: 'racetrackzoom', author: 'viveknshah' },
 	{ name: 'radial', author: 'adrsh79086' },
 	{ name: 'rainbow', author: 'shanejustice' },
 	{ name: 'rainbow-by-vijayranghar', author: 'vijayranghar' },
