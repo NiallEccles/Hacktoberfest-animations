@@ -1,0 +1,11 @@
+.color-animation {
+    background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
+    background-size: cover;
+    font-family: "Georgia";
+    color: transparent;
+    -moz-background-clip: text;
+    -webkit-background-clip: text;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 10px 0;
+}
