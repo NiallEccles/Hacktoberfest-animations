@@ -52,6 +52,7 @@ window.animations = [
 	{ name: 'cLeft', author: 'TheBangis' },
 	{ name: 'colorfull', author: 'aflajismail' },
 	{ name: 'colorfulRotation', author: 'lovetyagi-17' },
+	{ name: 'color-animation', author: 'SaiRev0' },
 	{ name: 'colour-changes', author: 'rishabhp99' },
 	{ name: 'colourfull', author: 'hurleyandrew' },
 	{ name: 'colourfull-ldt', author: 'ledangtuanbk' },
