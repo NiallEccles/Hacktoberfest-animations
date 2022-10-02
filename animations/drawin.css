@@ -1,23 +1,8 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-body{
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #1d1f20;
-}
-h1{
-    font-family: "Incosolata", Consolas, monospace;
-    font-size: 4em;
-    color: #d7b94c;
-}
-.typewriter{
+
+.drawin{
     position: relative;
 }
-.typewriter::after{
+.drawin::after{
     content: '|';
     position: absolute;
     right: 0;
