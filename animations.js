@@ -45,6 +45,7 @@ window.animations = [
 	{ name: 'brighterr', author: 'jiteshkumarr' },
 	{ name: 'cardy', author: 'antonioleutsch' },
 	{ name: 'change-color', author: 'lozinska' },
+	{ name: 'changeFontFamily', author: 'jeannie2' },
 	{ name: 'chibata', author: 'eu447' },
 	{ name: 'chillerColor', author: 'mel2121' },
 	{ name: 'circimental', author: 'isfatul-codersbd' },

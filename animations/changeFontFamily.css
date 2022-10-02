@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Bungee+Spice&family=Carter+One&family=Creepster&family=Passions+Conflict&family=Permanent+Marker&family=Shadows+Into+Light&family=Silkscreen&family=Smokum&family=Special+Elite&display=swap');
+
+.changeFontFamily {
+  animation: changeFontFamily 1.5s ease infinite;
+}
+
+@keyframes changeFontFamily {
+10% {font-family: 'Bungee Spice', cursive;}
+20% {font-family: 'Creepster', cursive;}
+30% {font-family: 'Passions Conflict', cursive;}
+40% {font-family: 'Permanent Marker', cursive;}
+50% {font-family: 'Silkscreen', cursive;}
+60% {font-family: 'Special Elite', cursive;}
+70% {font-family: 'Bangers', cursive;}
+80% {font-family: 'Shadows Into Light', cursive;}
+90% {font-family: 'Smokum', cursive;}
+100% {font-family: 'Carter One', cursive;}
+} 
