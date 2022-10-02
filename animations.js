@@ -291,7 +291,7 @@ window.animations = [
 	{ name: 'terminal', author: 'daywisonSilva' },
 	{ name: 'text-shadow', author: 'Zaheudev' },
 	{ name: 'text-split', author: 'hariramjp777' },
-	{ name: 'text-glow', author: 'Ukesh-dev' },
+	{ name: 'textGlowAnimation', author: 'Ukesh-dev' },
 	{ name: 'thaovt', author: 'thaovt' },
 	{ name: 'the-shining', author: 'kshitijsriv' },
 	{ name: 'theLight', author: 'Himanshu' },
