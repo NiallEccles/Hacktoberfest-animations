@@ -251,6 +251,7 @@ window.animations = [
 	{ name: 'shadow-animation', author: 'lcnunes09' },
 	{ name: 'shadow_animation_3D', author: 'arjita18' },
 	{ name: 'shake', author: 'golomann' },
+	{ name: 'shaking', author: 'shaking'},
 	{ name: 'shaking-blinking', author: 'redpop' },
 	{ name: 'shape-background-animation', author: 'LiseDmrg' },
 	{ name: 'shimmy', author: 'nikiyasimpson' },
