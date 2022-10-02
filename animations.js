@@ -300,6 +300,7 @@ window.animations = [
 	{ name: 'tracking-in-contract-bck-bottom', author: 'vale-c' },
 	{ name: 'twenty-twenty-colors', author: 'csteacher1' },
 	{ name: 'typewriter', author: 'aihowes' },
+	{ name: 'typinganimation', author: 'himangskalita' },
 	{ name: 'type-pulse', author: 'marincor' },
 	{ name: 'typingWithCursor', author: 'luisrondow' },
 	{ name: 'up-down', author: 'dilekuzulmez' },
