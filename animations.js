@@ -325,4 +325,10 @@ window.animations = [
 	{ name: 'zoomInLeft', author: 'fernandosutter' },
 	{ name: 'zoomOut', author: 'Biafer' },
 	{ name: 'zoomright', author: 'sunny-aguilar' },
+  {name: 'wobble_bottom',author: 'lingeshwaran05'},
+  {name: 'wobble_bottom_right',author: 'lingeshwaran05'},
+  {name: 'wobble_horizontal',author: 'lingeshwaran05'},
+  {name: 'wobble_top',author: 'lingeshwaran05'},
+  {name: 'wobble_top_right',author: 'lingeshwaran05'},
+  {name: 'wobble_vertical',author: 'lingeshwaran05'},
 ];
