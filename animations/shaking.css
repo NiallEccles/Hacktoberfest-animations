@@ -1,16 +1,11 @@
-*{
-  background: #ffb400;
-  font-family: 'Roboto', sans-serif;
-}
-
 .shaking {
   display: flex;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-}
-.shaking>span{
+  background: #ffb400;
+  font-family: 'Roboto', sans-serif;
   animation: shake 0.5s infinite;
   font-size: 4rem;
   color: black;
