@@ -105,6 +105,7 @@ window.animations = [
 	{ name: 'falling', author: 'LRK1696' },
 	{ name: 'fancy-border', author: 'ThePoptartCrpr' },
 	{ name: 'fire', author: 'marcelowis' },
+  { name: 'fireEffect', author: 'pradnyahaval'},
 	{ name: 'firer', author: 'kalamell' },
 	{ name: 'firetext', author: 'KrindgesJuliano' },
 	{ name: 'flash', author: 'haych8' },
