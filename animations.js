@@ -173,6 +173,7 @@ window.animations = [
 	{ name: 'letter-spacing', author: 'jun-low' },
 	{ name: 'lightSpeedIn', author: 'fernandosutter' },
 	{ name: 'lightSpeedOut', author: 'aarushi15002' },
+	{ name: 'liquid_flow', author: 'AbhishekRP2002' },
 	{ name: 'littleToBiggerRainbow', author: 'devtony322' },
 	{ name: 'lr-loop', author: 'luca-gouveia' },
 	{ name: 'lr-loop', author: 'Shivang0' },
