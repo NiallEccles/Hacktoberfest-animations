@@ -108,6 +108,7 @@ window.animations = [
 	{ name: 'fallBounce', author: 'Topekz' },
 	{ name: 'falling', author: 'LRK1696' },
 	{ name: 'fancy-border', author: 'ThePoptartCrpr' },
+	{ name: 'fireEffect', author: 'pradnyahaval'},
 	{ name: 'fire', author: 'marcelowis' },
 	{ name: 'firer', author: 'kalamell' },
 	{ name: 'firetext', author: 'KrindgesJuliano' },
