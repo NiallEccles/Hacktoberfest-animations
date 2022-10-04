@@ -53,7 +53,7 @@ window.animations = [
 	{ name: 'chillerColor', author: 'mel2121' },
 	{ name: 'circimental', author: 'isfatul-codersbd' },
 	{ name: 'classyAppear', author: 'roganoalien' },
-	{ name: 'cleanGlitch', author: 'AmitSharma512' },
+	{ name: 'cleanGlitch', author: 'AmitSharma512'},
 	{ name: 'cLeft', author: 'TheBangis' },
 	{ name: 'colorfull', author: 'aflajismail' },
 	{ name: 'colorfulRotation', author: 'lovetyagi-17' },
