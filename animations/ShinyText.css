@@ -1,14 +1,11 @@
-body {
-  margin: 0;
+
+.ShinyText {
+ margin: 0;
   padding: 0;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
   background-color: #000;
-}
-
-.ShinyText {
   position: relative;
   font-family: sans-serif;
   text-transform: uppercase;
