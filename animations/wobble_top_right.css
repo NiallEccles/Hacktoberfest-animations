@@ -1,4 +1,4 @@
-@-webkit-keyframes hvr-wobble-to-top-right {
+@-webkit-keyframes wobble-to-top-right {
   16.65% {
     -webkit-transform: translate(8px, -8px);
     transform: translate(8px, -8px);
@@ -24,7 +24,7 @@
     transform: translate(0, 0);
   }
 }
-@keyframes hvr-wobble-to-top-right {
+@keyframes wobble-to-top-right {
   16.65% {
     -webkit-transform: translate(8px, -8px);
     transform: translate(8px, -8px);
@@ -50,16 +50,16 @@
     transform: translate(0, 0);
   }
 }
-.hvr-wobble-to-top-right {
+.wobble-to-top-right {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
 }
-.hvr-wobble-to-top-right:hover, .hvr-wobble-to-top-right:focus, .hvr-wobble-to-top-right:active {
-  -webkit-animation-name: hvr-wobble-to-top-right;
-  animation-name: hvr-wobble-to-top-right;
+.wobble-to-top-right:hover, .wobble-to-top-right:focus, .wobble-to-top-right:active {
+  -webkit-animation-name: wobble-to-top-right;
+  animation-name: wobble-to-top-right;
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
   -webkit-animation-timing-function: ease-in-out;
