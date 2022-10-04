@@ -58,8 +58,8 @@
   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
 }
 .wobble-to-bottom-right:hover, .wobble-to-bottom-right:focus, .wobble-to-bottom-right:active {
-  -webkit-animation-name: hvr-wobble-to-bottom-right;
-  animation-name: hvr-wobble-to-bottom-right;
+  -webkit-animation-name: wobble-to-bottom-right;
+  animation-name: wobble-to-bottom-right;
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
   -webkit-animation-timing-function: ease-in-out;
