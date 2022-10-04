@@ -1,4 +1,4 @@
-@-webkit-keyframes hvr-wobble-vertical {
+@-webkit-keyframes wobble-vertical {
   16.65% {
     -webkit-transform: translateY(8px);
     transform: translateY(8px);
@@ -24,7 +24,7 @@
     transform: translateY(0);
   }
 }
-@keyframes hvr-wobble-vertical {
+@keyframes wobble-vertical {
   16.65% {
     -webkit-transform: translateY(8px);
     transform: translateY(8px);
@@ -50,16 +50,16 @@
     transform: translateY(0);
   }
 }
-.hvr-wobble-vertical {
+.wobble-vertical {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
 }
-.hvr-wobble-vertical:hover, .hvr-wobble-vertical:focus, .hvr-wobble-vertical:active {
-  -webkit-animation-name: hvr-wobble-vertical;
-  animation-name: hvr-wobble-vertical;
+.wobble-vertical:hover, .wobble-vertical:focus, .wobble-vertical:active {
+  -webkit-animation-name: wobble-vertical;
+  animation-name: wobble-vertical;
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
   -webkit-animation-timing-function: ease-in-out;
