@@ -1,6 +1,7 @@
 /** @format */
 
 window.animations = [
+  { name: 'slowRotation', author: 'majidzeno' },
 	{ name: 'aberration', author: 'cnsumner' },
 	{ name: 'aesthetic', author: 'ImShivraj' },
 	{ name: 'ainneone', author: 'ainneo' },
