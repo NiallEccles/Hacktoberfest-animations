@@ -155,6 +155,7 @@ window.animations = [
 	{ name: 'hinge', author: 'medival' },
 	{ name: 'hit-the-corner', author: 'Kadugs' },
 	{ name: 'hopping', author: 'vatsalvj' },
+	{ name: 'hover_zoom_glow', author: 'Princerey' },
 	{ name: 'hurricane', author: 'marcosceo' },
 	{ name: 'hydrated', author: 'tancredosouza' },
 	{ name: 'imdrunk', author: 'twopill' },
