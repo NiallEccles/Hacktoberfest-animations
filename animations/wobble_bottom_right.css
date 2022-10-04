@@ -1,4 +1,4 @@
-@-webkit-keyframes hvr-wobble-to-bottom-right {
+@-webkit-keyframes wobble-to-bottom-right {
   16.65% {
     -webkit-transform: translate(8px, 8px);
     transform: translate(8px, 8px);
@@ -24,7 +24,7 @@
     transform: translate(0, 0);
   }
 }
-@keyframes hvr-wobble-to-bottom-right {
+@keyframes wobble-to-bottom-right {
   16.65% {
     -webkit-transform: translate(8px, 8px);
     transform: translate(8px, 8px);
@@ -50,14 +50,14 @@
     transform: translate(0, 0);
   }
 }
-.hvr-wobble-to-bottom-right {
+.wobble-to-bottom-right {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
 }
-.hvr-wobble-to-bottom-right:hover, .hvr-wobble-to-bottom-right:focus, .hvr-wobble-to-bottom-right:active {
+.wobble-to-bottom-right:hover, .wobble-to-bottom-right:focus, .wobble-to-bottom-right:active {
   -webkit-animation-name: hvr-wobble-to-bottom-right;
   animation-name: hvr-wobble-to-bottom-right;
   -webkit-animation-duration: 1s;
