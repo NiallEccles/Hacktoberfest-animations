@@ -1,4 +1,4 @@
-@-webkit-keyframes wobble_bottom {
+@-webkit-keyframes wobble-bottom {
   16.65% {
     -webkit-transform: skew(-12deg);
     transform: skew(-12deg);
@@ -24,7 +24,7 @@
     transform: skew(0);
   }
 }
-@keyframes wobble_bottom {
+@keyframes wobble-bottom {
   16.65% {
     -webkit-transform: skew(-12deg);
     transform: skew(-12deg);
@@ -50,7 +50,7 @@
     transform: skew(0);
   }
 }
-.wobble_bottom {
+.wobble-bottom {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
@@ -59,9 +59,9 @@
   -webkit-transform-origin: 100% 0;
   transform-origin: 100% 0;
 }
-.wobble_bottom:hover, .wobble_bottom:focus, .wobble_bottom:active {
-  -webkit-animation-name: wobble_bottom;
-  animation-name: wobble_bottom;
+.wobble-bottom:hover, .wobble-bottom:focus, .wobble-bottom:active {
+  -webkit-animation-name: wobble-bottom;
+  animation-name: wobble-bottom;
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
   -webkit-animation-timing-function: ease-in-out;
