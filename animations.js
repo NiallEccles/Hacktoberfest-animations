@@ -46,6 +46,7 @@ window.animations = [
 	{ name: 'bubbleup', author: 'connectnitesh' },
 	{ name: 'cardy', author: 'antonioleutsch' },
 	{ name: 'change-color', author: 'lozinska' },
+	{ name: 'changingTextShadow', author: 'code08-ind' },
 	{ name: 'changeFontFamily', author: 'jeannie2' },
 	{ name: 'chibata', author: 'eu447' },
 	{ name: 'chillerColor', author: 'mel2121' },
