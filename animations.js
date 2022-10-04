@@ -311,6 +311,7 @@ window.animations = [
 	{ name: 'typinganimation', author: 'himangskalita' },
 	{ name: 'typingWithCursor', author: 'luisrondow' },
 	{ name: 'up-down', author: 'dilekuzulmez' },
+	{ name: 'upside_down', author: 'AnanyaM007' },
 	{ name: 'vibrantColors', author: 'mareedez' },
 	{ name: 'vibrate', author: 'adrsh79086' },
 	{ name: 'vote', author: 'Shreya-L' },

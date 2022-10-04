@@ -1,0 +1,37 @@
+/**
+ * /* By: https://github.com/AnanyaM007
+ *
+ * @format
+ */
+
+.upside_down {
+	animation: infinite falling 2.5s ease-out;
+	transform-origin: bottom center;
+    color: beige;
+}
+@keyframes falling {
+	12% {
+		transform: rotateX(240deg);
+	}
+	
+	24% {
+		transform: rotateX(150deg);
+	}
+	
+	36% {
+		transform: rotateX(200deg);
+	}
+	
+	48% {
+		transform: rotateX(175deg);
+	}
+	
+	60%, 85% {
+		transform: rotateX(180deg);
+	}
+	
+	100% {
+		transform: rotateX(0deg);
+	}
+}
+
