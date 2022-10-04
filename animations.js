@@ -43,6 +43,7 @@ window.animations = [
 	{ name: 'brasil', author: 'igorbrands' },
 	{ name: 'breathe', author: 'runningdeveloper' },
 	{ name: 'brighterr', author: 'jiteshkumarr' },
+	{ name: 'bubbleup', author: 'connectnitesh' },
 	{ name: 'cardy', author: 'antonioleutsch' },
 	{ name: 'change-color', author: 'lozinska' },
 	{ name: 'changeFontFamily', author: 'jeannie2' },
