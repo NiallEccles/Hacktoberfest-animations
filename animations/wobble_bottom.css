@@ -60,8 +60,8 @@
   transform-origin: 100% 0;
 }
 .wobble-bottom:hover, .wobble-bottom:focus, .wobble-bottom:active {
-  -webkit-animation-name: hvr-wobble-bottom;
-  animation-name: hvr-wobble-bottom;
+  -webkit-animation-name: wobble-bottom;
+  animation-name: wobble-bottom;
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
   -webkit-animation-timing-function: ease-in-out;
