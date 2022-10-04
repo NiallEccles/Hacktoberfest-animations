@@ -262,6 +262,7 @@ window.animations = [
 	{ name: 'shaking-blinking', author: 'redpop' },
 	{ name: 'shape-background-animation', author: 'LiseDmrg' },
 	{ name: 'shimmy', author: 'nikiyasimpson' },
+	{ name: 'ShinyText', author:'ayush-beniwal'},
 	{ name: 'ShineText', author: 'SP-2605' },
 	{ name: 'shining', author: 'hjdesigner' },
 	{ name: 'showRight', author: 'janczer' },
