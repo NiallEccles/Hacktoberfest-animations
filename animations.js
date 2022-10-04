@@ -311,6 +311,7 @@ window.animations = [
 	{ name: 'type-pulse', author: 'marincor' },
 	{ name: 'typinganimation', author: 'himangskalita' },
 	{ name: 'typingWithCursor', author: 'luisrondow' },
+	{ name: 'upside_down', author: 'AnanyaM007' },
 	{ name: 'up-down', author: 'dilekuzulmez' },
 	{ name: 'vibrantColors', author: 'mareedez' },
 	{ name: 'vibrate', author: 'adrsh79086' },
