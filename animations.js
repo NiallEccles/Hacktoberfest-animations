@@ -279,6 +279,7 @@ window.animations = [
 	{ name: 'slide_clr', author: 'dilshadnoshad' },
 	{ name: 'slidingGradient', author: 'hrshk15' },
 	{ name: 'slowglow', author: 'shailzaa' },
+	{ name: 'slowRotation', author: 'majidzeno' },
 	{ name: 'smoke', author: 'chintanmshah' },
 	{ name: 'spaceup', author: 'Swayamsvk' },
 	{ name: 'spider', author: 'laurelr2020' },
