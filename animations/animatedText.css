@@ -1,0 +1,54 @@
+/** @format */
+
+
+h1 {
+    animation: animatedText 2s ease-in-out infinite;
+}
+
+
+@keyframes animatedText {
+    0% {  
+        transform: translatex(-3em);
+        text-shadow: 
+            1 0 0 #f72585, 
+            0 1 0 #b5179e, 
+            0 -1 0 #7209b7, 
+            -1 0 0 #560bad;
+    }
+
+    25% {  
+        transform: translatex(3em);
+        text-shadow: 
+            0 0.125em 0 #f72585, 
+            0 0.25em 0 #b5179e, 
+            0 -0.125em 0 #7209b7, 
+            0 -0.25em 0 #560bad;
+    }
+
+    45% {  
+        transform: translateY(5em);
+        text-shadow: 
+            0 -0.0625em 0 #f72585, 
+            0 -0.125em 0 #b5179e, 
+            0 0.0625em 0 #7209b7, 
+            0 0.125em 0 #560bad;
+    }
+    
+   65% {
+        transform: translateY(-3em);
+        text-shadow: 
+            0 0.03125em 0 #f72585, 
+            0 0.0625em 0 #b5179e, 
+            0 -0.03125em 0 #7209b7, 
+            0 -0.0625em 0 #560bad;
+    }
+
+    85% {  
+        transform: translateY(0);
+        text-shadow: 
+            -1 0 0 #f72585, 
+            0 -1 0 #b5179e, 
+            0 1 0 #7209b7, 
+            1 0 0 #560bad;
+    }
+}
