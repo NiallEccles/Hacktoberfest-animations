@@ -1,0 +1,35 @@
+@keyframes liquify {
+    0%,
+    100% {
+      clip-path: circle(
+        0% 30%,
+        35% 50%,
+        54% 60%,
+        85% 55%,
+        100% 54%,
+        100% 100%,
+        0% 100%
+      );
+    }
+  
+    50% {
+      clip-path: polygon(
+        0% 50%,
+        12% 66%,
+        36% 70%,
+        52% 65%,
+        62% 54%,
+        83% 45%,
+        100% 48%,
+        100% 100%,
+        0% 100%
+      );
+    }
+  }
+
+  .liquiFill {
+    color:#FD841F;
+    animation: liquify 4s ease-in-out infinite;
+  }
+  
+
