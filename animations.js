@@ -5,6 +5,7 @@ window.animations = [
 	{ name: 'aesthetic', author: 'ImShivraj' },
 	{ name: 'ainneone', author: 'ainneo' },
 	{ name: 'akshay', author: 'akshayparmar90' },
+  { name: 'seek', author: 'prankush-tech' },
 	{ name: 'alokGoldy', author: 'alokgoldy' },
 	{ name: 'alternate-reverse', author: 'jagadyudha' },
 	{ name: 'appear', author: 'chandrajitsatapathy' },
