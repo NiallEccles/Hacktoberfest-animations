@@ -1,7 +1,6 @@
 /** @format */
 
 window.animations = [
-  { name: 'slowRotation', author: 'majidzeno' },
 	{ name: 'aberration', author: 'cnsumner' },
 	{ name: 'aesthetic', author: 'ImShivraj' },
 	{ name: 'ainneone', author: 'ainneo' },
@@ -15,6 +14,7 @@ window.animations = [
 	{ name: 'background', author: 'NullSilence' },
 	{ name: 'ballast', author: 'vijayranghar' },
 	{ name: 'beat', author: 'patriciafelixx' },
+	{ name: 'Bees', author: 'particus17'},
 	{ name: 'bhaukaal', author: 'mani9896' },
 	{ name: 'bigStretch', author: 'timstrato2' },
 	{ name: 'blacknwhiteunderline', author: 'baranwal' },
@@ -22,6 +22,7 @@ window.animations = [
 	{ name: 'blend-in-out', author: 'panvicka' },
 	{ name: 'blend', author: 'divanshi15' },
 	{ name: 'blink', author: 'rajdeepdev10' },
+	{ name: 'blinkglow', author: 'Edwin-liby' },
 	{ name: 'blinking-neon', author: 'aliheikal' },
 	{ name: 'blinkShadow', author: 'rpvsilva' },
 	{ name: 'blood', author: 'beatrizsmerino' },
@@ -180,6 +181,7 @@ window.animations = [
 	{ name: 'letter-spacing', author: 'jun-low' },
 	{ name: 'lightSpeedIn', author: 'fernandosutter' },
 	{ name: 'lightSpeedOut', author: 'aarushi15002' },
+	{ name: 'liquiFill', author: 'Soumi150' },
 	{ name: 'littleToBiggerRainbow', author: 'devtony322' },
 	{ name: 'lr-loop', author: 'luca-gouveia' },
 	{ name: 'lr-loop', author: 'Shivang0' },
@@ -277,6 +279,7 @@ window.animations = [
 	{ name: 'slide_clr', author: 'dilshadnoshad' },
 	{ name: 'slidingGradient', author: 'hrshk15' },
 	{ name: 'slowglow', author: 'shailzaa' },
+	{ name: 'slowRotation', author: 'majidzeno' },
 	{ name: 'smoke', author: 'chintanmshah' },
 	{ name: 'spaceup', author: 'Swayamsvk' },
 	{ name: 'spider', author: 'laurelr2020' },
