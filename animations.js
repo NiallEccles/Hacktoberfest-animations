@@ -21,6 +21,7 @@ window.animations = [
 	{ name: 'blend-in-out', author: 'panvicka' },
 	{ name: 'blend', author: 'divanshi15' },
 	{ name: 'blink', author: 'rajdeepdev10' },
+	{ name: 'blinkglow', author: 'Edwin-liby' },
 	{ name: 'blinking-neon', author: 'aliheikal' },
 	{ name: 'blinkShadow', author: 'rpvsilva' },
 	{ name: 'blood', author: 'beatrizsmerino' },
@@ -345,5 +346,4 @@ window.animations = [
 	{ name: 'zoomInLeft', author: 'fernandosutter' },
 	{ name: 'zoomOut', author: 'Biafer' },
 	{ name: 'zoomright', author: 'sunny-aguilar' },
-	{ name: 'blinkglow', author: 'Edwin-liby' },
 ];
