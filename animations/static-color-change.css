@@ -5,14 +5,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
 
-:root {
-  --static-color-1: #DF8453;
-  --static-color-2: #3D8DAE;
-  --static-color-3: #DBAD4A;
-  --static-color-4: #ACCFCB;
-  --static-color-5: #E4A9A8;
-}
-
 @keyframes static-color-change {
   0% {
     color: var(--static-color-1)
@@ -60,6 +52,12 @@
 }
 
 .static-color-change {
+  --static-color-1: #DF8453;
+  --static-color-2: #3D8DAE;
+  --static-color-3: #DBAD4A;
+  --static-color-4: #ACCFCB;
+  --static-color-5: #E4A9A8;
+
   font-family: "Montserrat", sans-serif;
   font-weight: 800;
   animation: static-color-change 4s linear infinite;
