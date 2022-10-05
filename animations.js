@@ -96,6 +96,7 @@ window.animations = [
 	{ name: 'ease-in-out', author: 'adrsh79086' },
 	{ name: 'eduardo', author: 'EdoRguez' },
 	{ name: 'ElectricHover', author: 'itsaamyth' },
+	{ name: 'emoticon-running', author: 'yakserr' },
 	{ name: 'erroranimation', author: 'himanshubobade' },
 	{ name: 'escaping', author: 'aveselovalova' },
 	{ name: 'excited', author: 'torelafes' },
