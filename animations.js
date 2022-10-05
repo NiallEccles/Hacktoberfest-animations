@@ -14,6 +14,7 @@ window.animations = [
 	{ name: 'background', author: 'NullSilence' },
 	{ name: 'ballast', author: 'vijayranghar' },
 	{ name: 'beat', author: 'patriciafelixx' },
+	{ name: 'Bees', author: 'particus17'},
 	{ name: 'bhaukaal', author: 'mani9896' },
 	{ name: 'bigStretch', author: 'timstrato2' },
 	{ name: 'blacknwhiteunderline', author: 'baranwal' },
