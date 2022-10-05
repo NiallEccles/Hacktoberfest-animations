@@ -302,6 +302,7 @@ window.animations = [
 	{ name: 'textGlowAnimation', author: 'Ukesh-dev' },
 	{ name: 'text-color-gradiant', author: 'Anders' },
 	{ name: 'text-shadow', author: 'Zaheudev' },
+	{ name: 'text-revealer', author: 'rahul-jamwal'},
 	{ name: 'text-split', author: 'hariramjp777' },
 	{ name: 'thaovt', author: 'thaovt' },
 	{ name: 'the-shining', author: 'kshitijsriv' },
