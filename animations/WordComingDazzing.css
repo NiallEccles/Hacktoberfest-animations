@@ -9,10 +9,10 @@
   font-size: 5em;
   bottom:0;
   left:100rem;
-  animation : 3s ease-in 1s 1 reverse both paused dazeIn;
+  animation : 3s ease-in 1s 1 reverse both paused WordComingDazzing;
 }
 
-@keyframes dazeIn{
+@keyframes WordComingDazzing{
   0%{
     left: 20rem;
     bottom : 1rem;
