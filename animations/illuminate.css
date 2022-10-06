@@ -1,4 +1,4 @@
-@keyframes glow {
+@keyframes illuminate {
 	0% {
 		text-shadow: none;
 
@@ -20,5 +20,5 @@
     background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);  
     background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9); 
 	text-shadow: none;
-	animation: glow 4s infinite;
+	animation: illuminate 4s infinite;
 }
