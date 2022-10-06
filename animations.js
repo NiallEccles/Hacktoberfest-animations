@@ -135,6 +135,7 @@ window.animations = [
 	{ name: 'focusBlur', author: 'Swong87' },
 	{ name: 'focusIn', author: 'MasihTak' },
 	{ name: 'fromright', author: 'jespicas' },
+	{ name: 'fun', author: 'surfacewatering' },
 	{ name: 'ghost', author: 'FernandaDagostin' },
 	{ name: 'ghostRise', author: 'osHamad' },
 	{ name: 'ghostyFade', author: 'Jaebirds' },
