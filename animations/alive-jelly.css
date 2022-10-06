@@ -40,6 +40,6 @@
 }
 
 .alive-jelly {
-	animation-name: jelly-drop;
+	animation-name: alive-jelly;
 	animation-duration: 5000ms;
 }
