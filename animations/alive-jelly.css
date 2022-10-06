@@ -1,0 +1,45 @@
+/** @format */
+
+@keyframes alive-jelly {
+	0% {
+		transform: scaleX(1) scaleY(1) translateY(-10rem);
+	}
+	15% {
+		transform: scaleX(0.8) scaleY(1.5) translateY(-5rem);
+	}
+	30% {
+		transform: scaleX(1) scaleY(1) translateY(0rem);
+	}
+	35% {
+		transform: scaleX(1.3) scaleY(0.8) translateY(0rem);
+	}
+	45% {
+		transform: scaleX(0.9) scaleY(1.2) translateY(-5rem);
+	}
+	55% {
+		transform: scaleX(1) scaleY(1) translateY(0rem);
+	}
+	65% {
+		transform: scaleX(0.9) scaleY(1.2) translateY(-2rem);
+	}
+	75% {
+		transform: scaleX(1) scaleY(1) translateY(0rem);
+	}
+	80% {
+		transform: scaleX(1.123) scaleY(0.88) translateY(0rem);
+	}
+	90% {
+		transform: scaleX(1) scaleY(1) translateY(0rem);
+	}
+	95% {
+		transform: scaleX(1.05) scaleY(0.93) translateY(0rem);
+	}
+	100% {
+		transform: scaleX(1) scaleY(1) translateY(0rem);
+	}
+}
+
+.alive-jelly {
+	animation-name: alive-jelly;
+	animation-duration: 5000ms;
+}
