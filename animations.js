@@ -297,6 +297,7 @@ window.animations = [
 	{ name: 'staircase_bounce', author: 'vivekrawat' },
 	{ name: 'star-wars-roll', author: 'MandeeD' },
 	{ name: 'static', author: 'DekyDesigns' },
+	{ name: 'static-color-change', author: 'timoransky' },
 	{ name: 'strangerthings', author: 'crownedpigeon' },
 	{ name: 'stepittap', author: 'verissteph' },
 	{ name: 'stretchout', author: 's-Hale' },
