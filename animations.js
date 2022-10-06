@@ -157,6 +157,7 @@ window.animations = [
 	{ name: 'harrypotter', author: 'naftalima' },
 	{ name: 'harjotSmashes', author: 'harjotkarwal' },
 	{ name: 'harvestflare', author: 'Jenn - strawberries73' },
+	{ name: 'haunt', author: 'TheKunalSen' }, 
 	{ name: 'headShake', author: 'lospettro' },
 	{ name: 'heartbeat', author: 'sunny-aguilar' },
 	{ name: 'heartbeat-by-azrizhaziq', author: 'azrizhaziq' },
