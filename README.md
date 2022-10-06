@@ -8,6 +8,7 @@
 	    <a name="contributions"><img src="https://img.shields.io/github/contributors/NiallEccles/Hacktoberfest-animations?logoColor=green&style=for-the-badge"></a>
  </p>
  </div>
+ 
 # Hacktoberfest-animations
 
 Small animation selector for Hacktoberfest
