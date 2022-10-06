@@ -1,11 +1,6 @@
 <!-- @format -->
 
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
-
-# Hacktoberfest-animations
-
-Small animation selector for Hacktoberfest
-
 <div align="center">
     <p>
 	    <a name="stars"><img src="https://img.shields.io/github/stars/NiallEccles/Hacktoberfest-animations?style=for-the-badge"></a>
@@ -13,6 +8,11 @@ Small animation selector for Hacktoberfest
 	    <a name="contributions"><img src="https://img.shields.io/github/contributors/NiallEccles/Hacktoberfest-animations?logoColor=green&style=for-the-badge"></a>
  </p>
  </div>
+# Hacktoberfest-animations
+
+Small animation selector for Hacktoberfest
+
+
 ## How to contribute
 
 - Fork this repo
