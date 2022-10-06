@@ -3,6 +3,10 @@
 window.animations = [
 	{ name: 'Anubhav-developerMation', author: 'Anubhav-developr' },
 	{ name: 'aberration', author: 'cnsumner' },
+  {
+    name: 'WordComingDazzing',
+    author: 'siddoinghisjob'
+},
 	{ name: 'aesthetic', author: 'ImShivraj' },
 	{ name: 'ainneone', author: 'ainneo' },
 	{ name: 'akshay', author: 'akshayparmar90' },
