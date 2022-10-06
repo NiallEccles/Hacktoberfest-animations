@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap');
+
+body{
+  font-family: 'Sigmar One', cursive;
+}
+div{
+   display:flex;
+  height:100vh;
+  justify-content:center;
+}
+.threeD-text-shadow-animation{
+ 
+  color:blue;
+  letter-spacing:0.1rem;
+  font-size:8rem;
+  padding:1rem;
+  text-transform: uppercase;
+  
+  text-shadow:  3px 3px 0 #18e657,
+                6px 6px 0 #bf189b,
+                9px 9px 0 #ffeb00,
+                12px 12px 0 #000;
+  
+  animation-name:text-shadow;
+  animation-duration:2s;
+  animation-iteration-count: infinite;
+  animation-fill-mode:both;
+/*   animation-timing-function:ease-in-out; */
+}
+
+
+@keyframes text-shadow{
+  0%{
+    text-shadow:  3px 3px 0 #18e657,
+                6px 6px 0 #bf189b,
+                9px 9px 0 #ffeb00,
+                12px 12px 0 #000;
+    
+  }
+  
+  99%{
+    
+     text-shadow:  3px 3px 0 #eeff00,
+                6px 6px 0 #ffeb00,
+                9px 9px 0 #00c3ff,
+                12px 12px 0 rgb(1, 19, 53);
+                
+  }
+  100%{
+    
+    text-shadow:  3px 3px 0 #5eff00,
+               6px 6px 0 #bf189b,
+               9px 9px 0 #fbff00,
+               12px 12px 0 rgb(1, 19, 53);
+               
+   
+ }
+}
