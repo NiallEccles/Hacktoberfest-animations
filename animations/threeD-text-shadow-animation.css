@@ -1,13 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap');
 
-body{
-  font-family: 'Sigmar One', cursive;
-}
-div{
-   display:flex;
-  height:100vh;
-  justify-content:center;
-}
 .threeD-text-shadow-animation{
  
   color:blue;
