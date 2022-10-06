@@ -6,6 +6,13 @@
 
 Small animation selector for Hacktoberfest
 
+<div align="center">
+    <p>
+	    <a name="stars"><img src="https://img.shields.io/github/stars/NiallEccles/Hacktoberfest-animations?style=for-the-badge"></a>
+	    <a name="forks"><img src="https://img.shields.io/github/forks/NiallEccles/Hacktoberfest-animations?logoColor=green&style=for-the-badge"></a>
+	    <a name="contributions"><img src="https://img.shields.io/github/contributors/NiallEccles/Hacktoberfest-animations?logoColor=green&style=for-the-badge"></a>
+ </p>
+ </div>
 ## How to contribute
 
 - Fork this repo
