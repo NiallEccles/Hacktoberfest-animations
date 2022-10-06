@@ -262,6 +262,7 @@ window.animations = [
 	{ name: 'scare', author: 'NiallEccles' },
 	{ name: 'scooby-doo', author: 'aliheikal' },
 	{ name: 'secret', author: 'chintanmshah' },
+	{ name: 'seek', author: 'prankush-tech' },
 	{ name: 'shadow', author: 'jpinck' },
 	{ name: 'shadow-animation', author: 'lcnunes09' },
 	{ name: 'shadow_animation_3D', author: 'arjita18' },
