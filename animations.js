@@ -1,6 +1,7 @@
 /** @format */
 
 window.animations = [
+	{ name: 'Anubhav-developerMation', author: 'Anubhav-developr' },
 	{ name: 'aberration', author: 'cnsumner' },
 	{ name: 'aesthetic', author: 'ImShivraj' },
 	{ name: 'ainneone', author: 'ainneo' },
@@ -35,6 +36,7 @@ window.animations = [
 	{ name: 'border-rainbow', author: 'brunobolting' },
 	{ name: 'borderblend', author: 'erikadionn' },
 	{ name: 'borderedbackandfourth', author: 'mamadou-diallo' },
+	{ name: 'bounceReflection', author: 'Samar1110' },
 	{ name: 'bounce-simple', author: 'joedag32' },
 	{ name: 'bounce', author: 'Biafer' },
 	{ name: 'bounce', author: 'marekgebka' },
@@ -95,6 +97,7 @@ window.animations = [
 	{ name: 'dvd', author: 'Quattro04' },
 	{ name: 'ease-in-out', author: 'adrsh79086' },
 	{ name: 'eduardo', author: 'EdoRguez' },
+	{ name: 'electron', author: 'R0Y4L23' },
 	{ name: 'ElectricHover', author: 'itsaamyth' },
 	{ name: 'emoticon-running', author: 'yakserr' },
 	{ name: 'erroranimation', author: 'himanshubobade' },
@@ -262,6 +265,7 @@ window.animations = [
 	{ name: 'scare', author: 'NiallEccles' },
 	{ name: 'scooby-doo', author: 'aliheikal' },
 	{ name: 'secret', author: 'chintanmshah' },
+	{ name: 'seek', author: 'prankush-tech' },
 	{ name: 'shadow', author: 'jpinck' },
 	{ name: 'shadow-animation', author: 'lcnunes09' },
 	{ name: 'shadow_animation_3D', author: 'arjita18' },
@@ -346,7 +350,7 @@ window.animations = [
 	{ name: 'wobble-top-right',author: 'lingeshwaran05'},
 	{ name: 'wobble-vertical',author: 'lingeshwaran05'},
 	{ name: 'wrongGuyAnimation', author: 'the-wrong-guy' },
-  { name: 'xort', author: 'TheKunalSen' }, 
+	{ name: 'xort', author: 'TheKunalSen' }, 
 	{ name: 'x-ray', author: 'jomifepe' },
 	{ name: 'z-dance', author: 'vishnuxx' },
 	{ name: 'zeno', author: 'AnshuPathak-88825/' },
