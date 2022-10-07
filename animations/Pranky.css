@@ -1,0 +1,30 @@
+@keyframes pranky {
+	0% {
+		color: rgb(12, 13, 12);
+	}
+  20% {
+		color: green;
+	}
+
+	50% {
+		color: blue;
+	}
+  
+	70% {
+		color: red;
+	}
+
+	100% {
+		color: rgb(55, 16, 10);
+	}
+}
+
+.pranky {
+	transform-style: preserve-3d;
+	perspective: 600px;
+  animation-name: col;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+	animation-direction: reverse;
+	letter-spacing: 6px;
+}
