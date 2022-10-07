@@ -147,6 +147,7 @@ window.animations = [
 	{ name: 'glitch-shake', author: 'jojoee' },
 	{ name: 'glitchexperiment', author: 'Manuja' },
 	{ name: 'glow', author: 'Mansi-2000' },
+	{ name: 'glowLeft',author: 'Shubhamsk2003' },
 	{ name: 'glow-hover', author: 'rockkidd23' },
 	{ name: 'glow-sign', author: 'muskan-9' },
 	{ name: 'glowing', author: 'brunoeduardodev' },
