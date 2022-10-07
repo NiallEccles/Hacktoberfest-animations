@@ -356,5 +356,9 @@ window.animations = [
 	{ name: 'zoomInLeft', author: 'fernandosutter' },
 	{ name: 'zoomOut', author: 'Biafer' },
 	{ name: 'zoomright', author: 'sunny-aguilar' },
+<<<<<<< HEAD
 	{ name: 'threeD-text-animation', author: 'hafizur-rahman' },
+=======
+	{ name: 'threeD-text-animation', author: 'Hafizur-Rahman'}
+>>>>>>> 02bf6b18e491140bf434b36e3fdddee79666c57e
 ];
