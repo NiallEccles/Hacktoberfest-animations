@@ -1,0 +1,19 @@
+.blinkglow {
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 10px 10px rgb(83, 83, 230);
+    animation: blinkglow .1s none infinite;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+@keyframes blinkglow {
+    0% {
+        opacity: 1;
+        text-shadow: 10px 10px rgb(83, 83, 230);
+    }
+
+    100% {
+        opacity: .5;
+        text-shadow: none;
+    }
+}

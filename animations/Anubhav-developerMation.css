@@ -1,0 +1,38 @@
+.Anubhav-developerMation {
+  color: #6bce19;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+
+  animation: Anubhav-developerMation 1.4s ease-in-out infinite alternate;
+}
+
+
+
+
+@keyframes Anubhav-developerMation {
+  0% {
+    color: rgb(79, 192, 13);
+    opacity: 0.1;
+    font-size: 1.5em;
+    letter-spacing: 0.01;
+  }
+  25% {
+    color: rgb(7, 88, 88);
+    opacity: 0.4;
+    letter-spacing: 0.07;
+  }
+  50% {
+    color: rgb(28, 202, 202);
+    opacity: 0.7;
+    letter-spacing: 0.17;
+  }
+  100% {
+    color: #6bce19;
+    opacity: 1;
+    font-size: 1em;
+    letter-spacing: 0.47;
+    
+  }
+}
