@@ -317,6 +317,7 @@ window.animations = [
 	{ name: 'theLight', author: 'Himanshu' },
 	{ name: 'thin-air', author: 'sniemeyer1' },
 	{ name: 'tipsy', author: 'Maria218' },
+  { name: 'xort', author: 'TheKunalSen' }, 
 	{ name: 'toospooky', author: 'erikadionn' },
 	{ name: 'top-down', author: 'Demysdcl' },
 	{ name: 'tracKing', author: 'lmNoob' },
