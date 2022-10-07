@@ -151,6 +151,7 @@ window.animations = [
 	{ name: 'gogogo', author: 'kalamell' },
 	{ name: 'gradient', author: 'NataliaKiwibird' },
 	{ name: 'gradient-ride', author: 'try-catch-stack' },
+  { name: 'growing', author: 'Riddhiman-M' },
 	{ name: 'growrotateflip', author: 'Prathamesh-Shanbhag' },
 	{ name: 'haleemah', author: 'bolajiscott' },
 	{ name: 'halloween', author: 'honeyyenoh' },
