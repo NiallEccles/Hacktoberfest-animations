@@ -1,5 +1,5 @@
 
- @keyframes drown2 {
+ @keyframes growing {
     0% 
     {
         top:50px; left:0px; color: rgb(162, 184, 242);
@@ -32,7 +32,7 @@
     }
 }
 
-.drown2 {
+.growing {
 
     padding: 10px;
     margin-top: 10px;
@@ -45,5 +45,5 @@
 
 	position: relative;
     text-align: center;
-    animation: drown2 10s infinite;
+    animation: growing 10s infinite;
 }
