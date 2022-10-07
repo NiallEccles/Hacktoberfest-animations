@@ -40,6 +40,7 @@ window.animations = [
 	{ name: 'bounce', author: 'Biafer' },
 	{ name: 'bounce', author: 'marekgebka' },
 	{ name: 'bounce-and-glow', author: 'riddhidamani' },
+  { name: 'raj', author: 'roumodip' },
 	{ name: 'bounce-up-and-down', author: 'marcelomoser' },
 	{ name: 'bounceAround', author: 'wendelleloi' },
 	{ name: 'bouncing', author: 'Geeky-star' },
