@@ -97,6 +97,7 @@ window.animations = [
 	{ name: 'dvd', author: 'Quattro04' },
 	{ name: 'ease-in-out', author: 'adrsh79086' },
 	{ name: 'eduardo', author: 'EdoRguez' },
+	{ name: 'electron', author: 'R0Y4L23' },
 	{ name: 'ElectricHover', author: 'itsaamyth' },
 	{ name: 'emoticon-running', author: 'yakserr' },
 	{ name: 'erroranimation', author: 'himanshubobade' },
