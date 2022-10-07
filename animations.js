@@ -350,6 +350,7 @@ window.animations = [
 	{ name: 'wobble-top-right',author: 'lingeshwaran05'},
 	{ name: 'wobble-vertical',author: 'lingeshwaran05'},
 	{ name: 'wrongGuyAnimation', author: 'the-wrong-guy' },
+	{ name: 'xort', author: 'TheKunalSen' }, 
 	{ name: 'x-ray', author: 'jomifepe' },
 	{ name: 'z-dance', author: 'vishnuxx' },
 	{ name: 'zeno', author: 'AnshuPathak-88825/' },
