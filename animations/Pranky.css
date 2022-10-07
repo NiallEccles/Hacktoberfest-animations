@@ -1,4 +1,4 @@
-@keyframes pranky {
+@keyframes Pranky {
 	0% {
 		color: rgb(12, 13, 12);
 	}
@@ -19,7 +19,7 @@
 	}
 }
 
-.pranky {
+.Pranky {
 	transform-style: preserve-3d;
 	perspective: 600px;
   animation-name: col;
