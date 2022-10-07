@@ -1,6 +1,7 @@
 /** @format */
 
 window.animations = [
+	{name: 'glowLeft',author: 'Shubhamsk2003'},
 	{ name: 'Anubhav-developerMation', author: 'Anubhav-developr' },
 	{ name: 'aberration', author: 'cnsumner' },
 	{ name: 'aesthetic', author: 'ImShivraj' },
