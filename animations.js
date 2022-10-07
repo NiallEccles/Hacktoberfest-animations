@@ -317,6 +317,7 @@ window.animations = [
 	{ name: 'thaovt', author: 'thaovt' },
 	{ name: 'the-shining', author: 'kshitijsriv' },
 	{ name: 'theLight', author: 'Himanshu' },
+        { name: 'this is a appearing and then disappearing text', author: 'rahulsingh2312' },
 	{ name: 'thin-air', author: 'sniemeyer1' },
 	{ name: 'tipsy', author: 'Maria218' },
 	{ name: 'toospooky', author: 'erikadionn' },
