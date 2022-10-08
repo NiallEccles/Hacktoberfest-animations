@@ -275,6 +275,7 @@ window.animations = [
 	{ name: 'shake', author: 'golomann' },
 	{ name: 'shaking', author: 'shaking' },
 	{ name: 'shaking-blinking', author: 'redpop' },
+  {name: 'shakeAnimation', author: 'archit-2003' },
 	{ name: 'shape-background-animation', author: 'LiseDmrg' },
 	{ name: 'shimmy', author: 'nikiyasimpson' },
 	{ name: 'ShinyText', author: 'ayush-beniwal' },
