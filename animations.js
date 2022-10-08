@@ -224,6 +224,7 @@ window.animations = [
 	{ name: 'pivot', author: 'ronlaniado' },
 	{ name: 'pixar-h', author: 'pliavi' },
 	{ name: 'popping', author: 'Akansha-Bhandari' },
+	{ name: 'Pranky', author: 'prankush-tech' },  
 	{ name: 'press-start', author: 'MagoMagoado' },
 	{ name: 'pudding', author: 'sliceolife' },
 	{ name: 'pulled', author: 'Samarth-Khatri' },
