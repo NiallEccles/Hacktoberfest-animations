@@ -283,6 +283,7 @@ window.animations = [
 	{ name: 'shimmy', author: 'nikiyasimpson' },
 	{ name: 'ShinyText', author: 'ayush-beniwal' },
 	{ name: 'ShineText', author: 'SP-2605' },
+	{ name: 'shiningtext', author: 'rcode321' },
 	{ name: 'shining', author: 'hjdesigner' },
 	{ name: 'showRight', author: 'janczer' },
 	{ name: 'simple-by-lumuscode', author: 'LumusCode' },
