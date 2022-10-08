@@ -8,12 +8,12 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  animation: shake 0.5s infinite;
+  animation: shakeAnimation 0.5s infinite;
   font-size: 4rem;
   color: black;
 }
 
-@keyframes shake {
+@keyframes shakeAnimation {
   0% {
     transform: translate(1px, -2px) rotate(-1deg);
   }
