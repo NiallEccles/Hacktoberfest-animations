@@ -285,6 +285,7 @@ window.animations = [
 	{ name: 'simple-by-lumuscode', author: 'LumusCode' },
 	{ name: 'simulacrum', author: 'ayeteejay' },
 	{ name: 'slasher', author: 'Rabanov' },
+	{ name: 'slide-to-unlock-shine', author: 'ighoshsubho' },
 	{ name: 'slideDownWithBorder', author: 'adrianoavelino' },
 	{ name: 'sliderr', author: 'davdtheemonk' },
 	{ name: 'slideOutUp', author: 'lospettro' },
