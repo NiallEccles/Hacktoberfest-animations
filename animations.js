@@ -30,6 +30,7 @@ window.animations = [
 	{ name: 'blow', author: 'graviton5' },
 	{ name: 'BluePulse', author: 'JMustang' },
 	{ name: 'blurFade', author: 'aveselovalova' },
+	{name:  'blur-expand', author: 'danishzayan'},
 	{ name: 'boogie', author: 'jdsteinbach' },
 	{ name: 'bop', author: 'cutted' },
 	{ name: 'border-pulse', author: 'hjdesigner' },
