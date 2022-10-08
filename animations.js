@@ -173,6 +173,7 @@ window.animations = [
 	{ name: 'hover_zoom_glow', author: 'Princerey' },
 	{ name: 'hurricane', author: 'marcosceo' },
 	{ name: 'hydrated', author: 'tancredosouza' },
+	{ name: 'hypnotize', author: 'aadilkhalifa' },
 	{ name: 'illuminate', author: 'Soumi150' },
 	{ name: 'imdrunk', author: 'twopill' },
 	{ name: 'infinite-shake', author: 'jcardoz' },
