@@ -1,4 +1,4 @@
-.appear{
+.appear-and-disappear{
     font-size: 100px;
     text-align: center;
     padding-top: 50px;
@@ -6,13 +6,13 @@
     margin-right: 300px;
     padding-bottom: 50px;
     border: 10px dashed gold;
-    animation-name: appear;
+    animation-name: appear-and-disappear;
     animation-duration: 3s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
     animation-delay: 1s;
 }
-@keyframes appear{
+@keyframes appear-and-disappear{
 0%{
     color: white;
     border: 10px dashed white;
