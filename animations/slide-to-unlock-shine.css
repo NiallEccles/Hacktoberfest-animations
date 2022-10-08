@@ -1,11 +1,8 @@
-body{
+.slide-to-unlock-shine{
   background: black;
   font-family: 'Poppins';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-  
-.btn-shine{
   position: absolute;
   top: 50%;
   left: 50%;
@@ -16,7 +13,7 @@ body{
   background-position: 0;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  animation: shine 3s infinite linear;
+  animation: slide-to-unlock-shine 3s infinite linear;
   animation-fill-mode: forwards;
   -webkit-text-size-adjust: none;
   font-weight: 600;
@@ -24,7 +21,7 @@ body{
   text-decoration: none;
   white-space: nowrap;
 }
-@keyframes shine{
+@keyframes slide-to-unlock-shine{
   0%{
     background-position: 0
   }
