@@ -1,10 +1,9 @@
 /** @format */
 
 
-h1 {
+.animatedText{
     animation: animatedText 2s ease-in-out infinite;
 }
-
 
 @keyframes animatedText {
     0% {  
