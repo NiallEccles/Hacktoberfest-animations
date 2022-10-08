@@ -9,6 +9,7 @@ window.animations = [
 	{ name: 'alokGoldy', author: 'alokgoldy' },
 	{ name: 'alternate-reverse', author: 'jagadyudha' },
 	{ name: 'appear', author: 'chandrajitsatapathy' },
+	{ name: 'appear-and-disappear', author: 'rahulsingh2312' },
 	{ name: 'arise', author: 'Ronnasayd' },
 	{ name: 'autumn-gradient', author: 'marichka-offen' },
 	{ name: 'backflip', author: 'magicaljellybeans' },
