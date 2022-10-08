@@ -182,6 +182,7 @@ window.animations = [
 	{ name: 'infinite-spinning', author: 'brecarv' },
 	{ name: 'invicta', author: 'mani9896' },
 	{ name: 'jackInTheBox', author: 'fernandosutter' },
+  { name: 'jeetchak', author: 'SubhrajyotiChak' },
 	{ name: 'jello', author: 'adsingh14' },
 	{ name: 'jelly-vertical', author: 'the-nathan-smith' },
 	{ name: 'jitterbug', author: 'andrewghood' },
