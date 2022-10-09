@@ -11,21 +11,6 @@
      font-family: 'Poppins', sans-serif;
  }
  
- /* body{
-     display: flex;
-     min-height: 100vh;
-     background-color: #222;
- }
- .container{
-     display: flex;
-     justify-content: center;
-     align-items: center;
- }
- .container .box{
-     padding: 400px;
-     transform-style: preserve-3d;
-     animation: animate 8s linear infinite;
- } */
  
  @keyframes animate {
      0%{
