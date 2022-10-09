@@ -1,0 +1,50 @@
+/**
+ * /* By: https://github.com/123shuklaayush
+ * @format
+ */
+
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+ *{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: 'Poppins', sans-serif;
+ }
+ 
+ /* body{
+     display: flex;
+     min-height: 100vh;
+     background-color: #222;
+ }
+ .container{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ .container .box{
+     padding: 400px;
+     transform-style: preserve-3d;
+     animation: animate 8s linear infinite;
+ } */
+ 
+ @keyframes animate {
+     0%{
+         transform: perspective(1000px) rotateX(0deg) rotate(25deg);
+     }
+     100%{
+         color: #b054b0;
+         font-size: 40px;
+         transform: perspective(1000px) rotateX(360deg) rotate(0deg);
+     }
+ }
+ animate{
+     font-size: 130px;
+     color: #b054b0;
+     padding: 400px;
+     transform-style: preserve-3d;
+     animation: animate 8s linear infinite;
+ }
+ 
+ 
+ 
+ 
