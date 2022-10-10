@@ -351,6 +351,7 @@ window.animations = [
 	{ name: 'walterbanda', author: 'walterbanda' },
 	{ name: 'warp-drive', author: 'chrisrhymes' },
 	{ name: 'Water', author: 'DevarshiDoshi' },
+  { name: 'water-wave', author: 'muskan467'},
 	{ name: 'wheelie', author: 'mbeckdev' },
 	{ name: 'wiggle', author: 'HJain13' },
 	{ name: 'wobble', author: 'golomann' },
