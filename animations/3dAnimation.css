@@ -3,33 +3,25 @@
  * @format
  */
 
- @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
- *{
-     margin: 0;
-     padding: 0;
-     box-sizing: border-box;
-     font-family: 'Poppins', sans-serif;
- }
- 
- 
- @keyframes animate {
-     0%{
-         transform: perspective(1000px) rotateX(0deg) rotate(25deg);
-     }
-     100%{
-         color: #b054b0;
-         font-size: 40px;
-         transform: perspective(1000px) rotateX(360deg) rotate(0deg);
-     }
- }
- animate{
-     font-size: 130px;
-     color: #b054b0;
-     padding: 400px;
-     transform-style: preserve-3d;
-     animation: animate 8s linear infinite;
- }
- 
- 
- 
- 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+@keyframes threedAnimation {
+	0% {
+		transform: perspective(1000px) rotateX(0deg) rotate(25deg);
+	}
+	100% {
+		color: #b054b0;
+		font-size: 40px;
+		transform: perspective(1000px) rotateX(360deg) rotate(0deg);
+	}
+}
+.threedAnimation {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+	font-size: 130px;
+	color: #b054b0;
+	transform-style: preserve-3d;
+	animation: threedAnimation 8s linear infinite;
+}
