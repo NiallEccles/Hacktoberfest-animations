@@ -206,6 +206,7 @@ window.animations = [
 	{ name: 'mindhunter', author: 'ahsankhan26' },
 	{ name: 'mini-zoom', author: 'NiallEccles' },
 	{ name: 'movelineal', author: 'carlacentenor' },
+	{ name: 'movingcolors', author: 'Prathamesh12111' },
 	{ name: 'moving-shadow', author: 'ClaudioFuriniJr' },
 	{ name: 'multicolor-stretch', author: 'jonboundy' },
 	{ name: 'nanananabatman', author: 'Pamblam' },
