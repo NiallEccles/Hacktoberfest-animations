@@ -1,12 +1,10 @@
-      .div{
+      .ZoomInZoomOut{
             display: flex;
             justify-content: center;
             align-items: center;
             position: relative;
             height: 100vh;
             width:100wh;
-        }
-        .ZoomInZoomOut{
             animation: ZoomInZoomOut 2s ease-out infi;
             z-index: 99;
             font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
