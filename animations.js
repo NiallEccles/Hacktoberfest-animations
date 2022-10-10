@@ -276,6 +276,7 @@ window.animations = [
 	{ name: 'rubberband', author: 'makajeez' },
 	{ name: 'saksh', author: 'saurabhtopthon01' },
 	{ name: 'save-amazon', author: 'claudioholanda' },
+  { name: 'sban', author: 'bannersb19' },
 	{ name: 'scale', author: 'addenordh' },
 	{ name: 'scale-up-center', author: 'baronrafael' },
 	{ name: 'scale-up-hor-center', author: 'nerdomancer' },
