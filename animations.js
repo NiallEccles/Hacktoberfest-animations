@@ -9,6 +9,7 @@ window.animations = [
 	{ name: 'akshay', author: 'akshayparmar90' },
 	{ name: 'alokGoldy', author: 'alokgoldy' },
 	{ name: 'alternate-reverse', author: 'jagadyudha' },
+	{ name: 'Animated-Cubes', author: 'AmitSahoo45' },
 	{ name: 'appear', author: 'chandrajitsatapathy' },
 	{ name: 'appear-and-disappear', author: 'rahulsingh2312' },
 	{ name: 'arise', author: 'Ronnasayd' },
