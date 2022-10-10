@@ -1,0 +1,29 @@
+      .ZoomInZoomOut{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            height: 100vh;
+            width:100wh;
+            animation: ZoomInZoomOut 2s ease-out infi;
+            z-index: 99;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+
+        @keyframes ZoomInZoomOut{
+            0%{
+                font-size: 10rem;
+                position: absolute;
+                align-self: center;
+            }
+            50%{
+                font-size: 6rem;
+                position: absolute;
+                align-self: center;
+            }
+            100%{
+                font-size: 3rem;
+                position: absolute;
+                align-self: center;
+            }
+        }
