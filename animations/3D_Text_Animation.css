@@ -24,9 +24,9 @@ body{
 }
 .container .box{
   transform-style: preserve-3d;
-  animation: text_animations 25s linear infinite;
+  animation: Text_Animations_threeD 25s linear infinite;
 }
-@keyframes text_animations{
+@keyframes Text_Animations_threeD{
   0%{
     transform: perspective(1000px) rotateX(0deg) rotate(25deg);
   }
@@ -59,9 +59,16 @@ body{
 }
 
 /*
-Add this to your html file
-The html attribute to use this animations
-<div class="container">
+Create a file index.html
+paste this code below
+<html>
+<head>
+<title>Animations<title/>
+<style>
+//Add the css code here given above
+<head/>
+<body>
+div class="container">
     <div class="box">
       <span style="--i:1;"><i>Hack</i>tober<i>fest</i></span>
       <span style="--i:2;"><i>Hack</i>tober<i>fest</i></span>
@@ -80,4 +87,8 @@ The html attribute to use this animations
       <span style="--i:15;"><i>Hack</i>tober<i>fest</i></span>
       <span style="--i:16;"><i>Hack</i>tober<i>fest</i></span>
     </div>
-  </div> */
+  </div> 
+</body>
+</html>
+
+*/
