@@ -147,6 +147,7 @@ window.animations = [
 	{ name: 'ghost', author: 'FernandaDagostin' },
 	{ name: 'ghostRise', author: 'osHamad' },
 	{ name: 'ghostyFade', author: 'Jaebirds' },
+	{ name: 'glaze', author: 'OREO1210' },
 	{ name: 'glitch', author: 'dansegliode' },
 	{ name: 'glitch-by-ohmsainz', author: 'OhmSainz' },
 	{ name: 'glitch-shake', author: 'jojoee' },

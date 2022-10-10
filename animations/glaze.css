@@ -1,0 +1,37 @@
+@keyframes glaze {
+	0% {
+		background-color: red;
+		top: -50px;
+	}
+	50% {
+		background-color: pink;
+		top: 50px;
+
+	}
+	100% {
+		background-color: white;
+		top: 60px;
+		color: black;
+
+	}
+
+}
+
+.glaze {
+	color: white;
+	animation-name: glaze;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-fill-mode: forward;
+	box-shadow: 50px;
+	width: 80%;
+	height: 100%;
+	top: 60px;
+	bottom: 80px;
+	margin: 50px;
+	position: relative;
+
+	animation-timing-function: ease-in;
+	border-radius: 6px;
+
+}
