@@ -145,6 +145,7 @@ window.animations = [
 	{ name: 'fromright', author: 'jespicas' },
 	{ name: 'fun', author: 'surfacewatering' },
 	{ name: 'ghost', author: 'FernandaDagostin' },
+	{ name: 'ghostly', author: 'shrutisharma03' },
 	{ name: 'ghostRise', author: 'osHamad' },
 	{ name: 'ghostyFade', author: 'Jaebirds' },
 	{ name: 'glaze', author: 'OREO1210' },
