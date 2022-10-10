@@ -67,6 +67,7 @@ window.animations = [
 	{ name: 'colorfulRotation', author: 'lovetyagi-17' },
 	{ name: 'color-animation', author: 'SaiRev0' },
 	{ name: 'colour-changes', author: 'rishabhp99' },
+	{ name: 'color-changer', author:'123shuklaayush'},
 	{ name: 'colourfull', author: 'hurleyandrew' },
 	{ name: 'colourfull-ldt', author: 'ledangtuanbk' },
 	{ name: 'colourfull-ldt2020', author: 'ledangtuanbk' },
