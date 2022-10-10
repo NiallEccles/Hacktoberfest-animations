@@ -3,13 +3,11 @@
 		background-color: red;
 		top: -50px;
 	}
-
 	50% {
 		background-color: pink;
 		top: 50px;
 
 	}
-
 	100% {
 		background-color: white;
 		top: 60px;
