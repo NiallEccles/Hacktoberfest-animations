@@ -1,6 +1,6 @@
 
 
-h1 {
+.Animadeu {
   color: black;
   text-shadow: 2px 3px lime; 
   margin-top: 10px;
@@ -13,20 +13,20 @@ h1 {
   animation: type 3s steps(60, end);
 }
 
-h1:nth-child(2) {
+.Animadeu:nth-child(2) {
   animation: type2 5s steps(60, end);
 }
 
-h1:nth-child(3) {
+.Animadeu:nth-child(3) {
   animation: type3 9s steps(60, end);
 }
 
-h1 a {
+.Animadeu a {
   color: lime;
   text-decoration: none;
 }
 
-h1 span {
+.Animadeu span {
   animation: blink 1s infinite;
 }
 
