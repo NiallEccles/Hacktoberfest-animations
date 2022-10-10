@@ -104,6 +104,7 @@ window.animations = [
 	{ name: 'electron', author: 'R0Y4L23' },
 	{ name: 'ElectricHover', author: 'itsaamyth' },
 	{ name: 'emoticon-running', author: 'yakserr' },
+	{ name: 'enhance-it', author: 'casiimir' },
 	{ name: 'erroranimation', author: 'himanshubobade' },
 	{ name: 'escaping', author: 'aveselovalova' },
 	{ name: 'excited', author: 'torelafes' },
