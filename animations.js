@@ -5,6 +5,7 @@ window.animations = [
 	{ name: 'Anubhav-developerMation', author: 'Anubhav-developr' },
 	{ name: 'aberration', author: 'cnsumner' },
 	{ name: 'aesthetic', author: 'ImShivraj' },
+        { name: 'ZoomInZoomOut', author: 'siddoinghisjob' },
 	{ name: 'ainneone', author: 'ainneo' },
 	{ name: 'akshay', author: 'akshayparmar90' },
 	{ name: 'alokGoldy', author: 'alokgoldy' },
