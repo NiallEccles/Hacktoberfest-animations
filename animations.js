@@ -348,6 +348,7 @@ window.animations = [
 	{ name: 'tubelight', author: 'mnaiwrit52' },
 	{ name: 'tracking-in-contract-bck-bottom', author: 'vale-c' },
 	{ name: 'twenty-twenty-colors', author: 'csteacher1' },
+	{ name: 'twister' , author: 'Nandini-108' },
 	{ name: 'typewriter', author: 'aihowes' },
 	{ name: 'type-pulse', author: 'marincor' },
 	{ name: 'typinganimation', author: 'himangskalita' },
