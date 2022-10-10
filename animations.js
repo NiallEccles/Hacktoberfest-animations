@@ -332,6 +332,7 @@ window.animations = [
 	{ name: 'text-split', author: 'hariramjp777' },
 	{ name: 'thaovt', author: 'thaovt' },
 	{ name: 'the-shining', author: 'kshitijsriv' },
+	{ name: 'threedAnimation', author: '123shuklaayush'},
 	{ name: 'theLight', author: 'Himanshu' },
 	{ name: 'thin-air', author: 'sniemeyer1' },
 	{ name: 'tipsy', author: 'Maria218' },
