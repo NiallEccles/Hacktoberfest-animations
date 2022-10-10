@@ -1,0 +1,15 @@
+.sban {
+	animation: blur-expand 1s linear both;
+}
+
+@keyframes sban {
+	0% {
+		transform: scale(1);
+		filter: blur(0px);
+	}
+	100% {
+		transform: scale(2);
+		filter: blur(12px);
+		opacity: 0;
+	}
+}
