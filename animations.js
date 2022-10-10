@@ -1,6 +1,7 @@
 /** @format */
 
 window.animations = [
+	{ name: 'Animadeu', author: 'Amad3eu' },
 	{ name: 'Anubhav-developerMation', author: 'Anubhav-developr' },
 	{ name: 'aberration', author: 'cnsumner' },
 	{ name: 'aesthetic', author: 'ImShivraj' },
@@ -23,6 +24,7 @@ window.animations = [
 	{ name: 'Blazingwhite', author: 'muskan2566' },
 	{ name: 'blend-in-out', author: 'panvicka' },
 	{ name: 'blend', author: 'divanshi15' },
+	{ name: 'blendin', author: 'ItsPriyanka26' },
 	{ name: 'blink', author: 'rajdeepdev10' },
 	{ name: 'blinkglow', author: 'Edwin-liby' },
 	{ name: 'blinking-neon', author: 'aliheikal' },
@@ -204,6 +206,7 @@ window.animations = [
 	{ name: 'mindhunter', author: 'ahsankhan26' },
 	{ name: 'mini-zoom', author: 'NiallEccles' },
 	{ name: 'movelineal', author: 'carlacentenor' },
+	{ name: 'movingcolors', author: 'Prathamesh12111' },
 	{ name: 'moving-shadow', author: 'ClaudioFuriniJr' },
 	{ name: 'multicolor-stretch', author: 'jonboundy' },
 	{ name: 'nanananabatman', author: 'Pamblam' },
@@ -371,5 +374,4 @@ window.animations = [
 	{ name: 'zoomInLeft', author: 'fernandosutter' },
 	{ name: 'zoomOut', author: 'Biafer' },
 	{ name: 'zoomright', author: 'sunny-aguilar' },
-	{name: 'movingcolors', author: 'Prathamesh12111'},
 ];
