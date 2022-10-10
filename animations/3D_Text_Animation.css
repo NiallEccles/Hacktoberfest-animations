@@ -1,0 +1,83 @@
+/**
+ * /* By: https://github.com/TheCoderAdi
+ * @format
+ */
+
+*{
+  margin: 0;
+  padding:0 ;
+  box-sizing: border-box;
+  font-family: monospace;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height:100vh;
+  background: #223;
+  overflow: hidden;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .box{
+  transform-style: preserve-3d;
+  animation: text_animations 25s linear infinite;
+}
+@keyframes text_animations{
+  0%{
+    transform: perspective(1000px) rotateX(0deg) rotate(25deg);
+  }
+  100%{
+    transform: perspective(1000px) rotateX(360deg) rotate(25deg);
+  }
+}
+.container .box span{
+  position: absolute;
+  color: #fff;
+  font-size: 3.5em;
+  white-space: nowrap;
+  text-transform: uppercase;
+  font-weight: 900;
+  padding: 0 10px;
+  background: linear-gradient(90deg,transparent,rgba(0,0,0,0.5),transparent);
+  line-height: 0.76em;
+  transform-style: preserve-3d;
+  text-shadow: 0 5px 15px rgba(0.0,0.0,.25);
+  transform: translate(-50%,-50%) rotateX(calc(var(--i)*22.5deg)) translateZ(108px);
+}
+
+.container .box span i:nth-child(1){
+  font-style: initial;
+  color: #ff246f;
+}
+.container .box span i:nth-child(2){
+  font-style: initial;
+  color: #12b5ff;
+}
+
+/*
+Add this to your html file
+The html attribute to use this animations
+<div class="container">
+    <div class="box">
+      <span style="--i:1;"><i>Hack</i>tober<i>fest</i></span>
+      <span style="--i:2;"><i>Hack</i>tober<i>fest</i></span>
+      <span style="--i:3;"><i>Hack</i>tober<i>fest</i></span>
+      <span style="--i:4;"><i>Hack</i>tober<i>fest</i></span>
+      <span style="--i:5;"><i>Hack</i>tober<i>fest</i></span>
+      <span style="--i:6;"><i>Hack</i>tober<i>fest</i></span>
+      <span style="--i:7;"><i>Hack</i>tober<i>fest</i></span>
+      <span style="--i:8;"><i>Hack</i>tober<i>fest</i></span>
+      <span style="--i:9;"><i>Hack</i>tober<i>fest</i></span>
+      <span style="--i:10;"><i>Hack</i>tober<i>fest</i></span>
+      <span style="--i:11;"><i>Hack</i>tober<i>fest</i></span>
+      <span style="--i:12;"><i>Hack</i>tober<i>fest</i></span>
+      <span style="--i:13;"><i>Hack</i>tober<i>fest</i></span>
+      <span style="--i:14;"><i>Hack</i>tober<i>fest</i></span>
+      <span style="--i:15;"><i>Hack</i>tober<i>fest</i></span>
+      <span style="--i:16;"><i>Hack</i>tober<i>fest</i></span>
+    </div>
+  </div> */
