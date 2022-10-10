@@ -1,13 +1,8 @@
 blendin{
   background: green;
-}
-
-h1{
-    color: #fff;
-}
-h1{
-    animation: ani 1s;
-    text-align: center;
+  animation: ani 1s;
+  text-align: center;
+  color: #fff;
 }
 
 @keyframes ani{
