@@ -302,6 +302,7 @@ window.animations = [
 	{ name: 'slasher', author: 'Rabanov' },
 	{ name: 'slide-to-unlock-shine', author: 'ighoshsubho' },
 	{ name: 'slideDownWithBorder', author: 'adrianoavelino' },
+	{ name: 'slidefade', author: 'gambhirsharma' },
 	{ name: 'sliderr', author: 'davdtheemonk' },
 	{ name: 'slideOutUp', author: 'lospettro' },
 	{ name: 'slide_clr', author: 'dilshadnoshad' },
