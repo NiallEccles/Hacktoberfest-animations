@@ -318,6 +318,7 @@ window.animations = [
 	{ name: 'spooky', author: 'elizabethfinedev' },
 	{ name: 'spookyDoor-cgduncan7', author: 'cgduncan7' },
 	{ name: 'spotlight', author: 'siobhan-collopy' },
+	{ name: 'spotlight-rainbow-color', author: 'danangtomo' },
 	{ name: 'spotlight-text', author: 'rtavaresramos' },
 	{ name: 'staircase_bounce', author: 'vivekrawat' },
 	{ name: 'star-wars-roll', author: 'MandeeD' },
