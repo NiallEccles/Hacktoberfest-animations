@@ -333,6 +333,7 @@ window.animations = [
 	{ name: 'tada', author: 'marimendes' },
 	{ name: 'terminal', author: 'daywisonSilva' },
 	{ name: 'textGlowAnimation', author: 'Ukesh-dev' },
+	{ name: 'text-color-animation', author: 'tarunmankar' },
 	{ name: 'text-color-gradiant', author: 'Anders' },
 	{ name: 'text-shadow', author: 'Zaheudev' },
 	{ name: 'text-split', author: 'hariramjp777' },
