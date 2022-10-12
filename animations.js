@@ -360,6 +360,7 @@ window.animations = [
 	{ name: 'vote', author: 'Shreya-L' },
 	{ name: 'walk', author: 'melkyy' },
 	{ name: 'walterbanda', author: 'walterbanda' },
+	{ name: 'warm', author: 'Robert-Capra' },
 	{ name: 'warp-drive', author: 'chrisrhymes' },
 	{ name: 'Water', author: 'DevarshiDoshi' },
 	{ name: 'water-wave', author: 'muskan467'},
