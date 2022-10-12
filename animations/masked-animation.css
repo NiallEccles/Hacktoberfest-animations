@@ -1,0 +1,33 @@
+
+.masked-animation p {
+  color: #000;
+  font-family: 'montserrat';
+  font-size: 3vw;
+  font-weight: bold;
+  letter-spacing: 1vw;
+  max-width: 700px;
+  text-align: center;
+  background: rgba(255, 253, 160, 1);
+  background: -webkit-linear-gradient( left, #00ffff 0%, #97fba0 25%, #97b1fb 50%, #00ffff 100%) repeat;
+  -webkit-background-clip: text;
+  -ms-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -ms-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  text-fill-color: transparent;
+  -webkit-animation-name: masked-animation;
+  -webkit-animation-duration: 50s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+}
+
+@-webkit-keyframes masked-animation {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: -8000px -3000px;
+  }
+}
