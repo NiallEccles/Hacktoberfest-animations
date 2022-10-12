@@ -1,0 +1,23 @@
+shivam{
+  background: Red;
+}
+
+h1{
+    color: #fff;
+}
+h1{
+    animation: ani 2s;
+    text-align: center;
+}
+
+@keyframes ani{
+    from{
+        letter-spacing: 35px;
+        filter: blur(5px);
+        opacity: 0;
+    }to{
+        letter-spacing: 0;
+        filter: blur(0);
+        opacity: 1px;
+    }
+}
