@@ -1,5 +1,5 @@
 .sban {
-	animation: blur-expand 1s linear both;
+	animation: sban 1s linear both;
 }
 
 @keyframes sban {
