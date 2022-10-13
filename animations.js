@@ -186,6 +186,7 @@ window.animations = [
 	{ name: 'imdrunk', author: 'twopill' },
 	{ name: 'infinite-shake', author: 'jcardoz' },
 	{ name: 'infinite-spinning', author: 'brecarv' },
+	{ name: 'instant', author: '123shuklaayush' },
 	{ name: 'invicta', author: 'mani9896' },
 	{ name: 'jackInTheBox', author: 'fernandosutter' },
 	{ name: 'jello', author: 'adsingh14' },
