@@ -380,6 +380,7 @@ window.animations = [
 	{ name: 'x-ray', author: 'jomifepe' },
 	{ name: 'z-dance', author: 'vishnuxx' },
 	{ name: 'zeno', author: 'AnshuPathak-88825/' },
+	{ name: 'ZoomInZoomOut', author: 'siddoinghisjob' },
 	{ name: 'zoom-in-out', author: 'Harvansh-1234' },
 	{ name: 'zoomIn', author: 'MansiNegi27' },
 	{ name: 'zoomInLeft', author: 'fernandosutter' },
