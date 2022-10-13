@@ -92,6 +92,7 @@ window.animations = [
 	{ name: 'darkBlack', author: 'TheBangis' },
 	{ name: 'dayNight', author: 'GabrielTeixeiraC' },
 	{ name: 'digyan', author: 'silvasobrinho' },
+	{ name: 'text-reveal', author: 'Dimterion'},
 	{ name: 'dingduang', author: 'isfatul-codersbd' },
 	{ name: 'div_animation', author: 'jeanllopes' },
 	{ name: 'doabarrelroll', author: 'GabrielTeixeiraC' },
