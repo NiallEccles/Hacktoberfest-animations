@@ -175,6 +175,7 @@ window.animations = [
 	{ name: 'headShake', author: 'lospettro' },
 	{ name: 'heartbeat', author: 'sunny-aguilar' },
 	{ name: 'heartbeat-by-azrizhaziq', author: 'azrizhaziq' },
+	{ name: 'heartbeat-color', author: 'pauloregina' },
 	{ name: 'hibouCoucou', author: 'af1ne' },
 	{ name: 'hinge', author: 'medival' },
 	{ name: 'hit-the-corner', author: 'Kadugs' },
