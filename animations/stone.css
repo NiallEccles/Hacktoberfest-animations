@@ -16,7 +16,7 @@
 	}
 }
 
-.ballast {
-	animation: color 3s ease infinite alternate;
+.stone {
+	animation: stone 3s ease infinite alternate;
 		
 }
