@@ -55,6 +55,7 @@ window.animations = [
 	{ name: 'brighterr', author: 'jiteshkumarr' },
 	{ name: 'bsha', author: 'bipasasahaa' },
 	{ name: 'bubbleup', author: 'connectnitesh' },
+	{ name: 'bulbGlow' , author: 'TheCoderAdi'},
 	{ name: 'cardy', author: 'antonioleutsch' },
 	{ name: 'change-color', author: 'lozinska' },
 	{ name: 'changingTextShadow', author: 'code08-ind' },
