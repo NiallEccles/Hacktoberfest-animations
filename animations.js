@@ -272,6 +272,7 @@ window.animations = [
 	{ name: 'rollin-by-kylerits', author: 'kylerits' },
 	{ name: 'rollOut', author: 'ronlaniado' },
 	{ name: 'rotate-it', author: 'MrAfrazKhan' },
+	{ name: 'rotateFromCenter', author: 'Rahul' },
 	{ name: 'rotateOutUpRight', author: 'innocent-rajan' },
 	{ name: 'rotateScaleColor', author: 'dankmir' },
 	{ name: 'rotatingCard', author: 'patriciafelixx' },
