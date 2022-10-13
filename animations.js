@@ -205,6 +205,7 @@ window.animations = [
 	{ name: 'letter-spacing', author: 'jun-low' },
 	{ name: 'lights-out', author: 'anirbandey303' },
 	{ name: 'lightSpeedIn', author: 'fernandosutter' },
+	{ name: 'lightSpeedInRight', author: 'anaknyata' },
 	{ name: 'lightSpeedOut', author: 'aarushi15002' },
 	{ name: 'liquiFill', author: 'Soumi150' },
 	{ name: 'littleToBiggerRainbow', author: 'devtony322' },
