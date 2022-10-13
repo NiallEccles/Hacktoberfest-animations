@@ -211,6 +211,7 @@ window.animations = [
 	{ name: 'lr-loop', author: 'Shivang0' },
 	{ name: 'luminance', author: 'mahajansaksham' },
 	{ name: 'luminous-brick', author: 'zanotti' },
+	{ name: 'masked-animation', author: 'adeity21' },
 	{ name: 'matrix', author: 'randy' },
 	{ name: 'mikasa', author: 'pushpanjali-10' },
 	{ name: 'mindhunter', author: 'ahsankhan26' },
