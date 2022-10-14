@@ -1,0 +1,37 @@
+body {
+	background-color: #000000;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+  }
+  .flipping-animation {
+	position: relative;
+  }
+  h1{
+  position: relative;
+	display: inline-block;
+	font-size: 35px;
+		text-align: center;
+	  color: #A020F0;
+	  text-shadow: 0px 3px 2px #ccc, 
+	  0px 8px 10px rgba(0,0,0,0.15), 
+	  0px 12px 2px rgba(0,0,0,0.7);
+	 animation: flipping-animate 3s infinite;
+	  
+  }
+
+  @keyframes flipping-animate{
+	  25%,80% {
+        transform: rotateY(360deg) 
+	 }
+  }
+
+  /* <html>
+  <body>
+  <div class = "flipping-animation">
+    <h1>HACKTOBERFEST ACCEPTED</h1>
+ 
+  </div>
+  </body>
+</html>  */
