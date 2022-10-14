@@ -1,6 +1,7 @@
 /** @format */
 
 window.animations = [
+	{ name: 'instant', author: '123shuklaayush' },
 	{ name: 'Animadeu', author: 'Amad3eu' },
 	{ name: 'Anubhav-developerMation', author: 'Anubhav-developr' },
 	{ name: 'aberration', author: 'cnsumner' },
