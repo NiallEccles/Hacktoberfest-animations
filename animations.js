@@ -21,6 +21,7 @@ window.animations = [
 	{ name: 'ballast', author: 'vijayranghar' },
 	{ name: 'beat', author: 'patriciafelixx' },
 	{ name: 'Bees', author: 'particus17'},
+	{ name: 'cyberpunk', author: 'giuliano-marcus-bianco'},
 	{ name: 'bhaukaal', author: 'mani9896' },
 	{ name: 'bigStretch', author: 'timstrato2' },
 	{ name: 'blacknwhiteunderline', author: 'baranwal' },
