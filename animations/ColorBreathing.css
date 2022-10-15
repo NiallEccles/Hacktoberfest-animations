@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,700;1,400&display=swap');
+.ColorBreathing{
+   
+    font-family: 'Space Mono', monospace;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 8px;
+    font-weight: 400;
+    -webkit-animation-name: changeColors;
+    -webkit-animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-play-state: paused;
+}
+
+.ColorBreathing:hover{
+    animation-play-state: running;
+    
+    
+    
+   
+    
+    
+    
+}
+
+.ColorBreathing::before{
+    animation: moveicon 4s  infinite;
+    content: '\01F47E';
+    position: absolute;
+    left:-200px;
+}
+@-webkit-keyframes changeColors{
+    0%{
+       
+        background-color: rgb(102, 0, 0);
+        scale: 1;
+        padding: 60px;
+        border-radius: 30px;
+        
+       
+    }
+    50%{
+    background-color: rgba(255, 255, 0, 0.548);
+    scale: 1.3;
+    padding: 40px;
+    border-radius: 180px;
+    color: black;
+
+    }
+
+    100%{
+        background-color: rgb(102, 0, 0);
+        scale: 1.0;
+        padding: 60px;
+        border-radius: 30px;
+        color: rgb(196, 196, 196);
+    }
+}
+@-webkit-keyframes moveicon{
+    0%{
+        left:-10%;
+        top: -50%;
+      
+
+       box-shadow: 10px 0 2px 6px rgba(0, 0, 0, 0.26)
+       
+        
+
+    }
+    25%{
+        left:-10%;
+        top: 100%;
+        box-shadow: 0 -10px 2px -6px  rgba(0, 0, 0, 0.26)
+        
+        }
+    50%{
+        left: 100%;
+        top: 100%;
+      
+
+       box-shadow: -10px 0 2px -6px  rgba(0, 0, 0, 0.26)
+    }
+    75%{
+        left:100%;
+        top: -50%;
+       
+
+       box-shadow: 0 10px 2px -6px  rgba(0, 0, 0, 0.26)
+    }
+    100%{
+        left:-10%;
+        top: -50%;
+      
+
+       box-shadow: 0 -10px 2px -6px  rgba(0, 0, 0, 0.26);
+        
+    }
+
+    
+}
