@@ -238,6 +238,7 @@ window.animations = [
 	{ name: 'parallax', author: 'ThesllaDev' },
 	{ name: 'pcfilho', author: 'paulo-filho-dev' },
 	{ name: 'peakyblinders', author: 'Nymika' },
+	{ name: 'pop-up', author: 'stevenanthonyrevo' },
 	{ name: 'ping', author: 'Tatvam' },
 	{ name: 'pinheiro', author: 'micaelgoms' },
 	{ name: 'piston', author: 'sockopera' },
