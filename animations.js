@@ -243,6 +243,7 @@ window.animations = [
 	{ name: 'piston', author: 'sockopera' },
 	{ name: 'pivot', author: 'ronlaniado' },
 	{ name: 'pixar-h', author: 'pliavi' },
+	{ name: 'popup-animation', author: 'viviane-martini'},
 	{ name: 'popping', author: 'Akansha-Bhandari' },
 	{ name: 'Pranky', author: 'prankush-tech' },  
 	{ name: 'press-start', author: 'MagoMagoado' },
