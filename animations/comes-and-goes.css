@@ -1,0 +1,50 @@
+.comes-and-goes {
+    animation: comes-and-goes 10s infinite;
+    transition-timing-function: cubic-bezier(0.28, 0.11, 0.14, 0.89); 
+}
+
+
+@keyframes comes-and-goes {
+    0% {
+        transform: translateX(-100vw) rotate(-30deg);
+        color: red;
+    }
+
+    15% {
+        transform: translateX(0) rotate(0);
+        color: green;
+    }
+    
+    30% {
+        transform: translateY(-100px);
+        color: green;
+    }
+    
+    40% {
+        transform: translateY(0);
+        color: purple;
+    }
+    
+    60% {
+        transform: translateY(-100px);
+        color: purple;
+    }
+    
+    80% {
+        transform: translateY(0);
+        color: red;
+    }
+
+    85%{
+        transform: translateY(0);
+        color: red;
+    }
+
+    100% {
+        transform: translateX(100vw) rotate(30deg);
+        color: red;
+    }
+}
+
+@keyframes jump-comes-and-goes {
+}
