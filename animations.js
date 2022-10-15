@@ -259,6 +259,7 @@ window.animations = [
 	{ name: 'rainbow-by-vijayranghar', author: 'vijayranghar' },
 	{ name: 'rainbow-glow', author: 'AritriBasu' },
 	{ name: 'rainbow-text', author: 'armspkt' },
+  { name: 'rainbowText', author: 'exist08' },
 	{ name: 'rainbowLetters', author: 'debcamila'},
 	{ name: 'raj', author: 'roumodip' },
 	{ name: 'random', author: 'marcelowis' },
