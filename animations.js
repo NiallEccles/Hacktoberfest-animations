@@ -146,6 +146,7 @@ window.animations = [
 	{ name: 'floating', author: 'Code-Recursion' },
 	{ name: 'floatTitle', author: 'llespinasse' },
 	{ name: 'flow', author: 'artorias111' },
+	{ name: 'focus', author: 'Diana8795' },
 	{ name: 'focusBlur', author: 'Swong87' },
 	{ name: 'focusIn', author: 'MasihTak' },
 	{ name: 'fromright', author: 'jespicas' },
