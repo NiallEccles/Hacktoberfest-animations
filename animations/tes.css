@@ -1,10 +1,4 @@
-/**
- * /* By: https://github.com/SP-2605
- *
- * @format
- */
-
-@keyframes animate {
+@keyframes tes {
 	0% {
 		background-position: -500%;
 	}
@@ -14,7 +8,7 @@
 	}
 }
 
-.ShineText {
+.tes {
 	position: relative;
 	font-family: 'Patua One', cursive;
 	text-transform: uppercase;
@@ -23,12 +17,12 @@
 	background: linear-gradient(90deg, #5d4037, #fff, #5d4037);
 	background-repeat: no-repeat;
 	background-size: 75%;
-	animation: animate 2s linear infinite;
+	animation: tes 2s linear infinite;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: rgba(124, 63, 63, 0);
 	transition: all 0.9s;
 }
 
-.ShineText:hover {
+.tes:hover {
 	letter-spacing: 10px;
 }
