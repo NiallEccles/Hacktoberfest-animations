@@ -14,6 +14,7 @@ window.animations = [
 	{ name: 'appear', author: 'chandrajitsatapathy' },
 	{ name: 'appear-and-disappear', author: 'rahulsingh2312' },
 	{ name: 'arise', author: 'Ronnasayd' },
+  { name: 'Roumodip', author: 'roumodip' },
 	{ name: 'autumn-gradient', author: 'marichka-offen' },
 	{ name: 'Awesomeglow', author: 'Rehan-4778'},
 	{ name: 'backflip', author: 'magicaljellybeans' },
