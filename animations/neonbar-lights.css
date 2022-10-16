@@ -13,7 +13,7 @@
     0 0 100px #009aff;
   --glow-off: none;
 }
-#target {
+.neonbar-lights {
   background-color: rgb(21 23 24);
   padding: 2rem 3rem;
   border-radius: 1rem;
