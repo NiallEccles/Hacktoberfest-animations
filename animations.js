@@ -403,4 +403,5 @@ window.animations = [
 	{ name: 'mardiGras', author: 'brumcaroline'},
 	{ name: 'instant', author: '123shuklaayush' },
 	{ name: 'text-color-animation', author: 'tarunmankar' },
+	{ name: 'spotlight-rainbow-color', author: 'danangtomo' },
 ];
