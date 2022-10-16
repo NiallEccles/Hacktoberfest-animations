@@ -423,4 +423,5 @@ window.animations = [
 	{ name: 'slide-pop', author: 'stevenanthonyrevo' },
 	{ name: 'marveLira', author: 'LiraBessa'},
 	{ name: 'ColorBreathing', author: 'gustavohpereira' },
+	{ name: 'popup-animation', author: 'viviane-martini'},
 ];
