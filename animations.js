@@ -406,4 +406,5 @@ window.animations = [
 	{ name: 'spotlight-rainbow-color', author: 'danangtomo' },
 	{ name: 'creativetext', author: 'shivjha-2712' },
 	{ name: 'shivam', author: 'shivjha-2712' },
+	{ name: 'jkAnim', author: 'JuankiCR' },
 ];
