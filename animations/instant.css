@@ -45,5 +45,5 @@
 		violet
 	);
 	font-family: 'Silkscreen', cursive;
-	animation: come-and-go 4s both infinite  linear;
+	animation: instant 4s both infinite  linear;
 }
