@@ -401,4 +401,5 @@ window.animations = [
 	{ name: 'zoomright', author: 'sunny-aguilar' },
 	{ name: 'rgb-text-color', author: 'Nicolas734'},
 	{ name: 'mardiGras', author: 'brumcaroline'},
+	{ name: 'instant', author: '123shuklaayush' },
 ];
