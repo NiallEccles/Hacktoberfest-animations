@@ -426,5 +426,6 @@ window.animations = [
 	{ name: 'popup-animation', author: 'viviane-martini'},
 	{ name: 'cyberpunk', author: 'giuliano-marcus-bianco'},
 	{ name: 'comes-and-goes', author: 'gabriel-vitebo' },
-	{ name: 'on-fire', author: 'Giulia Amaral'}
+	{ name: 'on-fire', author: 'Giulia Amaral'},
+	{ name: 'manvi2912', author: 'manvi2912' },
 ];
