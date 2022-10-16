@@ -416,4 +416,5 @@ window.animations = [
 	{ name: 'rainbowText', author: 'exist08' },
 	{ name: 'saoJoseDosCamposBrasil', author: 'rubensflinco' },
 	{ name: 'ashishMotion', author: 'dev-AshishRanjan' },
+	{ name: 'movingBackground', author: 'Yash-RajSingh' },
 ];
