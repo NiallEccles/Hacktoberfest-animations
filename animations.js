@@ -414,4 +414,5 @@ window.animations = [
 	{ name: 'typing-Black-Drop-Shadow', author: 'Vinayak2805'},
 	{ name: 'squeezy', author: 'DragonSlayer515' },
 	{ name: 'rainbowText', author: 'exist08' },
+	{ name: 'saoJoseDosCamposBrasil', author: 'rubensflinco' },
 ];
