@@ -1,0 +1,56 @@
+/*
+ * /* By: https://github.com/TheCoderAdi
+ */
+
+.bulbGlow{
+    border-radius: 90%;
+    height: 20vh;
+    width: 20vh;
+    background: white;
+    margin: 10% 50%;
+    animation: bulbGlow linear 15s infinite;
+}
+
+@keyframes bulbGlow{
+  0%{
+    box-shadow: 0px 0px 76px #bfc200;
+    background: yellow;
+  }
+  10%{
+    background: white;
+  }
+  20%{
+    box-shadow: 0px 0px 76px #bfc200;
+    background: yellow;
+  }
+  30%{
+    background: white;
+  }
+  40%{
+    box-shadow: 0px 0px 76px #bfc200;
+    background: yellow;
+  }
+  50%{
+    background: white;
+  }
+  60%{
+    box-shadow: 0px 0px 76px #bfc200;
+    background: yellow;
+  }
+  70%{
+    box-shadow: 0px 0px 76px #bfc200;
+    background: white;
+  }
+  80%{
+    box-shadow: 0px 0px 76px #bfc200;
+    background: yellow;
+  }
+  90%{
+    box-shadow: 0px 0px 76px #bfc200;
+    background: white;
+  }
+  100%{
+    box-shadow: 0px 0px 76px #bfc200;
+    background: yellow;
+  }
+}
