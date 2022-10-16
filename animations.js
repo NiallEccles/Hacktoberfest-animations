@@ -415,4 +415,5 @@ window.animations = [
 	{ name: 'squeezy', author: 'DragonSlayer515' },
 	{ name: 'rainbowText', author: 'exist08' },
 	{ name: 'saoJoseDosCamposBrasil', author: 'rubensflinco' },
+	{ name: 'ashishMotion', author: 'dev-AshishRanjan' },
 ];
