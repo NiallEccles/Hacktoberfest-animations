@@ -412,4 +412,5 @@ window.animations = [
 	{ name: 'scanningAnimation', author: 'Arvind0302' },
 	{ name : 'TanyaAnimation', author: 'Tanya401' },
 	{ name: 'typing-Black-Drop-Shadow', author: 'Vinayak2805'},
+	{ name: 'squeezy', author: 'DragonSlayer515' },
 ];

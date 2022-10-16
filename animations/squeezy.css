@@ -1,0 +1,25 @@
+
+@keyframes squeezy_animation {
+    0% {
+        transform: rotateX(-45deg);
+        transform: rotateY(-45deg);
+        transform: rotateZ(-45deg);
+    }
+    50% {
+        transform: rotateX(45deg);
+        transform: rotateY(45deg);
+        transform: rotateZ(45deg);
+    }
+    100% {
+        transform: rotateX(0deg);
+        transform: rotateY(0deg);
+        transform: rotateZ(0deg);
+    }
+}
+
+.squeezy{
+    animation-name: squeezy_animation;
+   animation-duration: 4s;
+   animation-timing-function: ease-in;
+   animation-iteration-count: infinite;
+}
