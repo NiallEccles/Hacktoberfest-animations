@@ -417,4 +417,5 @@ window.animations = [
 	{ name: 'saoJoseDosCamposBrasil', author: 'rubensflinco' },
 	{ name: 'ashishMotion', author: 'dev-AshishRanjan' },
 	{ name: 'movingBackground', author: 'Yash-RajSingh' },
+	{ name: 'gradient-type', author: 'Rehan-4778' },
 ];
