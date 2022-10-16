@@ -409,4 +409,5 @@ window.animations = [
 	{ name: 'jkAnim', author: 'JuankiCR' },
 	{ name: 'glowRainbow', author: 'Robert-Capra' },
 	{ name: 'neonbar-lights', author: 'JeetPatel1016' },
+	{ name: 'scanningAnimation', author: 'Arvind0302' },
 ];
