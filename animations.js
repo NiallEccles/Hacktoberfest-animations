@@ -1,7 +1,6 @@
 /** @format */
 
 window.animations = [
-	{ name: 'ashishMotion', author: 'dev-AshishRanjan' },
 	{ name: 'Animadeu', author: 'Amad3eu' },
 	{ name: 'Anubhav-developerMation', author: 'Anubhav-developr' },
 	{ name: 'aberration', author: 'cnsumner' },
@@ -407,4 +406,14 @@ window.animations = [
 	{ name: 'spotlight-rainbow-color', author: 'danangtomo' },
 	{ name: 'creativetext', author: 'shivjha-2712' },
 	{ name: 'shivam', author: 'shivjha-2712' },
+	{ name: 'jkAnim', author: 'JuankiCR' },
+	{ name: 'glowRainbow', author: 'Robert-Capra' },
+	{ name: 'neonbar-lights', author: 'JeetPatel1016' },
+	{ name: 'scanningAnimation', author: 'Arvind0302' },
+	{ name : 'TanyaAnimation', author: 'Tanya401' },
+	{ name: 'typing-Black-Drop-Shadow', author: 'Vinayak2805'},
+	{ name: 'squeezy', author: 'DragonSlayer515' },
+	{ name: 'rainbowText', author: 'exist08' },
+	{ name: 'saoJoseDosCamposBrasil', author: 'rubensflinco' },
+	{ name: 'ashishMotion', author: 'dev-AshishRanjan' },
 ];
