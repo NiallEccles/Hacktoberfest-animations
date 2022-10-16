@@ -407,4 +407,5 @@ window.animations = [
 	{ name: 'creativetext', author: 'shivjha-2712' },
 	{ name: 'shivam', author: 'shivjha-2712' },
 	{ name: 'jkAnim', author: 'JuankiCR' },
+	{ name: 'glowRainbow', author: 'Robert-Capra' },
 ];
