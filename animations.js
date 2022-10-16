@@ -419,4 +419,5 @@ window.animations = [
 	{ name: 'movingBackground', author: 'Yash-RajSingh' },
 	{ name: 'gradient-type', author: 'Rehan-4778' },
 	{ name: 'jello2', author: 'vennela2132' },
+	{ name: 'focus', author: 'Diana8795' },
 ];
