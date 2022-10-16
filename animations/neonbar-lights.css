@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+:root {
+  --color-on: #a3e4f7;
+  --color-off: #16292e;
+  --glow-on:
+    0 0 1px #009aff,
+    0 0 2px #009aff80,
+    0 0 4px #009aff,
+    0 0 10px #009aff,
+    0 0 20px #009aff,
+    0 0 30px #009aff,
+    0 0 50px #009aff,
+    0 0 100px #009aff;
+  --glow-off: none;
+}
+.neonbar-lights {
+  background-color: rgb(21 23 24);
+  padding: 2rem 3rem;
+  border-radius: 1rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 5rem !important;
+  color: var(--color-off);
+  text-shadow: var(--glow-off);
+  animation: light-on 8s infinite;
+  animation-timing-function: step-end;
+}
+@keyframes light-on {
+  0% {
+    color: var(--color-off);
+    text-shadow: var(--glow-off)
+  }
+
+  /* flicker */
+  16% {
+    color: var(--color-off);
+    text-shadow: var(--glow-off)
+  }
+
+  17% {
+    color: var(--color-on);
+    text-shadow: var(--glow-on)
+  }
+
+  18% {
+    color: var(--color-off);
+    text-shadow: var(--glow-off)
+  }
+
+  /* flicker */
+  20% {
+    color: var(--color-off);
+    text-shadow: var(--glow-off)
+  }
+
+  20.5% {
+    color: var(--color-on);
+    text-shadow: var(--glow-on)
+  }
+
+  21% {
+    color: var(--color-off);
+    text-shadow: var(--glow-off)
+  }
+
+  /* rest */
+  35% {
+    color: var(--color-off);
+    text-shadow: var(--glow-off)
+  }
+
+  36% {
+    color: var(--color-on);
+    text-shadow: var(--glow-on)
+  }
+
+  /* flicker */
+  90% {
+    color: var(--color-on);
+    text-shadow: var(--glow-on)
+  }
+
+  91% {
+    color: var(--color-off);
+    text-shadow: var(--glow-off)
+  }
+
+  92% {
+    color: var(--color-on);
+    text-shadow: var(--glow-on)
+  }
+
+  97% {
+    color: var(--color-off);
+    text-shadow: var(--glow-off)
+  }
+
+  98% {
+    color: var(--color-off);
+    text-shadow: var(--glow-off)
+  }
+}
