@@ -1,0 +1,23 @@
+/** @format */
+
+@import url('http://fonts.cdnfonts.com/css/force-commander');
+
+@keyframes back {
+	0% {
+		background-position: 0 0;
+	}
+	100% {
+		background-position: 2000px 0;
+	}
+}
+.movingBackground {
+	text-align: center;
+	letter-spacing: 5px;
+	font-family: 'Force Commander Expanded';
+	color: transparent;
+	-webkit-text-stroke: 2px black;
+	background: url(http://drive.google.com/uc?export=view&id=1FoXYq3nHPxvx4hdEnffokHa3F15cn77L);
+	-webkit-background-clip: text;
+	background-position: 0 0;
+	animation: back 5s linear infinite;
+}
