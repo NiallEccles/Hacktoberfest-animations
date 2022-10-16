@@ -1,0 +1,71 @@
+.bsha{
+    text-shadow:
+    0.05em 0 0 rgba(255,0,0,.75),
+    -0.025em -0.05em 0 rgba(0,255,0,.75),
+    0.25em 0.05em 0 rgba(0,0,255,.75)
+    ;
+    box-shadow: 0 20px 35px #245edb; 
+    border: 2px solid #fff;
+    background: #000;
+    position: relative;
+    overflow: hidden;
+   animation: bsha 1950ms infinite;
+   display: flex;
+   justify-content: center;
+   
+  }
+  @keyframes bsha {
+  /* what happens in this animation? */
+  0%{
+    text-shadow:
+    0.05em 0 0 rgba(255,0,0,.25),
+    -0.025em -0.05em 0 rgba(0,255,0,.75),
+    0.25em 0.05em 0 rgba(0,0,255,1)
+    ;
+    
+  }
+  14%{
+    text-shadow:
+    0.05em 0 0 rgba(255,0,0,.75),
+    -0.025em -0.05em 0 rgba(0,255,0,.75),
+    0.25em 0.05em 0 rgba(0,0,255,.75)
+    ;
+   ;
+  }
+  23%{
+    text-shadow:
+    -0.05em -0.025em 0 rgba(255,0,0,.75),
+    -0.025em -0.05em 0 rgba(0,255,0,.75),
+    -0.05em -0.05em 0 rgba(0,0,255,.75)
+    ;
+  }
+  49%{
+    text-shadow:
+    -0.05em -0.025em 0 rgba(255,0,0,.75),
+    -0.025em -0.05em 0 rgba(0,255,0,.75),
+    -0.05em -0.05em 0 rgba(0,0,255,.75)
+    ;
+  }
+  58%{
+    text-shadow:
+    0.25em 0.05em 0 rgba(255,0,0,.75),
+  -0.025em 0.05em 0 rgba(0,255,0,.75),
+    -0.25em -0.05em 0 rgba(0,0,255,.75)
+    ;
+  }
+  93%{
+    text-shadow:
+    0.25em 0.05em 0 rgba(255,0,0,.75),
+  -0.025em 0.05em 0 rgba(0,255,0,.75),
+    -0.25em -0.05em 0 rgba(0,0,255,.75)
+    ;
+  }
+  100%{
+    text-shadow:
+    0.05em 0 0 rgba(255,0,0,.75),
+    -0.025em -0.05em 0 rgba(0,255,0,.75),
+    0.25em 0.05em 0 rgba(0,0,255,.75)
+    ;
+  }
+
+  }
