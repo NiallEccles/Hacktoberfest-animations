@@ -1,7 +1,6 @@
 /** @format */
 
 window.animations = [
-	{ name: 'jkAnim', author: 'JuankiCR' },
 	{ name: 'Animadeu', author: 'Amad3eu' },
 	{ name: 'Anubhav-developerMation', author: 'Anubhav-developr' },
 	{ name: 'aberration', author: 'cnsumner' },
@@ -400,4 +399,12 @@ window.animations = [
 	{ name: 'zoomInLeft', author: 'fernandosutter' },
 	{ name: 'zoomOut', author: 'Biafer' },
 	{ name: 'zoomright', author: 'sunny-aguilar' },
+	{ name: 'rgb-text-color', author: 'Nicolas734'},
+	{ name: 'mardiGras', author: 'brumcaroline'},
+	{ name: 'instant', author: '123shuklaayush' },
+	{ name: 'text-color-animation', author: 'tarunmankar' },
+	{ name: 'spotlight-rainbow-color', author: 'danangtomo' },
+	{ name: 'creativetext', author: 'shivjha-2712' },
+	{ name: 'shivam', author: 'shivjha-2712' },
+	{ name: 'jkAnim', author: 'JuankiCR' },
 ];
