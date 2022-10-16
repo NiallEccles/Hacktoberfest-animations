@@ -422,4 +422,5 @@ window.animations = [
 	{ name: 'focus', author: 'Diana8795' },
 	{ name: 'slide-pop', author: 'stevenanthonyrevo' },
 	{ name: 'marveLira', author: 'LiraBessa'},
+	{ name: 'ColorBreathing', author: 'gustavohpereira' },
 ];
