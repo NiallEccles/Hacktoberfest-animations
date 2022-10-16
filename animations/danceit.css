@@ -1,0 +1,35 @@
+/* 
+Author: Ahmad Uba Ahmad
+Github: https://github.com/Dev-Ahmadubah/
+Date: 16/OCTOBER/2022
+*/
+
+.danceit {
+  -webkit-text-stroke-width: 1.25px;
+  -webkit-text-stroke-color: #000;
+  font-size: 100px;
+  text-shadow: 0 0px #f3c623, 0 0px #f2aaaa;
+  transform: translate(0, 50%) rotate(3deg);
+  animation: jump 2s ease-in-out infinite;
+  display: inline-block;
+  font-family: "Titan One", cursive;
+  color: #fff;
+
+
+}
+
+
+@keyframes danceit {
+  33% {
+    text-shadow: 0 60px #f37121, 0 150px #f2aaaa;
+  }
+
+  40% {
+    transform: translate(0, 0) rotate(-2deg);
+    text-shadow: 0 0px #8fc0a9, 0 0px #84a9ac;
+  }
+
+  60% {
+    text-shadow: 0 -60px #d54062, 0 -150px #8fc0a9;
+  }
+}
