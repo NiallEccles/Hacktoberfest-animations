@@ -1,0 +1,49 @@
+/**
+ * /* By: https://github.com/rubensflinco
+ *
+ * @format
+ */
+
+@keyframes girar {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(1turn);
+        transform: rotate(1turn);
+    }
+}
+
+@keyframes voarFrente{
+    0%{
+        background-position-x: 110vw;
+    }
+    100%{
+        background-position-x: -15vw;
+    }
+}
+
+.saoJoseDosCamposBrasil {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    font-family: monospace, cursive;
+    color: #1651b8;
+    width: 102%;
+    border-radius: 10px;
+    height: 13rem;
+    background-image: url('https://i.imgur.com/E3C9XsD.gif');
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    -webkit-text-stroke: 2px #fff;
+    animation: voarFrente 10s linear infinite;
+}
+
+.saoJoseDosCamposBrasil::before,
+.saoJoseDosCamposBrasil::after {
+    display: inline-block;
+    content: url('https://i.imgur.com/S32oELX.png');
+    animation: girar 20s linear infinite;
+}
