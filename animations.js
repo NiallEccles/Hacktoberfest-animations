@@ -421,4 +421,5 @@ window.animations = [
 	{ name: 'jello2', author: 'vennela2132' },
 	{ name: 'focus', author: 'Diana8795' },
 	{ name: 'slide-pop', author: 'stevenanthonyrevo' },
+	{ name: 'marveLira', author: 'LiraBessa'},
 ];
