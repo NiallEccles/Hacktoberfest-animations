@@ -195,6 +195,7 @@ window.animations = [
 	{ name: 'invicta', author: 'mani9896' },
 	{ name: 'jackInTheBox', author: 'fernandosutter' },
 	{ name: 'jello', author: 'adsingh14' },
+  { name: 'jello2', author: 'vennela2132' },
 	{ name: 'jelly-vertical', author: 'the-nathan-smith' },
 	{ name: 'jitterbug', author: 'andrewghood' },
 	{ name: 'jump', author: 'AmiterCodes' },
