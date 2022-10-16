@@ -408,4 +408,5 @@ window.animations = [
 	{ name: 'shivam', author: 'shivjha-2712' },
 	{ name: 'jkAnim', author: 'JuankiCR' },
 	{ name: 'glowRainbow', author: 'Robert-Capra' },
+	{ name: 'neonbar-lights', author: 'JeetPatel1016' },
 ];
