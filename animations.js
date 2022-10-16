@@ -425,4 +425,5 @@ window.animations = [
 	{ name: 'ColorBreathing', author: 'gustavohpereira' },
 	{ name: 'popup-animation', author: 'viviane-martini'},
 	{ name: 'cyberpunk', author: 'giuliano-marcus-bianco'},
+	{ name: 'comes-and-goes', author: 'gabriel-vitebo' }
 ];
