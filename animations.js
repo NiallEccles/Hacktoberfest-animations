@@ -418,4 +418,5 @@ window.animations = [
 	{ name: 'ashishMotion', author: 'dev-AshishRanjan' },
 	{ name: 'movingBackground', author: 'Yash-RajSingh' },
 	{ name: 'gradient-type', author: 'Rehan-4778' },
+	{ name: 'jello2', author: 'vennela2132' },
 ];
