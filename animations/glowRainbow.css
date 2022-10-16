@@ -4,11 +4,11 @@
     margin: 1rem 3rem;
     font-size: 200px;
     color: rgb(85, 247, 212);
-    animation: change-color 5s linear infinite;
+    animation: glowRainbow 5s linear infinite;
     text-shadow: 0px 0px 8px white;
 }
 
-@keyframes change-color {
+@keyframes glowRainbow {
   0% {
     filter: hue-rotate(0deg);
 
