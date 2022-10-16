@@ -420,4 +420,5 @@ window.animations = [
 	{ name: 'gradient-type', author: 'Rehan-4778' },
 	{ name: 'jello2', author: 'vennela2132' },
 	{ name: 'focus', author: 'Diana8795' },
+	{ name: 'slide-pop', author: 'stevenanthonyrevo' },
 ];

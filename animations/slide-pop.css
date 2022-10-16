@@ -1,0 +1,33 @@
+.slide-pop {
+	-webkit-animation: slide-pop 0.8s cubic-bezier(0.777, 0.000, 0.179, 1.000) both;
+	        animation: slide-pop 0.8s cubic-bezier(0.777, 0.000, 0.179, 1.000) both;
+}
+
+@-webkit-keyframes slide-pop {
+  0% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+    -webkit-transform-origin: 0% 100%;
+            transform-origin: 0% 100%;
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-transform-origin: 0% 100%;
+            transform-origin: 0% 100%;
+  }
+}
+@keyframes slide-pop {
+  0% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+    -webkit-transform-origin: 0% 100%;
+            transform-origin: 0% 100%;
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-transform-origin: 0% 100%;
+            transform-origin: 0% 100%;
+  }
+}
