@@ -404,4 +404,6 @@ window.animations = [
 	{ name: 'instant', author: '123shuklaayush' },
 	{ name: 'text-color-animation', author: 'tarunmankar' },
 	{ name: 'spotlight-rainbow-color', author: 'danangtomo' },
+	{ name: 'creativetext', author: 'shivjha-2712' },
+	{ name: 'shivam', author: 'shivjha-2712' },
 ];
