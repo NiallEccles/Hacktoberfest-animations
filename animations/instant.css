@@ -1,0 +1,49 @@
+/**
+ * /* By: https://github.com/123shuklaayush
+ * @format
+ */
+ @import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+ @keyframes instant{
+	0% {
+		
+		transform: translateX(500px);
+	}
+	14%{
+
+		transform: translateY(-500px);
+
+	}
+	28% {
+		transform: translateX(-500px);
+	}
+	42%{
+		transform: translateY(500px);
+	}
+	56%{
+		transform: translateX(500px);
+	}
+	68% {
+		-webkit-transform: scale(3);
+	}
+	70% {
+		-webkit-transform: scale(0.8);
+	}
+
+}
+
+.instant {
+    background-clip: text;
+	-webkit-background-clip: text;
+	color: transparent;
+	background-image: linear-gradient(
+		to right,
+		orange,
+		yellow,
+		green,
+		cyan,
+		blue,
+		violet
+	);
+	font-family: 'Silkscreen', cursive;
+	animation: instant 4s both infinite  linear;
+}
