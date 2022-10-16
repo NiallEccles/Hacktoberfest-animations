@@ -1,16 +1,11 @@
-shivam{
-  background: Red;
-}
-
-h1{
-    color: #fff;
-}
-h1{
+.shivam{
     animation: ani 2s;
     text-align: center;
+    color: #fff;
+    background: Red;
 }
 
-@keyframes ani{
+@keyframes shivam{
     from{
         letter-spacing: 35px;
         filter: blur(5px);
