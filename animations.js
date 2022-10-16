@@ -199,6 +199,7 @@ window.animations = [
 	{ name: 'jitterbug', author: 'andrewghood' },
 	{ name: 'jump', author: 'AmiterCodes' },
 	{ name: 'jumping', author: 'Manishgupta200' },
+  { name: 'kakashi',author: 'SubhrajyotiChak'},
 	{ name: 'lava-animation', author: 'anaghkanungo7' },
 	{ name: 'lean-back', author: 'plaza223' },
 	{ name: 'letsvacinne', author: 'silvasobrinho' },
