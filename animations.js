@@ -424,4 +424,5 @@ window.animations = [
 	{ name: 'marveLira', author: 'LiraBessa'},
 	{ name: 'ColorBreathing', author: 'gustavohpereira' },
 	{ name: 'popup-animation', author: 'viviane-martini'},
+	{ name: 'cyberpunk', author: 'giuliano-marcus-bianco'},
 ];
