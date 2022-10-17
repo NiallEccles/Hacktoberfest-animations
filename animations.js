@@ -428,4 +428,5 @@ window.animations = [
 	{ name: 'comes-and-goes', author: 'gabriel-vitebo' },
 	{ name: 'on-fire', author: 'Giulia Amaral'},
 	{ name: 'manvi2912', author: 'manvi2912' },
+  { name: 'glowShine', author: 'ZeelParekh10' }
 ];
