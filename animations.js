@@ -337,6 +337,7 @@ window.animations = [
 	{ name: 'static-color-change', author: 'timoransky' },
 	{ name: 'stone', author: 'SubhrajyotiChak'},
 	{ name: 'strangerthings', author: 'crownedpigeon' },
+	{ name: 'stroke-slide', author: 'Robert-Capra' },
 	{ name: 'stepittap', author: 'verissteph' },
 	{ name: 'stretchout', author: 's-Hale' },
 	{ name: 'Stripes-text', author: 'dilshadnoshad' },
