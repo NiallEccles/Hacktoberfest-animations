@@ -430,4 +430,5 @@ window.animations = [
 	{ name: 'manvi2912', author: 'manvi2912' },
 	{ name: 'aaodev', author: 'rodrigoodev' },
 	{ name: 'stroke-slide', author: 'Robert-Capra' },
+	{ name: 'running-letters', author: 'avinishrao' },
 ];
