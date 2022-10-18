@@ -1,0 +1,26 @@
+
+
+@keyframes blunt {
+	0% {
+		transform: translateX(500px);
+	}
+	20% {
+		transform: translateX(-600px);
+	}
+	40% {
+		transform: translateX(300px);
+	}
+	60% {
+		transform: translateX(-100px);
+	}
+	80% {
+		transform: translateX(100px);
+	}
+	100% {
+		transform: translateX(0px);
+	}
+}
+
+.blunt {
+	animation: blunt 3s linear infinite;
+}
