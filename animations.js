@@ -337,7 +337,6 @@ window.animations = [
 	{ name: 'static-color-change', author: 'timoransky' },
 	{ name: 'stone', author: 'SubhrajyotiChak'},
 	{ name: 'strangerthings', author: 'crownedpigeon' },
-	{ name: 'stroke-slide', author: 'Robert-Capra' },
 	{ name: 'stepittap', author: 'verissteph' },
 	{ name: 'stretchout', author: 's-Hale' },
 	{ name: 'Stripes-text', author: 'dilshadnoshad' },
@@ -429,4 +428,6 @@ window.animations = [
 	{ name: 'comes-and-goes', author: 'gabriel-vitebo' },
 	{ name: 'on-fire', author: 'Giulia Amaral'},
 	{ name: 'manvi2912', author: 'manvi2912' },
+	{ name: 'aaodev', author: 'rodrigoodev' },
+	{ name: 'stroke-slide', author: 'Robert-Capra' },
 ];
