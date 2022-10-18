@@ -4,21 +4,12 @@
  * @format
  */
 
-*,
-*::before,
-*::after {
-	box-sizing: border-box;
-}
-
-:root {
-	--color-primary: #f6aca2;
+.aaodev {
+  --color-primary: #f6aca2;
 	--color-secondary: #f49b90;
 	--color-tertiary: #f28b7d;
 	--color-quaternary: #f07a6a;
 	--color-quinary: #ee6352;
-}
-
-.aaodev {
 	text-shadow: 3px 3px 0 var(--color-secondary), 6px 6px 0 var(--color-tertiary),
 		9px 9px var(--color-quaternary), 12px 12px 0 var(--color-quinary);
 	font-family: bungee, sans-serif;
