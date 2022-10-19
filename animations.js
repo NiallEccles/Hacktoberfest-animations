@@ -8,6 +8,7 @@ window.animations = [
 	{ name: 'ainneone', author: 'ainneo' },
 	{ name: 'airy', author: 'jdavy123' },
 	{ name: 'akshay', author: 'akshayparmar90' },
+	{ name: 'akon', author: 'Akash'},
 	{ name: 'alokGoldy', author: 'alokgoldy' },
 	{ name: 'alternate-reverse', author: 'jagadyudha' },
 	{ name: 'Animated-Cubes', author: 'AmitSahoo45' },
