@@ -23,6 +23,7 @@ window.animations = [
 	{ name: 'Bees', author: 'particus17'},
 	{ name: 'bhaukaal', author: 'mani9896' },
 	{ name: 'bigStretch', author: 'timstrato2' },
+  { name: 'bips', author: 'bipasasahaa' },
 	{ name: 'blacknwhiteunderline', author: 'baranwal' },
 	{ name: 'Blazingwhite', author: 'muskan2566' },
 	{ name: 'blend-in-out', author: 'panvicka' },
