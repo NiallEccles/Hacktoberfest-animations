@@ -1,0 +1,33 @@
+.glow-with-smoke {
+    animation:  smoke 15s infinite, glow 3s ease-in-out infinite;
+    -webkit-animation: smoke 15s infinite,
+        glow 3s ease-in-out infinite;
+}
+
+@keyframes smoke {
+    50% {
+            transform: translateX(-5px) translateY(-10px);
+            opacity: 0.5;
+        }
+    
+        100% {
+            transform: translateX(10px) translateY(-20px);
+            opacity: 0;
+        }
+}
+
+@keyframes glow {
+
+    0%,
+    100% {
+        color: #FFF;
+        text-shadow: 0 0 10px #0652DD, 0 0 50px #0652DD, 0 0 100px #0652DD;
+    }
+
+    10%,
+    90% {
+        color: orangered;
+        text-shadow: none;
+    }
+}
+
