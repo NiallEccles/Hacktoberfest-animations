@@ -164,6 +164,7 @@ window.animations = [
 	{ name: 'glow-hover', author: 'rockkidd23' },
 	{ name: 'glow-sign', author: 'muskan-9' },
 	{ name: 'glowing', author: 'brunoeduardodev' },
+  { name: 'glowShineAnimate', author: 'ZeelParekh10' }
 	{ name: 'gogogo', author: 'kalamell' },
 	{ name: 'gradient', author: 'NataliaKiwibird' },
 	{ name: 'gradient-ride', author: 'try-catch-stack' },
@@ -428,5 +429,7 @@ window.animations = [
 	{ name: 'comes-and-goes', author: 'gabriel-vitebo' },
 	{ name: 'on-fire', author: 'Giulia Amaral'},
 	{ name: 'manvi2912', author: 'manvi2912' },
-  { name: 'glowShineAnimate', author: 'ZeelParekh10' }
+	{ name: 'aaodev', author: 'rodrigoodev' },
+	{ name: 'stroke-slide', author: 'Robert-Capra' },
+
 ];
