@@ -77,6 +77,7 @@ window.animations = [
 	{ name: 'colourfull-ldt2020', author: 'ledangtuanbk' },
 	{ name: 'colours', author: 'zerossb' },
 	{ name: 'come-and-go', author: 'hoehooiyan' },
+	{ name: 'rachana', author: 'Rachana1104' },
 	{ name: 'comeOver', author: 'TheBangis' },
 	{ name: 'coming-together', author: 'Demysdcl' },
 	{ name: 'cool-breeze', author: 'wajeehsheikh' },
