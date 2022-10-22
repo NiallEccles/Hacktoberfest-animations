@@ -432,4 +432,5 @@ window.animations = [
 	{ name: 'stroke-slide', author: 'Robert-Capra' },
 	{ name: 'running-letters', author: 'avinishrao' },
 	{ name: 'zebra', author: 'avinishrao' },
+	{ name: 'danceit', author: 'Dev-Ahmadubah' },
 ];
