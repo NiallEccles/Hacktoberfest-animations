@@ -1,0 +1,40 @@
+  @keyframes zebra{
+    50%{
+      text-shadow:0px -4px 8px white,
+    0px -12px 24px rgba(255,200,200,1),
+    0px -24px 48px rgba(255,150,100,1),
+    0px -40px 80px rgba(255,100,100,1),
+    0px -60px 120px rgba(255,50,50,1),
+    0px -84px 168px rgba(255,0,0,1);
+  
+      }
+  }
+  
+  @keyframes colorSpin{
+    to{filter:hue-rotate(360deg)}
+  }
+  
+  .zebra {
+    color:#fff;
+    font-size:8em;
+    text-shadow: 0px -1px 2px white,
+    0px -3px 6px rgba(255,200,200,1),
+    0px -6px 12px rgba(255,150,100,1),
+    0px -10px 20px rgba(255,100,100,1),
+    0px -15px 30px rgba(255,50,50,1),
+    0px -21px 42px rgba(255,0,0,1);
+    animation:zebra 0.01s ease infinite,colorSpin 10s linear infinite;
+    font-family:Sans-serif;
+      background: linear-gradient(90deg, rgba(100, 14, 25, 0), rgb(0, 0, 0), rgba(100, 14, 25, 0));
+      -webkit-background-clip: text;
+      background-clip: text;
+    text-shadow: 0px -1px 2px white,
+    0px -3px 6px rgba(255,200,200,1),
+    0px -6px 12px rgba(255,150,100,1),
+    0px -10px 20px rgba(255,100,100,1),
+    0px -15px 30px rgba(255,50,50,1),
+    0px -21px 42px rgba(255,0,0,1);
+      background-repeat: no-repeat;
+      background-size: 50%;
+      animation: 0.01s ease infinite,colorSpin 10s linear infinite;
+  }
