@@ -428,5 +428,11 @@ window.animations = [
 	{ name: 'comes-and-goes', author: 'gabriel-vitebo' },
 	{ name: 'on-fire', author: 'Giulia Amaral'},
 	{ name: 'manvi2912', author: 'manvi2912' },
-  { name: 'flip-text-animation', author: 'pggeeks' },
+	{ name: 'aaodev', author: 'rodrigoodev' },
+	{ name: 'stroke-slide', author: 'Robert-Capra' },
+	{ name: 'running-letters', author: 'avinishrao' },
+	{ name: 'zebra', author: 'avinishrao' },
+	{ name: 'danceit', author: 'Dev-Ahmadubah' },
+	{ name: 'bouncy', author: 'AmanPathan' },
+	{ name: 'flip-text-animation', author: 'pggeeks' },
 ];
