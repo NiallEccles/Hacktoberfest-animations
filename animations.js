@@ -399,7 +399,6 @@ window.animations = [
 	{ name: 'zoomInLeft', author: 'fernandosutter' },
 	{ name: 'zoomOut', author: 'Biafer' },
 	{ name: 'zoomright', author: 'sunny-aguilar' },
-	{ name: 'zebra', author: 'flagage' },
 	{ name: 'rgb-text-color', author: 'Nicolas734'},
 	{ name: 'mardiGras', author: 'brumcaroline'},
 	{ name: 'instant', author: '123shuklaayush' },
@@ -432,4 +431,5 @@ window.animations = [
 	{ name: 'aaodev', author: 'rodrigoodev' },
 	{ name: 'stroke-slide', author: 'Robert-Capra' },
 	{ name: 'running-letters', author: 'avinishrao' },
+	{ name: 'zebra', author: 'avinishrao' },
 ];
