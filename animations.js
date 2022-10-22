@@ -442,4 +442,5 @@ window.animations = [
 	{ name: 'Motion', author: 'dev-AshishRanjan' },
 	{ name: 'glowShineAnimate', author: 'ZeelParekh10' },
 	{ name: 'bips', author: 'bipasasahaa' },
+	{ name: 'glow-with-smoke', author: 'tkacholga' },
 ];
