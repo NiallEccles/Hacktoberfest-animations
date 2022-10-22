@@ -437,4 +437,5 @@ window.animations = [
 	{ name: 'flip-text-animation', author: 'pggeeks' },
 	{ name: 'above', author: 'Zaheudev' },
 	{ name: 'glow-in', author: 'BSinhacodes' },
+	{ name: 'shakey', author: 'shakeybuoy' },
 ];
