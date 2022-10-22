@@ -164,7 +164,6 @@ window.animations = [
 	{ name: 'glow-hover', author: 'rockkidd23' },
 	{ name: 'glow-sign', author: 'muskan-9' },
 	{ name: 'glowing', author: 'brunoeduardodev' },
-  { name: 'glowShineAnimate', author: 'ZeelParekh10' }
 	{ name: 'gogogo', author: 'kalamell' },
 	{ name: 'gradient', author: 'NataliaKiwibird' },
 	{ name: 'gradient-ride', author: 'try-catch-stack' },
@@ -431,5 +430,15 @@ window.animations = [
 	{ name: 'manvi2912', author: 'manvi2912' },
 	{ name: 'aaodev', author: 'rodrigoodev' },
 	{ name: 'stroke-slide', author: 'Robert-Capra' },
-
+	{ name: 'running-letters', author: 'avinishrao' },
+	{ name: 'zebra', author: 'flagage' },
+	{ name: 'danceit', author: 'Dev-Ahmadubah' },
+	{ name: 'bouncy', author: 'AmanPathan' },
+	{ name: 'flip-text-animation', author: 'pggeeks' },
+	{ name: 'above', author: 'Zaheudev' },
+	{ name: 'glow-in', author: 'BSinhacodes' },
+	{ name: 'shakey', author: 'shakeybuoy' },
+	{ name: 'akon', author: 'Akash'},
+	{ name: 'Motion', author: 'dev-AshishRanjan' },
+	{ name: 'glowShineAnimate', author: 'ZeelParekh10' }
 ];
