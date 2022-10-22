@@ -436,4 +436,5 @@ window.animations = [
 	{ name: 'bouncy', author: 'AmanPathan' },
 	{ name: 'flip-text-animation', author: 'pggeeks' },
 	{ name: 'above', author: 'Zaheudev' },
+	{ name: 'glow-in', author: 'BSinhacodes' },
 ];
