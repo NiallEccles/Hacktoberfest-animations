@@ -1,7 +1,6 @@
 /** @format */
 
 window.animations = [
-	{ name: 'Motion', author: 'dev-AshishRanjan' },
 	{ name: 'Animadeu', author: 'Amad3eu' },
 	{ name: 'Anubhav-developerMation', author: 'Anubhav-developr' },
 	{ name: 'aberration', author: 'cnsumner' },
@@ -432,4 +431,13 @@ window.animations = [
 	{ name: 'aaodev', author: 'rodrigoodev' },
 	{ name: 'stroke-slide', author: 'Robert-Capra' },
 	{ name: 'running-letters', author: 'avinishrao' },
+	{ name: 'zebra', author: 'flagage' },
+	{ name: 'danceit', author: 'Dev-Ahmadubah' },
+	{ name: 'bouncy', author: 'AmanPathan' },
+	{ name: 'flip-text-animation', author: 'pggeeks' },
+	{ name: 'above', author: 'Zaheudev' },
+	{ name: 'glow-in', author: 'BSinhacodes' },
+	{ name: 'shakey', author: 'shakeybuoy' },
+	{ name: 'akon', author: 'Akash'},
+	{ name: 'Motion', author: 'dev-AshishRanjan' },
 ];
