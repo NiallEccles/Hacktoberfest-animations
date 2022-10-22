@@ -1,30 +1,16 @@
 .flip-text-animation {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
-flip-text-animation body {
-  background-color: #111;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-}
-flip-text-animation div {
-  position: relative;
-}
-flip-text-animation div span {
-  position: relative;
-  display: inline-block;
-  font-size: 40px;
-  color: #fff;
-  text-transform: uppercase;
-  animation: flip 2s infinite;
-  animation-delay: calc(.2s * var(--i))
-}
-@keyframes flip-text-animation {
-  0%,80% {
-    transform: rotateY(360deg) 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #111;
+    color: #fff;
+    text-transform: uppercase;
+    animation: flip 2s infinite;
+    animation-delay: calc(.2s * var(--i))
   }
-}
+  
+  @keyframes flip-text-animation {
+    0%,80% {
+      transform: rotateY(360deg) 
+    }
+  }
