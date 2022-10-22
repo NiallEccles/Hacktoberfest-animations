@@ -1,10 +1,10 @@
 .glow-with-smoke {
-    animation:  smoke 15s infinite, glow 3s ease-in-out infinite;
-    -webkit-animation: smoke 15s infinite,
+    animation:  glow-with-smoke 15s infinite, glow 3s ease-in-out infinite;
+    -webkit-animation: glow-with-smoke 15s infinite,
         glow 3s ease-in-out infinite;
 }
 
-@keyframes smoke {
+@keyframes glow-with-smoke {
     50% {
             transform: translateX(-5px) translateY(-10px);
             opacity: 0.5;
@@ -16,7 +16,7 @@
         }
 }
 
-@keyframes glow {
+@keyframes glow-with-smoke {
 
     0%,
     100% {
