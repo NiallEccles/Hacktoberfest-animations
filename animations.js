@@ -431,7 +431,7 @@ window.animations = [
 	{ name: 'aaodev', author: 'rodrigoodev' },
 	{ name: 'stroke-slide', author: 'Robert-Capra' },
 	{ name: 'running-letters', author: 'avinishrao' },
-	{ name: 'zebra', author: 'avinishrao' },
+	{ name: 'zebra', author: 'flagage' },
 	{ name: 'danceit', author: 'Dev-Ahmadubah' },
 	{ name: 'bouncy', author: 'AmanPathan' },
 	{ name: 'flip-text-animation', author: 'pggeeks' },
