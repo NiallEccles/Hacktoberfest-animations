@@ -431,4 +431,7 @@ window.animations = [
 	{ name: 'aaodev', author: 'rodrigoodev' },
 	{ name: 'stroke-slide', author: 'Robert-Capra' },
 	{ name: 'running-letters', author: 'avinishrao' },
+	{ name: 'bubbling_effect', author: 'Ishpreet-aur-Bedi' },
+
+
 ];
