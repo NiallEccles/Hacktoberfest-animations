@@ -1,21 +1,13 @@
-body {
-    background: #170f1e;
-    font-family: 'Jetbrains Mono', monospace;
-  }
 
   .glowShineAnimate {
-    
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding: 12px 48px;
+    background: #170f1e;
+    font-family: 'Jetbrains Mono', monospace;
     color: #fff;
     background: linear-gradient(to right, rgb(64 221 255) 0%, #b4ff39 20%, rgb(64 221 255) 40%);
     background-position: 0;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    animation: shine 3s infinite linear;
+    animation: glowShineAnimate 3s infinite linear;
     animation-fill-mode: forwards;
     -webkit-text-size-adjust: none;
     font-weight: 600;
@@ -24,9 +16,9 @@ body {
     white-space: nowrap;
   }
 
-  
-  
-  @keyframes shine {
+
+
+  @keyframes glowShineAnimate {
     0% {
       background-position: 0;
     }
@@ -34,4 +26,4 @@ body {
       background-position: 800px;
     }
   }
-  
+
