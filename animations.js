@@ -443,4 +443,5 @@ window.animations = [
 	{ name: 'glowShineAnimate', author: 'ZeelParekh10' },
 	{ name: 'bips', author: 'bipasasahaa' },
 	{ name: 'glow-with-smoke', author: 'tkacholga' },
+	{ name: 'bubbling_effect', author: 'Ishpreet-aur-Bedi' },
 ];
