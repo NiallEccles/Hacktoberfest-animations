@@ -440,4 +440,5 @@ window.animations = [
 	{ name: 'shakey', author: 'shakeybuoy' },
 	{ name: 'akon', author: 'Akash'},
 	{ name: 'Motion', author: 'dev-AshishRanjan' },
+	{ name: 'glowShineAnimate', author: 'ZeelParekh10' }
 ];
