@@ -1,0 +1,31 @@
+/**
+ * /* By: https://github.com/debcamila
+ *
+ * @format
+ */
+
+@keyframes rainbowLetters {
+	100% {
+		background-position: 0 30em;
+	}
+}
+.rainbowLetters {
+	color: transparent;
+	letter-spacing: 0.06em;
+	background: linear-gradient(
+		#ff0000 16.7%,
+		#ffa500 16.7%,
+		#ffa500 33.4%,
+		#ffff00 33.4%,
+		#ffff00 50.1%,
+		#008000 50.1%,
+		#008000 66.8%,
+		#0000ff 66.8%,
+		#4b0082 83.5%,
+		#ee82ee 83.5%
+	);
+	-webkit-text-stroke: 0.04em #ffffff;
+	-webkit-background-clip: text;
+	line-height: 1.1em;
+	animation: rainbowLetters 50s linear infinite;
+}

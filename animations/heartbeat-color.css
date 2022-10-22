@@ -1,0 +1,30 @@
+/*
+ * By: https://github.com/pauloregina
+ *
+ * @format
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+.heartbeat-color {
+	color: #fff;
+	position: relative;
+	font-family: "Anton", sans-serif;
+	text-shadow: 0px -2px 0 #fff, 2px 2px 0 #fff, 0px 2px 0 #fff, 0px 2px 0 #fff;
+	animation: heartbeat-color 1s step-end infinite;
+}
+
+@keyframes heartbeat-color {
+	0%,
+	100% {
+		text-shadow: 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff,
+			0 0 2px #fff, 0 0 2px #fff, 0 0 0 #fff;
+		color: #000;
+	}
+
+	50% {
+		text-shadow: 0 0 0 #000, 0 0 0 #000, 0 0 2px #000,
+			0 0 0 #000, 0 0 0 #000, 0 0 0 #000;
+		color: #fff;
+	}
+}

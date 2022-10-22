@@ -1,0 +1,78 @@
+@keyframes haunt {
+	0% {
+		opacity: 0;
+		color: #1e01a0;
+	}
+
+	20% {
+		opacity: 0.8;
+		color: #1e01a0;
+	}
+
+	25% {
+		opacity: 0.4;
+		color: #1e01a0;
+	}
+
+	28% {
+		opacity: 0.8;
+		color: #1e01a0;
+	}
+
+	30% {
+		opacity: 0.3;
+		color: #1e01a0;
+	}
+
+	33% {
+		opacity: 0.8;
+		color: white;
+	}
+
+	36% {
+		opacity: 0.2;
+		color: white;
+	}
+
+	38% {
+		opacity: 0.1;
+	}
+
+	42% {
+		opacity: 0.9;
+	}
+
+	46% {
+		opacity: 0.4;
+	}
+
+	50% {
+		opacity: 0.6;
+	}
+
+	56% {
+		opacity: 0.2;
+	}
+
+	62% {
+		opacity: 0.8;
+	}
+
+	68% {
+		opacity: 0.1;
+	}
+
+	76% {
+		opacity: 1;
+	}
+
+	100% {
+		opacity: 0;
+	}
+}
+
+.haunt {
+	animation: haunt 5s ease-in-out infinite;
+	color: #1e01a0;
+	position: relative;
+}

@@ -1,0 +1,15 @@
+.blur-expand {
+	animation: blur-expand 0.4s linear both;
+}
+
+@keyframes blur-expand {
+	0% {
+		transform: scale(1);
+		filter: blur(0.01px);
+	}
+	100% {
+		transform: scale(2);
+		filter: blur(12px);
+		opacity: 0;
+	}
+}
