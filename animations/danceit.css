@@ -10,7 +10,7 @@ Date: 16/OCTOBER/2022
   font-size: 100px;
   text-shadow: 0 0px #f3c623, 0 0px #f2aaaa;
   transform: translate(0, 50%) rotate(3deg);
-  animation: jump 2s ease-in-out infinite;
+  animation: danceit 2s ease-in-out infinite;
   display: inline-block;
   font-family: "Titan One", cursive;
   color: #fff;
