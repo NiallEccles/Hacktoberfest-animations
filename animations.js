@@ -435,4 +435,5 @@ window.animations = [
 	{ name: 'danceit', author: 'Dev-Ahmadubah' },
 	{ name: 'bouncy', author: 'AmanPathan' },
 	{ name: 'flip-text-animation', author: 'pggeeks' },
+	{ name: 'above', author: 'Zaheudev' },
 ];
