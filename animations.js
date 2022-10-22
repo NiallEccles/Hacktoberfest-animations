@@ -434,4 +434,5 @@ window.animations = [
 	{ name: 'zebra', author: 'avinishrao' },
 	{ name: 'danceit', author: 'Dev-Ahmadubah' },
 	{ name: 'bouncy', author: 'AmanPathan' },
+	{ name: 'flip-text-animation', author: 'pggeeks' },
 ];
