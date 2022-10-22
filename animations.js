@@ -433,4 +433,5 @@ window.animations = [
 	{ name: 'running-letters', author: 'avinishrao' },
 	{ name: 'zebra', author: 'avinishrao' },
 	{ name: 'danceit', author: 'Dev-Ahmadubah' },
+	{ name: 'bouncy', author: 'AmanPathan' },
 ];
