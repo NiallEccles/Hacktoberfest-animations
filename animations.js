@@ -318,6 +318,7 @@ window.animations = [
 	{ name: 'slideOutUp', author: 'lospettro' },
 	{ name: 'slide_clr', author: 'dilshadnoshad' },
 	{ name: 'slidingGradient', author: 'hrshk15' },
+  { name: 'sliding-color', author: 'nikhilkalburgi' },
 	{ name: 'slowglow', author: 'shailzaa' },
 	{ name: 'slowRotation', author: 'majidzeno' },
 	{ name: 'smoke', author: 'chintanmshah' },
