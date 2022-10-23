@@ -28,12 +28,12 @@
     10% {
       color: #901e08;
       text-shadow: 1px 1px #eee;
-      transform: skewX(-15deg);
+      transform: skewX(-25deg);
     }
     15% {
       color: rgb(162, 162, 162);
       text-shadow: none;
-      transform: skewX(-15deg);
+      transform: skewX(-25deg);
     }
     20% {
       color: #901e08;
@@ -103,17 +103,17 @@
     75% {
       color: #901e08;
       text-shadow: 1px 1px #eee;
-      transform: skewX(10deg);
+      transform: skewX(20deg);
     }
     80% {
       color: #901e08;
       text-shadow: 1px 1px #eee;
-      transform: skewX(10deg);
+      transform: skewX(20deg);
     }
     85% {
       color: #901e08;
       text-shadow: 1px 1px #eee;
-      transform: skewX(10deg);
+      transform: skewX(20deg);
     }
     90% {
       color: #901e08;
