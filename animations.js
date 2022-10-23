@@ -316,6 +316,7 @@ window.animations = [
 	{ name: 'slidefade', author: 'gambhirsharma' },
 	{ name: 'sliderr', author: 'davdtheemonk' },
 	{ name: 'slideOutUp', author: 'lospettro' },
+  { name: 'slide-carousel-text', author: 'nikhilkalburgi' },
 	{ name: 'slide_clr', author: 'dilshadnoshad' },
 	{ name: 'slidingGradient', author: 'hrshk15' },
 	{ name: 'slowglow', author: 'shailzaa' },
