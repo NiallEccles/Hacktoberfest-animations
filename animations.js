@@ -169,6 +169,7 @@ window.animations = [
 	{ name: 'gradient-ride', author: 'try-catch-stack' },
 	{ name: 'growing', author: 'Riddhiman-M' },
 	{ name: 'growrotateflip', author: 'Prathamesh-Shanbhag' },
+	{ name: 'hacktoberfest2022', author: 'marianabeldi' },
 	{ name: 'haleemah', author: 'bolajiscott' },
 	{ name: 'halloween', author: 'honeyyenoh' },
 	{ name: 'halloweenColors', author: 'gabrielaleal' },
