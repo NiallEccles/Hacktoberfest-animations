@@ -225,6 +225,7 @@ window.animations = [
 	{ name: 'multicolor-stretch', author: 'jonboundy' },
 	{ name: 'nanananabatman', author: 'Pamblam' },
 	{ name: 'neon', author: 'AllDayAlone' },
+	{ name: 'neon-blink', author: 'jrmiranda' },
 	{ name: 'neon-flicker', author: 'Kyle-Atienza' },
 	{ name: 'neon-flicking', author: 'samuelsimoes31' },
 	{ name: 'neon-glow', author: 'dheerajgandhi9' },
