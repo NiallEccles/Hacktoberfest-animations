@@ -447,4 +447,5 @@ window.animations = [
 	{ name: 'wavy-animation', author: 'niteshxp'},
 	{ name: 'rachana', author: 'Rachana1104' },
 	{ name: 'horror', author: 'mayank' },
+	{ name: 'sliding-color', author: 'nikhilkalburgi' },
 ];
