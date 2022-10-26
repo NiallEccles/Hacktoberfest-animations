@@ -445,4 +445,5 @@ window.animations = [
 	{ name: 'glow-with-smoke', author: 'tkacholga' },
 	{ name: 'bubbling_effect', author: 'Ishpreet-aur-Bedi' },
 	{ name: 'wavy-animation', author: 'niteshxp'},
+	{ name: 'rachana', author: 'Rachana1104' },
 ];
