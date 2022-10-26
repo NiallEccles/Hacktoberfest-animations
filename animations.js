@@ -452,4 +452,5 @@ window.animations = [
 	{ name: 'hacktoberfest2022', author: 'marianabeldi' },
 	{ name: 'neon-blink', author: 'jrmiranda' },
 	{ name: 'halloween-dance', author: 'LindseaMartin' },
+	{ name: 'bounceOutRight', author: 'katsu53' },
 ];
