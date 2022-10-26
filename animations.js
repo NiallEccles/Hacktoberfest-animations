@@ -169,7 +169,6 @@ window.animations = [
 	{ name: 'gradient-ride', author: 'try-catch-stack' },
 	{ name: 'growing', author: 'Riddhiman-M' },
 	{ name: 'growrotateflip', author: 'Prathamesh-Shanbhag' },
-	{ name: 'hacktoberfest2022', author: 'marianabeldi' },
 	{ name: 'haleemah', author: 'bolajiscott' },
 	{ name: 'halloween', author: 'honeyyenoh' },
 	{ name: 'halloweenColors', author: 'gabrielaleal' },
@@ -445,4 +444,10 @@ window.animations = [
 	{ name: 'bips', author: 'bipasasahaa' },
 	{ name: 'glow-with-smoke', author: 'tkacholga' },
 	{ name: 'bubbling_effect', author: 'Ishpreet-aur-Bedi' },
+	{ name: 'wavy-animation', author: 'niteshxp'},
+	{ name: 'rachana', author: 'Rachana1104' },
+	{ name: 'horror', author: 'mayank' },
+	{ name: 'sliding-color', author: 'nikhilkalburgi' },
+	{ name: 'slide-carousel-text', author: 'nikhilkalburgi' },
+	{ name: 'hacktoberfest2022', author: 'marianabeldi' },
 ];
