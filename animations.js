@@ -184,7 +184,6 @@ window.animations = [
 	{ name: 'hinge', author: 'medival' },
 	{ name: 'hit-the-corner', author: 'Kadugs' },
 	{ name: 'hopping', author: 'vatsalvj' },
-	{ name: 'horror', author: 'mayank' },
 	{ name: 'hover_zoom_glow', author: 'Princerey' },
 	{ name: 'hurricane', author: 'marcosceo' },
 	{ name: 'hydrated', author: 'tancredosouza' },
@@ -445,4 +444,7 @@ window.animations = [
 	{ name: 'bips', author: 'bipasasahaa' },
 	{ name: 'glow-with-smoke', author: 'tkacholga' },
 	{ name: 'bubbling_effect', author: 'Ishpreet-aur-Bedi' },
+	{ name: 'wavy-animation', author: 'niteshxp'},
+	{ name: 'rachana', author: 'Rachana1104' },
+	{ name: 'horror', author: 'mayank' },
 ];
