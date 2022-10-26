@@ -318,7 +318,6 @@ window.animations = [
 	{ name: 'slideOutUp', author: 'lospettro' },
 	{ name: 'slide_clr', author: 'dilshadnoshad' },
 	{ name: 'slidingGradient', author: 'hrshk15' },
-  { name: 'sliding-color', author: 'nikhilkalburgi' },
 	{ name: 'slowglow', author: 'shailzaa' },
 	{ name: 'slowRotation', author: 'majidzeno' },
 	{ name: 'smoke', author: 'chintanmshah' },
@@ -445,4 +444,8 @@ window.animations = [
 	{ name: 'bips', author: 'bipasasahaa' },
 	{ name: 'glow-with-smoke', author: 'tkacholga' },
 	{ name: 'bubbling_effect', author: 'Ishpreet-aur-Bedi' },
+	{ name: 'wavy-animation', author: 'niteshxp'},
+	{ name: 'rachana', author: 'Rachana1104' },
+	{ name: 'horror', author: 'mayank' },
+	{ name: 'sliding-color', author: 'nikhilkalburgi' },
 ];
