@@ -1,42 +1,14 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
-}
 
-body {
-  display: flex;
-  background: #000;
-  min-height: 100vh;
-  align-items: center;
-  justify-content: center;
-}
-
-.content {
-  position: relative;
-}
-
-.content h2 {
+.wavy-animation {
   color: #fff;
   font-size: 8em;
-  position: absolute;
-  transform: translate(-50%, -50%);
+  font-family: "Poppins", sans-serif;
+  animation: wavyAnimation 4s ease-in-out infinite;
 }
 
-.content h2:nth-child(1) {
-  color: transparent;
-  -webkit-text-stroke: 2px #03a9f4;
-}
-
-.content h2:nth-child(2) {
-  color: #03a9f4;
-  animation: animate 4s ease-in-out infinite;
-}
-
-@keyframes animate {
+@keyframes wavyAnimation {
   0%,
   100% {
     clip-path: polygon(
