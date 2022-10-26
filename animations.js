@@ -453,5 +453,6 @@ window.animations = [
 	{ name: 'neon-blink', author: 'jrmiranda' },
 	{ name: 'halloween-dance', author: 'LindseaMartin' },
 	{ name: 'bounceOutRight', author: 'katsu53' },
-	{ name: 'grow3d', author: 'MarcoShiavello' }
+	{ name: 'flipText', author: '204G1A0542' },
+  { name: 'grow3d', author: 'MarcoShiavello' }
 ];
