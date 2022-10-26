@@ -446,4 +446,5 @@ window.animations = [
 	{ name: 'bubbling_effect', author: 'Ishpreet-aur-Bedi' },
 	{ name: 'wavy-animation', author: 'niteshxp'},
 	{ name: 'rachana', author: 'Rachana1104' },
+	{ name: 'horror', author: 'mayank' },
 ];
