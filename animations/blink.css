@@ -1,13 +1,18 @@
-/**
- * /* By: https://github.com/rajdeepdev10
- *
- * @format
- */
+body {
+    background-color: #182747;
+    margin: 0;
+}
+
+div {
+padding-left: 2rem;
+}
 
 .blink {
-    animation: blink 1s step-end infinite;
+    color: #647E68;
+    font-size: 3rem;
+    animation: blink 2s linear infinite;
 }
-  
+
 @keyframes blink {
-    67% { opacity: 0 }
+    50% {opacity: 0;}
 }
