@@ -449,4 +449,5 @@ window.animations = [
 	{ name: 'horror', author: 'mayank' },
 	{ name: 'sliding-color', author: 'nikhilkalburgi' },
 	{ name: 'slide-carousel-text', author: 'nikhilkalburgi' },
+	{ name: 'hacktoberfest2022', author: 'marianabeldi' },
 ];
