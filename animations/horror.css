@@ -1,0 +1,133 @@
+/**
+ * /* By: https://github.com/mkjha482
+ *
+ * @format
+ */
+
+ .horror {
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-name: flickering;
+    animation-timing-function: step-start;
+    color: #901e08;
+    font-family: 'UnifrakturCook', cursive;
+    font-size: 96px;
+  }
+  
+  @keyframes flickering {
+    0% {
+      color: #901e08;
+      text-shadow: none;
+      transform: skewX(0);
+    }
+    5% {
+      color: #901e08;
+      text-shadow: none;
+      transform: skewX(0);
+    }
+    10% {
+      color: #901e08;
+      text-shadow: 1px 1px #eee;
+      transform: skewX(-25deg);
+    }
+    15% {
+      color: rgb(162, 162, 162);
+      text-shadow: none;
+      transform: skewX(-25deg);
+    }
+    20% {
+      color: #901e08;
+      text-shadow: none;
+      transform: skewX(0);
+    }
+    25% {
+      color: rgb(162, 162, 162);
+      text-shadow: 2px 2px #901e08;
+      transform: skewX(0);
+    }
+    30% {
+      color: rgb(162, 162, 162);
+      text-shadow: 2px 2px #901e08;
+      transform: skewX(0);
+    }
+    35% {
+      color: rgb(162, 162, 162);
+      text-shadow: 2px 2px #901e08;
+      transform: skewX(0);
+    }
+    37% {
+      color: rgb(162, 162, 162);
+      text-shadow: 1px 1px #eee;
+      transform: skewX(0);
+    }
+    40% {
+      color: #901e08;
+      text-shadow: 1px 1px #eee;
+      transform: skewX(0);
+    }
+    45% {
+      color: #901e08;
+      text-shadow: 1px 1px #eee;
+      transform: skewX(0);
+    }
+    50% {
+      color: #901e08;
+      text-shadow: none;
+      transform: skewX(0);
+    }
+    55% {
+      color: #901e08;
+      text-shadow: none;
+      transform: skewX(0);
+    }
+    60% {
+      color: #901e08;
+      text-shadow: none;
+      transform: skewX(0);
+    }
+    65% {
+      color: #901e08;
+      text-shadow: none;
+      transform: skewX(0);
+    }
+    68% {
+      color: #901e08;
+      text-shadow: 1px 1px #eee;
+      transform: skewX(0);
+    }
+    70% {
+      color: #901e08;
+      text-shadow: 1px 1px #eee;
+      transform: skewX(0);
+    }
+    75% {
+      color: #901e08;
+      text-shadow: 1px 1px #eee;
+      transform: skewX(20deg);
+    }
+    80% {
+      color: #901e08;
+      text-shadow: 1px 1px #eee;
+      transform: skewX(20deg);
+    }
+    85% {
+      color: #901e08;
+      text-shadow: 1px 1px #eee;
+      transform: skewX(20deg);
+    }
+    90% {
+      color: #901e08;
+      text-shadow: none;
+      transform: skewX(0);
+    }
+    95% {
+      color: #901e08;
+      text-shadow: 1px 1px #eee;
+      transform: skewX(0);
+    }
+    100% {
+      color: #901e08;
+      text-shadow: none;
+      transform: skewX(0);
+    }
+  }
