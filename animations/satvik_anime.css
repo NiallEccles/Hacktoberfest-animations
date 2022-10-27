@@ -1,0 +1,36 @@
+.satvik_anime{
+  padding: 0;
+  margin: 0;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh
+}
+.satvik_anime h1{
+  color: #484848;
+  font-size: 50px;
+  font-weight: bold;
+  font-family: monospace;
+  letter-spacing: 7px;
+  cursor: pointer
+}
+.satvik_anime h1 span{
+  transition: .5s linear
+}
+.satvik_anime h1:hover span:nth-child(1){
+  margin-right: 5px
+}
+.satvik_anime h1:hover span:nth-child(1):after{
+  content: "'";
+}
+.satvik_anime h1:hover span:nth-child(2){
+  margin-left: 30px
+}
+.satvik_anime h1:hover span{
+  color: #fff;
+  text-shadow: 0 0 10px #fff,
+               0 0 20px #fff, 
+               0 0 40px #fff;
+}
+/*<h1><span>I</span>M<span>POSSIBLE</span></h1>*/
