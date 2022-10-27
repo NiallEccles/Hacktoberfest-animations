@@ -24,6 +24,7 @@ window.animations = [
 	{ name: 'bhaukaal', author: 'mani9896' },
 	{ name: 'bigStretch', author: 'timstrato2' },
 	{ name: 'blacknwhiteunderline', author: 'baranwal' },
+	{ name: 'blastAppear', author: 'sumudusujith'},
 	{ name: 'Blazingwhite', author: 'muskan2566' },
 	{ name: 'blend-in-out', author: 'panvicka' },
 	{ name: 'blend', author: 'divanshi15' },
