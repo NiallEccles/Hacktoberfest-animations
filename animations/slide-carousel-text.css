@@ -1,0 +1,43 @@
+.slide-carousel-text {
+  background-color: yellow;
+  color: #333;
+  font-weight: 900;
+  overflow: hidden;
+  padding-left: 0.5rem;
+  --width:500px;
+  animation: openclose 5s ease-in-out infinite;
+  white-space: nowrap;
+}
+
+
+@keyframes openclose {
+  0% {
+    width: 0;
+  }
+  5% {
+    width: 0;
+  }
+  15% {
+    width: var(--width,100%);
+  }
+
+  35% {
+    width: 0;
+  }
+ 
+  48% {
+    width: var(--width,100%);
+  }
+
+  66% {
+    width: 0;
+  }
+ 
+  95% {
+    width: var(--width,100%);
+  }
+
+  100% {
+    width: 0;
+  }
+}

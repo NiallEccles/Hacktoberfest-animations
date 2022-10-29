@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@800&display=swap');
+
+.hacktoberfest2022 {
+	animation: gradienthf 5s ease infinite,
+    glows 1.5s infinite alternate; 
+    background: linear-gradient(90deg, rgb(255, 215, 77) 0%, rgb(64, 221, 255) 30%, rgb(124, 127, 255) 85%) 0% 0% / 200% 100%;
+    background-size: 400% 400%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: white;
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 800;
+    position: relative;
+}
+
+.hacktoberfest2022::before {
+    content: "";
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    top: -10%;
+    filter: brightness(0.4) sepia(1) hue-rotate(220deg) saturate(8);
+    background-image: url(https://hacktoberfest.com/_next/static/media/grid-square.7c0cbc15.svg);
+    opacity: 0.2;
+    -webkit-mask-image: radial-gradient(70% 80% at 50% 50%, black 40%, transparent 70%);
+    width: 100%;
+    height: 120%;
+    z-index: -1;
+}
+
+.hacktoberfest2022::after {
+    color: #fff;
+    content: "";
+    position: absolute;
+    left: 36%;
+    top: -150%;
+    width: 260px;
+    height: 120px;
+    background-size: 400% 400%;
+	animation: explode 1.5s steps(5) 0s infinite;
+    filter: drop-shadow(rgba(255, 215, 77, 0.6) -1px -1px 2px) drop-shadow(rgba(124, 127, 255, 0.6) 1px 1px 2px);
+	background-image: url("data:image/svg+xml,%3Csvg width='840' height='120' viewBox='0 0 840 120' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M616 8H632V16H616V8Z' fill='%23ffffff'%3E%3C/path%3E%3Cpath d='M504 16H512V24H504V16Z' fill='%23ffffff'%3E%3C/path%3E%3Cpath d='M520 32H512V24H520V32Z' fill='%23ffffff'%3E%3C/path%3E%3Cpath d='M520 40V32H528V40H520Z' fill='%23ffffff'%3E%3C/path%3E%3Cpath d='M520 40V48H512V40H520Z' fill='%23ffffff'%3E%3C/path%3E%3Cpath d='M416 32H408V40H400V56H408V64H416V56H408V48H416V32Z' fill='%23ffffff'%3E%3C/path%3E%3Cpath d='M288 40H296V48H304V40H312V56H320V64H312V72H296V64H288V56H280V48H288V40Z' fill='%23ffffff'%3E%3C/path%3E%3Cpath d='M176 48V56H168V64H176V72H184V64H192V48H176Z' fill='%23ffffff'%3E%3C/path%3E%3Cpath d='M64 56H56V64H64V56Z' fill='%23ffffff'%3E%3C/path%3E%3Cpath d='M416 72H424V80H416V72Z' fill='%23ffffff'%3E%3C/path%3E%3Cpath d='M424 72V64H432V56H440V72H424Z' fill='%23ffffff'%3E%3C/path%3E%3Cpath d='M432 32H440V40H432V32Z' fill='%23ffffff'%3E%3C/path%3E%3Cpath d='M432 40V48H424V40H432Z' fill='%23ffffff'%3E%3C/path%3E%3Cpath d='M520 64H528V80H520V64Z' fill='%23ffffff'%3E%3C/path%3E%3Cpath d='M552 72H560V80H552V72Z' fill='%23ffffff'%3E%3C/path%3E%3Cpath d='M560 80H568V88H560V80Z' fill='%23ffffff'%3E%3C/path%3E%3Cpath d='M552 16H560V24H552V16Z' fill='%23ffffff'%3E%3C/path%3E%3Cpath d='M560 24H568V32H560V24Z' fill='%23ffffff'%3E%3C/path%3E%3Cpath d='M632 80H640V88H632V80Z' fill='%23ffffff'%3E%3C/path%3E%3Cpath d='M632 80H624V72H632V80Z' fill='%23ffffff'%3E%3C/path%3E%3Cpath d='M688 88H696V96H688V88Z' fill='%23ffffff'%3E%3C/path%3E%3Cpath d='M688 16H680V24H688V16Z' fill='%23ffffff'%3E%3C/path%3E%3C/svg%3E");
+}
+
+@keyframes gradienthf {
+    0% {
+        background-position: 0% 50%; transform: scale(1);
+    }
+    50% {
+        background-position: 100% 50%; transform: scale(1.2);
+    }
+    100% {
+        background-position: 0% 50%; transform: scale(1);
+    }
+}
+
+@keyframes explode {
+    from {
+        background-position: 0;
+    }
+    to {
+        background-position: 100%;
+    }
+}
+
+@keyframes glows {
+    0%, 18%, 22%, 25%, 53%, 57%, 100% {
+        text-shadow: none;
+    }
+    20%, 24%, 55% {        
+        text-shadow:
+        0 0 4px #fff,
+        0 0 11px rgb(255, 215, 77),
+        0 0 19px rgb(64, 221, 255),
+        0 0 40px rgb(124, 127, 255)
+    } 
+  }
