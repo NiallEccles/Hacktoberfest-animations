@@ -460,4 +460,5 @@ window.animations = [
 	{ name: 'fade-animation', author: 'Krunalio' },
 	{ name: 'movingGradientAnimation', author: 'yashneet-kalra' },
 	{ name: 'crazyText', author: 'Raissa-Cardoso'},
+	{ name: 'glowingTextEffect', author: 'yashneet-kalra'},
 ];
