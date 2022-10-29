@@ -454,5 +454,6 @@ window.animations = [
 	{ name: 'halloween-dance', author: 'LindseaMartin' },
 	{ name: 'bounceOutRight', author: 'katsu53' },
 	{ name: 'flipText', author: '204G1A0542' },
-	{ name: 'grow3d', author: 'MarcoShiavello' }
+	{ name: 'grow3d', author: 'MarcoShiavello' },
+	{ name: 'Typography', author: 'TheDa21crj' },
 ];
