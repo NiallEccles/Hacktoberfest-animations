@@ -225,7 +225,6 @@ window.animations = [
 	{ name: 'multicolor-stretch', author: 'jonboundy' },
 	{ name: 'nanananabatman', author: 'Pamblam' },
 	{ name: 'neon', author: 'AllDayAlone' },
-  { name: 'NewStrangerThings',author:'Max'},
 	{ name: 'neon-flicker', author: 'Kyle-Atienza' },
 	{ name: 'neon-flicking', author: 'samuelsimoes31' },
 	{ name: 'neon-glow', author: 'dheerajgandhi9' },
@@ -455,4 +454,7 @@ window.animations = [
 	{ name: 'halloween-dance', author: 'LindseaMartin' },
 	{ name: 'bounceOutRight', author: 'katsu53' },
 	{ name: 'flipText', author: '204G1A0542' },
+	{ name: 'grow3d', author: 'MarcoShiavello' },
+	{ name: 'Typography', author: 'TheDa21crj' },
+	{ name: 'NewStrangerThings',author:'Max'},
 ];
