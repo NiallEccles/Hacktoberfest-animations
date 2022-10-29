@@ -457,4 +457,5 @@ window.animations = [
 	{ name: 'grow3d', author: 'MarcoShiavello' },
 	{ name: 'Typography', author: 'TheDa21crj' },
 	{ name: 'NewStrangerThings',author:'Max'},
+	{ name: 'fade-animation', author: 'Krunalio' },
 ];
