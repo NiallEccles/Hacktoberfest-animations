@@ -9,6 +9,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
 
 .fade-animation {
+  color: tomato;
   position: relative;
   font-size: 20vmin;
   font-family: 'Staatliches', sans-serif;
@@ -32,23 +33,4 @@
   opacity: 1; 
   filter: blur(0px);
   }
-}
-
-
-
-
-* { box-sizing: border-box }
-
-html, body {
-  margin: 0;
-  background: black;
-  color: tomato;
-  height: 100%;
-}
-
-body {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
 }
