@@ -229,6 +229,7 @@ window.animations = [
 	{ name: 'neon-flicking', author: 'samuelsimoes31' },
 	{ name: 'neon-glow', author: 'dheerajgandhi9' },
 	{ name: 'neonplus', author: 'AdrianoBiolchi' },
+	{ name: 'neon-shake', author: 'ramkrishna07' },
 	{ name: 'neumorphism-animation', author: 'kalpanaT-05' },
 	{ name: 'new-page', author: 'nerdomancer' },
 	{ name: 'onfirehack', author: 'mkhy19' },
