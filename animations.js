@@ -459,4 +459,5 @@ window.animations = [
 	{ name: 'NewStrangerThings',author:'Max'},
 	{ name: 'fade-animation', author: 'Krunalio' },
 	{ name: 'movingGradientAnimation', author: 'yashneet-kalra' },
+	{ name: 'crazyText', author: 'Raissa-Cardoso'},
 ];
