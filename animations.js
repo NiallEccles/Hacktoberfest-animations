@@ -458,4 +458,5 @@ window.animations = [
 	{ name: 'Typography', author: 'TheDa21crj' },
 	{ name: 'NewStrangerThings',author:'Max'},
 	{ name: 'fade-animation', author: 'Krunalio' },
+	{ name: 'movingGradientAnimation', author: 'yashneet-kalra' },
 ];
