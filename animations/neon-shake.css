@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+.neon-shake{
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    background: black;
+    font-family: 'Audiowide', cursive;
+    transform: translate(-50%,-50%) skewY(-5deg);
+    border: 4px solid #fff;
+    padding: 50px 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #1eff4e, 0 0 30px #1eff4e,inset 0 0 10px #1eff4e,inset 0 0 30px #1eff4e;
+    animation: neon-shake 3s ease-in-out infinite;
+    font-size: 4em;
+    color: #fff;
+    text-shadow: 0 0 10px #1eff4e, 0 0 20px #1eff4e,0 0 80px #1eff4e,0 0 120px #1eff4e;
+}
+.neon-shake:before{
+    content: '';
+    position: absolute;
+    bottom: 80px;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: #fff;
+    box-shadow: 0 0 10px #1eff4e, 0 0 30px #13a0fe;
+    z-index: -1;
+}
+.neon-shake:after{
+    content: '';
+    position: absolute;
+    top: 90px;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: #fff;
+    box-shadow: 0 0 10px #1eff4e, 0 0 30px #fe0000;
+    z-index: -1;
+}
+
+@keyframes neon-shake{
+    0%{
+        opacity: 1;
+        
+    }
+    50%{
+        opacity: .8;
+        transform: translate(-50%,-50%) skewY(0deg);
+        box-shadow: 0 0 10px #fe0000, 0 0 30px #fe0000,inset 0 0 10px #fe0000,inset 0 0 30px #fe0000;
+        text-shadow: 0 0 10px #fe0000, 0 0 20px #fe0000,0 0 80px #fe0000,0 0 120px #fe0000;
+    }
+    100%{
+        opacity: 1;
+        transform: translate(-50%,-50%) skewY(-5deg);
+        box-shadow: 0 0 10px #13a0fe, 0 0 30px #13a0fe,inset 0 0 10px #13a0fe,inset 0 0 30px #13a0fe;
+        text-shadow: 0 0 10px #13a0fe, 0 0 20px #13a0fe,0 0 80px #13a0fe,0 0 120px #13a0fe;
+    }
+}
