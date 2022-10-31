@@ -1,6 +1,10 @@
 /** @format */
 
 window.animations = [
+	{
+		name: 'ankitbajpai',
+		author: 'ankitbajpai65'
+	},
 	{ name: 'Animadeu', author: 'Amad3eu' },
 	{ name: 'Anubhav-developerMation', author: 'Anubhav-developr' },
 	{ name: 'aberration', author: 'cnsumner' },
@@ -456,13 +460,13 @@ window.animations = [
 	{ name: 'flipText', author: '204G1A0542' },
 	{ name: 'grow3d', author: 'MarcoShiavello' },
 	{ name: 'Typography', author: 'TheDa21crj' },
-	{ name: 'NewStrangerThings',author:'Max'},
+	{ name: 'NewStrangerThings', author: 'Max' },
 	{ name: 'fade-animation', author: 'Krunalio' },
 	{ name: 'movingGradientAnimation', author: 'yashneet-kalra' },
-	{ name: 'crazyText', author: 'Raissa-Cardoso'},
+	{ name: 'crazyText', author: 'Raissa-Cardoso' },
 	{ name: 'neon-shake', author: 'ramkrishna07' },
-	{ name: 'nananim', author: 'nancy0119'},
-	{ name: 'glowingTextEffect', author: 'yashneet-kalra'},
-	{ name: 'blastAppear', author: 'sumudusujith'},
-	{ name: 'Wavy-Apperance', author: 'GauthamG2'},
+	{ name: 'nananim', author: 'nancy0119' },
+	{ name: 'glowingTextEffect', author: 'yashneet-kalra' },
+	{ name: 'blastAppear', author: 'sumudusujith' },
+	{ name: 'Wavy-Apperance', author: 'GauthamG2' },
 ];

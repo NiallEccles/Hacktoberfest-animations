@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.ankitbajpai {
+    position: relative;
+    font-size: 4rem;
+    color: #f7f7f7;
+    text-transform: uppercase;
+}
+
+.ankitbajpai::before {
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    color: rgb(46, 232, 33);
+    border-right: 2px solid rgb(46, 232, 33);
+    overflow: hidden;
+    animation: slide 6s linear infinite;
+    -webkit-animation: slide 6s linear infinite;
+}
+
+@keyframes slide {
+
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 100%;
+    }
+
+    /* 100% {
+        width: 0%;
+    } */
+}
