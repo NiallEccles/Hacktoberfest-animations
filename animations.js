@@ -463,4 +463,5 @@ window.animations = [
 	{ name: 'neon-shake', author: 'ramkrishna07' },
 	{ name: 'nananim', author: 'nancy0119'},
 	{ name: 'glowingTextEffect', author: 'yashneet-kalra'},
+	{ name: 'blastAppear', author: 'sumudusujith'},
 ];
