@@ -2,7 +2,6 @@
 
 window.animations = [
 	{ name: 'Animadeu', author: 'Amad3eu' },
-	{ name: 'nananim', author: 'nancy0119'},
 	{ name: 'Anubhav-developerMation', author: 'Anubhav-developr' },
 	{ name: 'aberration', author: 'cnsumner' },
 	{ name: 'aesthetic', author: 'ImShivraj' },
@@ -461,4 +460,6 @@ window.animations = [
 	{ name: 'fade-animation', author: 'Krunalio' },
 	{ name: 'movingGradientAnimation', author: 'yashneet-kalra' },
 	{ name: 'crazyText', author: 'Raissa-Cardoso'},
+	{ name: 'neon-shake', author: 'ramkrishna07' },
+	{ name: 'nananim', author: 'nancy0119'},
 ];
