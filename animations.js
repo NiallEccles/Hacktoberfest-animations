@@ -461,4 +461,5 @@ window.animations = [
 	{ name: 'movingGradientAnimation', author: 'yashneet-kalra' },
 	{ name: 'crazyText', author: 'Raissa-Cardoso'},
 	{ name: 'neon-shake', author: 'ramkrishna07' },
+	{ name: 'nananim', author: 'nancy0119'},
 ];
