@@ -462,4 +462,5 @@ window.animations = [
 	{ name: 'crazyText', author: 'Raissa-Cardoso'},
 	{ name: 'neon-shake', author: 'ramkrishna07' },
 	{ name: 'nananim', author: 'nancy0119'},
+	{ name: 'glowingTextEffect', author: 'yashneet-kalra'},
 ];
