@@ -464,4 +464,5 @@ window.animations = [
 	{ name: 'nananim', author: 'nancy0119'},
 	{ name: 'glowingTextEffect', author: 'yashneet-kalra'},
 	{ name: 'blastAppear', author: 'sumudusujith'},
+	{ name: 'Wavy-Apperance', author: 'GauthamG2'},
 ];
