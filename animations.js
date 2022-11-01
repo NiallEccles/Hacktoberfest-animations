@@ -284,6 +284,7 @@ window.animations = [
 	{ name: 'rotatingCard', author: 'patriciafelixx' },
 	{ name: 'rrrah', author: 'DhevaMargaPutra' },
 	{ name: 'rubberband', author: 'makajeez' },
+	{ name: 'sau', author: 'saurabhtopthon01' },
 	{ name: 'saksh', author: 'saurabhtopthon01' },
 	{ name: 'save-amazon', author: 'claudioholanda' },
 	{ name: 'sban', author: 'bannersb19' },
