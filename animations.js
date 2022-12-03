@@ -34,6 +34,7 @@ window.animations = [
 	{ name: 'blinkShadow', author: 'rpvsilva' },
 	{ name: 'blood', author: 'beatrizsmerino' },
 	{ name: 'blow', author: 'graviton5' },
+	{ name: 'blue-gradient', author: 'achen6159' },
 	{ name: 'BluePulse', author: 'JMustang' },
 	{ name: 'blurFade', author: 'aveselovalova' },
 	{ name: 'blur-expand', author: 'danishzayan' },
