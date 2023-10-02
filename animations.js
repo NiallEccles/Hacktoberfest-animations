@@ -465,4 +465,5 @@ window.animations = [
 	{ name: 'glowingTextEffect', author: 'yashneet-kalra'},
 	{ name: 'blastAppear', author: 'sumudusujith'},
 	{ name: 'Wavy-Apperance', author: 'GauthamG2'},
+	{ name: 'dancing-glow', author: 'dinil-thilakarathne'},
 ];
