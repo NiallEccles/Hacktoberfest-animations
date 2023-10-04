@@ -307,6 +307,7 @@ window.animations = [
 	{ name: 'ShineText', author: 'SP-2605' },
 	{ name: 'shiningtext', author: 'rcode321' },
 	{ name: 'shining', author: 'hjdesigner' },
+	{ name: 'shiv', author: 'shivankurchavan' },
 	{ name: 'showRight', author: 'janczer' },
 	{ name: 'simple-by-lumuscode', author: 'LumusCode' },
 	{ name: 'simulacrum', author: 'ayeteejay' },
