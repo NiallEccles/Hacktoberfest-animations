@@ -20,7 +20,7 @@
     position: relative;
     top: 20px;
     display: inline-block;
-    animation: bouncy 0.3s ease infinite alternate, bouncy-glow 0.5s ease infinite alternate, bouncy-move 0.7s ease infinite alternate !important;
+    animation: b 0.3s ease infinite alternate, b-g 0.5s ease infinite alternate, b-m 0.7s ease infinite alternate !important;
     color: #ffd000;
     font-size: 60px;
     text-shadow: 0 1px 0 #333, 0 2px 0 #333, 0 3px 0 #333, 0 4px 0 #333,
@@ -28,7 +28,7 @@
       0 9px 0 transparent, 0 10px 10px rgba(0, 0, 0, 0.4);
 }
 
- @-webkit-keyframes bouncy {
+ @-webkit-keyframes b {
     100% {
       top: -20px;
       text-shadow: 0 1px 0 #ccc, 0 2px 0 #ccc, 0 3px 0 #ccc, 0 4px 0 #ccc,
@@ -39,7 +39,7 @@
     }
 }
 
-@-webkit-keyframes bouncy-glow {
+@-webkit-keyframes b-g {
     0% {
       text-shadow: 0 0 0 #ffd000, 0 0 20px #ffd000;
     }
@@ -51,7 +51,7 @@
     }
   }
   
-  @-webkit-keyframes bouncy-move {
+  @-webkit-keyframes b-m {
     0% {
       transform: translateX(0);
     }
