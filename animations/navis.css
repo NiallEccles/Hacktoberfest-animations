@@ -1,0 +1,37 @@
+/*
+By https://github.com/Navise
+@format
+*/
+
+@keyframes navis {
+    0% {
+        transform: scale(1);
+        color: #3498db;
+        text-shadow: none;
+    }
+    25% {
+        transform: scale(1.2);
+        color: #e74c3c;
+        text-shadow: 0 0 10px #e74c3c;
+    }
+    50% {
+        transform: scale(0.8);
+        color: #2ecc71;
+        text-shadow: 0 0 20px #2ecc71;
+    }
+    75% {
+        transform: scale(1.2);
+        color: #f1c40f;
+        text-shadow: 0 0 10px #f1c40f;
+    }
+    100% {
+        transform: scale(1);
+        color: #3498db;
+        text-shadow: none;
+    }
+}
+.navis {
+    font-size: 36px;
+    animation: navis 4s ease-in-out infinite;
+    display: inline-block;
+}
