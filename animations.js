@@ -466,4 +466,5 @@ window.animations = [
 	{ name: 'blastAppear', author: 'sumudusujith'},
 	{ name: 'Wavy-Apperance', author: 'GauthamG2'},
 	{ name: 'zeta', author: 'ADS-bot'},
+	{ name: 'dancing-glow', author: 'dinil-thilakarathne'},
 ];
