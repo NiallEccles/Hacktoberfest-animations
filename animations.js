@@ -129,6 +129,7 @@ window.animations = [
 	{ name: 'falling', author: 'LRK1696' },
 	{ name: 'fancy-border', author: 'ThePoptartCrpr' },
 	{ name: 'fireEffect', author: 'pradnyahaval' },
+	{ name: 'fireanimate', author: 'THE-AryanKumar'},
 	{ name: 'fire', author: 'marcelowis' },
 	{ name: 'firer', author: 'kalamell' },
 	{ name: 'firetext', author: 'KrindgesJuliano' },
