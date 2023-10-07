@@ -475,4 +475,5 @@ window.animations = [
 	{ name: 'Wavy-Apperance', author: 'GauthamG2'},
 	{ name: 'dancing-glow', author: 'dinil-thilakarathne'},
 	{ name: 'navis',author: 'Navise' },
+  {name: 'cool-3DTypography', author: 'sudhanshu-77'},
 ];
