@@ -1,0 +1,56 @@
+.zeta {
+    color: black;
+    text-shadow: 2px 3px lime; 
+    margin-top: 10px;
+    margin-bottom: 1px;
+    font-family: 'Arial', sans-serif; /* Change the font family */
+    margin: 10px 0 0 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 30em;
+    animation: bounce 1s cubic-bezier(0.175, 0.885, 0.32, 1.275) infinite; /* Adjusted timing function for more realistic bounce */
+  }
+  
+  .zeta:nth-child(2) {
+    animation: bounce 1s cubic-bezier(0.175, 0.885, 0.32, 1.275) infinite, rotate 5s linear infinite;
+  }
+  
+  .zeta:nth-child(3) {
+    animation: bounce 1s cubic-bezier(0.175, 0.885, 0.32, 1.275) infinite, scale 4s ease-in-out infinite;
+  }
+  
+  .zeta a {
+    color: lime;
+    text-decoration: none;
+  }
+  
+  @keyframes bounce {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    25% {
+      transform: translateY(-20px); /* Adjusted bounce height */
+    }
+    50% {
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  @keyframes scale {
+    0%, 100% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+  }
+  

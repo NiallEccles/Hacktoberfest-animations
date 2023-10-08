@@ -234,7 +234,7 @@ window.animations = [
 	{ name: 'neonplus', author: 'AdrianoBiolchi' },
 	{ name: 'neumorphism-animation', author: 'kalpanaT-05' },
 	{ name: 'new-page', author: 'nerdomancer' },
-	{ name: 'oceanWaves', author: 'Kevin' },
+	// { name: 'oceanWaves', author: 'Kevin' },
 	{ name: 'onfirehack', author: 'mkhy19' },
 	{ name: 'opacity-by-gabrielamattias', author: 'GabrielaMattias' },
 	{ name: 'orangeisthenewblack', author: 'kevinhuddy' },
@@ -358,7 +358,7 @@ window.animations = [
 	{ name: 'text-shadow', author: 'Zaheudev' },
 	{ name: 'text-split', author: 'hariramjp777' },
 	{ name: 'thaovt', author: 'thaovt' },
-	{ name: 'the-shining', author: 'kshitijsriv' },
+	// { name: 'the-shining', author: 'kshitijsriv' },
 	{ name: 'threedAnimation', author: '123shuklaayush' },
 	{ name: 'theLight', author: 'Himanshu' },
 	{ name: 'thin-air', author: 'sniemeyer1' },
@@ -475,4 +475,5 @@ window.animations = [
 	{ name: 'Wavy-Apperance', author: 'GauthamG2'},
 	{ name: 'dancing-glow', author: 'dinil-thilakarathne'},
 	{ name: 'navis',author: 'Navise' },
+	{ name: 'zeta', author: 'ADS-bot'},
 ];
