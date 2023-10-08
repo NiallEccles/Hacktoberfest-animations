@@ -1,0 +1,39 @@
+/**
+ * /* By: https://github.com/topekz
+ *
+ * @format
+ */
+
+@keyframes rgb {
+	0% {
+		text-shadow: 0 0 20px #ff0000;
+	}
+
+	15% {
+		text-shadow: 0 0 20px #ff8800;
+	}
+
+	30% {
+		text-shadow: 0 0 20px #eeff00;
+	}
+
+	45% {
+		text-shadow: 0 0 20px #00ff22;
+	}
+
+	60% {
+		text-shadow: 0 0 20px #00ffff;
+	}
+
+	75% {
+		text-shadow: 0 0 20px #d400ff;
+	}
+
+	100% {
+		text-shadow: 0 0 20px #ff0095;
+	}
+}
+
+.rgb-glow {
+    animation: rgb 4s infinite;
+}

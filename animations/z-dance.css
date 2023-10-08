@@ -1,0 +1,32 @@
+/** @format */
+
+.z-dance {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	color: black;
+	animation: dance 1s alternate infinite;
+	font-size: 5em;
+	font-weight: 900;
+	line-height: 1;
+}
+
+@keyframes dance {
+	0% {
+		transform: translateX(0.5em);
+	}
+
+	35% {
+		transform: translateX(-0.5em);
+		text-shadow: -0 0 0 #0c2ffb, -0 0 0 #2cfcfd, 0.125em 0.12em 0 #0aa524,
+			0.25em 0.13em 0 #4bfef5;
+	}
+
+	70% {
+		transform: translateX(0.5em);
+		text-shadow: -0.125em 0.12em 0 #0c2ffb, -0.25em 0.13em 0 #2cfcfd;
+	}
+
+	100% {
+		transform: translateX(0.5em);
+		text-shadow: 0.125em 0.12em 0 #fb203b, 0.25em 0.13em 0 #fefc4b;
+	}
+}

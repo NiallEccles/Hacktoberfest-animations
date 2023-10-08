@@ -1,0 +1,38 @@
+.shiv {
+    position: relative;
+    display: block;
+    font-weight: 900;
+    font-size: 5rem;
+    line-height: 1.5;
+    text-decoration: none;
+    color: transparent;
+    -webkit-text-stroke: 1px #ffffff;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+  }
+  .shiv:hover {
+    color: #ffffff;
+    -webkit-text-stroke: 1px #212121;
+    transition: 0.25s;
+  }
+  .shiv:hover::before {
+    transform: translate(12px, -12px);
+    color: #ff1744;
+    -webkit-text-stroke: 1px #212121;
+  }
+  .shiv:hover::after {
+    transform: translate(24px, -24px);
+    color: #4dd0e1;
+    -webkit-text-stroke: 1px #212121;
+  }
+  .shiv::before, .shiv::after {
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    transition: 0.5s;
+    -webkit-text-stroke: 1px transparent;
+  }

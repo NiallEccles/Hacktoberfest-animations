@@ -1,0 +1,66 @@
+
+.shadow_animation_3D {
+  text-transform: uppercase;
+  font-family: verdana;
+  font-size: 12em;
+  font-weight: 700;
+  color: #fc3d0e;
+  animation:ani 5s infinite alternate;
+}
+@keyframes ani{
+  0%{
+    text-shadow: 0px 0px 0 rgb(136,136,136),
+                 1px 1px 0 rgb(127,127,127),
+                 2px 2px 0 rgb(118,118,118),
+                 3px 3px 0 rgb(109,109,109),
+                 4px 4px 0 rgb(100,100,100),
+                 5px 5px 0 rgb(91,91,91),
+                 6px 6px 0 rgb(81,81,81),
+                 7px 7px 0 rgb(72,72,72),
+                 8px 8px 0 rgb(63,63,63),
+                 9px 9px 0 rgb(54,54,54),
+                 10px 10px 0 rgb(45,45,45),
+                 11px 11px 0 rgb(36,36,36),
+                 12px 12px 0 rgb(27,27,27),
+                 13px 13px  0 rgb(18,18,18),
+                 14px 14px 13px rgba(0,0,0,0.55),
+                 14px 14px 1px rgba(0,0,0,0.5),
+                 0px 0px 13px rgba(0,0,0,.2);
+  }
+  
+  50%{
+  text-shadow: 1px 1px 1px #919191,
+        1px 2px 1px #919191,
+        1px 3px 1px #919191,
+        1px 4px 1px #919191,
+        1px 5px 1px #919191,
+        1px 6px 1px #919191,
+        1px 7px 1px #919191,
+        1px 8px 1px #919191,
+        1px 9px 1px #919191,
+        1px 10px 1px #919191,
+    1px 18px 6px rgba(16,16,16,0.4),
+    1px 22px 10px rgba(16,16,16,0.2),
+    1px 25px 35px rgba(16,16,16,0.2),
+    1px 30px 60px rgba(16,16,16,0.4); 
+  }
+  100%{
+    text-shadow: 0px 0px 0 rgb(136,136,136),
+    -1px 1px 0 rgb(127,127,127),
+    -2px 2px 0 rgb(118,118,118),
+    -3px 3px 0 rgb(109,109,109),
+    -4px 4px 0 rgb(100,100,100),
+    -5px 5px 0 rgb(91,91,91),
+    -6px 6px 0 rgb(81,81,81),
+    -7px 7px 0 rgb(72,72,72),
+    -8px 8px 0 rgb(63,63,63),
+    -9px 9px 0 rgb(54,54,54),
+    -10px 10px 0 rgb(45,45,45),
+    -11px 11px 0 rgb(36,36,36),
+    -12px 12px 0 rgb(27,27,27),
+    -13px 13px  0 rgb(18,18,18),
+    -14px 14px 13px rgba(0,0,0,0.55),
+    -14px 14px 1px rgba(0,0,0,0.5),
+    0px 0px 13px rgba(0,0,0,.2);
+  }
+}

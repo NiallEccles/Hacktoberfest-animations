@@ -1,0 +1,19 @@
+@keyframes bounceOutRight {
+    20% {
+      opacity: 1;
+      -webkit-transform: translate3d(-20px, 0, 0) scaleX(0.9);
+      transform: translate3d(-20px, 0, 0) scaleX(0.9);
+    }
+    to {
+      opacity: 0;
+      -webkit-transform: translate3d(2000px, 0, 0) scaleX(2);
+      transform: translate3d(2000px, 0, 0) scaleX(2);
+    }
+  }
+
+.bounceOutRight {
+    animation-duration: 1s;
+	animation-iteration-count: infinite;
+	animation-name: bounceOutRight;
+	animation-timing-function: ease-out
+}

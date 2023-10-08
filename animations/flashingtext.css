@@ -1,0 +1,27 @@
+/** @format */
+
+.flashingtext {
+	animation: flashingtext 0.7s ease infinite;
+	transform-origin: 50% 50%;
+}
+
+@keyframes flashingtext {
+	0% {
+		color: #fff;
+	}
+	15% {
+		color: #ff9f57;
+	}
+	25% {
+		color: #fff;
+	}
+	50% {
+		color: red;
+	}
+	65% {
+		color: green;
+	}
+	100% {
+		color: blue;
+	}
+}

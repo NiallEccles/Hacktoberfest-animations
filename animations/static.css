@@ -1,0 +1,45 @@
+/**
+ * /* By: https://github.com/DekyDesigns
+ *
+ * @format
+ */
+
+/** @format */
+
+@keyframes static {
+	0% {
+		background-position: 0% 25%;
+    }
+    14.3% {
+		background-position: 25% 50%;
+    }
+    28.6% {
+        background-position: 50% 75%;
+    }
+    42.9% {
+        background-position: 75% 100%;
+    }
+	57.1% {
+		background-position: 100% 75%;
+    }
+    71.4% {
+		background-position: 75% 50%;
+    }
+    85.7% {
+        background-position: 50% 25%;
+    }
+    100% {
+        background-position: 25% 0%;
+    }
+}
+
+.static {
+	font-weight: 700;
+    background: transparent url(https://www.dropbox.com/s/h7ab1c82ctzy83n/noise.png?raw=1) 0 0;
+	-webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+	-webkit-animation: static 1s steps(8,end) infinite both;
+	-webkit-transform: translate3d(0, 0, 0);
+	-webkit-backface-visibility: hidden;
+}

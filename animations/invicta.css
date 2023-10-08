@@ -1,9 +1,11 @@
-.flashtext {
-	animation: flashtext 3s ease infinite;
+/** @format */
+
+.invicta {
+	animation: invicta 3s ease infinite;
 	transform-origin: 50% 50%;
 }
 
-@keyframes flashtext {
+@keyframes invicta {
 	0% {
 		opacity: 1;
 		color: blue;
@@ -30,10 +32,10 @@
 	}
 }
 
-.flashtext::before {
+.invicta::before {
 	content: ' 🎃 ';
 }
 
-.flashtext::after {
+.invicta::after {
 	content: ' 👻 ';
 }

@@ -1,0 +1,21 @@
+@-webkit-keyframes zoom-in-out {
+	0% {
+
+
+		-webkit-transform: scale(0.9);
+	}
+
+
+	100% {
+
+
+		-webkit-transform: scale(1.2);
+	}
+
+}
+
+.zoom-in-out {
+    color: aqua;
+	animation: zoom-in-out 2s ease infinite alternate;
+	animation-fill-mode: forwards;
+}

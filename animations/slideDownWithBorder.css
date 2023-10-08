@@ -1,0 +1,23 @@
+/** @format */
+
+@keyframes slideDownWithBorder {
+	from {
+		top: -400px;
+	}
+
+	to {
+		top: 0;
+	}
+}
+
+.slideDownWithBorder {
+	-webkit-animation-name: slideDownWithBorder;
+	animation-name: slideDownWithBorder;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	margin: 0;
+	padding: 30px;
+	transition: all;
+	border: 10px solid #fff;
+	position: relative;
+}

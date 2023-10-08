@@ -138,6 +138,7 @@ window.animations = [
 	{ name: 'flashbeam', author: 'hrshk15' },
 	{ name: 'flashingtext', author: 'Jaammeesss' },
 	{ name: 'flashtext', author: 'cTahirih' },
+	{ name: 'flashtext', author: 'cTahirih' },
 	{ name: 'flip', author: 'TiagoBehenck' },
 	{ name: 'flip-all', author: 'istellar' },
 	{ name: 'flipInAndOut', author: 'TheBangis' },

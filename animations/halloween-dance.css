@@ -1,0 +1,15 @@
+.halloween-dance{
+    
+    animation: halloween-dance 6s infinite;
+}
+
+@keyframes halloween-dance {
+    0%   {background-color: rgb(87, 9, 9); }
+    10%  {background-color: rgb(245, 118, 0);}
+    25%  {background-color: black; transform: translate(50%, 50%) rotate(180deg);}
+    40%  {background-color: rgb(6, 66, 6); }
+    55%  {background-color: rgb(68, 9, 87); transform: translate(-50%, -50%) rotate(180deg);}
+    70%  {background-color: rgb(61, 0, 105); }
+    85%  {background-color: rgb(255, 32, 32); transform: translate(-50%, -50%) rotate(360deg);}
+    100% {background-color: rgba(216, 118, 7, 0.795); transform: translate(-50%, -50%) rotate(360deg);}
+  }

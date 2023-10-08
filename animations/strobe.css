@@ -1,0 +1,12 @@
+/** @format */
+
+@keyframes strobe {
+	50% {
+		opacity: 0;
+	}
+}
+
+.strobe {
+  animation: strobe 0.1s infinite;
+	-webkit-animation: strobe 0.1s infinite;
+}

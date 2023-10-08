@@ -1,0 +1,64 @@
+/*
+    by : https://github.com/Dinil-Thilakarathne
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
+.dancing-glow{
+    font-family: "Luckiest Guy", cursive;
+    -webkit-font-smoothing: antialiased;
+    cursor: default;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    margin: auto;
+    display: block;
+    text-align: center;
+    position: relative;
+    top: 20px;
+    display: inline-block;
+    animation: b 0.3s ease infinite alternate, b-g 0.5s ease infinite alternate, b-m 0.7s ease infinite alternate !important;
+    color: #ffd000;
+    font-size: 60px;
+    text-shadow: 0 1px 0 #333, 0 2px 0 #333, 0 3px 0 #333, 0 4px 0 #333,
+      0 5px 0 #333, 0 6px 0 transparent, 0 7px 0 transparent, 0 8px 0 transparent,
+      0 9px 0 transparent, 0 10px 10px rgba(0, 0, 0, 0.4);
+}
+
+ @-webkit-keyframes b {
+    100% {
+      top: -20px;
+      text-shadow: 0 1px 0 #ccc, 0 2px 0 #ccc, 0 3px 0 #ccc, 0 4px 0 #ccc,
+        0 5px 0 #ccc, 0 6px 0 #ccc, 0 7px 0 #ccc, 0 8px 0 #ccc, 0 9px 0 #ccc,
+        0 50px 25px rgba(0, 0, 0, 0.2);
+      transform: scale(1.2);
+      transform-origin: center bottom;
+    }
+}
+
+@-webkit-keyframes b-g {
+    0% {
+      text-shadow: 0 0 0 #ffd000, 0 0 20px #ffd000;
+    }
+    50% {
+      text-shadow: 0 0 0 transparent, 0 0 40px transparent;
+    }
+    100% {
+      text-shadow: 0 0 0 #ffd000, 0 0 20px #ffd000;
+    }
+  }
+  
+  @-webkit-keyframes b-m {
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(20px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+}

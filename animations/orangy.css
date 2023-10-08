@@ -1,0 +1,23 @@
+@keyframes animate {
+    from {color: brown;}
+    to {color: orange;}
+  }
+  
+  .orangy {
+    color: brown;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Staatliches', cursive;
+    letter-spacing: 10px;
+    word-spacing: 20px;  
+    opacity: 0.6;    
+    animation-name: animate;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;  animation-direction: alternate;
+  }  
+  .orangy:hover {
+    opacity: 1;
+    background-color: black;
+   }
