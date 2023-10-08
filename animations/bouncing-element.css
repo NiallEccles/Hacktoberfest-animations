@@ -1,0 +1,16 @@
+ /* Define the keyframes for the bounce animation */
+ @keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-20px); }
+  }
+
+  /* Apply the animation to an element */
+  .bouncing-element {
+    width: 100px;
+    height: 100px;
+    background-color: #3498db;
+    animation: bounce 1s infinite;
+  }
+
+
+  /* How to use: <div class="bouncing-element"></div> */
