@@ -483,4 +483,5 @@ window.animations = [
 	{ name: 'dancing-glow', author: 'dinil-thilakarathne'},
 	{ name: 'navis',author: 'Navise' },
 	{ name: 'animate-character',author: 'DishaSharma-dev' },
+	{ name: 'wavy-text',author: 'shailendrakawadkar' },
 ];
