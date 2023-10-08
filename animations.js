@@ -444,6 +444,7 @@ window.animations = [
 	{ name: 'bouncy', author: 'AmanPathan' },
 	{ name: 'flip-text-animation', author: 'pggeeks' },
 	{ name: 'above', author: 'Zaheudev' },
+	// { name: 'zeta', author: 'ADS-bot'},
 	{ name: 'glow-in', author: 'BSinhacodes' },
 	{ name: 'shakey', author: 'shakeybuoy' },
 	{ name: 'akon', author: 'Akash' },
@@ -475,5 +476,4 @@ window.animations = [
 	{ name: 'Wavy-Apperance', author: 'GauthamG2'},
 	{ name: 'dancing-glow', author: 'dinil-thilakarathne'},
 	{ name: 'navis',author: 'Navise' },
-	{ name: 'zeta', author: 'ADS-bot'},
 ];
