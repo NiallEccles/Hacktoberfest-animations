@@ -229,6 +229,7 @@ window.animations = [
 	{ name: 'moving-shadow', author: 'ClaudioFuriniJr' },
 	{ name: 'multicolor-stretch', author: 'jonboundy' },
 	{ name: 'nanananabatman', author: 'Pamblam' },
+	{ name: 'needForSpeed', author: 'Shariar-Hasan' },
 	{ name: 'neon', author: 'AllDayAlone' },
 	{ name: 'neon-flicker', author: 'Kyle-Atienza' },
 	{ name: 'neon-flicking', author: 'samuelsimoes31' },
