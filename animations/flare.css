@@ -1,0 +1,28 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+
+.flare {
+	font-family: 'Staatliches', cursive;
+	animation: flare 2s ease-in-out infinite;
+	transition: 0.6;
+}
+
+@keyframes flare {
+	0%,
+	100% {
+		text-shadow: 0 0 1vw #a024f8, 0 0 3vw #f708d3, 0 0 10vw #81120f,
+			0 0 10vw #0f1786, 0 0 0.4vw #c221c2, 0.4vw 0.4vw 0.1vw #1e5ab4;
+		color: #1693c4;
+	}
+
+	50% {
+		text-shadow: 3px -3px 0 #a024f8, -2px 2px 0 #f708d3;
+		color:#0f1786;
+	}
+	25% {
+		text-shadow: 1.5px 1.5px 0 #f708d3,
+			-1.5px -1.5px 0  #a024f8;
+	}
+}
+
