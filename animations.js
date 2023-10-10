@@ -484,4 +484,5 @@ window.animations = [
 	{ name: 'navis',author: 'Navise' },
 	{ name: 'animate-character',author: 'DishaSharma-dev' },
 	{ name: 'wavy-text',author: 'shailendrakawadkar' },
+	{ name: 'flare',author: 'milind-palaria' },
 ];
