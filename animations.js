@@ -44,6 +44,7 @@ window.animations = [
 	{ name: 'borderblend', author: 'erikadionn' },
 	{ name: 'borderedbackandfourth', author: 'mamadou-diallo' },
 	{ name: 'bounceReflection', author: 'Samar1110' },
+	{ name: 'newBouncingRefelection', author: '0nikhilkumar'},
 	{ name: 'bounce-simple', author: 'joedag32' },
 	{ name: 'bounce', author: 'Biafer' },
 	{ name: 'bounce', author: 'marekgebka' },
