@@ -1,0 +1,98 @@
+/** @format */
+.pixar-h {
+	position: relative;
+	font-family: monospace;
+}
+
+.pixar-h::first-letter {
+	color: transparent;
+}
+
+.pixar-h::before {
+	z-index: 10;
+	position: absolute;
+	content: 'H';
+	animation: 5s ease-in-out 1s alternate letter-eraser;
+	animation-fill-mode: both;
+	background-image: url('/assets/bg_main.png');
+	background-position: 0;
+	line-height: 46px;
+	height: 44px;
+	width: 33px;
+	overflow: hidden;
+}
+
+.pixar-h::after {
+	position: absolute;
+	content: 'o';
+	animation: 5s ease-in-out 1s infinite letter-smashed;
+	left: 180px;
+	top: 0;
+	transform-origin: bottom;
+	background-image: url('/assets/bg_main.png');
+	background-position: 0;
+}
+
+@keyframes letter-eraser {
+	0% {
+		left: 0;
+		top: 13px;
+	}
+	10%,
+	20% {
+		left: 11.3rem;
+		top: -50px;
+	}
+	30%,
+	50%{
+		left: 11.3rem;
+		top: -22px;
+  }
+  70%{
+    top: -16px;
+  }
+  90%{
+    top: -12px;
+  }
+	40% {
+		left: 11.3rem;
+		top: -12px;
+	}
+	60% {
+		left: 11.3rem;
+		top: -6px;
+	}
+	80% {
+		left: 11.3rem;
+		top: 0px;
+	}
+	100% {
+		left: 11.3rem;
+		top: 13px;
+	}
+}
+
+@keyframes letter-smashed {
+	0%,30% {
+		transform: scaleY(1);
+	}
+	40%,
+	50% {
+    transform: scaleY(0.8);
+    top: -2.6px;
+	}
+	60%,
+	70% {
+    transform: scaleY(0.5);
+    top: -7.8px;
+	}
+	80%, 90% {
+    transform: scaleY(0.4);
+    top: -10.4px;
+    
+	}
+	100% {
+    transform: scaleY(0.2);
+    top: -12px;
+	}
+}

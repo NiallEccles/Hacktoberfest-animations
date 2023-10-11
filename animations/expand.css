@@ -1,0 +1,32 @@
+/**
+ * /* By: https://github.com/lospettro
+ *
+ * @format
+ */
+
+@keyframes animate {
+	0% {
+		background-position: -500%;
+	}
+
+	100% {
+		background-position: 500%;
+	}
+}
+
+.expand {
+	position: relative;
+	font-family: Helvetica, Arial;
+	letter-spacing: 1px;
+	background: linear-gradient(90deg, #5f63d3, #fff, #5f63d3);
+	background-repeat: no-repeat;
+	background-size: 75%;
+	animation: animate 2s linear infinite;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: rgba(114, 34, 34, 0);
+	transition: all 0.9s;
+}
+
+.expand:hover {
+	letter-spacing: 10px;
+}

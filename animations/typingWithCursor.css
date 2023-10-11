@@ -1,0 +1,37 @@
+/**
+ * /* By: https://github.com/luisrondow
+ *
+ * @format
+ */
+
+@keyframes typingAnimation {
+	from {
+		width: 0;
+	}
+	to {
+		width: 13.5em;
+	}
+}
+
+@keyframes textCursorAnimation {
+	from {
+		border-right-color: rgba(255, 255, 255, 0.75);
+	}
+	to {
+		border-right-color: transparent;
+	}
+}
+
+.typingWithCursor {
+	border-right: 2px solid rgba(255, 255, 255, 0.75);
+	white-space: nowrap;
+	overflow: hidden;
+	transform: translateY(-50%);
+
+	animation: typingAnimation 4s steps(30) 1s 1 alternate both,
+		textCursorAnimation 1000ms steps(30) infinite normal;
+}
+
+.typingWithCursor::after {
+	content: '🎉';
+}

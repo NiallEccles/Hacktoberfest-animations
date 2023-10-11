@@ -1,0 +1,17 @@
+/**
+ * /* By: https://github.com/jespicas
+ *
+ * @format
+ */
+
+@keyframes fromright {
+	0% {
+		transform: translate(350px, 0);
+	}
+}
+
+.fromright {
+	animation-name: fromright;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+}

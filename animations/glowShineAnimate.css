@@ -1,0 +1,29 @@
+
+  .glowShineAnimate {
+    background: #170f1e;
+    font-family: 'Jetbrains Mono', monospace;
+    color: #fff;
+    background: linear-gradient(to right, rgb(64 221 255) 0%, #b4ff39 20%, rgb(64 221 255) 40%);
+    background-position: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: glowShineAnimate 3s infinite linear;
+    animation-fill-mode: forwards;
+    -webkit-text-size-adjust: none;
+    font-weight: 600;
+    font-size: 100px;
+    text-decoration: none;
+    white-space: nowrap;
+  }
+
+
+
+  @keyframes glowShineAnimate {
+    0% {
+      background-position: 0;
+    }
+    100% {
+      background-position: 800px;
+    }
+  }
+

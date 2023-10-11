@@ -1,0 +1,77 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Creepster&display=swap");
+
+:root {
+    --color-blood-red: #8a0116;
+    --color-blood-blue: #485475;
+}
+
+.blood {
+    font-family: "Creepster", cursive;
+    font-size: 80px;
+    color: var(--color-blood-red);
+    -webkit-animation: blood 5s ease-in-out 0s infinite both;
+    animation: blood 5s ease-in-out 0s infinite both;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-color: var(--color-blood-red);
+    background-image: -o-linear-gradient(bottom, var(--color-blood-blue), var(--color-blood-red));
+    background-image: -webkit-gradient(linear, left bottom, left top, from(var(--color-blood-blue)), to(var(--color-blood-red)));
+    background-image: linear-gradient(to top, var(--color-blood-blue), var(--color-blood-red));
+    background-size: 100% 0%;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    text-shadow: 2px 2px 3px rgba(255, 255, 255, 0.15);
+}
+
+@-webkit-keyframes blood {
+    0% {
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-size: 100% 0%;
+    }
+    30% {
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-size: 100% 100%;
+    }
+    60% {
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-size: 100% 100%;
+    }
+    100% {
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-size: 100% 0%;
+    }
+}
+
+@keyframes blood {
+    0% {
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-size: 100% 0%;
+    }
+    30% {
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-size: 100% 100%;
+    }
+    60% {
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-size: 100% 100%;
+    }
+    100% {
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-size: 100% 0%;
+    }
+}

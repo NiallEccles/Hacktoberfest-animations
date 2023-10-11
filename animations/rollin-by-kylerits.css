@@ -1,0 +1,26 @@
+/**
+ * /* By: https://github.com/kylerits
+ *
+ * @format
+ */
+
+@keyframes rotateIn {
+	0% {
+		transform: rotate3d(1, 0, 0, 80deg) translateY(-50%);
+	}
+
+	80% {
+		transform: rotate3d(1, 0, 0, -20deg) translateY(10%);
+	}
+
+	100% {
+		transform: rotate3d(1, 0, 0, 0deg) translateY(0);
+	}
+}
+
+.rollin-by-kylerits {
+	animation-name: rotateIn;
+	animation-duration: 600ms;
+	animation-fill-mode: forwards;
+	animation-timing-function: cubic-bezier(0.47, 0, 0.745, 0.715);
+}

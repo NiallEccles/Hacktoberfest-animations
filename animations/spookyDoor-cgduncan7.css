@@ -1,0 +1,91 @@
+/**
+ * /* By: https://github.com/cgduncan7
+ *
+ * @format
+ */
+
+@keyframes doorL {
+	0%,
+	10% {
+		left: -10px;
+		right: 50%;
+	}
+
+	33%,
+	66% {
+		left: -10px;
+		right: 100%;
+	}
+
+	90%,
+	100% {
+		left: -10px;
+		right: 50%;
+	}
+}
+
+@keyframes doorR {
+	0%,
+	10% {
+		left: 50%;
+		right: -10px;
+	}
+
+	33%,
+	66% {
+		left: 100%;
+		right: -10px;
+	}
+
+	90%,
+	100% {
+		left: 50%;
+		right: -10px;
+	}
+}
+
+@keyframes smoke {
+	0%,
+	10% {
+		text-shadow: 0px 0px 0px rgba(255, 255, 255, 0);
+	}
+
+	33% {
+		text-shadow: 0px 0px 100px rgba(255, 255, 255, 1);
+	}
+
+	66% {
+		text-shadow: 0px 20px 100px rgba(255, 255, 255, 0.5);
+	}
+
+	90%,
+	100% {
+		text-shadow: 0px 20px 100px rgba(255, 255, 255, 0);
+	}
+}
+
+.spookyDoor-cgduncan7 {
+	position: relative;
+	color: white;
+	animation: 6s linear normal none infinite smoke;
+}
+
+.spookyDoor-cgduncan7::after {
+	content: '';
+	position: absolute;
+	top: -5px;
+	bottom: -5px;
+	background-color: #333;
+	animation: 6s cubic-bezier(0.19, 1, 0.22, 1) normal none infinite doorL;
+	box-shadow: 2px 1px 2px 0 rgba(0, 0, 0, 0.25);
+}
+
+.spookyDoor-cgduncan7::before {
+	content: '';
+	position: absolute;
+	top: -5px;
+	bottom: -5px;
+	background-color: #333;
+	animation: 6s cubic-bezier(0.19, 1, 0.22, 1) normal none infinite doorR;
+	box-shadow: -2px 1px 2px 0 rgba(0, 0, 0, 0.25);
+}

@@ -1,0 +1,36 @@
+
+/**
+ * /* By: https://github.com/Krunalio
+ *
+ * @format
+ */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+.fade-animation {
+  color: tomato;
+  position: relative;
+  font-size: 20vmin;
+  font-family: 'Staatliches', sans-serif;
+  text-transform: uppercase;
+  font-display: swap;
+  text-shadow: 0 0 10px tomato;
+  animation: moveIn 2s 0s cubic-bezier(.36,0,.06,1) alternate infinite ;
+}
+
+
+@keyframes moveIn {
+  50%, 100% { 
+    transform: translateY(0em)
+  }
+  0%   { 
+  opacity: 0; 
+  filter: blur(10px);
+  
+  }
+  100% { 
+  opacity: 1; 
+  filter: blur(0px);
+  }
+}

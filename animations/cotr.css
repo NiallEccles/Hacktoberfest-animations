@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Playball&family=Quicksand:wght@300&display=swap');
+@keyframes cotr {
+    0% {
+        color: red;
+    }
+    16% {
+        color: orange;
+    }
+    32% {
+        color: yellow;
+    }
+    48% {
+        color: green;
+    }
+    64% {
+        color: blue;
+    }
+	82% {
+        color: indigo;
+	}
+    100% {
+        color: violet;
+    }
+}
+
+.cotr {
+    animation: cotr 4s alternate infinite;
+    font-family: 'Quicksand';
+}

@@ -1,0 +1,13 @@
+/**
+ * /* By: https://github.com/rajdeepdev10
+ *
+ * @format
+ */
+
+.blink {
+    animation: blink 1s step-end infinite;
+}
+  
+@keyframes blink {
+    67% { opacity: 0 }
+}

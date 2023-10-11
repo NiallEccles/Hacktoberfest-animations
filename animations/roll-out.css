@@ -1,0 +1,19 @@
+/**
+ * /* By: https://github.com/TechoChat
+ *
+ * @format
+ */
+
+.roll-out {
+    animation: roll-out 2s ease infinite;
+  }
+  @keyframes roll-out {
+      0% {
+      opacity: 1;
+      transform: translateX(0px) rotate(0deg);
+    }
+    100% {
+      opacity: 0;
+      transform: translateX(100%) rotate(120deg);
+    }
+  }

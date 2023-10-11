@@ -1,0 +1,15 @@
+/**
+ * /* By: https://github.com/chintanmshah
+ *
+ * @format
+ */
+
+.smoke {
+	color: #fff;
+	background-image: url('https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif');
+	background-size: cover;
+	color: transparent;
+	background-clip: text;
+	-moz-background-clip: text;
+	-webkit-background-clip: text;
+}

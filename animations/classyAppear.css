@@ -1,0 +1,37 @@
+/**
+ * /* By: https://github.com/roganoalien
+ *
+ * @format
+ */
+
+@keyframes classyAppear {
+	0% {
+		clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+		transform: translateY(-10px);
+		-webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+	}
+
+	90% {
+		transform: translateY(2px);
+	}
+
+	95% {
+		clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+		-webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+	}
+
+	100% {
+		transform: translateY(0);
+		clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+		-webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+	}
+}
+
+.classyAppear {
+	animation: classyAppear 0.5s ease-in-out forwards;
+	clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+	font-family: Helvetica, Arial, sans-serif;
+	margin: inherit auto;
+	transform: translateY(-20px);
+	-webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+}

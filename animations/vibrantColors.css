@@ -1,0 +1,22 @@
+/**
+ * /* By: https://github.com/mareedez
+ *
+ * @format
+ */
+
+.vibrantColors {
+	font-family: Bowlby One SC, sans-serif;
+	font-weight: 700;
+	animation: change 10s infinite;
+}
+
+@keyframes change {
+	50% {
+		text-shadow: 5px 5px 0px #fff59d, 10px 10px 0px #ffd54f,
+			15px 15px 0px #ff9800, 20px 20px 0px #d32f2f, 25px 25px 0px #c62828,
+			30px 30px 0px #880e4f, 35px 35px 0px #880e4f, 40px 40px 0px #052939,
+			45px 45px 0px #052939;
+		color: #ffffff;
+		transform: rotate(-90deg);
+	}
+}

@@ -1,0 +1,35 @@
+/** @format */
+
+@keyframes nananim {
+	0% {
+		color: rgb(172, 13, 172);
+        text-decoration: overline;
+	}
+
+	25% {
+		color: black;
+        text-decoration: line-through;
+	}
+    50% {
+        color: blue;
+        text-decoration: underline;
+    }
+    75% {
+        color: crimson;  
+        text-decoration: underline overline;
+    }
+	100% {
+		color: rgb(255, 136, 0);
+        text-decoration: underline overline;
+	}
+}
+
+.nananim {
+	animation-name: nananim;
+	animation-duration: 2s;
+	animation-timing-function: ease-in-out, bezier;
+	background-color: black;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: underline overline line-through;
+	padding: 60px;
+}

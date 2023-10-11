@@ -1,0 +1,37 @@
+ .fireEffect:before {
+    content: "";
+    color: rgba(255, 255, 255, .5);
+    position: absolute;    
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+	border-color: transparent;
+    box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+   
+    border-radius: .8em;
+    /* filter: blur(5px); */
+    margin: -20px;
+    background: url(https://images.unsplash.com/photo-1544306094-e2dcf9479da3) no-repeat;
+  }
+
+
+ .fireEffect{
+    font-family: 'Source Sans Pro', sans-serif;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    color: #ffeb3b;
+    font-weight: 600;
+    font-size: 16em;
+    text-shadow: 0 0 10px #ff8b3c, 
+                0 0 40px #ff8b3c, 
+                0 0 80px #ff8b3c,
+                0 0 160px #ff8b3c, 
+                0 0 240px #ff8b3c;
+    
+    animation:flame 15s ease infinite, glow 2s ease infinite;
+ }
+
+

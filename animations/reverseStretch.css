@@ -1,0 +1,45 @@
+/**
+ * /* By: https://github.com/cnsumner
+ *
+ * @format
+ */
+
+@keyframes reverseStretch {
+	0% {
+		letter-spacing: 5px;
+		color: #42f6f7d6;
+		filter: drop-shadow(2px 4px 8px #000);
+	}
+	5% {
+		letter-spacing: 5px;
+		color: #42f6f7d6;
+		filter: drop-shadow(2px 4px 8px #000);
+	}
+	20% {
+		color: #42f6f7b3;
+		filter: drop-shadow(2px 4px 5px #000);
+	}
+	50% {
+		letter-spacing: -1.4em;
+		color: transparent;
+		filter: drop-shadow(2px 2px 4px #000);
+	}
+	80% {
+		color: #42f6f7b3;
+		filter: drop-shadow(2px 4px 5px #000);
+	}
+	95% {
+		letter-spacing: 5px;
+		color: #42f6f7d6;
+		filter: drop-shadow(2px 4px 8px #000);
+	}
+	100% {
+		letter-spacing: 5px;
+		color: #42f6f7d6;
+		filter: drop-shadow(2px 4px 8px #000);
+	}
+}
+
+.reverseStretch {
+	animation: reverseStretch 5s cubic-bezier(0, 0, 0.43, 0.99) infinite;
+}

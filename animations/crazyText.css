@@ -1,0 +1,33 @@
+.crazyText {
+    position: relative;
+    font-size: 30px;                       
+    text-shadow: 1px 0.5px 0.5px #000;
+    
+    animation-duration: 3s;
+    animation-name: crazy;
+}
+
+@keyframes crazy {
+    from {
+        margin-left: 100%;
+        width: 400%;
+        color: rgb(255, 115, 0);
+    }
+    50% {
+        font-size: 300%;
+        margin-left: 50%;
+        width: 300%;
+        color: rgb(255, 60, 0);
+    }
+    75% {
+        font-size: 500%;
+        margin-left: 25%;
+        width: 200%;
+        color: rgb(255, 187, 0);
+    }
+    to {
+        margin-left: 0%;
+        width: 100%;
+        color: rgb(252, 206, 0);
+    }
+}

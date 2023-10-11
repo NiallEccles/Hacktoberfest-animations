@@ -1,0 +1,59 @@
+/**
+ * /* By: https://github.com/macindex
+ *
+ * @format
+ */
+
+@keyframes save-amazon {
+	from {
+		-webkit-transform: scale3d(1, 1, 1);
+		transform: scale3d(1, 1, 1);
+	}
+
+	32% {
+		-webkit-transform: scale3d(1.25, 0.75, 1);
+		transform: scale3d(1.25, 0.75, 1);
+	}
+
+	48% {
+		-webkit-transform: scale3d(0.75, 1.25, 1);
+		transform: scale3d(0.75, 1.25, 1);
+	}
+
+	55% {
+		-webkit-transform: scale3d(1.15, 0.85, 1);
+		transform: scale3d(1.15, 0.85, 1);
+	}
+
+	60% {
+		-webkit-transform: scale3d(0.95, 1.05, 1);
+		transform: scale3d(0.95, 1.05, 1);
+	}
+
+	70% {
+		-webkit-transform: scale3d(1.05, 0.95, 1);
+		transform: scale3d(1.05, 0.95, 1);
+	}
+
+	to {
+		-webkit-transform: scale3d(1, 1, 1);
+		transform: scale3d(1, 1, 1);
+	}
+}
+
+.save-amazon {
+	white-space: nowrap;
+	text-transform: uppercase;
+	animation: save-amazon 3s ease-in-out infinite;
+	color: #eb007d;
+}
+
+.save-amazon::before,
+.save-amazon::after {
+	content: '\1F333';
+}
+
+.save-amazon {
+	color: red;
+	animation: focusBlur 5s ease-out infinite;
+}

@@ -1,0 +1,20 @@
+/**
+ * /* By: https://github.com/M-Rahul1
+ *
+ * @format
+ */
+
+ @keyframes rotateFromCenter {
+	from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(359deg);
+      }
+}
+
+.rotateFromCenter {
+	backface-visibility: visible !important;
+	animation-name: rotateFromCenter;
+	animation-duration: 5s ;
+}

@@ -1,0 +1,137 @@
+/**
+ * Hacktober Fest Animation 2022 
+ * By: https://github.com/Ishpreet-Kaur-Bedi
+ *
+ * @format
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+
+.bubbling_effect {
+	font-family: 'Silkscreen', cursive;
+	font-size: 134px;
+	line-height: 120%;
+	text-shadow: rgb(255 215 77 / 60%) -4px -4px 12px,
+		rgb(124 127 255 / 60%) 4px 4px 12px;
+	animation: bubbling_effect 3s ease 0s;
+}
+
+.bubbling_effect::before {
+	content: '👨‍💻';
+	border-radius: 50px;
+	background: #fef1ccfb;
+	box-shadow: 11px 11px 22px #d8cdad, -11px -11px 22px #ffffeb;
+	height: 100px;
+	width: 100px;
+	border-radius: 30% 50% 20% 40%;
+	animation: transform 20s ease-in-out infinite both alternate,
+		movement_one 40s ease-in-out infinite both;
+
+	opacity: 0.7;
+	position: absolute;
+	left: 70%;
+	top: 50%;
+}
+
+.bubbling_effect::after {
+	content: '🤹‍♂️';
+	border-radius: 50px;
+	background: #fef1cc;
+	box-shadow: 11px 11px 22px #d8cdad, -11px -11px 22px #ffffeb;
+
+	border-radius: 30% 50% 20% 40%;
+	opacity: 0.7;
+	position: absolute;
+	height: 300px;
+	width: 300px;
+	left: -200px;
+	top: -150px;
+	transform: rotate(-180deg);
+	animation: transform 30s ease-in-out infinite both alternate,
+		movement_two 60s ease-in-out infinite both;
+}
+
+@keyframes bubbling_effect {
+	0% {
+		animation-timing-function: ease-in;
+		opacity: 1;
+		transform: translateY(-45px);
+	}
+
+	24% {
+		opacity: 1;
+	}
+
+	40% {
+		animation-timing-function: ease-in;
+		transform: translateY(-24px);
+	}
+
+	65% {
+		animation-timing-function: ease-in;
+		transform: translateY(-12px);
+	}
+
+	82% {
+		animation-timing-function: ease-in;
+		transform: translateY(-6px);
+	}
+
+	93% {
+		animation-timing-function: ease-in;
+		transform: translateY(-4px);
+	}
+
+	25%,
+	55%,
+	75%,
+	87% {
+		animation-timing-function: ease-out;
+		transform: translateY(0px);
+	}
+
+	100% {
+		animation-timing-function: ease-out;
+		opacity: 1;
+		transform: translateY(0px);
+	}
+}
+
+@keyframes transform {
+	0%,
+	100% {
+		border-radius: 33% 67% 70% 30% / 30% 30% 70% 70%;
+	}
+	20% {
+		border-radius: 37% 63% 51% 49% / 37% 65% 35% 63%;
+	}
+	40% {
+		border-radius: 36% 64% 64% 36% / 64% 48% 52% 36%;
+	}
+	60% {
+		border-radius: 37% 63% 51% 49% / 30% 30% 70% 70%;
+	}
+	80% {
+		border-radius: 40% 60% 42% 58% / 41% 51% 49% 59%;
+	}
+}
+
+@keyframes movement_one {
+	0%,
+	100% {
+		transform: none;
+	}
+	50% {
+		transform: translate(50%, 20%) rotateY(10deg) scale(1.2);
+	}
+}
+
+@keyframes movement_two {
+	0%,
+	500% {
+		transform: none;
+	}
+	50% {
+		transform: translate(50%, 20%) rotate(-200deg) scale(1.2);
+	}
+}

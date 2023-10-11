@@ -1,0 +1,32 @@
+/**
+ * /* By: https://github.com/hoehooiyan
+ *
+ * @format
+ */
+
+@keyframes come-and-go {
+	from {
+		transform: translateX(-1000px);
+	}
+
+	to {
+		transform: translateX(1000px);
+	}
+}
+
+.come-and-go {
+	color: transparent;
+	background-clip: text;
+	-webkit-background-clip: text;
+	background-image: linear-gradient(
+		to right,
+		orange,
+		yellow,
+		green,
+		cyan,
+		blue,
+		violet
+	);
+	font-family: monospace;
+	animation: come-and-go 6s both infinite linear;
+}

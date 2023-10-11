@@ -1,0 +1,38 @@
+/**
+
+ * /* By: https://github.com/TheBangiss
+
+ *
+
+ * @format
+
+ */
+
+@-webkit-keyframes darkBlack {
+	0% {
+		background-position: 45% 70%;
+	}
+
+	50% {
+		background-position: 20% 50%;
+	}
+
+	100% {
+		background-position: 45% 70%;
+	}
+}
+
+.darkBlack {
+	animation: darkBlack 2s ease infinite;
+	background: linear-gradient(
+			110deg,
+			rgb(123, 34, 56) 28%,
+			rgba(0, 0, 0, 0.5) 30%
+		),
+		linear-gradient(110deg, rgb(255, 69, 0) 34%, #000 40%);
+	background-size: 400%;
+	font-family: 'helvetica', cursive;
+	font-size: 50pt;
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+}

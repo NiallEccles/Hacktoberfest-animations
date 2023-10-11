@@ -1,0 +1,28 @@
+/* By: https://github.com/akshayparmar90
+@format
+*/
+
+@keyframes col {
+	0% {
+		color: rgb(172, 13, 172);
+	}
+
+	50% {
+		color: black;
+	}
+
+	100% {
+		color: rgb(255, 136, 0);
+	}
+}
+
+.akshayparmar90 {
+	transform-style: preserve-3d;
+	perspective: 600px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  animation-name: col;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate-reverse;
+	letter-spacing: 3px;
+}

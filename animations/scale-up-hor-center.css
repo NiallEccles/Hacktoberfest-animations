@@ -1,0 +1,14 @@
+/** @format */
+
+@keyframes scale-up-hor-center {
+	0% {
+		transform: scaleX(0.4);
+	}
+	100% {
+		transform: scaleX(1);
+	}
+}
+
+.scale-up-hor-center {
+	animation: scale-up-hor-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}

@@ -1,0 +1,42 @@
+/** @format */
+
+@keyframes rrrah {
+	0% {
+		transform: scaleX(0) scaleY(0);
+	}
+	10% {
+		transform: rotateZ(45deg) scaleX(0.1) scaleY(0.1);
+	}
+	20% {
+		transform: rotateZ(-45deg) scaleX(0.2) scaleY(0.2);
+	}
+	30% {
+		transform: rotateZ(45deg) scaleX(0.3) scaleY(0.3);
+	}
+	40% {
+		transform: rotateZ(-45deg) scaleX(0.4) scaleY(0.4);
+	}
+	50% {
+		transform: rotateZ(45deg) scaleX(0.5) scaleY(0.5);
+	}
+	60% {
+		transform: rotateZ(-45deg) scaleX(0.6) scaleY(0.6);
+	}
+	70% {
+		transform: rotateZ(45deg) scaleX(0.7) scaleY(0.7);
+	}
+	80% {
+		transform: rotateZ(-45deg) scale(2);
+	}
+	90% {
+		transform: rotateZ(45deg) scale(3);
+	}
+	100% {
+		transform: scaleX(1) scaleY(1);
+	}
+}
+
+.rrrah {
+	animation: rrrah 0.5s ease-out;
+	user-select: none;
+}
