@@ -197,6 +197,7 @@ window.animations = [
 	{ name: 'hypnotize', author: 'aadilkhalifa' },
 	{ name: 'illuminate', author: 'Soumi150' },
 	{ name: 'imdrunk', author: 'twopill' },
+	{ name: 'inAndOut', author: 'vaibhavj2111'},
 	{ name: 'infinite-shake', author: 'jcardoz' },
 	{ name: 'infinite-spinning', author: 'brecarv' },
 	{ name: 'invicta', author: 'mani9896' },
