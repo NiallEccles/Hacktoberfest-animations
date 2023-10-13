@@ -489,4 +489,5 @@ window.animations = [
 	{ name: 'animate-character',author: 'DishaSharma-dev' },
 	{ name: 'wavy-text',author: 'shailendrakawadkar' },
 	{ name: 'yoru',author: 'aks057' },
+	{ name: 'cosmic', author: 'briangor' },
 ];
