@@ -1,0 +1,16 @@
+.inAndOut{
+    width:100%;
+    white-space: nowrap;
+    overflow:hidden;
+    animation: 
+        inAndOut 2s infinite,
+        cursor .4s step-end infinite alternate;
+}
+
+@keyframes cursor {
+    50% { border-color: white;}
+}
+
+@keyframes inAndOut {
+    from{ width: 0}
+}
