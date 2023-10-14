@@ -197,6 +197,7 @@ window.animations = [
 	{ name: 'hypnotize', author: 'aadilkhalifa' },
 	{ name: 'illuminate', author: 'Soumi150' },
 	{ name: 'imdrunk', author: 'twopill' },
+	{ name: 'inAndOut', author: 'vaibhavj2111'},
 	{ name: 'infinite-shake', author: 'jcardoz' },
 	{ name: 'infinite-spinning', author: 'brecarv' },
 	{ name: 'invicta', author: 'mani9896' },
@@ -489,5 +490,6 @@ window.animations = [
 	{ name: 'animate-character',author: 'DishaSharma-dev' },
 	{ name: 'wavy-text',author: 'shailendrakawadkar' },
 	{ name: 'yoru',author: 'aks057' },
+	{ name: 'ani',author: 'aks057' },
 	{ name: 'cosmic', author: 'briangor' },
 ];
