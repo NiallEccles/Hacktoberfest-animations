@@ -61,10 +61,15 @@ select {
 	margin-bottom: 20px;
 	padding: 5px 35px 5px 5px;
 	font-size: 16px;
-	border: 1px solid #ccc;
+	color: #DEB6B5;
+	border: 1px solid #7F383E;
 	height: 34px;
+	border-radius: 10px 10px 10px 10px;
+-webkit-border-radius: 10px 10px 10px 10px;
+-moz-border-radius: 10px 10px 10px 10px;
+
 	-webkit-appearance: none;
-	background: url(arrow-down.png) no-repeat right #fff;
+	background: url(arrow-down.png) no-repeat right #673340;
 	background-position-x: 97%;
 }
 
