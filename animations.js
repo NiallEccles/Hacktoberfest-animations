@@ -487,9 +487,14 @@ window.animations = [
 	{ name: 'Wavy-Apperance', author: 'GauthamG2'},
 	{ name: 'dancing-glow', author: 'dinil-thilakarathne'},
 	{ name: 'navis',author: 'Navise' },
+
+	{ name:'yash',author:'22Yash'},
+
+
 	{ name: 'animate-character',author: 'DishaSharma-dev' },
 	{ name: 'wavy-text',author: 'shailendrakawadkar' },
 	{ name: 'yoru',author: 'aks057' },
 	{ name: 'ani',author: 'aks057' },
 	{ name: 'cosmic', author: 'briangor' },
 ];
+

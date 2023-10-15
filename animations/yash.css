@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500&family=Hanken+Grotesk&family=Montagu+Slab:opsz,wght@16..144,500&family=Montserrat&family=Patua+One&family=Pixelify+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500&family=Hanken+Grotesk&family=Montserrat&family=Patua+One&family=Pixelify+Sans&family=Roboto+Slab:wght@500&family=Slabo+27px&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+h1 span{
+    
+    
+    animation: yash 1s infinite;
+    font-family: 'Roboto Slab', serif;
+    position: relative;
+    display: inline-block;
+    color: white;
+    text-transform: uppercase;
+    animation: yash 1s infinite;
+    
+    -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0,0,0,.2));
+    animation-delay: calc(.1s * var(--i));
+    font-size: 80px;
+    
+}
+
+@keyframes yash {
+    0%,40%,100% {
+        transform: translateY(0)
+      }
+      20% {
+        transform: translateY(-20px)
+      }
+      to {
+        background-position: 200% center;
+      }
+    }
+    
