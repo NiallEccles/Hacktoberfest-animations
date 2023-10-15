@@ -1,0 +1,16 @@
+/* Define the keyframes for the wavy animation */
+@keyframes wavy-text {
+    0% { transform: translateY(0); }
+    25% { transform: translateY(-5px); }
+    50% { transform: translateY(0); }
+    75% { transform: translateY(5px); }
+    100% { transform: translateY(0); }
+  }
+  
+  /* Apply the wavy animation to the text */
+  .wavy-text {
+    display: inline-block;
+    animation: wavy-text 2s infinite linear;
+    font-size: 24px;
+    font-weight: bold;
+  }

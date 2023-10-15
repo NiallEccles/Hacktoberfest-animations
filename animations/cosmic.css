@@ -1,0 +1,39 @@
+/** 
+* by https://github.com/briangor 
+*/
+
+@keyframes cosmicReveal {
+	0% {
+		transform: translateX(-100%);
+		opacity: 0;
+	}
+	50% {
+		opacity: 1;
+	}
+	100% {
+		transform: translateX(0);
+		opacity: 1;
+	}
+}
+
+.cosmic {
+	display: inline-block;
+	font-size: 24px;
+	font-family: 'Arial', sans-serif;
+	color: transparent;
+	background: linear-gradient(
+		90deg,
+		#0077b5,
+		#0e76a8,
+		#124365,
+		#0a0a0a,
+		#000000,
+		#0a0a0a,
+		#124365,
+		#0e76a8,
+		#0077b5
+	);
+	background-clip: text;
+	-webkit-background-clip: text;
+	animation: cosmicReveal 2s linear forwards;
+}

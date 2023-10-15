@@ -1,0 +1,27 @@
+/** @format */
+
+.needForSpeed {
+	animation-name: needForSpeed;
+	animation-duration: 4s;
+	animation-fill-mode: forwards;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+}
+@keyframes needForSpeed {
+	0% {
+		transform: translateX(-10000px);
+	}
+	20% {
+		transform: translateX(0) skewX(20deg);
+		transform-origin: bottom;
+	}
+	50% {
+		transform: translateX(0);
+	}
+	70% {
+		transform: translateX(0);
+	}
+	100% {
+		transform: translateX(10000px);
+	}
+}
