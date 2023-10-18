@@ -13,6 +13,7 @@ window.animations = [
 	{ name: 'Animated-Cubes', author: 'AmitSahoo45' },
 	{ name: 'appear', author: 'chandrajitsatapathy' },
 	{ name: 'appear-and-disappear', author: 'rahulsingh2312' },
+  { name: 'Akhilendra',author: 'JanumalaAkhilendra'},
 	{ name: 'arise', author: 'Ronnasayd' },
 	{ name: 'autumn-gradient', author: 'marichka-offen' },
 	{ name: 'Awesomeglow', author: 'Rehan-4778' },
