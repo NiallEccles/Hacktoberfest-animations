@@ -1,0 +1,108 @@
+
+.gamified {
+    font-size: 0.5px; /* Set a small font size */
+    letter-spacing: 0.5px; /* Increase letter spacing to create a pixel effect */
+    white-space: nowrap;
+    padding: 50px;
+    overflow: hidden;
+    font-family: 'Press Start 2P', cursive;
+    animation: pixelate 2s steps(25) forwards, glitch1 2.5s infinite; /* Adjust animation duration and steps as needed */
+    position: relative; /* Set position to relative to position pseudo-elements */
+    
+  }
+  @keyframes pixelate {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 100%; /* Reveal the text */
+    }
+  }
+  
+  @keyframes glitch1 {
+    0% {
+      transform: none;
+      opacity: 1;
+    }
+    7% {
+      transform: skew(-0.5deg, -0.9deg);
+      opacity: 0.75;
+    }
+    10% {
+      transform: none;
+      opacity: 1;
+    }
+    27% {
+      transform: none;
+      opacity: 1;
+    }
+    30% {
+      transform: skew(0.8deg, -0.1deg);
+      opacity: 0.75;
+    }
+    35% {
+      transform: none;
+      opacity: 1;
+    }
+    52% {
+      transform: none;
+      opacity: 1;
+    }
+    55% {
+      transform: skew(-1deg, 0.2deg);
+      opacity: 0.75;
+    }
+    50% {
+      transform: none;
+      opacity: 1;
+    }
+    72% {
+      transform: none;
+      opacity: 1;
+    }
+    75% {
+      transform: skew(0.4deg, 1deg);
+      opacity: 0.75;
+    }
+    80% {
+      transform: none;
+      opacity: 1;
+    }
+    100% {
+      transform: none;
+      opacity: 1;
+    }
+  }
+
+  .gamified:hover {
+    animation: drip 2.5s infinite alternate;
+  }
+  
+  @keyframes drip {
+    to {
+        text-shadow:
+       4px 4px 1px #001a04,
+       4px 6px 1px #00403d,
+       4px 8px 1px #006354,
+       4px 10px 1px #fc3bcf,
+       4px 12px 1px #89dc03,
+       4px 14px 1px #03bb7b,
+       4px 16px 1px #00904a,
+       4px 18px 1px #f31111,
+       4px 20px 1px #f8f820,
+       4px 22px 1px #0a0a0a,
+       4px 24px 1px #c237f4,
+       4px 26px 1px #4137fb,
+       4px 28px 1px #7ef137,
+       4px 30px 1px #4cbdf6,
+       4px 32px 1px #edcf22,
+       4px 34px 1px #290233,
+       4px 36px 1px #79f5c7,
+       4px 38px 1px #666602,
+       4px 40px 2px #FF0000;
+    }
+}
+  
+
+  
+ 

@@ -155,6 +155,7 @@ window.animations = [
 	{ name: 'fromright', author: 'jespicas' },
 	{ name: 'fun', author: 'surfacewatering' },
 	{ name: 'funky-bounce', author: 'anshul-132002' },
+	{ name: 'gamified', author: 'richk21' },
 	{ name: 'gelatine', author: 'Kevin' },
 	{ name: 'ghost', author: 'FernandaDagostin' },
 	{ name: 'ghostly', author: 'shrutisharma03' },
