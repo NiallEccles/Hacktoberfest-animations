@@ -52,6 +52,7 @@ window.animations = [
 	{ name: 'bounce-up-and-down', author: 'marcelomoser' },
 	{ name: 'bounceAround', author: 'wendelleloi' },
 	{ name: 'bouncing', author: 'Geeky-star' },
+	{ name: 'bouncing_text', author: 'mrankitjangid'},
 	{ name: 'boxshadowglow', author: 'kopikob' },
 	{ name: 'brasil', author: 'igorbrands' },
 	{ name: 'breathe', author: 'runningdeveloper' },
