@@ -1,0 +1,30 @@
+.colorScalingAnimation {
+    font-family: 'Roboto', sans-serif;
+    animation: colorScaling 2s infinite alternate, scaling 2s infinite alternate;
+    font-size: 2rem;
+    color: black;
+    text-align: center;
+}
+
+@keyframes colorScaling {
+    0% {
+        transform: scale(1);
+        color: rgb(184, 121, 121);
+    }
+    25% {
+        transform: scale(1);
+        color: rgb(140, 157, 78);
+    }
+    50% {
+        transform: scale(1.2);
+        color: rgb(92, 63, 116);
+    }
+    75% {
+        transform: scale(1.2);
+        color: rgb(144, 108, 41);
+    }
+    100% {
+        transform: scale(1);
+        color: rgb(76, 152, 138);
+    }
+}
