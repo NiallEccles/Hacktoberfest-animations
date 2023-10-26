@@ -492,4 +492,5 @@ window.animations = [
 	{ name: 'yoru',author: 'aks057' },
 	{ name: 'ani',author: 'aks057' },
 	{ name: 'cosmic', author: 'briangor' },
+  { name: 'colorScalingAnimation', author: 'amamisha59' },
 ];
