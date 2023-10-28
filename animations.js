@@ -349,6 +349,7 @@ window.animations = [
 	{ name: 'star-wars-roll', author: 'MandeeD' },
 	{ name: 'static', author: 'DekyDesigns' },
 	{ name: 'static-color-change', author: 'timoransky' },
+	{name : 'staticTextcolorChange' , author : 'Muhammad-Owais-Warsi '},
 	{ name: 'stone', author: 'SubhrajyotiChak' },
 	{ name: 'strangerthings', author: 'crownedpigeon' },
 	{ name: 'stepittap', author: 'verissteph' },

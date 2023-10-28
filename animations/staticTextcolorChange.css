@@ -1,0 +1,14 @@
+.staticTextcolorChange {
+    animation: color-change 4s linear infinite;
+}
+
+
+@keyframes staticTextcolorChange {
+    0%    {color: white}
+    32%   {color: blue}
+    33%   {color: yellow}
+    65%   {color: green}
+    66%   {color: aquamarine}
+    99%   {color: firebrick}
+    100%  {color: black}
+}
