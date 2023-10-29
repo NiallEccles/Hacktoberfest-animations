@@ -1,18 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-
-@keyframes deboneil {
-    to {
-        background-position: 400% center;
-      }
+.deboneil{
+  width:100%;
+  white-space: nowrap;
+  overflow:hidden;
+  animation:
+      inAndOut 1s infinite,
+      cursor .7s step-end infinite alternate;
 }
 
-.aesthetic{
-    outline: none;
-    background: linear-gradient(135deg, #f80042, #0cff04, #b1f200, #1200ae, #000000);
-    background-size: 400%;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    animation: deboneil 10s alternate infinite;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 900;
+@keyframes cursor {
+  50% { border-color: rgb(14, 202, 49);}
+}
+
+@keyframes deboneil {
+  from{ width: 0}
 }
