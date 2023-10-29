@@ -3,7 +3,7 @@
   white-space: nowrap;
   overflow:hidden;
   animation:
-      inAndOut 1s infinite,
+      deboneil 1s infinite,
       cursor .7s step-end infinite alternate;
 }
 

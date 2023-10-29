@@ -2,7 +2,7 @@
 
 window.animations = [
 	{ name: 'Animadeu', author: 'Amad3eu' },
-  { name: 'deboneil', author: 'deboneil07'},
+  { name: 'deboneil', author: 'deboneil07' },
 	{ name: 'Anubhav-developerMation', author: 'Anubhav-developr' },
 	{ name: 'aberration', author: 'cnsumner' },
 	{ name: 'aesthetic', author: 'ImShivraj' },
