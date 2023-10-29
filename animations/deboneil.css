@@ -1,0 +1,16 @@
+.deboneil{
+  width:100%;
+  white-space: nowrap;
+  overflow:hidden;
+  animation:
+      deboneil 1s infinite,
+      cursor .7s step-end infinite alternate;
+}
+
+@keyframes cursor {
+  50% { border-color: rgb(14, 202, 49);}
+}
+
+@keyframes deboneil {
+  from{ width: 0}
+}
